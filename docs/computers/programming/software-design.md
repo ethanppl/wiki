@@ -2,6 +2,12 @@
 
 How to design software applications/systems.
 
+## Resources
+
+- [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+  - Benefits, criticism, history, classification of patterns
+  - [A collection of creational, structural, and behavioral design patterns](https://refactoring.guru/design-patterns/catalog)
+
 ## Links
 
 - [How reddit built the 2017 r/Place](https://www.redditinc.com/blog/how-we-built-rplace/)
