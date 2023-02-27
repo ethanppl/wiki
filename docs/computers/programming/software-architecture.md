@@ -1,6 +1,6 @@
-# Software Design
+# Software Architecture
 
-How to design software applications/systems.
+How to design/architect software applications/systems.
 
 ## Resources
 
@@ -18,3 +18,6 @@ How to design software applications/systems.
   - [Realtime editing of Ordered Sequences](https://www.figma.com/blog/realtime-editing-of-ordered-sequences/): operational transform, fractional indexing
   - [How Figma's multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/): CRDT
   - [Making multiplayer more reliable](https://www.figma.com/blog/making-multiplayer-more-reliable/)
+- YouTube: [Making Impossible States Impossible - elm-conf](https://youtu.be/IcgmSRJHu_8)
+  - Better domain modeling, design data types around the real-world domain
+  - Understanding union type, zip list, opaque type
