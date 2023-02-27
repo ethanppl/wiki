@@ -6,10 +6,11 @@ Anything about computers.
 
 - [NAND to Tetris Course](https://www.nand2tetris.org/course)
   - A course to understand how a computer works
-  - Using NAND gates to build a programming language that can build the game Tetris
+  - Using NAND gates to build a programming language that can build the game
+    Tetris
   - NAND gates, boolean logics, machine language, computer architecture,
-    assembly language, virtual machine, high-level language, compiler,
-    operating system
+    assembly language, virtual machine, high-level language, compiler, operating
+    system
 - [Computer Networking: A Top-Down Approach Course](https://gaia.cs.umass.edu/kurose_ross/lectures.php)
   - A textbook about the fundamentals of computer networking in the OSI model
   - Application, transport, network, and link layer
@@ -19,4 +20,5 @@ Anything about computers.
 
 - [What is the SSH randomart image for?](https://bytes.zone/posts/what-is-the-randomart-image-for/)
   - There is a "randomart image" from `ssh-keygen` from the terminal
-  - Support comparing host keys visually, especially recognizing host keys that have been changed
+  - Support comparing host keys visually, especially recognizing host keys that
+    have been changed

@@ -5,16 +5,24 @@ sidebar_position: 1
 # What is this Wiki?
 
 This is my personal wiki to record the resources and links that I think will be
-helpful to myself in the future.
-This wiki is inspired by [https://wiki.nikiv.dev/](https://wiki.nikiv.dev/).
+helpful to me in the future. This wiki is inspired by
+[https://wiki.nikiv.dev/](https://wiki.nikiv.dev/).
 
-I try to keep each page focus, not to put too many links in one page.
-If there are too many links in one page, I will try to split it into multiple
-pages. The goal is to keep the wiki easy to navigate and easy to find the
-relevant links.
+I try to keep each page focused, and not to put too many links in one page. If
+there are too many links in one page, I will try to split it into multiple
+pages. The goal is to keep the wiki easy to navigate and find the relevant
+links.
+
+My thinking is to have a place to keep the links to what I think is interesting,
+and hopefully, these links are helpful to my future self and others. I think
+linking the resources or guides that help me get started on a topic will be
+helpful to others as well. For the topics that I have more experience in, I
+might slowly backfill the resources I remember.
 
 I try to classify the links into three categories:
 
-- **Resources**: Link to a beginner friendly guide for the topic
-- **Site**: Link to a place where it contians relevant information for the topic
-- **Link**: Link to any pages/videos/articles/news/posts that I think is related to the topic
+- **Resources**: Link to a beginner-friendly guide for the topic
+- **Sites**: Link to a place where it contains relevant information for the
+  topic
+- **Links**: Link to any pages/videos/articles/news/posts that I think are
+  related to the topic
