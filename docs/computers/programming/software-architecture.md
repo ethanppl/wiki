@@ -4,6 +4,9 @@ How to design/architect software applications/systems.
 
 ## Resources
 
+- [The Architect's Bookshelf | Gregor Hohpe](https://architectelevator.com/architecture/architect-bookshelf/)
+  - A collection of books about software architecture
+  - Going from single components, to connected components, to entire systems, and dealing with the context
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
   - Benefits, criticism, history, classification of patterns
   - [A collection of creational, structural, and behavioral design patterns](https://refactoring.guru/design-patterns/catalog)
