@@ -10,7 +10,7 @@ How to design/architect software applications/systems.
     dealing with the context
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
   - Benefits, criticism, history, classification of patterns
-  - [A collection of creational, structural, and behavioral design patterns](https://refactoring.guru/design-patterns/catalog)
+  - [A collection of creational, structural, and behavioural design patterns](https://refactoring.guru/design-patterns/catalog)
 
 ## Links
 
@@ -28,5 +28,11 @@ How to design/architect software applications/systems.
   - [Making multiplayer more reliable](https://www.figma.com/blog/making-multiplayer-more-reliable/)
 - YouTube:
   [Making Impossible States Impossible | elm-conf](https://youtu.be/IcgmSRJHu_8)
-  - Better domain modeling, design data types around the real-world domain
+  - Better domain modelling, design data types around the real-world domain
   - Understanding union type, zip list, opaque type
+- [The Technology Behind GitHub's New Code Search](https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search/)
+  - How GitHub built its search engine for searching code
+  - Concepts: inverted index, ngram, content addressable hashing, indexing and
+    query pipeline
+  - Indexing 15.5 billion documents in 36 hours, 115 TB of content with 28 TB of
+    unique content and the index itself in just 25 TB
