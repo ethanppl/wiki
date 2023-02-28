@@ -1,0 +1,13 @@
+# Design
+
+Making things friendly and appealing.
+
+## Links
+
+- [Visual Design Rules You Can Safely Follow Every Time](https://anthonyhobday.com/sideprojects/saferules/)
+  - A list of visual design rules to follow, like colouring, spacing, alignment,
+    etc.
+  - E.g.: saturate the neutrals, colours in a palette should have distinct
+    brightness levels
+  - It's like those things that you know it feels right when you see them, but
+    cannot objectively explain why
