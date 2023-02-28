@@ -10,7 +10,7 @@ the Erlang programming language.
   - The official website for Elixir
   - Contains the documentation, installation guide, and other resources
   - [Official Getting Started Guide](https://elixir-lang.org/getting-started/introduction.html):
-    A comprehensive guide to get started with Elixir
+    A comprehensive guide to getting started with Elixir
 
 ## Links
 
