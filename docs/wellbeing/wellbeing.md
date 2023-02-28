@@ -13,12 +13,12 @@ How to live a happier, healthier, and more productive life.
 - YouTube:
   [The ONLY way to stop procrastinating | Mel Robbins](https://youtu.be/4x7MkLDGnu8)
   - A good video to understand the source of procrastination
-  - You are not a procrastinator, you have a habit to procrastinate for stress
-    relief
+  - "You are not a procrastinator, you have a habit to procrastinate for stress
+    relief"
   - Acknowledge the stress, interrupt the procrastination habit, and do 1 thing
     for 5 minutes
 - [Why atomic habits may not be working for you](https://www.krishnabharadwaj.info/why-atomic-habits-may-not-be-working-for-you/)
   - Some suggestions from atomic habits might not work sometimes
-  - There are too many important tasks that doing anything won't matter when you
-    have so much backlog
-  - Meditation for 20 minutes every day
+  - Because we feel like there are too many important tasks that doing anything
+    won't matter because there are so much backlog
+  - Suggestion in the article: meditation for 20 minutes every day

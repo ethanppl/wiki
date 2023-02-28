@@ -23,11 +23,11 @@ Having a dark, cool, quiet and gadget-free environment helps.
     [exaggerated](https://guzey.com/books/why-we-sleep/). It gives some sort of
     "sleep anxiety" that I feel pressured to sleep and in return, I sleep even
     worse. I also try to associate all problems with bad sleep.
-  - Overall, I still think this book is worth a read if you have no idea how
-    sleep works. It explains concepts and terminologies better than an ordinary
-    article. Understanding the terminologies is a good start. But don't get too
-    anxious about sleep and the claims he made in the book. Don't outright trust
-    the claims and do your research.
+  - Overall, I still think this book is worth a read because at that time I had
+    no idea how sleep works. It explains concepts and terminologies better than
+    an ordinary article. Understanding the terminologies is a good start, just
+    don't get too anxious about sleep and the claims he made in the book. Don't
+    outright trust the claims and do the research instead.
 
 ## Links
 

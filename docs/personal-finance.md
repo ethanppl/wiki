@@ -4,9 +4,9 @@ Personal finance, saving, investing, budgeting, and retirement planning.
 
 Just my two cents:
 
-- You might be able to get rich quickly (10 years) but not get rich easy
+- Might be able to get rich quickly (10 years) but not get rich easily
 - The stock market is the easiest way to build wealth, where the payoff is
-  decoupled from the time you have
+  decoupled from the time I have
 - The stock market is a random walk with drift, invest early and regularly
 - I mostly invest in ETFs, it is really hard to beat the market
 - Manageable risk, sleep well, also invest in yourself
@@ -14,13 +14,13 @@ Just my two cents:
 ## Resources
 
 - [Rich Dad, Poor Dad](https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad)
-  - Get started on why you have to invest if you have no idea what is investing
-  - Changes the way you look at money, asset and wealth
+  - Helped me get started on why I have to invest if I have no idea what is
+    investing
+  - Changes the way I look at money, asset and wealth
   - Understand the concept of wealth, the time value of money, passive income
     and cash flow
 - [A Random Walk Down Wall Street](https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street)
-  - Once you understand the purpose of investing, this book teaches the
-    fundamental concepts of investing
+  - This book teaches almost all the fundamental concepts related to investing
   - I think this is the best book to learn about investing
 - [rich01.com](https://rich01.com/mr-market-for-new/) (Chinese)
   - When I first started, this blog helped me a lot, but it is in Chinese

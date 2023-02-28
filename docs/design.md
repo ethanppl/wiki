@@ -9,5 +9,5 @@ Making things friendly and appealing.
     etc.
   - E.g.: saturate the neutrals, colours in a palette should have distinct
     brightness levels
-  - It's like those things that you know it feels right when you see them, but
+  - It's like those things that I know it feels right when I saw them, but
     cannot objectively explain why

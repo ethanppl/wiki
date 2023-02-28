@@ -13,7 +13,7 @@ I try to keep each page focused, and not to put too many links on a page. If
 there are too many links on one page, I will try to split it into multiple
 pages. The goal is to keep the wiki easy to navigate and find the relevant
 links. I also try to add a few comments for each link to guide my future self
-and possibly you to find the right links.
+(and possibly you) to find the right links.
 
 My thinking is to have a place to keep the links to what I think is interesting,
 and hopefully, these links are helpful to my future self and others. I think

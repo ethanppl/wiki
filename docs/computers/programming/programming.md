@@ -15,9 +15,9 @@ more and add more links in the future.
   - Similar to the missing readme, also highly recommend it for all software
     engineers
   - I would say reading it from time to time gives different insights
-  - It might not teach you something that you don't know, but it summarizes the
-    concepts and serves as a good reminder of how to approach different problems
-    as a software engineer
+  - It might not have taught me something that I don't know, but it summarizes
+    the concepts and serves as a good reminder of how to approach different
+    problems as a software engineer
 - [Vim Motions Playlist by ThePrimeagen](https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)
   - A YouTube playlist by ThePrimeagen to get started on Vim motions
   - A helpful guide to navigate faster in editors, a nice skill to acquire for
