@@ -4,8 +4,9 @@ sidebar_position: 1
 
 # What is this Wiki?
 
-This is my personal wiki to record the resources and links that I think will be
-helpful to me in the future. This wiki is inspired by
+Sometimes, I vaguely remember something I read but I couldn't find the link to
+it. This is my personal wiki to record the resources and links that I think will
+be helpful to me in the future. This wiki is inspired by
 [https://wiki.nikiv.dev/](https://wiki.nikiv.dev/).
 
 I try to keep each page focused, and not to put too many links on a page. If
