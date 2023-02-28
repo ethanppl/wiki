@@ -14,11 +14,11 @@ Just my two cents:
 ## Resources
 
 - [Rich Dad, Poor Dad](https://www.goodreads.com/book/show/69571.Rich_Dad_Poor_Dad)
-  - Helped me get started on why I have to invest if I have no idea what is
+  - Helped me get started on why I have to invest when I had no idea what is
     investing
-  - Changes the way I look at money, asset and wealth
   - Understand the concept of wealth, the time value of money, passive income
     and cash flow
+  - Changes the way I look at money, asset and wealth
 - [A Random Walk Down Wall Street](https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street)
   - This book teaches almost all the fundamental concepts related to investing
   - I think this is the best book to learn about investing
