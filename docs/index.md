@@ -24,8 +24,7 @@ might slowly backfill the resources I remember.
 I try to classify the links into three categories:
 
 - **Resources**: Link to a beginner-friendly guide for the topic
-- **Sites**: Link to a place where it contains relevant information for the
-  topic
+- **Sites**: Link to a hub where it contains relevant information for the topic
 - **Links**: Link to any pages/videos/articles/news/posts that I think are
   related to the topic
 
