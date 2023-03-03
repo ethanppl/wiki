@@ -16,7 +16,7 @@ more and add more links in the future.
     applications and ethics
   - For me,
     [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
-    is the most interesting, probably because I went through an university CS
+    is the most interesting, probably because I went through a university CS
     curriculum.
 - [The Missing Readme](https://www.goodreads.com/en/book/show/57271519)
   - A guide for the new software engineer, highly recommend

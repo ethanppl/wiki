@@ -8,6 +8,15 @@ How to design/architect software applications/systems.
   - A collection of books about software architecture
   - Going from single components to connected components, to entire systems, and
     dealing with the context
+- [A Guide to System Design Interview](https://interviewing.io/guides/system-design-interview/part-two)
+  ([HN](https://news.ycombinator.com/item?id=34999464))
+  - There are two parts, how to approach an interview and the fundamental
+    concept
+  - A bit too much prologue but can just scroll to the key points and the
+    fundamental concept part
+
+## Sites
+
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
   - Benefits, criticism, history, classification of patterns
   - [A collection of creational, structural, and behavioural design patterns](https://refactoring.guru/design-patterns/catalog)
