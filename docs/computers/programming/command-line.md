@@ -16,3 +16,10 @@ Text-based interface.
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
   - A collection of modern alternatives for some classic Unix commands
+
+## Links
+
+- [What is the SSH randomart image for?](https://bytes.zone/posts/what-is-the-randomart-image-for/)
+  - There is a "randomart image" from `ssh-keygen` from the terminal
+  - Support comparing host keys visually, especially recognizing host keys that
+    have been changed

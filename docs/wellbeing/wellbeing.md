@@ -18,7 +18,8 @@ How to live a happier, healthier, and more productive life.
   - Acknowledge the stress, interrupt the procrastination habit, and do 1 thing
     for 5 minutes
 - [Why atomic habits may not be working for you](https://www.krishnabharadwaj.info/why-atomic-habits-may-not-be-working-for-you/)
+  ([HN](https://news.ycombinator.com/item?id=34839197))
   - Some suggestions from atomic habits might not work sometimes
-  - Because we feel like there are too many important tasks that doing anything
-    won't matter because there are so much backlog
-  - Suggestion in the article: meditation for 20 minutes every day
+  - Because we feel like there are too many important tasks that doing nothing
+    won't matter because there is so much backlog
+  - The suggestion in the article: meditation for 20 minutes every day
