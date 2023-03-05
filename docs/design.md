@@ -2,6 +2,11 @@
 
 Making things friendly and appealing.
 
+## Sites
+
+- [Iconhunt](https://www.iconhunt.site/)
+  - Free and open-source SVG icons
+
 ## Links
 
 - [Visual Design Rules You Can Safely Follow Every Time](https://anthonyhobday.com/sideprojects/saferules/)
