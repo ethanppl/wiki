@@ -46,3 +46,7 @@ science/programming.
     deterministic encryption, homomorphic encryption, searchable symmetric
     encryption, HMAC
   - Case study on MongoDB MongoCrypt implementation
+- [Self hosting in 2023](https://grifel.dev/decentralization/)
+  ([HN](https://news.ycombinator.com/item?id=34860655))
+  - Interesting read. Self-host a blog with Raspberry Pi, Coolify for deployment
+    and DDClient to solve the problem of a dynamic IP
