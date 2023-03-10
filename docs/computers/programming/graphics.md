@@ -5,7 +5,7 @@ Programs and algorithms to render graphics in computers.
 I don't know much about computer graphics, would be interesting to see what I
 can gather over time.
 
-## Graphics
+## Resources
 
 - [MIT 6.837 Computer Graphics Course](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
   - [Fall 2020 Lecture videos on YouTube by Prof. Justin Solomon](https://youtube.com/playlist?list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh)
