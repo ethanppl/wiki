@@ -9,17 +9,16 @@ it. This is my personal wiki to record the resources and links that I think will
 be helpful to me in the future. This wiki is inspired by
 [https://wiki.nikiv.dev/](https://wiki.nikiv.dev/).
 
-I try to keep each page focused, and not to put too many links on a page. If
-there are too many links on one page, I will try to split it into multiple
-pages. The goal is to keep the wiki easy to navigate and find the relevant
-links. I also try to add a few comments for each link to guide my future self
-(and possibly you) to find the right links.
+I try to keep each page focused. Not to put too many links on a page. A page
+will be split into multiple pages if there are too many links. The goal is to
+keep the wiki easy to navigate and find the relevant links. Each link has some
+comments to aid my future self (and possibly you) to find the right one.
 
 My thinking is to have a place to keep the links to what I think is interesting,
-and hopefully, these links are helpful to my future self and others. I think
-linking the resources or guides that help me get started on a topic will be
-helpful to others as well. For the topics that I have more experience in, I
-might slowly backfill the resources I remember.
+and hopefully, these links are helpful to my future self and others. I hope the
+guides that help me get started on a topic would be helpful to others as well.
+For the topics that I have more experience in, I might slowly backfill the
+resources I remember I used.
 
 I try to classify the links into three categories:
 
