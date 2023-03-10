@@ -36,6 +36,6 @@ Just my two cents:
   - Diversification like index fund is the key
 - [The Slings and Arrows of Passive Fortune](https://www.spglobal.com/spdji/en/research/article/the-slings-and-arrows-of-passive-fortune)
   ([PDF](https://www.spglobal.com/spdji/en/documents/research/research-the-slings-and-arrows-of-passive-fortune.pdf))
-  - It addresses the critiques of passive investing in the market
+  - It rebuts the critiques of passive investing in the market
   - Touches on how passive investment shifted and possibly improved the finance
     industry
