@@ -50,3 +50,11 @@ science/programming.
   ([HN](https://news.ycombinator.com/item?id=34860655))
   - Interesting read. Self-host a blog with Raspberry Pi, Coolify for deployment
     and DDClient to solve the problem of a dynamic IP
+- [What a good debugger can do](https://werat.dev/blog/what-a-good-debugger-can-do/)
+  ([HN](https://news.ycombinator.com/item?id=35092998))
+  - Breakpoints: column breakpoints, conditional breakpoints, tracing
+    breakpoints, data breakpoints
+  - Data visualization, expression evaluation, concurrency and multithreading,
+    hot reload, time travel, omniscient debugging
+  - Omniscient debugging: pre-calculate all the program states, store them in a
+    database and index them for efficient queries
