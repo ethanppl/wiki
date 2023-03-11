@@ -1,7 +1,7 @@
 # Rust
 
-Rust is a multi-paradigm, high-level, general-purpose programming language, with
-no runtime and garbage collector.
+A multi-paradigm, high-level, general-purpose programming language, with no
+runtime and garbage collector.
 
 ## Resources
 
