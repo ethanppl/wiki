@@ -20,3 +20,7 @@ About user interfaces, especially web pages.
   - How to improve dark mode default styling
   - Discovered from this blog about configuring dark mode:
     [CSS System Colors | Jim Nielsen's Blog](https://blog.jim-nielsen.com/2021/css-system-colors/)
+- [After dark CSS](https://www.bryanbraun.com/after-dark-css/) — Some fun CSS
+  animations
+  - Some are quite simple, animations without any JavaScript but just CSS. I
+    like the Spotlight one
