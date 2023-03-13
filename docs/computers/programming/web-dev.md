@@ -1,4 +1,4 @@
-# Front End
+# Web Development
 
 About user interfaces, especially web pages.
 
@@ -8,6 +8,11 @@ About user interfaces, especially web pages.
   — Learning guide provided by Mozilla
 - [Learn HTML | web.dev](https://web.dev/learn/html/) — Get the basic right,
   more beginner-friendly
+- [FullStackOpen Deep dive into modern web development](https://fullstackopen.com/en/)
+  - Completely free full stack course. Same as the one at the University of
+    Helsinki
+  - Cover React, NodeJS, Express, Redux, GraphQL, TypeScript, React Native,
+    Docker, MongoDB and Postgres
 
 ## Sites
 
