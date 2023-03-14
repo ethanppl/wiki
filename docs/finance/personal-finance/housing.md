@@ -23,6 +23,6 @@ this has always been a problem that has plagued me.
     creates an unsolvable problem
 - [Hong Kong, with the most expensive housing, asks: What to do with 40,000 empty quarantine units? | CNN](https://edition.cnn.com/2023/03/11/asia/hong-kong-pennys-bay-quarantine-housing-intl-hnk/index.html)
   - Hong Kong Government can't take a speedy approach to solve the housing
-    crisis because of the potential lost in land revenue
+    crisis because of the potential loss in land revenue
   - The vacant quarantine units will test the government's determination to
     solve what they have acknowledged as an urgent crisis
