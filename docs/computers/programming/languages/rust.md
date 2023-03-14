@@ -25,6 +25,19 @@ runtime and garbage collector.
 
 ## Links
 
+Guides
+
 - [Nothing in Rust](https://geeklaunch.io/blog/nothing-in-rust/)
   - Possible "nothing" state in rust, like `null` in other languages
   - `PhantomData`, `Option::None`, empty tuple, never type
+- [Getting Past "Ampersand-Drive Development" in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
+  - The difference between `self`, `mut self`, `&self`, `&mut self`
+  - Reference-counted pointer `Rc` and atomically reference-counted pointer
+    `Arc`
+
+Blogs
+
+- [Switching From C++ to Rust](https://laplab.me/posts/switching-from-cpp-to-rust/)
+  ([Lobster](https://lobste.rs/s/aszkl9/switching_from_c_rust))
+  - Comparing from the perspective of the build system, the compiler, and the
+    type system
