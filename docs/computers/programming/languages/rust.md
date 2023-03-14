@@ -31,6 +31,7 @@ Guides
   - Possible "nothing" state in rust, like `null` in other languages
   - `PhantomData`, `Option::None`, empty tuple, never type
 - [Getting Past "Ampersand-Drive Development" in Rust](https://fiberplane.com/blog/getting-past-ampersand-driven-development-in-rust)
+  ([Lobster](https://lobste.rs/s/mfd2jr/getting_past_ampersand_driven))
   - The difference between `self`, `mut self`, `&self`, `&mut self`
   - Reference-counted pointer `Rc` and atomically reference-counted pointer
     `Arc`
