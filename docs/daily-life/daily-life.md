@@ -1,6 +1,11 @@
-# Household
+# Daily Life
 
-Things about living at home.
+Possible solutions to daily life problems.
+
+## Sites
+
+- [Reddit r/BuyItForLife](https://www.reddit.com/r/BuyItForLife/) — Practical,
+  durable and quality made products that are made to last
 
 ## Links
 
