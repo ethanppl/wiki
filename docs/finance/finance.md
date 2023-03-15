@@ -22,3 +22,9 @@ Quick notes for things I want to add:
     valuable
   - SVB's online clientele contributes to its downfall
   - Regulations and centralization helped
+- [Bank Runs, Deposit Insurance, and Liquidity | Douglas W. Diamond, Philip H. Dybvig](https://www.journals.uchicago.edu/doi/epdf/10.1086/261155)
+  - Winning the 2022 Nobel Prize in Economics
+  - A model to analyze the economics of banking
+- [A model of a systemic bank run | Harald Uhlig](https://home.uchicago.edu/~huhlig/papers/uhlig.jme.2010.pdf)
+  - The economy does not consist of a single bank, bank runs can be analyzed
+    from a systematical point of view
