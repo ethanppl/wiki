@@ -13,6 +13,7 @@ can gather over time.
 ## Links
 
 - [Liquid Physics Using Cellular Automation](https://www.jgallant.com/2d-liquid-simulator-with-cellular-automaton-in-unity/)
+  ([HN](https://news.ycombinator.com/item?id=34946877))
   - Cellular automation: each cell evolves based on a set of rules, like
     Conway's Game of Life
   - Looks nice at first glance, but missing quite some details, so cannot
