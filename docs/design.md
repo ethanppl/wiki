@@ -4,8 +4,9 @@ Making things friendly and appealing.
 
 ## Sites
 
-- [Iconhunt](https://www.iconhunt.site/)
-  - Free and open-source SVG icons
+- [Iconhunt](https://www.iconhunt.site/) — Free and open-source SVG icons
+- [Modern Font Stacks](https://modernfontstacks.com/) — Preview modern system
+  fonts, a collection of the fastest fonts available across operating systems
 
 ## Links
 
@@ -25,3 +26,10 @@ Blogs
 - [Designing the Kowloon Walled City Infographics for SCMP | Adolfo Arranz Twitter](https://twitter.com/adolfux/status/1636026798894104578)
   - [This infographic of the Kowloon Walled City](https://pbs.twimg.com/media/FrRQg_BagAAx9bb?format=jpg&name=4096x4096)
   - The process of ideation, design and drawing the graphics
+
+Opinions
+
+- [A rant on web font licenses](https://manuelmoreale.com/a-rant-on-web-font-licenses)
+  — fairly short but true, some pricing schemes for web fonts are ridiculous
+- [Stop Using Custom Web Fonts](https://bt.ht/webfonts) — web fonts aren't
+  necessary, system fonts improve performance and save resources
