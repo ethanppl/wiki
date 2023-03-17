@@ -18,4 +18,5 @@ Running a business.
   - Back run to the downfall and how this affects startups' liquidity
   - Expenses on payroll and vendor costs, and the effect on employee-of-record
     (EOR) payroll companies like Rippling
-  - Implications: moving funds to multiple bank accounts and to bigger banks
+  - Implications: moving funds to multiple bank accounts and bigger banks
+- [Ask HN: What books helped you in your entrepreneurship journey?](https://news.ycombinator.com/item)
