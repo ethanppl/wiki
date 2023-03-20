@@ -28,3 +28,11 @@ Quick notes for things I want to add:
 - [A model of a systemic bank run | Harald Uhlig](https://home.uchicago.edu/~huhlig/papers/uhlig.jme.2010.pdf)
   - The economy does not consist of a single bank, bank runs can be analyzed
     from a systematical point of view
+- [Why markets are in an uproar over Swiss zeroed Credit Suisse AT1 bonds | Reuters](https://www.reuters.com/markets/why-markets-are-uproar-over-risky-bank-bond-known-at1-2023-03-20/)
+  - AT1 bond: "contingent convertibles" (CoCo) act as shock absorbers if a
+    bank's capital fall below a threshold. They can be converted into equity or
+    written off
+  - Under the current UBS and Credit Suisse deal, Swiss has no obligation to
+    follow the traditional capital structure. AT1 bonds are ranked lower than
+    equity. Shareholders at least receive something while AT1 bondholders get
+    nothing
