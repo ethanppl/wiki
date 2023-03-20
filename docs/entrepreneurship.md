@@ -20,3 +20,10 @@ for others.
     (EOR) payroll companies like Rippling
   - Implications: moving funds to multiple bank accounts and bigger banks
 - [Ask HN: What books helped you in your entrepreneurship journey?](https://news.ycombinator.com/item)
+- [Who tends to become an entrepreneur?](https://www.generalist.com/briefing/who-becomes-an-entrepreneur)
+  ([HN](https://news.ycombinator.com/item?id=35226420))
+  - Founders tend to be generalists, supported by a community, previously
+    under-compensated, survived a difficult childhood, more prone to mental
+    health issues and more
+  - My question is what about entrepreneurs for smaller businesses and
+    businesses that failed?
