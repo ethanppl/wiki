@@ -2,6 +2,19 @@
 
 How to live a happier, healthier, and more productive life.
 
+## Resources
+
+- [Healthy Living Guide 2021/2022 | Harvard The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/2022/01/06/healthy-living-guide-2021-2022/)
+  ([PDF](https://www.hsph.harvard.edu/nutritionsource/wp-content/uploads/sites/30/2022/01/HealthyLivingGuide21-22.pdf))
+  - Mainly focus on food, workout and sleep, with some nice infographics
+
+## Sites
+
+- [Harvard The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/more/)
+  - Food, drinks, salt and sodium, carbohydrates, sustainability
+  - Body weight, workout, stress, sleep, healthy longevity, disease prevention
+  - Additional resources: links to related programs and other similar sites
+
 ## Links
 
 - YouTube:

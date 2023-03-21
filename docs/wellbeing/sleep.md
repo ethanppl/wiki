@@ -6,7 +6,7 @@ painful emotion, improves creativity and many more.
 
 It is recommended to sleep 7-9 hours a day with a regular sleep schedule. Avoid
 exercising, caffeine, alcoholic drinks, and large meals before bed. Avoid
-napping after 3 pm, relax before going to bed and avoid lying on bed awake.
+napping after 3 pm, relax before going to bed and avoid lying in bed awake.
 Having a dark, cool, quiet and gadget-free environment helps.
 
 ## Resources
@@ -28,6 +28,12 @@ Having a dark, cool, quiet and gadget-free environment helps.
     an ordinary article. Understanding the terminologies is a good start, just
     don't get too anxious about sleep and the claims he made in the book. Don't
     outright trust the claims and do the research instead.
+
+## Sites
+
+- [Sleep | Harvard The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/sleep/)
+  - More like a collection of facts related to sleep, with a long list of
+    references provided
 
 ## Links
 
