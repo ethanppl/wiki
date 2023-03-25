@@ -1,6 +1,8 @@
 # Privacy
 
-Privacy when using computers. What and where your information is stored?
+- Who can capture your information?
+- What and where your information is stored?
+- Do you have control over these problems?
 
 Privacy is not the same as anonymity or security.
 
@@ -18,3 +20,12 @@ Privacy is not the same as anonymity or security.
     navigation, and page traffic. Capturing keystrokes, input, clipboard, and
     geolocation. Also, create stealth tabs by taking over unused tabs to do bad
     things.
+- [Web fingerprinting is worse than I thought](https://www.bitestring.com/posts/2023-03-19-web-fingerprinting-is-worse-than-I-thought.html)
+  ([HN](https://news.ycombinator.com/item?id=35243355))
+  - Fingerprinting: identify users through unique combinations of
+    configurations, e.g. browser version, CPUs, OS, screen size, etc.
+  - Chrome / Chromium: doesn't have any inbuilt protection against
+    fingerprinting
+  - Firefox: only when `privacy.resistFingerprinting` is enabled, the
+    fingerprint is masked
+  - Tor Browser: secure against fingerprinting
