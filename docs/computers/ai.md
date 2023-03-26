@@ -15,3 +15,8 @@ Anything about computers learning and "thinking".
   ([HN](https://news.ycombinator.com/item?id=34883486))
   - Techniques to improve the results of large language models
   - HN thread more or less focuses on if this is a field of engineering at all
+- [Understanding ChatGPT | Atmosera](https://www.atmosera.com/ai/understanding-chatgpt/)
+  ([HN](https://news.ycombinator.com/item?id=35312468))
+  - Understand how things went from RRN to LSTM to Transformer, to BERT, to GPT
+  - Contains a brief explanation of each advancement and links to all the
+    important papers
