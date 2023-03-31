@@ -28,6 +28,13 @@ more and add more links in the future.
     the concepts and serves as a good reminder of how to approach different
     problems as a software engineer
 
+## Sites
+
+YouTube Channels:
+
+- [Fireship](https://www.youtube.com/@Fireship/videos) — 100 seconds
+  explanation, code report and tutorials
+
 ## Links
 
 Still a bit like resources, but target a specific area of computer

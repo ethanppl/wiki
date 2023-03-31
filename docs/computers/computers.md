@@ -2,6 +2,13 @@
 
 Anything about computers.
 
+## Sites
+
+YouTube Channels:
+
+- [Computerphile](https://www.youtube.com/@Computerphile/videos) — Computer
+  science topics explained by computer scientists
+
 ## Resources
 
 - [NAND to Tetris Course](https://www.nand2tetris.org/course)
