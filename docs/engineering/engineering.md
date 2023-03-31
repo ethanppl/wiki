@@ -13,9 +13,15 @@ YouTube Channels:
 - [Practical Engineer](https://www.youtube.com/@PracticalEngineeringChannel/videos)
   — More focus on areas related to civil engineering
 - [Real Engineering](https://www.youtube.com/@RealEngineering/videos) — Explore
-  different interesting engineering designs
+  different interesting engineering designs, focus more on an end product
+- [The Engineering Mindset](https://www.youtube.com/@EngineeringMindset/videos)
+  — Explore specific components in different systems, focus more on a specific
+  component
 - [Animagraffs](https://www.youtube.com/@animagraffs/videos) — Explain the
   internals of different machines with very cool 3D visualizations
+- [Stuff made here](https://www.youtube.com/@StuffMadeHere/videos) — DIY
+  projects
+- [DIY Perks](https://www.youtube.com/@DIYPerks/videos) — DIY projects
 
 ## Links
 
