@@ -1,4 +1,4 @@
-# Software Architecture
+# Software Design
 
 How to design/architect software applications/systems.
 
@@ -23,6 +23,20 @@ How to design/architect software applications/systems.
 
 ## Links
 
+Explanations:
+
+- YouTube:
+  [Making impossible states impossible | elm-conf](https://youtu.be/IcgmSRJHu_8)
+  - Better domain modelling, design data types around the real-world domain
+  - Understanding union type, zip list, opaque type
+- [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
+  ([HN](https://news.ycombinator.com/item?id=35399603))
+  - How logical clocks order events in distributed systems
+  - Clocks introduced: Lamport clock, Lamport origin clock, vector clock and
+    dotted vector clock, Lamport causal clock
+
+Real-world examples:
+
 - [How Reddit built the 2017 r/Place](https://www.redditinc.com/blog/how-we-built-rplace/)
   - r/Place was a collaborative drawing board on Reddit in 2017 April Fools' Day
     How Reddit built the backend, API, frontend, scaling, caching, handling
@@ -35,13 +49,9 @@ How to design/architect software applications/systems.
   - [How Figma's multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/):
     CRDT
   - [Making multiplayer more reliable](https://www.figma.com/blog/making-multiplayer-more-reliable/)
-- YouTube:
-  [Making Impossible States Impossible | elm-conf](https://youtu.be/IcgmSRJHu_8)
-  - Better domain modelling, design data types around the real-world domain
-  - Understanding union type, zip list, opaque type
 - [The Technology Behind GitHub's New Code Search](https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search/)
   - How GitHub built its search engine for searching code
-  - Concepts: inverted index, ngram, content addressable hashing, indexing and
+  - Concepts: inverted index, n-gram, content addressable hashing, indexing and
     query pipeline
   - Indexing 15.5 billion documents in 36 hours, 115 TB of content with 28 TB of
     unique content and the index itself in just 25 TB
