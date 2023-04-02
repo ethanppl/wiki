@@ -27,3 +27,12 @@ for others.
     health issues and more
   - My question is what about entrepreneurs for smaller businesses and
     businesses that failed?
+
+Examples/Stories:
+
+- [Solo founders with profitable businesses | blog.kowalczyk.info](https://blog.kowalczyk.info/article/wjRD/solo-founders-with-profitable-businesses-collected-stories.html)
+  - Also:
+    [Small business stories | blog.kowalczyk.info](https://blog.kowalczyk.info/article/81714acf995e4968bb220684d95c9495/small-business-stories.html)
+  - Collection of successful solo founder stories from HN discussions, from 3K
+    to 1M per month in revenue
+  - There will always be survivor bias though
