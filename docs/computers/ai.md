@@ -6,10 +6,14 @@ Anything about computers learning and "thinking".
 
 Courses
 
+- [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&ab_channel=AndrejKarpathy)
+  ([Website](https://karpathy.ai/zero-to-hero.html))
 - [Stanford CS229: Machine Learning by Andrew Ng](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=1&ab_channel=StanfordOnline)
   (Autumn 2019)
 - [Standford CS221: Artificial Intelligence: Principles and Techniques](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX&ab_channel=StanfordOnline)
   (Autumn 2019)
+- [Standford CS231n: Deep Learning for Computer Vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv&ab_channel=StanfordUniversitySchoolofEngineering)
+  (Spring 2017) ([Course Website](http://cs231n.stanford.edu/))
 - [MIT 6.034: Artificial Intelligence by Patrick Henry Winston](https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&ab_channel=MITOpenCourseWare)
   (Fall 2010)
 - [MIT 6.S191: Introduction to Deep Learning](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1&ab_channel=AlexanderAmini)
