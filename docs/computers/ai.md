@@ -2,6 +2,21 @@
 
 Anything about computers learning and "thinking".
 
+## Resources
+
+Courses
+
+- [Stanford CS229: Machine Learning by Andrew Ng](https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=1&ab_channel=StanfordOnline)
+  (Autumn 2019)
+- [Standford CS221: Artificial Intelligence: Principles and Techniques](https://www.youtube.com/watch?v=J8Eh7RqggsU&list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX&ab_channel=StanfordOnline)
+  (Autumn 2019)
+- [MIT 6.034: Artificial Intelligence by Patrick Henry Winston](https://www.youtube.com/watch?v=TjZBTDzGeGg&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&ab_channel=MITOpenCourseWare)
+  (Fall 2010)
+- [MIT 6.S191: Introduction to Deep Learning](https://www.youtube.com/watch?v=QDX-1M5Nj7s&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI&index=1&ab_channel=AlexanderAmini)
+  (Spring 2018 - Spring 2023)
+- [MIT 6.S099: Artificial General Intelligence](https://www.youtube.com/watch?v=-GV_A9Js2nM&list=PL4jieTF-BpWoiVjta6VuRy5plFtDm9eRG&ab_channel=LexFridman)
+  (Spring 2018)
+
 ## Links
 
 - [The Waluigi Effect Meta Post](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)
