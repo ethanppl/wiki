@@ -49,4 +49,4 @@ Rotating Detonation Rocket Engine (RDRE)
 - News:
   [NASA Validates Revolutionary Propulsion Design for Deep Space Missions](https://www.nasa.gov/centers/marshall/feature/nasa-validates-revolutionary-propulsion-design-for-deep-space-missions)
   (Jan 2023)
-  - NASA fired over a dozen times, totalling nearly 10 minutes
+  - NASA fired over a dozen times, totaling nearly 10 minutes

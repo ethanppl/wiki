@@ -55,3 +55,16 @@ Real-world examples:
     query pipeline
   - Indexing 15.5 billion documents in 36 hours, 115 TB of content with 28 TB of
     unique content and the index itself in just 25 TB
+- [Twitter's Recommendation Algorithm](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm)
+  ([Code on GitHub](https://github.com/twitter/the-algorithm))
+  - Candidate sourcing (find best tweets), ranking, heuristics and filters,
+    mixing and serving
+  - Useless but fun discoveries:
+    - There is a specific label called `author_is_elon`
+      ([ref](https://twitter.com/wongmjane/status/1641884551189512192))
+    - Jack Dorsey, Katy Perry, Stephen Curry and Barack Obama are labelled as
+      testing accounts
+      ([ref](https://twitter.com/wongmjane/status/1641895949999153152)), which
+      is now overridden by a forced push
+      ([ref](https://twitter.com/wongmjane/status/1642028241828601856),
+      [original commit](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/graph-feature-service/src/main/scala/com/twitter/graph_feature_service/server/handlers/ServerWarmupHandler.scala#L23))
