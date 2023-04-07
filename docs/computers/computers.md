@@ -4,6 +4,11 @@ Anything about computers.
 
 ## Sites
 
+Other Wikis:
+
+- [awesome | GitHub @sindresorhus](https://github.com/sindresorhus/awesome)
+  - A list of awesome lists of all kinds of topics, mainly related to computers
+
 YouTube Channels:
 
 - [Computerphile](https://www.youtube.com/@Computerphile/videos) — Computer
