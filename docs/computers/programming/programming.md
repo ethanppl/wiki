@@ -65,3 +65,5 @@ science/programming.
     hot reload, time travel, omniscient debugging
   - Omniscient debugging: pre-calculate all the program states, store them in a
     database and index them for efficient queries
+- [A -10x Engineer](https://taylor.town/-10x) — wasting 400 engineering hours
+  per week
