@@ -20,6 +20,8 @@ Courses
   (Spring 2018 - Spring 2023)
 - [MIT 6.S099: Artificial General Intelligence](https://www.youtube.com/watch?v=-GV_A9Js2nM&list=PL4jieTF-BpWoiVjta6VuRy5plFtDm9eRG&ab_channel=LexFridman)
   (Spring 2018)
+- [Deep Learning Foundations to Stable Diffusion | Fast.AI](https://www.youtube.com/watch?v=_7rMfsA24Ls&list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&ab_channel=JeremyHoward)
+  ([Website](https://course.fast.ai/Lessons/part2.html))
 
 ## Links
 
