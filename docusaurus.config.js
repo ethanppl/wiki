@@ -84,6 +84,7 @@ const config = {
       ({
         hashed: true,
         docsRouteBasePath: "/",
+        language: ["en", "zh"],
       }),
     ],
   ],
