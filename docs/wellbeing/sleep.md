@@ -16,7 +16,7 @@ Having a dark, cool, quiet and gadget-free environment helps.
 - [Journey into Sleep | Reuters](https://www.reuters.com/graphics/HEALTH-SLEEP/mopakyjmnpa/)
   - A graphical illustration of sleep affects different systems of our body, and
     why is it important
-  - Beginner-friendly, very helpful graphics to visualize the process
+  - Beginner-friendly, very helpful graphics to visualize the process of sleep
 - [Understanding Sleep | Northern Pain Centre](https://www.northernpaincentre.com.au/wellness/chronic-pain-sleep/)
   - Understanding sleep, sleep problems, and how to sleep better
   - I find Part 1 quite good. An overview of different aspects of sleep, backed

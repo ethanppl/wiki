@@ -41,3 +41,9 @@ Courses
   - Understand how things went from RRN to LSTM to Transformer, to BERT, to GPT
   - Contains a brief explanation of each advancement and links to all the
     important papers
+- [Maximizing the potential of LLMs](https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms/)
+  ([HN](https://news.ycombinator.com/item?id=35522080))
+  - A list of template prompts for summarization, extraction, Q&A,
+    classification, conversation, code generation and reasoning
+  - Prompting strategies: zero-shot/few-shot prompting, and chain of thought
+    prompting
