@@ -2,7 +2,9 @@
 
 Sleep is important. Sleep repairs our body after a long day, improve the immune
 system, reduce stress, solidifies memory for knowledge and motor skills, removes
-painful emotion, improves creativity and many more.
+painful emotion, improves creativity and many more. In 2022,
+[the American Heart Association added sleep duration as a metric for health checks](https://newsroom.heart.org/news/american-heart-association-adds-sleep-to-cardiovascular-health-checklist),
+as important as diet, physical activities, weight, blood pressure, etc.
 
 It is recommended to sleep 7-9 hours a day with a regular sleep schedule. Avoid
 exercising, caffeine, alcoholic drinks, and large meals before bed. Avoid
@@ -11,6 +13,10 @@ Having a dark, cool, quiet and gadget-free environment helps.
 
 ## Resources
 
+- [Journey into Sleep | Reuters](https://www.reuters.com/graphics/HEALTH-SLEEP/mopakyjmnpa/)
+  - A graphical illustration of sleep affects different systems of our body, and
+    why is it important
+  - Beginner-friendly, very helpful graphics to visualize the process
 - [Understanding Sleep | Northern Pain Centre](https://www.northernpaincentre.com.au/wellness/chronic-pain-sleep/)
   - Understanding sleep, sleep problems, and how to sleep better
   - I find Part 1 quite good. An overview of different aspects of sleep, backed
