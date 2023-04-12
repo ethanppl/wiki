@@ -68,3 +68,5 @@ science/programming.
 - [A -10x Engineer](https://taylor.town/-10x)
   ([HN](https://news.ycombinator.com/item?id=35438068)) — wasting 400
   engineering hours per week
+- [What I've learned about formal methods in half a year | Jacob](https://jakob.space/blog/what-ive-learned-about-formal-methods.html)
+  — A writeup introducing formal methods
