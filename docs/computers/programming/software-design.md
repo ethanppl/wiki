@@ -8,6 +8,9 @@ How to design/architect software applications/systems.
   - A collection of books about software architecture
   - Going from single components to connected components, to entire systems, and
     dealing with the context
+- [Architectures of Open Source Application](https://aosabook.org/en/index.html)
+  - 4 volumes, the authors of open source applications explain how their open
+    source software is structured and why
 - [A Guide to System Design Interview](https://interviewing.io/guides/system-design-interview/part-two)
   ([HN](https://news.ycombinator.com/item?id=34999464))
   - There are two parts, how to approach an interview and the fundamental
@@ -59,6 +62,8 @@ Real-world examples:
   ([Code on GitHub](https://github.com/twitter/the-algorithm))
   - Candidate sourcing (find best tweets), ranking, heuristics and filters,
     mixing and serving
+  - [What does (and does not) the Twitter algorithm tell us?](https://knightcolumbia.org/blog/twitter-showed-us-its-algorithm-what-does-it-tell-us)
+    ([HN](https://news.ycombinator.com/item?id=35519224))
   - Useless but fun discoveries:
     - There is a specific label called `author_is_elon`
       ([ref](https://twitter.com/wongmjane/status/1641884551189512192))
