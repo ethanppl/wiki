@@ -19,6 +19,8 @@ YouTube Channels:
   component
 - [Animagraffs](https://www.youtube.com/@animagraffs/videos) — Explain the
   internals of different machines with very cool 3D visualizations
+- [Jared Owen](https://www.youtube.com/@JaredOwen/videos) — Also 3D animations
+  on engineering designs
 - [Stuff made here](https://www.youtube.com/@StuffMadeHere/videos) — DIY
   projects
 - [DIY Perks](https://www.youtube.com/@DIYPerks/videos) — DIY projects
@@ -49,4 +51,4 @@ Rotating Detonation Rocket Engine (RDRE)
 - News:
   [NASA Validates Revolutionary Propulsion Design for Deep Space Missions](https://www.nasa.gov/centers/marshall/feature/nasa-validates-revolutionary-propulsion-design-for-deep-space-missions)
   (Jan 2023)
-  - NASA fired over a dozen times, totaling nearly 10 minutes
+  - NASA fired over a dozen times, totalling nearly 10 minutes
