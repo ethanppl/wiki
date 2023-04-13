@@ -18,3 +18,8 @@ About working in a job.
     your coworkers
   - This feels like things to get right after getting the basics right, i.e.
     code is working
+- [What you give up when moving into engineering management | Stackoverflow blog](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
+  ([HN](https://news.ycombinator.com/item?id=35550240))
+  - Managers give up focus time, have to deal with longer feedback cycles, more
+    conflicts and interpersonal issues, make fewer technical decisions, and less
+    time acquiring tech skills
