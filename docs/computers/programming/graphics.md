@@ -20,3 +20,7 @@ can gather over time.
     simulate things like siphons
   - But the HN thread contains some better examples like this
     [ASCII fluid dynamics in IOCCC2012](https://youtu.be/QMYfkOtYYlg)
+- [Animate Kids Drawings](https://fairanimateddrawings.com/site/home)
+  ([HN](https://news.ycombinator.com/item?id=35561203))
+  [Code](https://github.com/facebookresearch/AnimatedDrawings#readme) — Animate
+  hand-drawn characters
