@@ -37,6 +37,12 @@ Explanations:
   - How logical clocks order events in distributed systems
   - Clocks introduced: Lamport clock, Lamport origin clock, vector clock and
     dotted vector clock, Lamport causal clock
+- [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html)
+  ([HN](https://news.ycombinator.com/item?id=35591026))
+  - "Any organization that designs a system (defined broadly) will produce a
+    design whose structure is a copy of the organization's communication
+    structure."
+  - Projects plans should follow how people communicate in the organization
 
 Real-world examples:
 
