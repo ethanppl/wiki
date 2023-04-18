@@ -14,6 +14,17 @@ YouTube Channels:
 - [Computerphile](https://www.youtube.com/@Computerphile/videos) — Computer
   science topics explained by computer scientists
 
+News/forums/communities:
+
+- [Hacker News](https://news.ycombinator.com/) — News and articles about
+  computers, programming, startups, etc.
+  - Instead of checking it regularly, can try the
+    [Hacker News Letter](https://hackernewsletter.com/)
+  - At first, I was not used to the layout, but soon appreciate the clean and
+    minimal display after subscribing to the newsletter
+- [Lobsters](https://lobste.rs/) — similar to hacker news, more focused on
+  programming
+
 ## Resources
 
 - [NAND to Tetris Course](https://www.nand2tetris.org/course)
