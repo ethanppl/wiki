@@ -52,3 +52,20 @@ Courses
     just be in a simulation
 - [Web LLM | GitHub @mlc-ai](https://github.com/mlc-ai/web-llm) — Running LLM
   directly in the browser
+- [What are transformer models](https://txt.cohere.ai/what-are-transformer-models/)
+  ([HN](https://news.ycombinator.com/item?id=35576918))
+  - If you want a higher-level explanation with examples of the process of
+    tokenization, embedding, positional encoding, the transformer block,
+    attention and the softmax layer
+  - If you have the patience, try reading the
+    [original paper](https://arxiv.org/abs/1706.03762). The top comment in the
+    HN post summarized a few oversimplifications or mistakes in the article.
+- [Understanding large language models](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
+  ([HN](https://news.ycombinator.com/item?id=35589756))
+  - Top 10-ish papers to understand the design, constraints and evolution of
+    LLMs
+  - Development of LLMs: Attention weighted encodings, transformer, BERT, GPT,
+    BART
+  - Improving the efficiency of LLMs: FlashAttention, Cramming, finetuning
+    methods, Chinchilla model, InstructGPT, and more on reinforcement learning
+    with human feedback (RLHF)
