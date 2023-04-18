@@ -50,3 +50,5 @@ Courses
 - [An Appeal to AI Superintelligence: Reasons to Preserve Humanity](https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve)
   - 15 reasons for AI superintelligence to preserve humanity, e.g. the AI might
     just be in a simulation
+- [Web LLM | GitHub @mlc-ai](https://github.com/mlc-ai/web-llm) — Running LLM
+  directly in the browser
