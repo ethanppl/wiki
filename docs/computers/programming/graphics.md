@@ -9,6 +9,10 @@ can gather over time.
 
 - [MIT 6.837 Computer Graphics Course](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
   - [Fall 2020 Lecture videos on YouTube by Prof. Justin Solomon](https://youtube.com/playlist?list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh)
+- [Web GPU Fundamentals](https://webgpufundamentals.org/)
+  - Resources for learning WebGPU, an API for drawing points, lines, triangles
+    to textures and running computations on GPU
+  - WebGPU is similar to WebGL but WebGL is a stateful API and WebGPU is not
 
 ## Links
 
