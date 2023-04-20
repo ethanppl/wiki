@@ -12,6 +12,8 @@ YouTube Channels:
   engineering topics
 - [Practical Engineer](https://www.youtube.com/@PracticalEngineeringChannel/videos)
   — More focus on areas related to civil engineering
+- [The B1M](https://www.youtube.com/@TheB1M/videos) — Civil engineering, bridges
+  and tunnels, urban planning, infrastructure projects, etc.
 - [Real Engineering](https://www.youtube.com/@RealEngineering/videos) — Explore
   different interesting engineering designs, focus more on an end product
 - [The Engineering Mindset](https://www.youtube.com/@EngineeringMindset/videos)

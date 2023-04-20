@@ -1,6 +1,6 @@
-# Fun
+# Interesting/Fun
 
-Things for fun. Not sure where to put these yet.
+Things that are interesting or for fun. Not sure where to put these yet.
 
 ## Links
 
