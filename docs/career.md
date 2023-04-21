@@ -23,3 +23,7 @@ About working in a job.
   - Managers give up focus time, have to deal with longer feedback cycles, more
     conflicts and interpersonal issues, make fewer technical decisions, and less
     time acquiring tech skills
+- [The Underground Economy of Company Reviews](https://www.careerfair.io/company-reviews)
+  - The underground economy of adding, removing and analyzing company job
+    reviews on sites like Glassdoor, ranging from freelancers to different
+    online reputation management agencies/services
