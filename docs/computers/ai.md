@@ -69,3 +69,6 @@ Courses
   - Improving the efficiency of LLMs: FlashAttention, Cramming, finetuning
     methods, Chinchilla model, InstructGPT, and more on reinforcement learning
     with human feedback (RLHF)
+- [How Replit train their own Large Language Models](https://blog.replit.com/llm-training)
+  - Data processing (Databricks) → Custom tokenization → Model training
+    (MosaicML) → Evaluation (HumanEval framework)
