@@ -32,21 +32,11 @@ Courses
   - "After you train an LLM to satisfy a desired property _P_, then it is easier
     to elicit the LLM into satisfying the opposite of _P_"
   - Could like to see more evidence and examples though
-- [Prompt Engineering Guide | GitHub @dair-ai](https://github.com/dair-ai/Prompt-Engineering-Guide)
-  ([HN](https://news.ycombinator.com/item?id=34883486))
-  - Techniques to improve the results of large language models
-  - HN thread more or less focuses on if this is a field of engineering at all
 - [Understanding ChatGPT | Atmosera](https://www.atmosera.com/ai/understanding-chatgpt/)
   ([HN](https://news.ycombinator.com/item?id=35312468))
   - Understand how things went from RRN to LSTM to Transformer, to BERT, to GPT
   - Contains a brief explanation of each advancement and links to all the
     important papers
-- [Maximizing the potential of LLMs](https://www.ruxu.dev/articles/ai/maximizing-the-potential-of-llms/)
-  ([HN](https://news.ycombinator.com/item?id=35522080))
-  - A list of template prompts for summarization, extraction, Q&A,
-    classification, conversation, code generation and reasoning
-  - Prompting strategies: zero-shot/few-shot prompting, and chain of thought
-    prompting
 - [An Appeal to AI Superintelligence: Reasons to Preserve Humanity](https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve)
   - 15 reasons for AI superintelligence to preserve humanity, e.g. the AI might
     just be in a simulation
