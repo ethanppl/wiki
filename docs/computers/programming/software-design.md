@@ -43,6 +43,12 @@ Explanations:
     design whose structure is a copy of the organization's communication
     structure."
   - Projects plans should follow how people communicate in the organization
+- [Load balancing algorithms](https://samwho.dev/load-balancing/)
+  ([HN](https://news.ycombinator.com/item?id=35588797))
+  - A little bit of Bartosz Ciechanowski style visualizing load balancing
+    algorithms, with a playground at the end
+  - Round robin, weighted random, weighted round robin, least connections, peak
+    EWMA
 
 Real-world examples:
 
