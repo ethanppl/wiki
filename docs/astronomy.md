@@ -2,6 +2,14 @@
 
 Space.
 
+## Resources
+
+Telescopes (if binoculars aren't enough):
+
+- [Beginner's Quick Guide to choosing your first telescope | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/z9s352/beginners_quick_guide_to_choosing_your_first/)
+  - More importantly, understand what to expect when looking through a telescope
+- [Beginner's Guide to (Budget) Eyepieces | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/iv7qg2/a_beginners_guide_to_budget_eyepieces/)
+
 ## Sites
 
 - [The Orbital Index](https://orbitalindex.com/) — weekly newsletter
@@ -10,11 +18,11 @@ Space.
   about the space industry, which include pre-launch previews and post-launch
   reviews
 
-Telescopes (if binoculars aren't enough):
+YouTube:
 
-- [Beginner's Quick Guide to choosing your first telescope | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/z9s352/beginners_quick_guide_to_choosing_your_first/)
-  - More importantly, understand what to expect when looking through a telescope
-- [Beginner's Guide to (Budget) Eyepieces | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/iv7qg2/a_beginners_guide_to_budget_eyepieces/)
+- [Everyday Astronaut](https://www.youtube.com/@EverydayAstronaut/videos)
+- [Primal Space](https://www.youtube.com/@primalspace/videos)
+- [Scott Manley](https://www.youtube.com/@scottmanley/videos)
 
 ## Links
 
@@ -25,7 +33,7 @@ Telescopes (if binoculars aren't enough):
     (an hour-long video)
   - [How to Start a Rocket Engine](https://everydayastronaut.com/how-to-start-a-rocket-engine/)
     (an hour-long video)
-- [Space Elevator | neal.fun](https://neal.fun/space-elevator/)
+- [Space Elevator | neal fun](https://neal.fun/space-elevator/)
   ([HN](https://news.ycombinator.com/item?id=35629972))
   - Scroll from the Earth's surface to space, and see what you can see at each
     level, like birds, planes, rockets, etc.
