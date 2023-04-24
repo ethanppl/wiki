@@ -24,3 +24,10 @@ School and sleep
     rate
   - Changing school start time will affect teachers, school administrators,
     parents, caretakers and employers' schedule
+
+College
+
+- [Ask HN: What would you recommend a 16-year-old to pursue career wise?](https://news.ycombinator.com/item?id=35619545)
+  - People focused on why attending college is worth it for a 16-year-old, what
+    to aim for in a college
+  - To me, that is also people illustrating what a college supposed to provide

@@ -36,3 +36,4 @@ Examples/Stories:
   - Collection of successful solo founder stories from HN discussions, from 3K
     to 1M per month in revenue
   - There will always be survivor bias though
+- [Ask HN: Side project of more than $2k monthly revenue?](https://news.ycombinator.com/item?id=35567822)
