@@ -13,3 +13,5 @@ robot startup.
   - Zipline — drone delivery and logistics company
   - Amazing work and surprised by the impact, especially the emergency delivery
     of medical supplies in Rwanda
+  - [Zipline's Silent Propellers | The Action Lab](https://youtu.be/z58RORCUTao)
+    — it works by having unevenly spaced propellers to spread the frequency
