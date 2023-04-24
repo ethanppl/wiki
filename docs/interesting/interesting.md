@@ -14,6 +14,10 @@ Things that are interesting or for fun. Not sure where to put these yet.
   [Self-solving Minesweeper | Have a Luke at this](https://youtu.be/ns0ja7jpIyc)
   [Code](https://github.com/haveaLukeatthis/SelfSolvingMinesweeper)
   - Had to admit that watching the program solving the game is satisfying
+- [The largest island in a lake on an island in a lake on an island](https://www.elbruz.org/special-projects/islands-and-lakes/)
+  ([HN](https://news.ycombinator.com/item?id=35567026))
+  - Wikipedia:
+    [Recursive islands and lakes](https://en.wikipedia.org/wiki/Recursive_islands_and_lakes)
 
 April Fools
 
