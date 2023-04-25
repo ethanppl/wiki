@@ -4,7 +4,7 @@ Space.
 
 ## Resources
 
-Telescopes (if binoculars aren't enough):
+Telescopes for stargazing (if binoculars aren't enough):
 
 - [Beginner's Quick Guide to choosing your first telescope | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/z9s352/beginners_quick_guide_to_choosing_your_first/)
   - More importantly, understand what to expect when looking through a telescope
@@ -26,14 +26,8 @@ YouTube:
 
 ## Links
 
-- Rocket Engines | Everyday Astronaut
-  - [Engine Cooling – Why Rocket Engines Don’t Melt](https://everydayastronaut.com/engine-cooling-methodes/)
-    (a 30-minute video)
-  - [Rocket Engine Cycles: How do you power a rocket engine?](https://everydayastronaut.com/rocket-engine-cycles/)
-    (an hour-long video)
-  - [How to Start a Rocket Engine](https://everydayastronaut.com/how-to-start-a-rocket-engine/)
-    (an hour-long video)
 - [Space Elevator | neal fun](https://neal.fun/space-elevator/)
-  ([HN](https://news.ycombinator.com/item?id=35629972))
+  ([HN](https://news.ycombinator.com/item?id=35629972)) — definitely worth
+  scrolling for 5 minutes
   - Scroll from the Earth's surface to space, and see what you can see at each
     level, like birds, planes, rockets, etc.
