@@ -23,7 +23,7 @@ Just my two cents:
   - This book teaches almost all the fundamental concepts related to investing
   - I think this is the best book to learn about investing
 - [rich01.com](https://rich01.com/mr-market-for-new/) (Chinese)
-  - When I first started, this blog helped me a lot, but it is in Chinese
+  - When I first started, this blog helped me a lot. It is written in Chinese
   - Debt, emergency fund, budgeting, risk and reward, diversification, tools,
     mindset etc.
 

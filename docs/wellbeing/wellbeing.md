@@ -4,7 +4,7 @@ How to live a happier, healthier, and more productive life.
 
 ## Sites
 
-- [Harvard The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/more/)
+- [The Nutrition Source by Harvard](https://www.hsph.harvard.edu/nutritionsource/more/)
   - Food, drinks, salt and sodium, carbohydrates, sustainability
   - Body weight, workout, stress, sleep, healthy longevity, disease prevention
   - Additional resources: links to related programs and other similar sites
@@ -12,7 +12,7 @@ How to live a happier, healthier, and more productive life.
 ## Links
 
 - YouTube:
-  [Inside the mind of a master procrastinator | TED](https://youtu.be/arj7oStGLkU)
+  [Inside the Mind of a Master Procrastinator | TED](https://youtu.be/arj7oStGLkU)
   - One of the best talks about procrastination
   - Introduces the life calendar, which I think is a powerful visualization and
     it serves as a good reminder but not as a very effective tool to stop

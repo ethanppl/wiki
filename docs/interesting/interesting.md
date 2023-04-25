@@ -19,6 +19,7 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - Wikipedia:
     [Recursive islands and lakes](https://en.wikipedia.org/wiki/Recursive_islands_and_lakes)
 - [My High-Flying Life as a Corporate Spy Who Lied His Way to the Top](https://narratively.com/my-high-flying-life-as-a-corporate-spy-who-lied-his-way-to-the-top/)
+  (30 min long read)
   - Excerpt from the book Ruse: Lying the American Dream from Hollywood to Wall
     Street about being a corporate spy
 

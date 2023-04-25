@@ -1,5 +1,7 @@
 # Fitness
 
+Training your body.
+
 ## Resources
 
 - [Julian Shapiro's bodybuilding guide](https://www.julian.com/guide/muscle/intro)

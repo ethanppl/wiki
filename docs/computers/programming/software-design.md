@@ -1,6 +1,6 @@
 # Software Design
 
-How to design/architect software applications/systems.
+Design/architect software applications/systems.
 
 ## Resources
 

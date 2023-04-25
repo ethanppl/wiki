@@ -1,6 +1,6 @@
 # Programming
 
-Anything about writing code.
+Instructing computers to work for humans.
 
 I have quite some experience in C, C++, Python, JavaScript/TypeScript, Java,
 Kotlin, Elixir, Solidity, and Gleam. The following guide might not be as

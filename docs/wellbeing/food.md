@@ -1,6 +1,6 @@
 # Food
 
-About things that you can put into a mouth.
+Things that you can put into a mouth.
 
 ## Links
 

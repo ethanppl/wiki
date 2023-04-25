@@ -27,6 +27,11 @@ YouTube Channels:
   projects
 - [DIY Perks](https://www.youtube.com/@DIYPerks/videos) — DIY projects
 
+Websites:
+
+- [Bartosz Ciechanowski](https://ciechanow.ski/archives/) — infrequent update
+  but extremely high quality
+
 ## Links
 
 - [The F-15 Eagle](https://media.defense.gov/2012/May/16/2001330012/-1/-1/0/AFD-120516-036.pdf)

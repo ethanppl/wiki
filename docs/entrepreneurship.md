@@ -2,8 +2,10 @@
 
 Running a business.
 
-Related: [Career](./career.md) — as an entrepreneur, how to build a good career
-for others.
+Related pages:
+
+- [Career](./career.md) — as an entrepreneur, how to build a good career for
+  others.
 
 ## Links
 

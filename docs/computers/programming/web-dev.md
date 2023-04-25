@@ -1,12 +1,12 @@
 # Web Development
 
-About user interfaces, especially web pages.
+Developing user interfaces of web pages.
 
 ## Resources
 
 - [Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn)
   — Learning guide provided by Mozilla
-- [Learn HTML | web.dev](https://web.dev/learn/html/) — Get the basic right,
+- [Learn HTML | Web Dev](https://web.dev/learn/html/) — Get the basic right,
   more beginner-friendly
 - [FullStackOpen Deep dive into modern web development](https://fullstackopen.com/en/)
   - Completely free full stack course. Same as the one at the University of
@@ -21,7 +21,7 @@ About user interfaces, especially web pages.
 
 ## Links
 
-- [`color-scheme` CSS Property | web.dev](https://web.dev/color-scheme/)
+- [`color-scheme` CSS Property | Web Dev](https://web.dev/color-scheme/)
   - How to improve dark mode default styling
   - Discovered from this blog about configuring dark mode:
     [CSS System Colors | Jim Nielsen's Blog](https://blog.jim-nielsen.com/2021/css-system-colors/)

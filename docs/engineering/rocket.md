@@ -4,9 +4,8 @@ Escape Earth.
 
 Related pages:
 
-- [Astronomy](../astronomy.md)
-  - Worth looking at the list of YouTubers and sites, some do explain the
-    engineering aspect of rockets
+- [Astronomy](../astronomy.md) — Worth looking at the list of YouTubers and
+  sites, some do explain the engineering aspect of rockets
 
 ## Resources
 
@@ -52,7 +51,7 @@ Rotating Detonation Rocket Engine (RDRE)
     to simulate the chaotic flow
   - CRCop-42 Copper: alloy that can cope with the high fluctuation of
     temperature and pressure, and can be 3D printed
-  - Aero spike nozzle to improve the engine's efficiency over a range of
+  - Aero spike nozzle can improve the engine's efficiency over a range of
     altitude, i.e., a range of atmospheric pressure
 - News:
   [NASA Validates Revolutionary Propulsion Design for Deep Space Missions](https://www.nasa.gov/centers/marshall/feature/nasa-validates-revolutionary-propulsion-design-for-deep-space-missions)
