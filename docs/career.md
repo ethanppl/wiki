@@ -27,3 +27,8 @@ About working in a job.
   - The underground economy of adding, removing and analyzing company job
     reviews on sites like Glassdoor, ranging from freelancers to different
     online reputation management agencies/services
+- [Give a lot of notice when you quit](https://davidlaprade.github.io/give-a-lot-of-notice)
+  - So to leave on a positive note, do only the part of the job you enjoy most,
+    eliminate stress, take unused vacations, and vest more stock while getting
+    paid the same and getting the bonus. Given that you have a good reputation
+    in the team.
