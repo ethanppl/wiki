@@ -26,3 +26,5 @@ Effectively prompt AI models to utilize their power.
   - Explorations in using ChatGPT to build self-testing code
   - Uses chain of thought and generated knowledge prompting approaches with
     ChatGPT
+- [Prompt Engineering vs Blind Prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting)
+  - Techniques explained: demonstration set, prompt candidates, prompt testing
