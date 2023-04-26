@@ -62,3 +62,8 @@ Courses
 - [How Replit train their own Large Language Models](https://blog.replit.com/llm-training)
   - Data processing (Databricks) → Custom tokenization → Model training
     (MosaicML) → Evaluation (HumanEval framework)
+- [A Cookbook of Self-Supervised Learning](https://arxiv.org/abs/2304.12210)
+  ([PDF](https://arxiv.org/pdf/2304.12210.pdf))
+  ([HN](https://news.ycombinator.com/item?id=35702490))
+  - 70 pages cookbook lowering the barrier of entry for training AI with
+    self-supervised learning
