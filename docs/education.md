@@ -8,6 +8,14 @@ Transfer of knowledge.
 
 ## Links
 
+Technology and Education
+
+- [A fireside chat on education, technology and almost everything in between](https://www.gatesnotes.com/ASU-and-GSV)
+  - A fireside chat with Bill Gates and Jessie Wooley -Wilson, CEO of DreamBox
+    Learning
+  - The status of education technology, particularly in math, what the Gates
+    Foundation is doing and the impact of AI
+
 School and sleep
 
 - [Delayed school start times and adolescent sleep: A systematic review of the experimental evidence](https://www.sciencedirect.com/science/article/abs/pii/S1087079215000891)
@@ -27,7 +35,7 @@ School and sleep
 
 College
 
-- [Ask HN: What would you recommend a 16-year-old to pursue career wise?](https://news.ycombinator.com/item?id=35619545)
+- [Ask HN: What would you recommend a 16-year-old to pursue career-wise?](https://news.ycombinator.com/item?id=35619545)
   - People focused on why attending college is worth it for a 16-year-old, what
     to aim for in a college
   - To me, that is also people illustrating what a college supposed to provide
