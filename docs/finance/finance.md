@@ -29,7 +29,7 @@ Quick notes for things I want to add:
   - The economy does not consist of a single bank, bank runs can be analyzed
     from a systematical point of view
 - [Why markets are in an uproar over Swiss zeroed Credit Suisse AT1 bonds | Reuters](https://www.reuters.com/markets/why-markets-are-uproar-over-risky-bank-bond-known-at1-2023-03-20/)
-  - AT1 bond: "contingent convertibles" (CoCo) act as shock absorbers if a
+  - AT1 bond: "Contingent Convertibles" (CoCo) act as shock absorbers if a
     bank's capital fall below a threshold. They are risky and they can be
     converted into equity or completely written off
   - Under the current UBS and Credit Suisse deal, FINMA, the Swiss watchdog, has

@@ -29,6 +29,12 @@ Related pages:
     health issues and more
   - My question is what about entrepreneurs for smaller businesses and
     businesses that failed?
+- [Explaining tech's notion of talent scarcity](https://nadia.xyz/top-talent)
+  - Different corporates/industries have different distributions of talent
+    (normal, Pareto, bimodal)
+  - Some compete for A-players, some aim for uniquely gifted workers at
+    particular tasks, and some have talents that are difficult to explain or
+    replicate. All these affect the corporate culture and the management style
 
 Examples/Stories:
 
