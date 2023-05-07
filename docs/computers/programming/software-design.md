@@ -49,6 +49,13 @@ Explanations:
     algorithms, with a playground at the end
   - Round robin, weighted random, weighted round robin, least connections, peak
     EWMA
+- [Payments 101 for a developer](https://github.com/juspay/hyperswitch/wiki/Payments-101-for-a-Developer)
+  - A guide for developers developing systems involving the transfer of money.
+    The common terminologies and concepts.
+  - Terminologies: merchant, issuer, acquirer, network or scheme, payment
+    processor, PCI compliance, GDPR compliance, etc.
+  - Concepts: intent to pay, data collection, authentication, authorization,
+    status validation, dispute, refund, settlement, etc.
 
 Real-world examples:
 
