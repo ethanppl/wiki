@@ -85,3 +85,9 @@ Real-world examples:
       is now overridden by a forced push
       ([ref](https://twitter.com/wongmjane/status/1642028241828601856),
       [original commit](https://github.com/twitter/the-algorithm/blob/7f90d0ca342b928b479b512ec51ac2c3821f5922/graph-feature-service/src/main/scala/com/twitter/graph_feature_service/server/handlers/ServerWarmupHandler.scala#L23))
+- [Amazon Prime Video switched from microservices to a monolith design](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
+  - Initial design: distributed components orchestrated by AWS Step Functions
+  - Problems: orchestration management hit account limits and data transferred
+    between components through S3 is expensive
+  - New design: single monolith structure with AWS EC2 and ECS
+  - Reduced infrastructure cost by over 90%
