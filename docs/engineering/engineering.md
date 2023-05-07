@@ -37,3 +37,20 @@ Websites:
 - [The F-15 Eagle](https://media.defense.gov/2012/May/16/2001330012/-1/-1/0/AFD-120516-036.pdf)
   ([HN](https://news.ycombinator.com/item?id=35313030))
   - The design and development of the F-15 fighter jet
+
+Concrete / Cement
+
+- Concrete = cement + aggregate (sand, gravel, etc.)
+- YouTube:
+  [Explaining concrete while getting buried in it | Veritasium](https://youtu.be/rWVAzS5duAs)
+  - Cementitious material is the most produced solid material on Earth
+  - Concrete is dense, basically not possible to get buried in it
+  - Concrete hardens by hydration, not drying. Crystals of hydrated minerals
+    form and interlock
+  - Fun fact: regular pop (e.g. Coke) can slow down the setting of concrete
+- YouTube:
+  [The big problem with cement, and how to fix it | Vox](https://youtu.be/asLWBGtAhZk)
+  - The embodied carbon in cement is huge, in buildings, roads, and other
+    infrastructure
+  - Cutdown emission: cutdown excess concrete, switch fuels during production,
+    reduce clinker ration, carbon capture
