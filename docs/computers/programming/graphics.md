@@ -9,10 +9,20 @@ can gather over time.
 
 - [MIT 6.837 Computer Graphics Course](https://ocw.mit.edu/courses/6-837-computer-graphics-fall-2012/pages/syllabus/)
   - [Fall 2020 Lecture videos on YouTube by Prof. Justin Solomon](https://youtube.com/playlist?list=PLQ3UicqQtfNuBjzJ-KEWmG1yjiRMXYKhh)
+
+WebGPU
+
+- [I want to talk about WebGPU | Andi](https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu)
+  - A blog on a detailed history of graphics API libraries and why WebGPU
+    matters
+  - I find this quite helpful to understand how it goes from OpenGL, Vulkan,
+    Metal, Direct3D, and WebGL to WebGPU
 - [Web GPU Fundamentals](https://webgpufundamentals.org/)
   - Resources for learning WebGPU, an API for drawing points, lines, triangles
     to textures and running computations on GPU
   - WebGPU is similar to WebGL but WebGL is a stateful API and WebGPU is not
+- [Learn WebGPU | eliemichel.github.io](https://eliemichel.github.io/LearnWebGPU/)
+  - Writing native 3D applications in C++ with WebGPU
 
 ## Links
 
