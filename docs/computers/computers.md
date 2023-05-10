@@ -2,6 +2,15 @@
 
 Anything about computers.
 
+## Resources
+
+- [NAND to Tetris Course](https://www.nand2tetris.org/course)
+  - A course to understand how a computer works
+  - Using NAND gates to build a programming language that can build the game
+    Tetris
+  - NAND gates, boolean logic, machine language, computer architecture, assembly
+    language, virtual machine, high-level language, compiler, operating system
+
 ## Sites
 
 Other Wikis:
@@ -25,11 +34,10 @@ News/forums/communities:
 - [Lobsters](https://lobste.rs/) — similar to hacker news, more focused on
   programming
 
-## Resources
+## Links
 
-- [NAND to Tetris Course](https://www.nand2tetris.org/course)
-  - A course to understand how a computer works
-  - Using NAND gates to build a programming language that can build the game
-    Tetris
-  - NAND gates, boolean logic, machine language, computer architecture, assembly
-    language, virtual machine, high-level language, compiler, operating system
+- [Internet in a box](https://internet-in-a-box.org/)
+  ([FAQ](https://wiki.iiab.io/go/FAQ))
+  ([HN](https://news.ycombinator.com/item?id=35750165))
+  - An awesome project to put the Internet into a box for places that are not
+    connected to the Internet
