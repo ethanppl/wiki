@@ -35,3 +35,8 @@ YouTube:
   scrolling for 5 minutes
   - Scroll from the Earth's surface to space, and see what you can see at each
     level, like birds, planes, rockets, etc.
+- [Satellite Map](https://satellitemap.space/) — where are the Starlink and GPS
+  satellites
+  - [HN](https://news.ycombinator.com/item?id=35749130) top comment: Yes, the
+    space looks crowded because it is exaggerated. No, Kessler Syndrome is not a
+    realistic concern
