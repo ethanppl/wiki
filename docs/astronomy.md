@@ -8,6 +8,14 @@ Related pages:
 
 ## Resources
 
+- [NASA: Basic of Space Flights](https://www2.jpl.nasa.gov/basics/index.php)
+  - Explaining the concepts associated with deep space missions and the
+    relationships among them
+- [Space Jargon | GitHub @LunCoSim](https://github.com/LunCoSim/lunco-space-jargon)
+  — space-related terms and jargon
+  - Also,
+    [NASA's list of Acronyms and Abbreviations](https://www.nasa.gov/pdf/632702main_NASA_FY13_Budget-Reference-508.pdf)
+
 Telescopes for stargazing (if binoculars aren't enough):
 
 - [Beginner's Quick Guide to choosing your first telescope | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/z9s352/beginners_quick_guide_to_choosing_your_first/)
@@ -15,6 +23,11 @@ Telescopes for stargazing (if binoculars aren't enough):
 - [Beginner's Guide to (Budget) Eyepieces | Reddit r/telescopes](https://www.reddit.com/r/telescopes/comments/iv7qg2/a_beginners_guide_to_budget_eyepieces/)
 
 ## Sites
+
+- [Awesome Space | GitHub @orbitalindex](https://github.com/orbitalindex/awesome-space)
+  — space-related code, APIs, data, and other resources
+
+News:
 
 - [The Orbital Index](https://orbitalindex.com/) — weekly newsletter
   highlighting space exploration news
@@ -40,3 +53,9 @@ YouTube:
   - [HN](https://news.ycombinator.com/item?id=35749130) top comment: Yes, the
     space looks crowded because it is exaggerated. No, Kessler Syndrome is not a
     realistic concern
+- [StackExchange resources and references on the topic of space exploration](https://space.meta.stackexchange.com/questions/249/)
+  - Books, journals, for kids, launch manuals and user manuals
+- YouTube:
+  [DRONE Solar System Model - How far is Planet 9? | Mark Rober](https://youtu.be/pR5VJo5ifdE)
+  - A visualization of the scale of the solar system on a football field with
+    the Earth as the size of the head of a pin
