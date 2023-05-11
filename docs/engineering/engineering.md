@@ -8,6 +8,8 @@ YouTube Channels:
 
 - [Mark Rober](https://www.youtube.com/@MarkRober/videos) — More entertaining
   approach to science and engineering topics
+- [Smarter Every Day](https://www.youtube.com/@smartereveryday/videos) — All
+  sorts of science and engineering applications
 - [Steve Mould](https://www.youtube.com/@SteveMould/videos) — Random science and
   engineering topics
 - [Practical Engineer](https://www.youtube.com/@PracticalEngineeringChannel/videos)
@@ -54,3 +56,18 @@ Concrete / Cement
     infrastructure
   - Cutdown emission: cutdown excess concrete, switch fuels during production,
     reduce clinker ration, carbon capture
+
+Space Memory Alloy: Nitinol (Nickel Titanium Alloy)
+
+- YouTube:
+  [How NASA Reinvented The Wheel | Veritasium](https://youtu.be/vSNtifE0Z2Q)
+  - So far the best explanation of the properties of Nitinol
+  - Great visualization of the phase transitions: austenite (high temp) and
+    twinned/detwinned martensite (low temp)
+  - Other properties: superelasticity (strain under stress), Elastocaloric
+    (exothermic under stress, endothermic under release)
+  - Applications: heart stents, airless tires, vortex generators on planes,
+    replacing hydraulics or pressurized components
+- YouTube: [Real Engineering](https://youtu.be/2lv6Vs12jLc) — More details on
+  the problem of current Mars rovers' wheels
+- YouTube: [Verge Science](https://youtu.be/Pn-6bGORy0U) — Less technical terms
