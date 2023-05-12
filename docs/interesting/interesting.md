@@ -22,6 +22,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
   (30 min long read)
   - Excerpt from the book Ruse: Lying the American Dream from Hollywood to Wall
     Street about being a corporate spy
+- [Cantonese Font](https://visual-fonts.com/)
+  ([HN](https://news.ycombinator.com/item?id=35867275)) — A Chinese font with
+  Cantonese pronunciations on top (so random but I like Cantonese)
 
 April Fools
 
