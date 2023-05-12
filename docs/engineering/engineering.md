@@ -25,6 +25,8 @@ YouTube Channels:
   internals of different machines with very cool 3D visualizations
 - [Jared Owen](https://www.youtube.com/@JaredOwen/videos) — Also 3D animations
   on engineering designs
+- [Branch Education](https://www.youtube.com/@BranchEducation) — Also cool 3D
+  animations
 - [Stuff made here](https://www.youtube.com/@StuffMadeHere/videos) — DIY
   projects
 - [DIY Perks](https://www.youtube.com/@DIYPerks/videos) — DIY projects
@@ -57,7 +59,7 @@ Concrete / Cement
   - Cutdown emission: cutdown excess concrete, switch fuels during production,
     reduce clinker ration, carbon capture
 
-Space Memory Alloy: Nitinol (Nickel Titanium Alloy)
+Shape Memory Alloy: Nitinol (Nickel Titanium Alloy)
 
 - YouTube:
   [How NASA Reinvented The Wheel | Veritasium](https://youtu.be/vSNtifE0Z2Q)
@@ -71,3 +73,22 @@ Space Memory Alloy: Nitinol (Nickel Titanium Alloy)
 - YouTube: [Real Engineering](https://youtu.be/2lv6Vs12jLc) — More details on
   the problem of current Mars rovers' wheels
 - YouTube: [Verge Science](https://youtu.be/Pn-6bGORy0U) — Less technical terms
+
+Starlink
+
+- YouTube:
+  [How does Starlink Satellite Internet Work? | Branch Education](https://youtu.be/qs2QcycggWU)
+  - Starlink dish: 1280 aperture coupled patch antennas emit electromagnetic
+    waves to the satellite by beamforming
+  - Steering the signal: phased array beam steering (phase difference "steer"
+    the angle of the constructive interference)
+  - Encoding data: 64-QAM modulation (amplitude modulation + phase modulation
+    encoding 64 bits in one symbol)
+- Patent:
+  [Distributed phase shifter array system and method](https://patents.google.com/patent/US20180241122A1)
+- [Elon Musk Starlink Satellite Broadband](https://dgtlinfra.com/elon-musk-starlink-and-satellite-broadband/)
+  - Orbit (LEO), broadband services, deployment process, the infrastructure
+    involved and the end goal
+- YouTube:
+  [Why SpaceX is Making Starlink | Real Engineering (2019)](https://youtu.be/giQ8xEWjnBs)
+  - The business incentives and the potential for building a Starlink network
