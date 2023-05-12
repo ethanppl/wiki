@@ -17,3 +17,7 @@ Communications between computers.
     translation (NAT)
   - Transition mechanisms: dual stack, stateless IP/ICMP transition, NAT64,
     464XLAT
+- [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
+  ([HN](https://news.ycombinator.com/item?id=35884437))
+  - Annotated live demo of an HTTPS request, with handshakes, key exchanges,
+    certificate validation, decryption, etc.
