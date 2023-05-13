@@ -12,7 +12,7 @@ All the content is in the `docs` folder written in Markdown.
 
 ## Little bit stats
 
-Number of `.md` files and number of links:
+The number of `.md`` files and the number of links:
 
 ```bash
 npm run count

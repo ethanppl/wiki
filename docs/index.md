@@ -33,3 +33,17 @@ I try to classify the links into three main categories:
 I also save the links I put here to the
 [Internet Archive](https://archive.org/). So if you find a link is broken, try
 searching for it in the Internet Archive.
+
+# Where to start?
+
+Find a topic on the sidebar that interests you, probably a topic you know or a
+topic that you are recently paying attention to. If you have no idea where to
+start, I suggest checking out these pages:
+
+- [Learning](./learning) page: I believe learning how to learn is the most
+  important skill to have
+
+# Side notes
+
+- I realize it's easier to see links in dark mode, but it's easier to see bold
+  text in light mode
