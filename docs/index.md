@@ -42,8 +42,5 @@ start, I suggest checking out these pages:
 
 - [Learning](./learning) page: I believe learning how to learn is the most
   important skill to have
-
-# Side notes
-
-- I realize it's easier to see links in dark mode, but it's easier to see bold
-  text in light mode
+- [Computers](./computers) page: This page contains the largest tree in this
+  wiki

@@ -82,6 +82,9 @@ const config = {
           autoCollapseCategories: true,
         },
       },
+      metadata: [
+        { name: "keywords", content: "wiki, guides, resources, collections" },
+      ],
     }),
   themes: [
     [
