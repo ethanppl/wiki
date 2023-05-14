@@ -4,27 +4,35 @@ Anything about computers.
 
 ## Resources
 
+- [Code: The Hidden Language of Computer Hardware and Software](https://www.codehiddenlanguage.com/)
+  - A book that explains how computers work from the ground up
 - [NAND to Tetris Course](https://www.nand2tetris.org/course)
   - A course to understand how a computer works
   - Using NAND gates to build a programming language that can build the game
     Tetris
   - NAND gates, boolean logic, machine language, computer architecture, assembly
     language, virtual machine, high-level language, compiler, operating system
+- [A Functional Introduction to Computer Science](https://cs.uwaterloo.ca/~plragde/flane/FICS/)
+  - Various districts of Computer Science, not just programming, facilitated
+    with a functional programming language called Racket
+  - [Part I](https://cs.uwaterloo.ca/~plragde/flane/FICS/): syntax & semantics,
+    structures, lists, functional abstraction, efficient representations, trees,
+    recursion, and interpreters
+  - [Part II](https://cs.uwaterloo.ca/~plragde/flane/FICS2/): imperative
+    programming languages, instruction set, implementing functional languages,
+    control, and continuations
 
 ## Sites
 
-Other Wikis:
-
-- [awesome | GitHub @sindresorhus](https://github.com/sindresorhus/awesome)
-  - A list of awesome lists of all kinds of topics, mainly related to computers
-
-YouTube Channels:
-
-- [Computerphile](https://www.youtube.com/@Computerphile/videos) — Computer
-  science topics explained by computer scientists
+- [awesome | GitHub @sindresorhus](https://github.com/sindresorhus/awesome) — A
+  curated list of awesome lists, mainly related to computers
+- YouTube: [Computerphile](https://www.youtube.com/@Computerphile/videos) —
+  Computer science topics explained by computer scientists
 
 News/forums/communities:
 
+- [TLDR Newsletter](https://tldr.tech/tech/archives) — Daily newsletter on tech
+  news
 - [Hacker News](https://news.ycombinator.com/) — News and articles about
   computers, programming, startups, etc.
   - Instead of checking it regularly, can try the
