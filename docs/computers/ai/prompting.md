@@ -28,3 +28,7 @@ Effectively prompt AI models to utilize their power.
     ChatGPT
 - [Prompt Engineering vs Blind Prompting](https://mitchellh.com/writing/prompt-engineering-vs-blind-prompting)
   - Techniques explained: demonstration set, prompt candidates, prompt testing
+- [Brex's Prompt Engineering Guide](https://github.com/brexhq/prompt-engineering)
+  - History of LLM? What is a prompt? Why prompt engineering? Strategies?
+  - Embedding data (lists, tables, JSON, etc.), citations, programmatic
+    consumption, and chain of thought prompting
