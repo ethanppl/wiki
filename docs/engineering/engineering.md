@@ -21,15 +21,19 @@ YouTube Channels:
 - [The Engineering Mindset](https://www.youtube.com/@EngineeringMindset/videos)
   — Explore specific components in different systems, focus more on a specific
   component
-- [Animagraffs](https://www.youtube.com/@animagraffs/videos) — Explain the
-  internals of different machines with very cool 3D visualizations
-- [Jared Owen](https://www.youtube.com/@JaredOwen/videos) — Also 3D animations
-  on engineering designs
-- [Branch Education](https://www.youtube.com/@BranchEducation) — Also cool 3D
-  animations
-- [Stuff made here](https://www.youtube.com/@StuffMadeHere/videos) — DIY
-  projects
-- [DIY Perks](https://www.youtube.com/@DIYPerks/videos) — DIY projects
+
+3D Animations:
+
+- [Animagraffs](https://www.youtube.com/@animagraffs/videos)
+- [Jared Owen](https://www.youtube.com/@JaredOwen/videos)
+- [Branch Education](https://www.youtube.com/@BranchEducation)
+- [Lesics](https://www.youtube.com/@Lesics/videos)
+- [3D Living Studio](https://www.youtube.com/@3DLivingStudio/videos)
+
+DIY projects:
+
+- [Stuff made here](https://www.youtube.com/@StuffMadeHere/videos)
+- [DIY Perks](https://www.youtube.com/@DIYPerks/videos)
 
 Websites:
 
