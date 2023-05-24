@@ -6,6 +6,19 @@ About working in a job.
 
 - [YC Ultimate Startup Job Guide](https://www.ycombinator.com/library/Ei-yc-ultimate-startup-job-guide)
   - Understanding startup, picking startup, resume, interview, compensation
+- [Pmarca Guide to Career Planning](https://pmarchive.com/guide_to_career_planning_part0.html)
+  - Towards a tech career aiming for a significant impact on the industry
+  - View the career as a portfolio of skills and roles, and examine whether the
+    opportunities fit strategically into the portfolio
+  - Become the best at one specific thing (hard), or be in the top 25% at two or
+    more things (easier)
+  - 5 important skills: public speaking, managing people, sales (convince
+    people), finance, international exposure
+  - Challenge yourself, expose to risk, and make tough decisions without good
+    information, without the safety net. Failing and getting back up is the most
+    valuable skill to learn. Start learning it early.
+  - At last, never be afraid to be a small fish in a big pond, go where the
+    actions are happening
 
 ## Links
 
@@ -32,3 +45,5 @@ About working in a job.
     eliminate stress, take unused vacations, and vest more stock while getting
     paid the same and getting the bonus. Given that you have a good reputation
     in the team.
+- [Inside the Fight for Kickstarter's Union | The Verge](https://www.theverge.com/23732782/kickstarter-union-organizing-good-enough-job-excerpt)
+  - The story of creating a labour union in a technology company
