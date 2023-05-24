@@ -14,9 +14,9 @@ About working in a job.
     more things (easier)
   - 5 important skills: public speaking, managing people, sales (convince
     people), finance, international exposure
-  - Challenge yourself, expose to risk, and make tough decisions without good
-    information, without the safety net. Failing and getting back up is the most
-    valuable skill to learn. Start learning it early.
+  - Challenge yourself, expose yourself to risk, and make tough decisions
+    without good information, without the safety net. Failing and getting back
+    up is the most valuable skill to learn. Start learning it early.
   - At last, never be afraid to be a small fish in a big pond, go where the
     actions are happening
 
@@ -47,3 +47,27 @@ About working in a job.
     in the team.
 - [Inside the Fight for Kickstarter's Union | The Verge](https://www.theverge.com/23732782/kickstarter-union-organizing-good-enough-job-excerpt)
   - The story of creating a labour union in a technology company
+- [What workers care about, according to a Post-Ipsos poll | WSJ](https://archive.ph/3gHXK)
+  (2023)
+  - People who can work remotely prefer the home office
+  - Majorities of workers (>80%) say pay, as well as good bosses, is 'extremely'
+    or 'very' important
+  - 61% of workers seek to excel and advance, 33% do their job well but don't go
+    beyond what they're paid for
+
+Remote work
+
+- [Changing my mind on remote | Flo Crivello](https://flocrivello.com/changing-my-mind-on-remote-about-being-in-san-francisco/)
+  - An AI assistant company ends remote work because of the friction in
+    communication compound over time
+- [The effects of remote work on collaboration among information workers | Nature](https://www.nature.com/articles/s41562-021-01196-4)
+  - Synchronous communication decrease and asynchronous communication (less
+    "rich" media: email, IM) increase
+  - The collaboration network becomes "more heavily siloed" (isolated), which
+    may "impede the transfer of knowledge" and "reduce the quality of workers'
+    output"
+- [The Relationship Between Remote Work and Job Satisfaction | Master Theses, San Jose State University](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8564&context=etd_theses)
+  - Mediating roles of perceived autonomy and work-family conflict in the
+    relationship between remote work and job satisfaction
+  - Remote work → higher perception of autonomy → higher job satisfaction
+  - Remote work → fewer work-family conflicts → higher job satisfaction
