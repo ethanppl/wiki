@@ -8,6 +8,31 @@ Making things friendly and appealing.
 - [Modern Font Stacks](https://modernfontstacks.com/) — Preview modern system
   fonts, a collection of the fastest fonts available across operating systems
 
+Collections of UX/UI Design:
+
+- [Page Collective](https://pagecollective.com/)
+- [Screen Lane](https://screenlane.com/)
+- [Page Flows](https://pageflows.com/)
+- [Nicely Done Club](https://nicelydone.club/)
+- [UX Archive](https://uxarchive.com/)
+- [Mobbin Desing](https://mobbin.design/)
+- [Design Encyclopedia](https://www.designencyclopedia.io/)
+- [Collect UI](https://collectui.com/)
+
+Free Design Tools/Applications (likely alternative to Adobe):
+
+- [Figma](https://www.figma.com/pricing/) — UI/UX design, acquired by Adobe,
+  free for now. _It was said that you would destroy the Sith, not join them_
+- [Photopea](https://www.photopea.com/) — Open-source online photo editor, an
+  alternative to Adobe Photoshop ([manual](https://www.photopea.com/learn/),
+  [code](https://github.com/photopea/photopea))
+- [Armor Paint](https://armorpaint.org/) — Open-source 3D painting software, an
+  alternative to Adobe Substance ([manual](https://armorpaint.org/manual),
+  [code](https://github.com/armory3d/armortools))
+- [Krita](https://krita.org/en/features/highlights/) — Open-source painting
+  software ([manual](https://docs.krita.org/en/user_manual.html),
+  [code](https://invent.kde.org/graphics/krita))
+
 ## Links
 
 Guides
