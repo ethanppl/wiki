@@ -2,8 +2,14 @@
 
 Transfer of knowledge.
 
+[Donovan Livingston's Harvard Graduate School of Education Student Speech](https://youtu.be/9XGUpKITeJM).
+
 ## Sites
 
+- [Project Zero | Harvard Graduate School of Education](https://pz.harvard.edu/)
+  — Educators understanding and nurturing human potential
+  - [Project Zero's Thinking Routine Toolbox](https://pz.harvard.edu/thinking-routines):
+    a set of questions/steps to scaffold and support student thinking
 - [KidzSearch](https://www.kidzsearch.com/sites.html) — Websites safe for kids
 
 ## Links
