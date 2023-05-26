@@ -17,11 +17,6 @@ Effectively prompt AI models to utilize their power.
     classification, conversation, code generation and reasoning
   - Prompting strategies: zero-shot/few-shot prompting, and chain of thought
     prompting
-- [Prompt Injection: What's the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)
-  ([HN](https://news.ycombinator.com/item?id=35572290))
-  - Applications that build on top of LLM, what if users can inject the prompts?
-  - LLM cannot distinguish data & instructions, it might treat instructions as
-    data and data as instructions
 - [An example of LLM prompting for programming](https://martinfowler.com/articles/2023-chatgpt-xu-hao.html)
   - Explorations in using ChatGPT to build self-testing code
   - Uses chain of thought and generated knowledge prompting approaches with
@@ -32,3 +27,22 @@ Effectively prompt AI models to utilize their power.
   - History of LLM? What is a prompt? Why prompt engineering? Strategies?
   - Embedding data (lists, tables, JSON, etc.), citations, programmatic
     consumption, and chain of thought prompting
+
+Prompt Injection
+
+- [Lakera AI's Gandalf](https://gandalf.lakera.ai/)
+  ([HN](https://news.ycombinator.com/item?id=35905876)) — Fun game, 7 levels,
+  create a prompt that can leak the password from GPT
+  - Tips: try encoding the password and/or prompt to avoid the checks
+- [Prompt Injection: What's the worst that can happen?](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)
+  ([HN](https://news.ycombinator.com/item?id=35572290))
+  - Applications that build on top of LLM, what if users can inject the prompts?
+  - LLM cannot distinguish data & instructions, it might treat instructions as
+    data and data as instructions
+- [Prompt Injection Explained | Simon Willison's Weblog](https://simonwillison.net/2023/May/2/prompt-injection-explained/)
+  ([HN](https://news.ycombinator.com/item?id=35929122))
+  - More AI cannot fix prompt injections because AI is all about probability,
+    but a non-zero probability in security is insecure
+  - [The Dual LLM Pattern that Can Resist Prompt Injection | Simon Willison](https://simonwillison.net/2023/Apr/25/dual-llm-pattern/)
+    — Priviledged + Quarantined setup
+  - [All of Simon Willison's posts on prompt injection](https://simonwillison.net/series/prompt-injection/)
