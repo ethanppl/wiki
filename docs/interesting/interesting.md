@@ -24,7 +24,13 @@ Things that are interesting or for fun. Not sure where to put these yet.
     Street about being a corporate spy
 - [Cantonese Font](https://visual-fonts.com/)
   ([HN](https://news.ycombinator.com/item?id=35867275)) — A Chinese font with
-  Cantonese pronunciations on top (so random but I like Cantonese)
+  Cantonese pronunciations on top
+  - A discussion in HN about how difficult Canto songs lyrics are because it is
+    a tonal language, and that's why I like Canto songs
+- [Early computer art in the 50s and 60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)
+  (more examples in the
+  [HN discussion](https://news.ycombinator.com/item?id=35955062)) — early
+  creation of art using computers
 
 April Fools
 
