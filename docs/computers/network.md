@@ -21,3 +21,6 @@ Communications between computers.
   ([HN](https://news.ycombinator.com/item?id=35884437))
   - Annotated live demo of an HTTPS request, with handshakes, key exchanges,
     certificate validation, decryption, etc.
+- [Implement DNS in a weekend | Wizard Zines project](https://implement-dns.wizardzines.com/)
+  ([HN](https://news.ycombinator.com/item?id=35916064))
+  - Build a DNS query in bytes, parse the response, implement a custom resolver
