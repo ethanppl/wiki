@@ -14,9 +14,10 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "format": "prettier --write . --ignore-path .prettierignore",
-    "count": "npm run --silent count-files & npm run --silent count-links",
+    "count": "npm run --silent count-files & npm run --silent count-links & npm run --silent count-bullet-points",
     "count-files": "ls -lR docs/ | grep \".md\" | wc -l | xargs echo \"Total number of files: \"",
-    "count-links": "grep -roe \\[[[:alnum:][:blank:][:punct:]]*\\]\\(http.*\\) --include \\*.md docs/* | wc -l | xargs echo \"Total number of links: \""
+    "count-links": "grep -roe \\[[[:alnum:][:blank:][:punct:]]*\\]\\(http.*\\) --include \\*.md docs/* | wc -l | xargs echo \"Total number of links: \"",
+    "count-bullet-points": "grep -roe ^[[:blank:]]*\\-[[:blank:]] --include \\*.md docs/* | wc -l | xargs echo \"Total number of bullet points: \""
   },
   "dependencies": {
     "@docusaurus/core": "^2.4.0",
