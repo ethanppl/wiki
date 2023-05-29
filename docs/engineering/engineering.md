@@ -45,6 +45,15 @@ Websites:
 - [The F-15 Eagle](https://media.defense.gov/2012/May/16/2001330012/-1/-1/0/AFD-120516-036.pdf)
   ([HN](https://news.ycombinator.com/item?id=35313030))
   - The design and development of the F-15 fighter jet
+- [Why Lightbulbs Might Be The Best Invention Ever](https://youtu.be/FU_YFpfDqqA)
+  - From lightbulbs to vacuum tubes to computers
+  - The Edison effect: in a vacuum, electrons flow from a heated element, the
+    basics of diodes, triodes and vacuum tubes
+  - Also, people realize connecting relay switches "tricks" electrons to do
+    arithmetic calculations
+  - But relay switches are mechanical, unreliable and loud
+  - Vacuum tubes can replace relay switches, without the mechanical movements,
+    forming early days programmable computers
 
 Concrete / Cement
 
