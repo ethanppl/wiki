@@ -67,3 +67,7 @@ Courses
   ([HN](https://news.ycombinator.com/item?id=35702490))
   - 70 pages cookbook lowering the barrier of entry for training AI with
     self-supervised learning
+- [All the Hard Stuff Nobody Talks About when Building Products with LLMs | Honeycomb.io](https://www.honeycomb.io/blog/hard-stuff-nobody-talks-about-llm)
+  - It's hard to build a real product backed by an LLM
+  - Limited context windows, LLMs are slow and chaining is impractical, prompt
+    engineering is weird, prompt injection, etc
