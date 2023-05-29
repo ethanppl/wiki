@@ -33,6 +33,8 @@ How to live a happier, healthier, and more productive life.
 - [Healthy Living Guide 2021/2022 | Harvard The Nutrition Source](https://www.hsph.harvard.edu/nutritionsource/2022/01/06/healthy-living-guide-2021-2022/)
   ([PDF](https://www.hsph.harvard.edu/nutritionsource/wp-content/uploads/sites/30/2022/01/HealthyLivingGuide21-22.pdf))
   - Mainly focus on food, workout and sleep, with some nice infographics
+- [The Open Buddhist University](https://buddhistuniversity.net/) — 16 courses
+  and a library of articles and books
 
 Eyes
 

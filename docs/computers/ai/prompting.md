@@ -44,5 +44,5 @@ Prompt Injection
   - More AI cannot fix prompt injections because AI is all about probability,
     but a non-zero probability in security is insecure
   - [The Dual LLM Pattern that Can Resist Prompt Injection | Simon Willison](https://simonwillison.net/2023/Apr/25/dual-llm-pattern/)
-    — Priviledged + Quarantined setup
+    — Privileged + Quarantined setup
   - [All of Simon Willison's posts on prompt injection](https://simonwillison.net/series/prompt-injection/)
