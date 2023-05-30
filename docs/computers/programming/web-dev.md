@@ -29,3 +29,11 @@ Developing user interfaces of web pages.
   animations
   - Some are quite simple, animations without any JavaScript but just CSS. I
     like the Spotlight one
+- [300ms Faster: Reducing Wikipedia's Total Blocking Time | Nicholas Ray](https://www.nray.dev/blog/300ms-faster-reducing-wikipedias-total-blocking-time/)
+  ([HN](https://news.ycombinator.com/item?id=36113430))
+  - Tasks run longer than 50ms are considered long tasks, anything longer than
+    that is blocking other tasks
+  - Remove unnecessary JavaScript: initializing multiple event handlers or
+    callbacks
+  - Optimize existing JavaScript: event delegation, attach a single event
+    listener to a common ancestor of many elements
