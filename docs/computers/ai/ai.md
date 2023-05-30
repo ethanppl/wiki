@@ -71,3 +71,9 @@ Courses
   - It's hard to build a real product backed by an LLM
   - Limited context windows, LLMs are slow and chaining is impractical, prompt
     engineering is weird, prompt injection, etc
+- [Production AI Systems are really hard | Kevin Fischer](https://methexis.substack.com/p/production-ai-systems-are-really)
+  ([HN](https://news.ycombinator.com/item?id=36111596))
+  - Using radiologists as an example to explain why it is hard to build
+    production AI systems that can replace an occupation
+  - The top comment in HN gives good insight, sometimes the market AI companies
+    focus on is wrong
