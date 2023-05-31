@@ -26,6 +26,7 @@ Telescopes for stargazing (if binoculars aren't enough):
 
 - [Awesome Space | GitHub @orbitalindex](https://github.com/orbitalindex/awesome-space)
   — space-related code, APIs, data, and other resources
+- [Who Is In Space](https://whoisinspace.com/) — who is in space right now?
 
 News:
 
