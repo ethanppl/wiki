@@ -54,6 +54,11 @@ About working in a job.
     or 'very' important
   - 61% of workers seek to excel and advance, 33% do their job well but don't go
     beyond what they're paid for
+- [Stop Being a Junior | Kent C. Dodds](https://kentcdodds.com/blog/stop-being-a-junior)
+  - Tech is fast, take it as an opportunity to quickly catch up to the frontier
+  - Try to be at the level of the seniors, and eventually will start to feel
+    like one
+  - Volunteer to participate and talk about accomplishments but do not overstep
 
 Remote work
 
