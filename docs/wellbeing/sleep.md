@@ -51,3 +51,8 @@ Having a dark, cool, quiet and gadget-free environment helps.
 - [Let teenagers sleep | Scientific American](https://www.scientificamerican.com/article/let-teenagers-sleep/)
   - Schools are reluctant to change. It's time to stop thinking of school's
     start time as immovable mountains
+- [Zapping the brain during sleep helps memories form | Freethink](https://www.freethink.com/health/memory-consolidation-brain-stimulation)
+  - Zapping means using implanted electrodes to stimulate patients' brains
+  - The study confirmed the communication between the hippocampus (short-term
+    memory) and the prefrontal cortex (long-term memory) during sleep for memory
+    consolidation and a way to strengthen the connection
