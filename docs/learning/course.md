@@ -29,3 +29,7 @@ Other places to look at
 
 - [LPT: what are some free skills to learn during free time?](https://www.reddit.com/r/LifeProTips/comments/13fogsf/lpt_what_are_some_free_skills_to_learn_during/)
 - [Best MOOCs by HackerNews Users | GitHub @Tuccinator](https://github.com/Tuccinator/hn-moocs)
+- [600 free online courses from 190 Universities | Quartz](https://qz.com/1437623/600-free-online-courses-you-can-take-from-universities-worldwide)
+  - Main categories: Programming, engineering, computer science, social
+    sciences, science, art & design, mathematics, humanities, business, health &
+    medicine, data science, education & teaching, personal development
