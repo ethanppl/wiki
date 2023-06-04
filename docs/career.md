@@ -59,6 +59,27 @@ About working in a job.
   - Try to be at the level of the seniors, and eventually will start to feel
     like one
   - Volunteer to participate and talk about accomplishments but do not overstep
+- [On Being A Senior Engineer | Kitchen Soap](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
+  - Mostly focused on software engineer role, but the skills and practices are
+    transferable to any "senior" or "mature" role
+  - These are observations, not rules. The goal is to internalize the
+    principles. Some of the inspiring ones are:
+    - The non-technical areas: self-awareness when it comes to communication. Be
+      assertive, not passive or aggressive.
+    - Anticipation of the outcome of a decision/design, how will things unfold
+      in the future?
+    - Sponsorship: provides opportunity and exposure for others, e.g.:
+      suggesting someone to lead a project
+    - Make trade-offs explicit: every project cuts corners, and mature engineers
+      know how much is cut
+    - Empathetic: the ability to view the decisions from others' perspective
+    - No empty complaints: always provide at least 1 suggestion to improve
+      before complaining
+    - Aware of biases: confirmation, self-serving, fundamental attribution,
+      hindsight, outcome, planning fallacy
+    - Understand the importance of (sometimes irrational) feelings people have:
+      objectively the best might not be subjectively the best for this group of
+      people
 
 Remote work
 
