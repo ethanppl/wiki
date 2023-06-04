@@ -70,6 +70,21 @@ science/programming.
   engineering hours per week
 - [What I've learned about formal methods in half a year | Jacob](https://jakob.space/blog/what-ive-learned-about-formal-methods.html)
   — A writeup introducing formal methods
+- [The Ten Commandments of Egoless Programming | Coding Horror](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
+  1. Understand and accept that you will make mistakes
+  2. You are not your code — don't take problems personally when one is
+     uncovered
+  3. Someone else will always know more — seek advice especially when you think
+     it's not needed
+  4. Don't rewrite code without consultation — rewriting code is not fixing code
+  5. Treat people who know less than you with respect, deference, and patience —
+     e.g. nontechnical people
+  6. The only constant in the world is change — be open to change
+  7. The only true authority stems from knowledge, not from the position
+  8. Fight for what you believe, but gracefully accept defeat — ideas will be
+     overruled, don't take revenge
+  9. Don't be "the coder in the corner" — be open and collaborative
+  10. Critique code instead of people — be kind to the coder, not to the code
 
 Cognitive Load:
 
