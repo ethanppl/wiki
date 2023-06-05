@@ -54,6 +54,14 @@ Websites:
   - But relay switches are mechanical, unreliable and loud
   - Vacuum tubes can replace relay switches, without the mechanical movements,
     forming early days programmable computers
+- [Why do railway tracks have crushed stones alongside them](https://www.alpharail.co.nz/why-do-railway-tracks-have-crushed-stones-alongside-them/)
+  - Track ballast: the sharp edge stone underneath the tracks
+  - Railway sleeper: beams lay on top of ballast, perpendicular to the tracks
+  - Tracks: clip or anchor on the sleeper for heat expansion or contraction
+  - Ballast has to be rough and sharp to interlock each other for stability, a
+    bunch of smooth-sided pebbles won't work
+  - They create a flat surface, excellent drainage, cope with contraction and
+    expansion, ground movement and vibration
 
 Concrete / Cement
 
