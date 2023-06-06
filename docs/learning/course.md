@@ -21,8 +21,11 @@ Other places to look at
 - Library
 - Wikipedia
 - YouTube
-- Nikita Voloboev's [Wiki](https://wiki.nikiv.dev/) or
-  [Learn Anything](https://learn-anything.xyz/)
+- Nikita Voloboev's [Wiki](https://wiki.nikiv.dev/) (sadly some are behind a
+  paywall now, luckily can still see them in
+  [the GitHub repo](https://github.com/nikitavoloboev/knowledge/tree/main/docs))
+- [Learn Anything](https://learn-anything.xyz/)
+  ([GitHub](https://github.com/learn-anything/learn-anything))
 - This Wiki :)
 
 ## Links
