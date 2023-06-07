@@ -62,7 +62,7 @@ const config = {
         title: "My Personal Wiki",
         logo: {
           alt: "My Wiki Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
         },
         items: [
           {
