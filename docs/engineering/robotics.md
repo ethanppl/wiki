@@ -2,10 +2,6 @@
 
 Computers that move?
 
-I am a bit of a robotics nerd after spending a year in the HKUST robotics team
-doing ROV (some kind of underwater robot) and working in an indoor autopilot
-robot startup.
-
 ## Links
 
 - YouTube:
@@ -15,3 +11,18 @@ robot startup.
     of medical supplies in Rwanda
   - [Zipline's Silent Propellers | The Action Lab](https://youtu.be/z58RORCUTao)
     — it works by having unevenly spaced propellers to spread the frequency
+- [Micromouse: The Fastest Maze-Solving Competition on Earth](https://youtu.be/ZMQbHMgK2rw)
+  — looks like a very fun robotics challenge
+  - Micromouse: fully autonomous maze-solving robot in an unknown layout
+  - 5 runs with limited run time, e.g. first run for route searching and use the
+    remaining to sprint
+  - Strategy: wall following (might not work), depth-first search (might not be
+    shortest), breath-first search (slow)
+  - Flood-fill strategy: draw a tentative shortest path without considering
+    walls, update the possible shortest path along the way. It go from the goal
+    back to the starting point to search for the second time, very likely
+    finding the shortest path
+  - But the shortest path doesn't mean the fastest path, e.g. shorter but more
+    turns
+  - Innovations: diagonal turn (Mitee 3), dc motors, gyroscopes, tape for grip,
+    fan for downforces (6Gs turn)
