@@ -31,6 +31,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   (more examples in the
   [HN discussion](https://news.ycombinator.com/item?id=35955062)) — early
   creation of art using computers
+- [QR Codes in Anime that works](https://www.reddit.com/r/StableDiffusion/comments/141hg9x/controlnet_for_qr_code/)
+  — the code is simple but still quite creative and impressive
 
 April Fools
 
