@@ -80,6 +80,12 @@ About working in a job.
     - Understand the importance of (sometimes irrational) feelings people have:
       objectively the best might not be subjectively the best for this group of
       people
+- [An action plan for engineering career success | GitHub The ReadMe Project](https://github.com/readme/guides/engineering-career-success)
+  - Technical skills, connect the dots between engineering & revenue,
+    demonstrate understanding of the business domain
+  - Brag document: records of completed projects, professional development,
+    feedback and recognition, etc
+  - Communicate well, mentor others, write documentation, and continue to learn
 
 Remote work
 
