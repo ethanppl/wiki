@@ -19,8 +19,8 @@ Computers that move?
   - Strategy: wall following (might not work), depth-first search (might not be
     shortest), breath-first search (slow)
   - Flood-fill strategy: draw a tentative shortest path without considering
-    walls, update the possible shortest path along the way. It go from the goal
-    back to the starting point to search for the second time, very likely
+    walls, updating the possible shortest path along the way. It goes from the
+    goal back to the starting point to search for the second time, very likely
     finding the shortest path
   - But the shortest path doesn't mean the fastest path, e.g. shorter but more
     turns
