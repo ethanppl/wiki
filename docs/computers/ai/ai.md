@@ -77,3 +77,17 @@ Courses
     production AI systems that can replace an occupation
   - The top comment in HN gives good insight, sometimes the market AI companies
     focus on is wrong
+- [The end of coding as we know it | Insider](https://archive.ph/7XceZ)
+  - In the end, it is who can understand AI limitations and adapt faster
+  - The number of bank tellers _grew_ after the introduction of ATMs
+- [Self-healing Code is the Future of Software Development | StackOverflow](https://stackoverflow.blog/2023/06/07/self-healing-code-is-the-future-of-software-development/)
+  - Give a goal to the AI, the AI uses its output to prompt itself again
+  - E.g.: feed the AI code, compilation error or execution logs back to the AI
+    and ask the AI to improve
+  - [These loops are prone to distractions though.](https://twitter.com/emollick/status/1645609531240587265)
+    "Technology marches on, but procrastination remains unbeaten." lol
+- [Understanding GPT tokenizers | Simon Willison](https://simonwillison.net/2023/Jun/8/gpt-tokenizers/)
+  - Optimizations by including leading space in the token
+  - The tokenization is biased towards English words
+  - Glitch tokens: words that have no meaning but got tokenized, and get near 0
+    weight after training leads to weird glitch
