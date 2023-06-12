@@ -90,4 +90,4 @@ Courses
   - Optimizations by including leading space in the token
   - The tokenization is biased towards English words
   - Glitch tokens: words that have no meaning but got tokenized, and get near 0
-    weight after training leads to weird glitch
+    weight after training lead to weird glitch
