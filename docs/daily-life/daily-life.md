@@ -18,3 +18,9 @@ Possible solutions to daily life problems.
     every week. Simplify and declutter the room.
   - Offences: Vacuum at least once a week. Apply a light dusting of diatomaceous
     earth. Steam.
+- [Buy well. Buy once](https://fellow.ventures/buy-well-buy-once/)
+  ([HN](https://news.ycombinator.com/item?id=36256517))
+  - The idea of keeping a visual product catalogue of what you own is
+    interesting
+  - HN has a different point of view though, it became rich people justifying
+    paying a lot for high-status products
