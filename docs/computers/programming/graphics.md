@@ -38,3 +38,7 @@ WebGPU
   ([HN](https://news.ycombinator.com/item?id=35561203))
   [Code](https://github.com/facebookresearch/AnimatedDrawings#readme) — Animate
   hand-drawn characters
+- [How the Computer Graphics Industry Got Started at the University of Utah](https://spectrum.ieee.org/history-of-computer-graphics-industry)
+  ([HN](https://news.ycombinator.com/item?id=36264744))
+  - Cofounders of Pixar, Adobe and Netscape all started at the University of
+    Utah and at their company Evans and Sutherland
