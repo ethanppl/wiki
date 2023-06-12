@@ -103,14 +103,3 @@ Remote work
     relationship between remote work and job satisfaction
   - Remote work → higher perception of autonomy → higher job satisfaction
   - Remote work → fewer work-family conflicts → higher job satisfaction
-
-Not exactly about career, but seems like it fit this page the most
-
-- [How to Become a Hacker | Eric Steven Raymond](http://www.catb.org/~esr/faqs/hacker-howto.html)
-  - Hacker: technical adeptness and delight in solving problems and overcoming
-    limits
-  - Mindset/attitude: solve problems, do not reinvent the wheel, avoid
-    repetitive work, anti-authoritarian, worship competence
-  - Skills: programming, open source OS, Web, English
-  - Culture: write, test and debug open-source software, publish useful
-    information, support and propagate the culture

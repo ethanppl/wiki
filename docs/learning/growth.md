@@ -2,6 +2,17 @@
 
 Improve one's cognitive capability.
 
+## Resources
+
+- [How to Become a Hacker | Eric Steven Raymond](http://www.catb.org/~esr/faqs/hacker-howto.html)
+  - Hacker: technical adeptness and delight in solving problems and overcoming
+    limits
+  - Mindset/attitude: solve problems, do not reinvent the wheel, avoid
+    repetitive work, anti-authoritarian, worship competence
+  - Skills: programming, open source OS, Web, English
+  - Culture: write, test and debug open-source software, publish useful
+    information, support and propagate the culture
+
 ## Sites
 
 - [Untools](https://untools.co/) — Tools and frameworks to assist thinking,

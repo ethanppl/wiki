@@ -27,6 +27,8 @@ Telescopes for stargazing (if binoculars aren't enough):
 - [Awesome Space | GitHub @orbitalindex](https://github.com/orbitalindex/awesome-space)
   — space-related code, APIs, data, and other resources
 - [Who Is In Space](https://whoisinspace.com/) — who is in space right now?
+- [See a satellite tonight](https://james.darpinian.com/satellites/) — See what
+  satellites are visible ± 5 nights, overlayed on top of Google Street View
 
 News:
 
@@ -60,9 +62,6 @@ YouTube:
   [DRONE Solar System Model - How far is Planet 9? | Mark Rober](https://youtu.be/pR5VJo5ifdE)
   - A visualization of the scale of the solar system on a football field with
     the Earth as the size of the head of a pin
-- [See a satellite tonight | James Darpinian](https://james.darpinian.com/satellites/)
-  - Enter your location and see what satellites are visible at what time, with
-    an overlay on top of the Google Street View
-  - [How "See a Satellite Tonight" Works | James Darpinian](https://james.darpinian.com/blog/how-see-a-satellite-tonight-works)
-    — Satellite calculations, user interface, notifications, hidden features,
-    the backend and all the APIs, libraries and services involved
+- [How "See a Satellite Tonight" Works | James Darpinian](https://james.darpinian.com/blog/how-see-a-satellite-tonight-works)
+  - Satellite calculations, UI design, notifications, hidden features, the
+    backend and all the APIs, libraries and services involved
