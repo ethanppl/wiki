@@ -9,7 +9,9 @@ centralized space, for easier sharing, discovering new things, looking for
 trends (r/all) and bringing the different communities together (r/place).
 
 Edit (June 2023):
-[centralizations create problems as well…](https://www.theverge.com/2023/6/13/23759130/reddit-protests-history-community-growth-moderation)
+
+- [Centralizations create problems as well… ](https://www.theverge.com/2023/6/13/23759130/reddit-protests-history-community-growth-moderation)
+- [Apollo's Christian Selig explains his fight with Reddit — and why users revolted](https://www.theverge.com/2023/6/13/23759180/reddit-protest-private-apollo-christian-selig-subreddit)
 
 ## Sites
 
@@ -24,7 +26,7 @@ Edit (June 2023):
 - [Killing Community](https://www.marginalia.nu/log/82_killing_community)
   - "The only way to make money is to grow, and the only way to grow is to kill
     the community."
-  - To have that sense of belonging, the sense of villages, it has to be a small
+  - To have that sense of belonging, the sense of village, it has to be a small
     community
   - Once there are strangers, guards are up by default and it's no longer a
-    close village
+    village
