@@ -8,6 +8,9 @@ websites, or social media posts. I also like the benefit of it being in a
 centralized space, for easier sharing, discovering new things, looking for
 trends (r/all) and bringing the different communities together (r/place).
 
+Edit (June 2023):
+[centralizations create problems as well…](https://www.theverge.com/2023/6/13/23759130/reddit-protests-history-community-growth-moderation)
+
 ## Sites
 
 - [Reddit official website](https://www.reddit.com/)
@@ -15,3 +18,13 @@ trends (r/all) and bringing the different communities together (r/place).
 - [Map of Reddit | Anvaka](https://anvaka.github.io/map-of-reddit/)
   ([Post](https://www.reddit.com/r/dataisbeautiful/comments/12pem68/oc_an_interactive_map_of_reddit_built_from_330/))
   — interactive map of Reddit to find similar subreddit
+
+## Links
+
+- [Killing Community](https://www.marginalia.nu/log/82_killing_community)
+  - "The only way to make money is to grow, and the only way to grow is to kill
+    the community."
+  - To have that sense of belonging, the sense of villages, it has to be a small
+    community
+  - Once there are strangers, guards are up by default and it's no longer a
+    close village
