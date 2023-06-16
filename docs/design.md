@@ -45,6 +45,12 @@ Guides
     brightness levels
   - It's like those things that I know it feels right when I saw them, but
     cannot objectively explain why
+- [8 A/B Testing Mistakes | Posthog](https://posthog.com/blog/ab-testing-mistakes)
+  ([HN](https://news.ycombinator.com/item?id=36354280))
+  - Include unaffected users, viewing results in aggregate, no predetermined
+    duration, no trial before the actual experiment…
+  - Neglect counter metrics, ignore seasonality, unclear hypothesis,
+    overreliance on A/B testing
 
 Blogs
 
