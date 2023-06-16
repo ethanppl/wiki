@@ -34,3 +34,10 @@ require a paid subscription and are only reported in Chinese newspapers.
   Health Yet All Samples Found with Heavy Metals, over 70% with Pesticides (2023
   Apr)
   - [27 款杞子全驗出重金屬 兩含鉛近超標 | 明報](https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20230418/s00002/1681754290192/)
+- [Air Circulator Fans Failed Safety Test and Energy Efficiency Varied](https://www.consumer.org.hk/en/press-release/p-560-air-circulator-fans)
+  (2023 Jun)
+  - [12 款循環扇 8 有安全風險 能源效益最大相差七成 直流電型號勝交流電](https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20230616/s00002/1686854332011/)
+- [Latex Balloons Could Release Suspected Carcinogens](https://www.consumer.org.hk/en/press-release/p-560-latex-balloon)
+  - [19 款乳膠氣球 七成違歐盟安全標準](https://news.mingpao.com/pns/%E6%B8%AF%E8%81%9E/article/20230616/s00002/1686854332964/)
+    (2023 Jun)
+  - Better not to blow balloons with mouth
