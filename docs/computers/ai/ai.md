@@ -91,3 +91,10 @@ Courses
   - The tokenization is biased towards English words
   - Glitch tokens: words that have no meaning but got tokenized, and get near 0
     weight after training lead to weird glitch
+- [How to make a QR code with Stable Diffusion | Stable Diffusion Art](https://stable-diffusion-art.com/qr-code/)
+  - This works for me, things like city, buildings and castle works well
+  - It uses the image-to-image with `ControlNet` to "paint" the QR code
+  - The link to the
+    [`GhostMix` model](https://civitai.com/api/download/models/76907) it uses
+  - The later the `ControlNet` starts or the earlier it ends the photo is more
+    realistic, but risking of losing the QR code
