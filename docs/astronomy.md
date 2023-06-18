@@ -65,3 +65,9 @@ YouTube:
 - [How "See a Satellite Tonight" Works | James Darpinian](https://james.darpinian.com/blog/how-see-a-satellite-tonight-works)
   - Satellite calculations, UI design, notifications, hidden features, the
     backend and all the APIs, libraries and services involved
+- [The Satellite Renaissance | Every](https://every.to/p/the-satellite-renaissance)
+  - A deep dive into how SpaceX changed the space economy. Launching a satellite
+    changed from 200+ million to 275,000
+  - The historical cost, design and application of satellites, compare to the
+    future
+  - The opportunities and challenges when space is commercialized
