@@ -2,6 +2,12 @@
 
 Design/architect software applications/systems.
 
+Related pages:
+
+- [Computers / Cybersecurity](/computers/cybersecurity)
+- [Computers / Database](/computers/database)
+- [Computers / Network](/computers/network)
+
 ## Resources
 
 - [The Architect's Bookshelf | Gregor Hohpe](https://architectelevator.com/architecture/architect-bookshelf/)

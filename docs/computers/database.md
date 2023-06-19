@@ -15,3 +15,11 @@ Store and query data. I will add more later.
     Hash, GiST, SP-GiST, GIN, BRIN)
   - Different ways to index: basic, partial, expression, covering
   - Maintenance: detecting unused indexes, bloats (unused space) or duplicates
+- [How Figma Scaled to Multiple Databases](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases/)
+  - Tactical fixes: upgrade RDS, read replicas, new DB for new use cases, add
+    PgBouncer
+  - Vertical partition: move groups of tables onto different databases
+  - A detailed description of how the migration was done to limit the
+    availability impact to <1 minute
+  - PgBouncer to redirect traffic. Logical replication to copy tables. LSNs to
+    verify synchronization.
