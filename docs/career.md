@@ -103,3 +103,24 @@ Remote work
     relationship between remote work and job satisfaction
   - Remote work → higher perception of autonomy → higher job satisfaction
   - Remote work → fewer work-family conflicts → higher job satisfaction
+
+One-on-One: regular meetings with seniors aiming for better growth
+
+- [Own Your One-on-One Meeting | Mediations with Candost](https://mediations.candost.blog/p/effective-1-on-1-meetings-own-your-one-on-one-meeting)
+  - Change the perspective: focus on personal and professional growth rather
+    than project status updates
+  - Bidirectional communication: collect feedback, ask for opinions and share
+    perspectives → build trust
+  - Preparation: gather small notes over the week, write down goals and topics
+  - Feedback: seek feedback, focus on the contribution and how to improve.
+    Accept failures and seek opportunities to learn
+  - Give feedback as well (managers usually don't get positive feedback)
+- [One-on-One Meeting Template | Mediations with Candost](https://mediations.candost.blog/p/effective-1-1-meetings-one-on-one-meeting-template)
+  - Document: both write into the same doc, both sides can contribute, and focus
+    on issues and growth, not status updates
+  - Things we should talk about: the agenda, no surprises, keep it brief
+  - Things that went well: show gratitude and identify achievements
+  - Learnings: write down the top learnings over the week
+  - Feedback: assess work, collaboration, well-being and job satisfaction. Both
+    managers and engineers need feedback
+  - Others: challenges & blockers, priorities until we meet again, action items
