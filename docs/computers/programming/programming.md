@@ -85,6 +85,9 @@ science/programming.
      overruled, don't take revenge
   9. Don't be "the coder in the corner" — be open and collaborative
   10. Critique code instead of people — be kind to the coder, not to the code
+- [GPU Programming: When, Why and How? | GitHub @enccs](https://enccs.github.io/gpu-programming/)
+  - Not just graphics computation, but the use of GPU to accelerate computations
+  - The use of GPU in high-performance computing (HPC) systems
 
 Cognitive Load:
 
