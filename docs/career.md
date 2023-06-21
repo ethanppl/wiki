@@ -25,17 +25,6 @@ About working in a job.
 - [What I learned at Stripe](https://steinkamp.us/post/2022/11/10/what-i-learned-at-stripe.html)
   ([HN](https://news.ycombinator.com/item?id=34968371))
   - Practices in Stripe that the author think is good/bad
-- [3 Mistakes I made as an Engineer, but had to Become a Manager to See](https://www.developing.dev/p/3-mistakes-i-made-as-an-engineer)
-  ([HN](https://news.ycombinator.com/item?id=35101378))
-  - People problems are important, hiring well saves time, and getting to know
-    your coworkers
-  - This feels like things to get right after getting the basics right, i.e.
-    code is working
-- [What you give up when moving into engineering management | Stackoverflow blog](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
-  ([HN](https://news.ycombinator.com/item?id=35550240))
-  - Managers give up focus time, have to deal with longer feedback cycles, more
-    conflicts and interpersonal issues, make fewer technical decisions, and less
-    time acquiring tech skills
 - [The Underground Economy of Company Reviews](https://www.careerfair.io/company-reviews)
   - The underground economy of adding, removing and analyzing company job
     reviews on sites like Glassdoor, ranging from freelancers to different
@@ -54,6 +43,15 @@ About working in a job.
     or 'very' important
   - 61% of workers seek to excel and advance, 33% do their job well but don't go
     beyond what they're paid for
+
+### Seniority / Maturity
+
+- [3 Mistakes I made as an Engineer, but had to Become a Manager to See](https://www.developing.dev/p/3-mistakes-i-made-as-an-engineer)
+  ([HN](https://news.ycombinator.com/item?id=35101378))
+  - People problems are important, hiring well saves time, and getting to know
+    your coworkers
+  - This feels like things to get right after getting the basics right, i.e.
+    code is working
 - [Stop Being a Junior | Kent C. Dodds](https://kentcdodds.com/blog/stop-being-a-junior)
   - Tech is fast, take it as an opportunity to quickly catch up to the frontier
   - Try to be at the level of the seniors, and eventually will start to feel
@@ -87,7 +85,29 @@ About working in a job.
     feedback and recognition, etc
   - Communicate well, mentor others, write documentation, and continue to learn
 
-Remote work
+### Managerial role
+
+- [What you give up when moving into engineering management | Stackoverflow blog](https://stackoverflow.blog/2022/02/23/what-you-give-up-when-moving-into-engineering-management/)
+  ([HN](https://news.ycombinator.com/item?id=35550240))
+  - Managers give up focus time, have to deal with longer feedback cycles, more
+    conflicts and interpersonal issues, make fewer technical decisions, and less
+    time acquiring tech skills
+- [Promoted from Dev to Team Lead: 8 Things They Didn't Tell Me | Dev Interrupted](https://devinterrupted.substack.com/p/promoted-from-dev-to-team-lead-8)
+  - Quite an easy read with good examples
+  - Skills don't translate: skill sets of a dev vs a team lead is different
+  - Keep your instincts but change your behaviour: sometimes just asking the
+    right question can unblock people
+  - Communicate "why" more than "what and "how": let the team see the bigger
+    picture
+  - Culture is a real thing. Team leads are responsible for it
+  - Clear a path for the team: unblock people. Generally three types of
+    blockers: technical, dependencies and priorities
+  - Spend 50% of the time on priority setting and estimation
+  - Invest in the ecosystem: build relationship with other teams, sales, product
+    owner, ops, etc
+  - Translate engineering to executives with data: provide data and metrics
+
+### Remote work
 
 - [Changing my mind on remote | Flo Crivello](https://flocrivello.com/changing-my-mind-on-remote-about-being-in-san-francisco/)
   - An AI assistant company ends remote work because of the friction in
@@ -104,7 +124,7 @@ Remote work
   - Remote work → higher perception of autonomy → higher job satisfaction
   - Remote work → fewer work-family conflicts → higher job satisfaction
 
-One-on-One: regular meetings with seniors aiming for better growth
+### One-on-One: regular meetings with seniors aiming for better growth
 
 - [Own Your One-on-One Meeting | Mediations with Candost](https://mediations.candost.blog/p/effective-1-on-1-meetings-own-your-one-on-one-meeting)
   - Change the perspective: focus on personal and professional growth rather
