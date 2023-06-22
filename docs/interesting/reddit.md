@@ -31,3 +31,9 @@ Edit (June 2023):
     community
   - Once there are strangers, guards are up by default and it's no longer a
     village
+- [What we're learning from the Reddit blackout | The Verge](https://www.theverge.com/23768252/reddit-blackout-moderation-lessons-elon-musk)
+  - Devolving power to users can backfire, but devolving power is probably still
+    the future of social media
+  - Communication disaster leads to bad public relation
+  - CEOs are taking cues from Elon Musk Twitter 2.0 moves
+  - Other options for Redditors will emerge
