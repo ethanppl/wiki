@@ -11,7 +11,15 @@ Quick notes for things I want to add:
   Fama-french model, discounted cash flow
 - Time-series: AR, MA, ARIMA, Vasicek model, ARCH, GARCH
 - Derivatives: forwards, futures, swaps, options on financial assets,
-  commodities, interest rates
+  commodities, exchange rates, interest rates
+
+## Resources
+
+- [MIT 15.401 Finance Theory I | MIT OpenCourseWare](https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/)
+  ([YouTube Playlist](https://www.youtube.com/playlist?list=PLUl4u3cNGP63B2lDhyKOsImI7FjCf6eDW))
+  - Good professor. An MBA course but started from the very basics of finance
+  - Present value, fixed income, equities, forward & futures, options,
+    portfolio, CAPM, APT, efficient markets
 
 ## Links
 
@@ -36,3 +44,11 @@ Quick notes for things I want to add:
     no obligation to follow the traditional capital structure. In this deal, AT1
     bonds are ranked lower than equity, which means shareholders at least
     received something while AT1 bondholders got nothing
+- [Pricing Money](http://www.jdawiseman.com/books/pricing-money/Pricing_Money_JDAWiseman.html)
+  ([HN](https://news.ycombinator.com/item?id=36358754))
+  - Targeting beginners, explained from money markets to bonds, futures, swaps,
+    options, FX, etc.
+  - The problem with this is it missed the most fundamental concept: the time
+    value of money and why finance exists
+  - Some people like these basic HTML looks, I prefer a little bit of
+    formatting, setting a max width yourself would be better
