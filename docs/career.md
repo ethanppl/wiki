@@ -103,8 +103,8 @@ About working in a job.
   - Clear a path for the team: unblock people. Generally three types of
     blockers: technical, dependencies and priorities
   - Spend 50% of the time on priority setting and estimation
-  - Invest in the ecosystem: build relationship with other teams, sales, product
-    owner, ops, etc
+  - Invest in the ecosystem: build relationships with other teams, sales,
+    product owners, ops, etc
   - Translate engineering to executives with data: provide data and metrics
 
 ### Remote work
@@ -123,8 +123,16 @@ About working in a job.
     relationship between remote work and job satisfaction
   - Remote work → higher perception of autonomy → higher job satisfaction
   - Remote work → fewer work-family conflicts → higher job satisfaction
+- [The hottest new perk in tech is freedom | Vox](https://www.vox.com/technology/2023/6/20/23762655/tech-perk-remote-work-freedom-airbnb-yelp)
+  - How small companies use remote work to attract talent, e.g.: Airbnb and Yelp
+  - Fixed office location limits the talent pool that a company can be working
+    with
+  - Return to office policies might just be a human nature to revert to known
+    quantity practicies in face of uncertainty
 
-### One-on-One: regular meetings with seniors aiming for better growth
+### One-on-One meeting
+
+Regular meetings with seniors aiming for better growth
 
 - [Own Your One-on-One Meeting | Mediations with Candost](https://mediations.candost.blog/p/effective-1-on-1-meetings-own-your-one-on-one-meeting)
   - Change the perspective: focus on personal and professional growth rather
