@@ -34,6 +34,17 @@ I also save the links I put here to the
 [Internet Archive](https://archive.org/). So if you find a link is broken, try
 searching for it in the Internet Archive.
 
+# Something to bare in mind when reading
+
+- Not all sources/blogs/articles are credible or unbiased, anyone can publish
+  anything on the Internet
+- Everyone has their own unique experiences and opinions, take everything with a
+  grain of salt
+- No one can judge others' decisions because no one has the full context of each
+  other's situation
+- Especially reading reviews and discussion forums, who is the author and why
+  should I care about their opinion?
+
 # Where to start?
 
 Find a topic on the sidebar that interests you, probably a topic you know or a
