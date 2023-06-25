@@ -20,3 +20,8 @@ Living remotely.
   ([HN](https://news.ycombinator.com/item?id=35528692))
   - A story about Steve Roberts, who cycled around the US with DIY computerized
     bicycles in the 80s and 90s
+- [10 Things I Wish I'd Known Before Fulltime RVing | Wheeling It](https://www.wheelingit.us/2011/09/22/10-things-i-wished-id-known-before-fulltime-rving/)
+  - A list of things to consider/not to care about when going into full-time
+    RVing
+  - One idea I like is "take your time on the road". "Sitters" rather than
+    "movers".
