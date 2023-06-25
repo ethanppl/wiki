@@ -88,6 +88,12 @@ science/programming.
 - [GPU Programming: When, Why and How? | GitHub @enccs](https://enccs.github.io/gpu-programming/)
   - Not just graphics computation, but the use of GPU to accelerate computations
   - The use of GPU in high-performance computing (HPC) systems
+- [Most tech content is bullshit | Aleksandra](https://www.aleksandra.codes/tech-content-consumer)
+  ([HN](https://news.ycombinator.com/item?id=36380024))
+  - Tech consuming: consuming content from the web, instead of creating
+  - Reasons: Laziness, time limitation, comfortability, lack of confidence
+  - Instead, spend the effort to understand and analyze content, rather than
+    blindly copying
 
 Cognitive Load:
 
