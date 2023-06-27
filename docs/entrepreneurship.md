@@ -77,7 +77,7 @@ Examples/Stories:
     to 1M per month in revenue
   - There will always be survivor bias though
 - [Ask HN: Side project of more than $2k monthly revenue?](https://news.ycombinator.com/item?id=35567822)
-- [@levelsio Twitter](https://twitter.com/levelsio) — Solo entreneur
+- [@levelsio Twitter](https://twitter.com/levelsio) — Solo entrepreneur
 
 Ideas:
 
