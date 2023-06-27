@@ -61,6 +61,12 @@ Related pages:
     intellectual challenge
   - People who have gone through the increasingly larger knowledge burden to
     operate at the frontier of knowledge
+- [4 Mistakes to avoid to build a better business in solo](https://tinyempires.substack.com/p/4-mistakes-to-avoid-to-build-a-better)
+  ([HN](https://news.ycombinator.com/item?id=36431268))
+  - It's about finding the right market to sell to, specifically for solo
+    business
+  - Small businesses that don't require scale, charge high prices, target
+    businesses, and target a small market
 
 Examples/Stories:
 
@@ -71,6 +77,7 @@ Examples/Stories:
     to 1M per month in revenue
   - There will always be survivor bias though
 - [Ask HN: Side project of more than $2k monthly revenue?](https://news.ycombinator.com/item?id=35567822)
+- [@levelsio Twitter](https://twitter.com/levelsio) — Solo entreneur
 
 Ideas:
 
