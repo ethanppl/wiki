@@ -62,6 +62,12 @@ Explanations:
     processor, PCI compliance, GDPR compliance, etc.
   - Concepts: intent to pay, data collection, authentication, authorization,
     status validation, dispute, refund, settlement, etc.
+- [Imaginary Problems Are the Root of Bad Software](https://cerebralab.com/Imaginary_Problems_Are_the_Root_of_Bad_Software)
+  ([HN](https://news.ycombinator.com/item?id=36380711))
+  - Imaginary problems are more fun to solve than the real problems
+  - Optimizing over some details and losing sight of the real issues
+  - The HN thread is also worth a read: it's the industry that encourages people
+    to look for imaginary problems
 
 Real-world examples:
 
