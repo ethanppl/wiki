@@ -65,26 +65,8 @@ science/programming.
     hot reload, time travel, omniscient debugging
   - Omniscient debugging: pre-calculate all the program states, store them in a
     database and index them for efficient queries
-- [A -10x Engineer](https://taylor.town/-10x)
-  ([HN](https://news.ycombinator.com/item?id=35438068)) — wasting 400
-  engineering hours per week
 - [What I've learned about formal methods in half a year | Jacob](https://jakob.space/blog/what-ive-learned-about-formal-methods.html)
   — A writeup introducing formal methods
-- [The Ten Commandments of Egoless Programming | Coding Horror](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
-  1. Understand and accept that you will make mistakes
-  2. You are not your code — don't take problems personally when one is
-     uncovered
-  3. Someone else will always know more — seek advice especially when you think
-     it's not needed
-  4. Don't rewrite code without consultation — rewriting code is not fixing code
-  5. Treat people who know less than you with respect, deference, and patience —
-     e.g. nontechnical people
-  6. The only constant in the world is change — be open to change
-  7. The only true authority stems from knowledge, not from the position
-  8. Fight for what you believe, but gracefully accept defeat — ideas will be
-     overruled, don't take revenge
-  9. Don't be "the coder in the corner" — be open and collaborative
-  10. Critique code instead of people — be kind to the coder, not to the code
 - [GPU Programming: When, Why and How? | GitHub @enccs](https://enccs.github.io/gpu-programming/)
   - Not just graphics computation, but the use of GPU to accelerate computations
   - The use of GPU in high-performance computing (HPC) systems
@@ -113,3 +95,26 @@ Cognitive Load:
     we can aim for larger chunks
   - A section on how to learn effectively to expand and improve developers'
     processing power
+
+Working as a Software Engineer:
+
+- [The Ten Commandments of Egoless Programming | Coding Horror](https://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
+  1. Understand and accept that you will make mistakes
+  2. You are not your code — don't take problems personally when one is
+     uncovered
+  3. Someone else will always know more — seek advice especially when you think
+     it's not needed
+  4. Don't rewrite code without consultation — rewriting code is not fixing code
+  5. Treat people who know less than you with respect, deference, and patience —
+     e.g. nontechnical people
+  6. The only constant in the world is change — be open to change
+  7. The only true authority stems from knowledge, not from the position
+  8. Fight for what you believe, but gracefully accept defeat — ideas will be
+     overruled, don't take revenge
+  9. Don't be "the coder in the corner" — be open and collaborative
+  10. Critique code instead of people — be kind to the coder, not to the code
+- [A -10x Engineer](https://taylor.town/-10x)
+  ([HN](https://news.ycombinator.com/item?id=35438068)) — wasting 400
+  engineering hours per week
+- [A Senior Engineer's Guide to FAANG Interviews | interviewing.io](https://interviewing.io/guides/hiring-process)
+  - The usual process / specific rules for each company (FAANG + Microsoft)
