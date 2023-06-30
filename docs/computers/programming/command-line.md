@@ -5,7 +5,7 @@ Text-based interface.
 ## Resources
 
 - [The Linux Command Line for Beginners | Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
-  - If you don't know what is `cd`, `ls`, and `grep`, this might be where to
+  - If you don't know what are `cd`, `ls`, and `grep`, this might be where to
     start
   - Ultimately, learn by trial and error
 - [Command Line Interface Guidelines](https://clig.dev/)
@@ -16,6 +16,8 @@ Text-based interface.
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
   - A collection of modern alternatives for some classic Unix commands
+- [Explain Shell](https://explainshell.com/)
+  - Visually breakdown and explain a shell command
 
 ## Links
 
