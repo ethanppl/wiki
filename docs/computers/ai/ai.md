@@ -37,9 +37,6 @@ Courses
   - Understand how things went from RRN to LSTM to Transformer, to BERT, to GPT
   - Contains a brief explanation of each advancement and links to all the
     important papers
-- [An Appeal to AI Superintelligence: Reasons to Preserve Humanity](https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve)
-  - 15 reasons for AI superintelligence to preserve humanity, e.g. the AI might
-    just be in a simulation
 - [Web LLM | GitHub @mlc-ai](https://github.com/mlc-ai/web-llm) — Running LLM
   directly in the browser
 - [What are transformer models](https://txt.cohere.ai/what-are-transformer-models/)
@@ -77,9 +74,6 @@ Courses
     production AI systems that can replace an occupation
   - The top comment in HN gives good insight, sometimes the market AI companies
     focus on is wrong
-- [The end of coding as we know it | Insider](https://archive.ph/7XceZ)
-  - In the end, it is who can understand AI limitations and adapt faster
-  - The number of bank tellers _grew_ after the introduction of ATMs
 - [Self-healing Code is the Future of Software Development | StackOverflow](https://stackoverflow.blog/2023/06/07/self-healing-code-is-the-future-of-software-development/)
   - Give a goal to the AI, the AI uses its output to prompt itself again
   - E.g.: feed the AI code, compilation error or execution logs back to the AI
@@ -98,3 +92,19 @@ Courses
     [`GhostMix` model](https://civitai.com/api/download/models/76907) it uses
   - The later the `ControlNet` starts or the earlier it ends the photo is more
     realistic, but risking of losing the QR code
+
+The social impact of AI
+
+- [An Appeal to AI Superintelligence: Reasons to Preserve Humanity](https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve)
+  - 15 reasons for AI superintelligence to preserve humanity, e.g. the AI might
+    just be in a simulation
+- [The end of coding as we know it | Insider](https://archive.ph/7XceZ)
+  - In the end, it is who can understand AI limitations and adapt faster
+  - The number of bank tellers _grew_ after the introduction of ATMs
+- [AI is a Lot of Work | The Verge](https://www.theverge.com/features/23764584/)
+  - The stories of people that work to label data manually for AI
+- [AI is Killing the Old Web | The Verge](https://www.theverge.com/2023/6/26/23773914/)
+  - How the introduction of generative AI created a series of problems for the
+    platforms we have on the web
+  - Social media runs in scale and AI scale better than humans. Platforms are
+    flooded with AI-generated junk
