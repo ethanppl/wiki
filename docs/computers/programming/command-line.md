@@ -25,3 +25,8 @@ Text-based interface.
   - There is a "randomart image" from `ssh-keygen` from the terminal
   - Support comparing host keys visually, especially recognizing host keys that
     have been changed
+- [CLI tools in the Python standard library | Simon Willison](https://til.simonwillison.net/python/stdlib-cli-tools)
+  ([HN](https://news.ycombinator.com/item?id=36515531))
+  - Server current directory over HTTP: `python -m http.server 8000`
+  - Pretty-print JSON: `echo '{"key": "value"}' | python -m json.tool`
+  - `tokenize`, `base64`, `random`, `calendar`, etc.
