@@ -6,6 +6,7 @@ Related pages:
 
 - [Career](./career.md) — as an entrepreneur, help others build a good career
   and shape a better working environment.
+- [Remote Work](/remote/remote-work)
 
 ## Resources
 

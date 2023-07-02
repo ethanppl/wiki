@@ -2,6 +2,10 @@
 
 About working in a job.
 
+Related pages:
+
+- [Remote Work](/remote/remote-work)
+
 ## Resources
 
 - [YC Ultimate Startup Job Guide](https://www.ycombinator.com/library/Ei-yc-ultimate-startup-job-guide)
@@ -106,29 +110,6 @@ About working in a job.
   - Invest in the ecosystem: build relationships with other teams, sales,
     product owners, ops, etc
   - Translate engineering to executives with data: provide data and metrics
-
-### Remote work
-
-- [Changing my mind on remote | Flo Crivello](https://flocrivello.com/changing-my-mind-on-remote-about-being-in-san-francisco/)
-  - An AI assistant company ends remote work because of the friction in
-    communication compound over time
-- [The effects of remote work on collaboration among information workers | Nature](https://www.nature.com/articles/s41562-021-01196-4)
-  - Synchronous communication decrease and asynchronous communication (less
-    "rich" media: email, IM) increase
-  - The collaboration network becomes "more heavily siloed" (isolated), which
-    may "impede the transfer of knowledge" and "reduce the quality of workers'
-    output"
-- [The Relationship Between Remote Work and Job Satisfaction | Master Theses, San Jose State University](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?article=8564&context=etd_theses)
-  - Mediating roles of perceived autonomy and work-family conflict in the
-    relationship between remote work and job satisfaction
-  - Remote work → higher perception of autonomy → higher job satisfaction
-  - Remote work → fewer work-family conflicts → higher job satisfaction
-- [The hottest new perk in tech is freedom | Vox](https://www.vox.com/technology/2023/6/20/23762655/tech-perk-remote-work-freedom-airbnb-yelp)
-  - How small companies use remote work to attract talent, e.g.: Airbnb and Yelp
-  - Fixed office location limits the talent pool that a company can be working
-    with
-  - Return to office policies might just be a human nature to revert to known
-    quantity practicies in face of uncertainty
 
 ### One-on-One meeting
 
