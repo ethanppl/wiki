@@ -10,6 +10,11 @@ Physics
 - [Physics Info](https://physics.info/) — mechanics, thermal, waves & optics,
   electromagnetic, etc.
 
+Math
+
+- [Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) — the
+  methods of proving mathematical theorems
+
 ## Links
 
 - [Where the wood-wide web narrative went wrong](https://undark.org/2023/05/25/where-the-wood-wide-web-narrative-went-wrong/)
