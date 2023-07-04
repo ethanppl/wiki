@@ -68,6 +68,21 @@ Explanations:
   - Optimizing over some details and losing sight of the real issues
   - The HN thread is also worth a read: it's the industry that encourages people
     to look for imaginary problems
+- [Monitoring is a Pain | Mathew Duggan](https://matduggan.com/were-all-doing-metrics-wrong/)
+  ([HN](https://news.ycombinator.com/item?id=36469147))
+  - Good monitoring requires a lot of work, costs a lot and often has a high
+    noise-to-signal ratio
+  - Tackle the 3 major aspects: logging, metrics and tracing
+  - Common pitfalls, author's experience, benefits and drawbacks of each
+- [Fast machines, slow machines | Julio Merino](https://jmmv.dev/2023/06/fast-machines-slow-machines.html)
+  ([HN](https://news.ycombinator.com/item?id=36503983))
+  - Command prompt, notepad, file explorer and Paint all start faster in Windows
+    2000 than in Windows 11
+  - While hardware has improved for faster machines, software degraded
+  - Cross-platform technologies and interpreted language contribute to slow
+    software, particularly startup time
+  - The issue is we are capable to do it but deprioritizing it. Soon, the
+    hardware advances are eaten away by poor software designs
 
 Real-world examples:
 
