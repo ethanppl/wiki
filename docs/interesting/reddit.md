@@ -13,6 +13,8 @@ Edit (June 2023):
 - [Centralizations create problems as well… ](https://www.theverge.com/2023/6/13/23759130/reddit-protests-history-community-growth-moderation)
 - [Apollo's Christian Selig explains his fight with Reddit — and why users revolted](https://www.theverge.com/2023/6/13/23759180/reddit-protest-private-apollo-christian-selig-subreddit)
 - [Not decentralized at all. Reddit threaten to remove mods…](https://www.theverge.com/2023/6/16/23763538/reddit-blackout-api-protest-mod-replacement-threat)
+- [How Reddit crushed the biggest protest in its history](https://www.theverge.com/23779477/reddit-protest-blackouts-crushed)
+  — full writeup with insight from some mods
 
 ## Sites
 
