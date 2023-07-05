@@ -38,3 +38,19 @@ Improve one's cognitive capability.
   - "A belief is not dangerous until it turns absolute."
   - In HN comments: "It is the mark of an educated mind to be able to entertain
     a thought without accepting it" — Aristotle
+
+Writing — for better thinking and communication
+
+- [Write It Down | Deb Liu](https://debliu.substack.com/p/write-it-down)
+  - Context is writing things down in a work setting, but should be helpful in
+    other settings as well
+  - How writing clearly can drive alignment, ensures clarity, creates
+    accountability, passes on knowledge, and achieve success
+- [Why Write? Bastian Rieck](https://bastian.rieck.me/blog/posts/2023/writing_why/)
+  ([HN](https://news.ycombinator.com/item?id=36493191))
+  - Focus on academic writing but the same applies to other forms of writing
+  - Sort your thoughts: forced to explain in a clear and concise manner
+  - Increase audience: an investment to entice readers from different
+    disciplines
+  - Improves research by narratives: a story is more compelling and makes it
+    easier for readers to understand
