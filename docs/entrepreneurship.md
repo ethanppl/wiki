@@ -17,6 +17,18 @@ Related pages:
   [Zero to One: Notes on Startups, or How to Build the Future](https://www.goodreads.com/en/book/show/18050143)
   by [Peter Thiel](https://en.wikipedia.org/wiki/Peter_Thiel), a co-founder of
   PayPal, Palantir, etc.
+- [Lessons from Keith Rabois](https://mogolshan.notion.site/Lessons-from-Keith-Rabois-2b867858346448998d23f51beee3470a)
+  — A ton of lessons:
+  - Product: identifying and solving ambitious problems, forging product market
+    fit, setting business strategy
+  - Finance: raising capital, working in/with venture capital, insights on
+    markets, IPOs, and SPACs
+  - People: assembling the founding team, building the team, managing time,
+    finding undiscovered talent, hiring executives
+  - Management: operating a startup, managing people, succeeding in early-stage
+    investing, and more
+  - Others: assessing founders, contrarian thinking, building a career in tech,
+    succeeding in life
 - [The ladders of wealth creation: a step-by-step roadmap to building wealth | r/Entrepreneur](https://www.reddit.com/r/Entrepreneur/comments/e9830y/the_ladders_of_wealth_creation_a_stepbystep/)
   - More on the money side. How does creating a business help move up the wealth
     ladder and what does that mean
