@@ -24,3 +24,20 @@ Communications between computers.
 - [Implement DNS in a weekend | Wizard Zines project](https://implement-dns.wizardzines.com/)
   ([HN](https://news.ycombinator.com/item?id=35916064))
   - Build a DNS query in bytes, parse the response, implement a custom resolver
+- [Well-known URI](https://en.wikipedia.org/w/index.php?title=Well-known_URI#List_of_well-known_URIs)
+  - A generic and extendable version of `robots.txt` to expose information at a
+    "well-known location"
+  - For example, `./well-known/change-password` to provide the URL for changing
+    password
+
+Ethernet
+
+- YouTube:
+  [Ethernet (50th Birthday) | Computerphile](https://youtu.be/TkOVgkcrvbg)
+  - The original Ethernet algorithm. Designed around a shared bus, using
+    exponential backoff for media access control, etc.
+- [Happy 50th Birthday, Ethernet](https://blog.apnic.net/2023/06/29/happy-50th-birthday-ethernet/)
+  ([HN](https://news.ycombinator.com/item?id=36517832))
+  - The innovation and evolution of Ethernet over 50 years
+  - No clock, any data size, carrier sense multiple access/collision detection
+    (CSMA/CD), unique MAC, and other evolutions
