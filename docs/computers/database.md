@@ -23,3 +23,9 @@ Store and query data. I will add more later.
     availability impact to <1 minute
   - PgBouncer to redirect traffic. Logical replication to copy tables. LSNs to
     verify synchronization.
+- [Is ORM still an 'anti-pattern'? | GitHub @getlago](https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F)
+  - The paradigm mismatch between ORM data representation and relational data
+    model, directed pointers vs undirected graphs
+  - Efficiency: the real issue is ORMs encourage poor practices. Data loaders
+    can handle N+1 problems in ORMs
+  - Visibility problem: translating SQL error to ORM error confuses developers
