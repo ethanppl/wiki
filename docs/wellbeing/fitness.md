@@ -33,3 +33,11 @@ Training your body.
     to train biceps
   - Instead, focus on 1-2 exercises, find a suitable number of reps and do 3-4
     sets, just like any other muscle groups
+- [What Type of Exercise is Best for Mental Health?](https://greatergood.berkeley.edu/article/item/what_type_of_exercise_is_best_for_mental_health)
+  ([Paper](https://bjsm.bmj.com/content/early/2023/03/02/bjsports-2022-106195),
+  [HN](https://news.ycombinator.com/item?id=36472370))
+  - 1000 randomized controlled trials with over 128,000 participants
+  - People got more mental health benefits out of higher-intensity exercise
+  - 4-5 sessions per week and 30 minutes every session is already good enough
+  - HN Thread: We are not a brain being carried around as a meat sack. The mind
+    and the body connect
