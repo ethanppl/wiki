@@ -37,3 +37,12 @@ Developing user interfaces of web pages.
     callbacks
   - Optimize existing JavaScript: event delegation, attach a single event
     listener to a common ancestor of many elements
+
+SVG
+
+- [Online SVG Path Editor | GitHub @ygnn](https://yqnn.github.io/svg-path-editor/)
+- [Interactive SVG Path Visualizer](https://svg-path-visualizer.netlify.app/)
+- [A Deep Dive into SVG Paths](https://www.nan.fyi/svg-paths)
+  ([HN](https://news.ycombinator.com/item?id=36574645))
+  - Cursors, lines, bezier curves, cubic curbes, and arcs
+  - Include some challenges to draw some shapes at the end of each section
