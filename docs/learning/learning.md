@@ -44,4 +44,13 @@ Learning how to learn.
   - **Timely feedback**: Anesthesiologists learn better than radiologists,
     recruitment officers also suffer from delayed feedback
   - **Deliberate practice**: Practising with System 1 doesn't help, don't get
-    too comfortable while practising
+    too comfortable while practicing
+- [Edutainment is not learning](https://giansegato.com/essays/edutainment-is-not-learning)
+  ([HN](https://news.ycombinator.com/item?id=36580837))
+  - Edutainment: educational YouTube videos, Ted talks, Twitter, Hacker News,
+    etc
+  - A not-too-technical but friendly explanation of the reason why cognitive
+    effort is required in learning
+  - Frame "mindless" reading online as opportunities to scout topics to learn,
+    but the actual learning requires time and deliberate effort to actively
+    consume the content
