@@ -27,6 +27,10 @@ Effectively prompt AI models to utilize their power.
   - History of LLM? What is a prompt? Why prompt engineering? Strategies?
   - Embedding data (lists, tables, JSON, etc.), citations, programmatic
     consumption, and chain of thought prompting
+- [gpt-prompt-engineer | GitHub @mshumer](https://github.com/mshumer/gpt-prompt-engineer)
+  - Input a description and test cases
+  - The system will generate, test and rank prompts to find the best one based
+    on an ELO rating system
 
 Prompt Injection
 
