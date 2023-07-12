@@ -46,3 +46,6 @@ SVG
   ([HN](https://news.ycombinator.com/item?id=36574645))
   - Cursors, lines, bezier curves, cubic curbes, and arcs
   - Include some challenges to draw some shapes at the end of each section
+- [Handcraft sparklines chart in SVG](https://alexplescan.com/posts/2023/07/08/easy-svg-sparklines/)
+  — Drawing lines, scaling, and adding a fill by hand or a helper function in
+  the backend
