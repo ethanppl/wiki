@@ -108,3 +108,9 @@ The social impact of AI
     platforms we have on the web
   - Social media runs in scale and AI scale better than humans. Platforms are
     flooded with AI-generated junk
+- [Why did Google Brain exist? | Brian Kihoon Lee](https://www.moderndescartes.com/essays/why_brain/)
+  - Former employee sharing why Google Brain exists and the possible impact that
+    Brain is being merged with DeepMind
+  - From getting the prestige of being the best research group, and
+    industry-leading technologies, to Google killing the project because there
+    isn't enough value to capture
