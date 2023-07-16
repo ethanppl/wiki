@@ -83,6 +83,15 @@ Explanations:
     software, particularly startup time
   - The issue is we are capable to do it but deprioritizing it. Soon, the
     hardware advances are eaten away by poor software designs
+- [Advice for Operating a Public-Facing API | Joshua Stein](https://jcs.org/2023/07/12/api)
+  - Host the API on a separate hostname: for different scaling & security
+    measures
+  - Don't be too liberal in what you accept: strict API design, no workarounds,
+    otherwise risk breaking changes down the road
+  - Avoid OAuth and prefer static API tokens for simplicity
+  - Stay on top of failures: hopefully, users can handle the failure themselves
+    and fix their app
+  - Others: log a unique ID, descriptive error responses, prefixed tokens,
 
 Real-world examples:
 
