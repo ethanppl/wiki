@@ -92,6 +92,17 @@ Explanations:
   - Stay on top of failures: hopefully, users can handle the failure themselves
     and fix their app
   - Others: log a unique ID, descriptive error responses, prefixed tokens,
+- [Feature Flags: Theory vs Reality](https://bpapillon.com/post/feature-flags-theory-vs-reality/)
+  — Problems and possible ways to better manage feature flags
+- [Sequence Diagrams | Mermaid Chart](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development)
+  ([HN](https://news.ycombinator.com/item?id=36342931))
+  - Sequence diagram: visualize the dynamic flow of messages across systems. Map
+    out "black boxes" and show how they interact
+  - Start with happy paths and then add edge cases. The flow of the happy path
+    should remain as the anchor for other edge cases
+  - Comprehensiveness is the enemy of comprehensibility: the code is the best
+    source of comprehensiveness, keep the diagrams simple for effective
+    communication
 
 Real-world examples:
 
