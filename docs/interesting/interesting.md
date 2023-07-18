@@ -34,6 +34,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [QR Codes in Anime that works](https://www.reddit.com/r/StableDiffusion/comments/141hg9x/controlnet_for_qr_code/)
   — the code is simple but still quite creative and impressive
 - [The Password Game](https://neal.fun/password-game/)
+- YouTube: [Why is North up? | Jay Foreman](https://youtu.be/B14Gtm2Z_70)
+  - Maps were not always putting North on top in ancient times. How did that
+    change? What are the consequences?
 
 April Fools
 
