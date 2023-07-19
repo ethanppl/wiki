@@ -24,3 +24,19 @@ Developing and maintaining software.
     requirements and other negotiations
   - Money in open source: private support, custom development, prioritized
     feature requests, etc.
+- YouTube:
+  [The Hard Parts of Open Source | Evan Czaplicki](https://youtu.be/o_4EX4dPppA)
+  (worth watching, hard to summarize)
+  - Community developers are feeling hurt and getting tired. Having a friendly
+    community is difficult
+  - How communities are shaped is discussed from three perspectives: freedom,
+    engagement, and community:
+    - **The freedom approach:** we are gods and the hierarchy has filed us, we
+      are free to do whatever we want. But having people that are just
+      expressing themselves is not solving the problem.
+    - **The engagement approach:** putting mix extremes and decontextualising
+      discussions by design nudge viral content. Carefully designed systems to
+      nudge the community for particular goals are also not solving the problem.
+    - **The community approach:** contextual and intentional communication,
+      maintaining healthy conversational flows. Designing other healthy choice
+      architecture is a way to build a better community.
