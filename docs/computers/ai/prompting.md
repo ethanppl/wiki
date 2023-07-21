@@ -31,6 +31,9 @@ Effectively prompt AI models to utilize their power.
   - Input a description and test cases
   - The system will generate, test and rank prompts to find the best one based
     on an ELO rating system
+- [A developer's guide to prompt engineering and LLMs | GitHub Blog](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/)
+  - Short intro to prompt engineering and LLMs, some info on how prompts work in
+    Copilot
 
 Prompt Injection
 
