@@ -23,6 +23,8 @@ WebGPU
   - WebGPU is similar to WebGL but WebGL is a stateful API and WebGPU is not
 - [Learn WebGPU | eliemichel.github.io](https://eliemichel.github.io/LearnWebGPU/)
   - Writing native 3D applications in C++ with WebGPU
+- [WebGPU - All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
+  — Another explainer on WebGPU
 
 ## Links
 
