@@ -75,6 +75,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["elm"],
       },
       docs: {
         sidebar: {
