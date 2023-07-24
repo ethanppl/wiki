@@ -18,6 +18,10 @@ Improve one's cognitive capability.
     different fields, what would the intersection look like?"
   - Almost an hour of reading. Hard to summarize. Worth rereading from time to
     time.
+- [Excellence is a habit, but so is failure](https://awesomekling.github.io/Excellence-is-a-habit-but-so-is-failure/)
+  ([HN](https://news.ycombinator.com/item?id=36659166))
+  - A short article on bad habits incrementally accumulate over time
+  - Avoiding the bad ones is as important as cultivating the good one
 
 ## Sites
 
