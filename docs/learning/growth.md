@@ -12,6 +12,12 @@ Improve one's cognitive capability.
   - Skills: programming, open source OS, Web, English
   - Culture: write, test and debug open-source software, publish useful
     information, support and propagate the culture
+- [How to Do Great Work? | Paul Graham](http://paulgraham.com/greatwork.html)
+  ([HN](https://news.ycombinator.com/item?id=36550615))
+  - "If you collected lists of techniques for doing great work in a lot of
+    different fields, what would the intersection look like?"
+  - Almost an hour of reading. Hard to summarize. Worth rereading from time to
+    time.
 
 ## Sites
 
