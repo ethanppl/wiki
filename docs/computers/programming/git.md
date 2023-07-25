@@ -13,3 +13,10 @@ Git commands.
   - `git rm --cached path/to/file`
 - [Copy or reset a single file from another branch/commit](https://stackoverflow.com/questions/7147270/hard-reset-of-a-single-file)
   - `git checkout <branch/commit> -- file-name.txt`
+
+## Links
+
+- [Why SQLite Does Note Use Git](https://www.sqlite.org/whynotgit.html)
+  ([HN](https://news.ycombinator.com/item?id=36830813))
+  - Lacks situational awareness, difficult to find successors and descendants,
+    complex model, no historical branch names, etc.
