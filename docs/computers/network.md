@@ -28,7 +28,10 @@ Communications between computers.
   - A generic and extendable version of `robots.txt` to expose information at a
     "well-known location"
   - For example, `./well-known/change-password` to provide the URL for changing
-    password
+    a password
+- [The Secret Life of the 500+ Cables that Run the Internet | CNET](https://www.cnet.com/home/internet/features/the-secret-life-of-the-500-cables-that-run-the-internet/)
+  - A simple explanation of subsea cables. How they work, how they are
+    installed, geopolitical complications, etc.
 
 Ethernet
 
