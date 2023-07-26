@@ -71,3 +71,6 @@ YouTube:
   - The historical cost, design and application of satellites, compare to the
     future
   - The opportunities and challenges when space is commercialized
+- [Apollo 11 Lunar Mission Flight Path](https://airandspace.si.edu/multimedia-gallery/5317hjpg)
+  (7000 × 2300) — I like this graphic a lot
+  - Graphics of the sequence of major events during the Apollo 11 lunar mission
