@@ -49,3 +49,8 @@ News/forums/communities:
   ([HN](https://news.ycombinator.com/item?id=35750165))
   - An awesome project to put the Internet into a box for places that are not
     connected to the Internet
+- [The IBM Mainframe: How it Runs and Why it Survives](https://arstechnica.com/information-technology/2023/07/the-ibm-mainframe-how-it-runs-and-why-it-survives/)
+  - Redundancy and partitioning, CPU (Telum), OS (Z/OS), files qualifiers,
+    software (Job Control Language, COBOL, CICS)
+  - Why mainframe survives? Customer "lock-in". The important niche of
+    high-volume and business-critical data processing.
