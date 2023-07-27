@@ -64,3 +64,13 @@ Writing — for better thinking and communication
     disciplines
   - Improves research by narratives: a story is more compelling and makes it
     easier for readers to understand
+- [Why engineers should focus on writing?](https://www.yieldcode.blog/post/why-engineers-should-write/)
+  ([HN](https://news.ycombinator.com/item?id=36659166))
+  - Writing to organize thoughts, learn something new, and helps identify
+    mistakes
+  - Writing requires practice. Write as if it is a challenge and strive to
+    improve every time
+- [Nobody cares about your blog | Alex Molas](https://www.alexmolas.com/2023/07/15/nobody-cares-about-your-blog.html)
+  ([HN](https://news.ycombinator.com/item?id=36741620))
+  - But there are reasons to continue writing. The cons listed in the blog
+    aren't cons to me.
