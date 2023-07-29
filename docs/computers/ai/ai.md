@@ -32,13 +32,6 @@ Courses
   - "After you train an LLM to satisfy a desired property _P_, then it is easier
     to elicit the LLM into satisfying the opposite of _P_"
   - Could like to see more evidence and examples though
-- [Understanding ChatGPT | Atmosera](https://www.atmosera.com/ai/understanding-chatgpt/)
-  ([HN](https://news.ycombinator.com/item?id=35312468))
-  - Understand how things went from RRN to LSTM to Transformer, to BERT, to GPT
-  - Contains a brief explanation of each advancement and links to all the
-    important papers
-- [Web LLM | GitHub @mlc-ai](https://github.com/mlc-ai/web-llm) — Running LLM
-  directly in the browser
 - [What are transformer models](https://txt.cohere.ai/what-are-transformer-models/)
   ([HN](https://news.ycombinator.com/item?id=35576918))
   - If you want a higher-level explanation with examples of the process of
@@ -47,27 +40,11 @@ Courses
   - If you have the patience, try reading the
     [original paper](https://arxiv.org/abs/1706.03762). The top comment in the
     HN post summarized a few oversimplifications or mistakes in the article.
-- [Understanding large language models](https://magazine.sebastianraschka.com/p/understanding-large-language-models)
-  ([HN](https://news.ycombinator.com/item?id=35589756))
-  - Top 10-ish papers to understand the design, constraints and evolution of
-    LLMs
-  - Development of LLMs: Attention weighted encodings, transformer, BERT, GPT,
-    BART
-  - Improving the efficiency of LLMs: FlashAttention, Cramming, finetuning
-    methods, Chinchilla model, InstructGPT, and more on reinforcement learning
-    with human feedback (RLHF)
-- [How Replit train their own Large Language Models](https://blog.replit.com/llm-training)
-  - Data processing (Databricks) → Custom tokenization → Model training
-    (MosaicML) → Evaluation (HumanEval framework)
 - [A Cookbook of Self-Supervised Learning](https://arxiv.org/abs/2304.12210)
   ([PDF](https://arxiv.org/pdf/2304.12210.pdf))
   ([HN](https://news.ycombinator.com/item?id=35702490))
   - 70 pages cookbook lowering the barrier of entry for training AI with
     self-supervised learning
-- [All the Hard Stuff Nobody Talks About when Building Products with LLMs | Honeycomb.io](https://www.honeycomb.io/blog/hard-stuff-nobody-talks-about-llm)
-  - It's hard to build a real product backed by an LLM
-  - Limited context windows, LLMs are slow and chaining is impractical, prompt
-    engineering is weird, prompt injection, etc
 - [Production AI Systems are really hard | Kevin Fischer](https://methexis.substack.com/p/production-ai-systems-are-really)
   ([HN](https://news.ycombinator.com/item?id=36111596))
   - Using radiologists as an example to explain why it is hard to build
@@ -80,11 +57,6 @@ Courses
     and ask the AI to improve
   - [These loops are prone to distractions though.](https://twitter.com/emollick/status/1645609531240587265)
     "Technology marches on, but procrastination remains unbeaten." lol
-- [Understanding GPT tokenizers | Simon Willison](https://simonwillison.net/2023/Jun/8/gpt-tokenizers/)
-  - Optimizations by including leading space in the token
-  - The tokenization is biased towards English words
-  - Glitch tokens: words that have no meaning but got tokenized, and get near 0
-    weight after training lead to weird glitch
 - [How to make a QR code with Stable Diffusion | Stable Diffusion Art](https://stable-diffusion-art.com/qr-code/)
   - This works for me, things like city, buildings and castle works well
   - It uses the image-to-image with `ControlNet` to "paint" the QR code
@@ -92,25 +64,3 @@ Courses
     [`GhostMix` model](https://civitai.com/api/download/models/76907) it uses
   - The later the `ControlNet` starts or the earlier it ends the photo is more
     realistic, but risking of losing the QR code
-
-The social impact of AI
-
-- [An Appeal to AI Superintelligence: Reasons to Preserve Humanity](https://www.lesswrong.com/posts/azRwPDbZfpadoL7WW/an-appeal-to-ai-superintelligence-reasons-to-preserve)
-  - 15 reasons for AI superintelligence to preserve humanity, e.g. the AI might
-    just be in a simulation
-- [The end of coding as we know it | Insider](https://archive.ph/7XceZ)
-  - In the end, it is who can understand AI limitations and adapt faster
-  - The number of bank tellers _grew_ after the introduction of ATMs
-- [AI is a Lot of Work | The Verge](https://www.theverge.com/features/23764584/)
-  - The stories of people that work to label data manually for AI
-- [AI is Killing the Old Web | The Verge](https://www.theverge.com/2023/6/26/23773914/)
-  - How the introduction of generative AI created a series of problems for the
-    platforms we have on the web
-  - Social media runs in scale and AI scale better than humans. Platforms are
-    flooded with AI-generated junk
-- [Why did Google Brain exist? | Brian Kihoon Lee](https://www.moderndescartes.com/essays/why_brain/)
-  - Former employee sharing why Google Brain exists and the possible impact that
-    Brain is being merged with DeepMind
-  - From getting the prestige of being the best research group, and
-    industry-leading technologies, to Google killing the project because there
-    isn't enough value to capture
