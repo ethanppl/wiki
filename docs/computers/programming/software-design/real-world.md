@@ -41,3 +41,15 @@
     between components through S3 is expensive
   - New design: single monolith structure with AWS EC2 and ECS
   - Reduced infrastructure cost by over 90%
+- [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html)
+  ([HN](https://news.ycombinator.com/item?id=36894932))
+  - Designing systems at the scale of S3 means 1 in a billion might be a daily
+    occurrence
+  - From the physical hard disk storage to managing heat (load balancing), to
+    data replication, to data placement
+  - There are also considerations of human factors, e.g. threat model and
+    lightweight formal verification
+  - The last bit is inspiring, scaling the team is as important as scaling the
+    technology. Encouraging ownership intrinsically motivates people to push
+    forward. As a senior engineer is to develop and articulate problems, rather
+    than pitching solutions.
