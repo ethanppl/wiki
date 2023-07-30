@@ -35,3 +35,4 @@ Mysteries:
 - [The Dyatlov Pass Case | LEMMiNo](https://youtu.be/Y8RigxxiilI) — 9
   experienced hikers died in mysterious circumstances in 1959
   - [Two Theories for an Unsolved Soviet Mystery | Vox](https://youtu.be/43BDpdMq_Ag)
+- [The Kennedy Assassination: Inside the Book Depository](https://youtu.be/5u7euN1HTuU)
