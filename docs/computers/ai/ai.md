@@ -4,6 +4,18 @@ Anything about computers learning and "thinking".
 
 ## Resources
 
+Using AI
+
+- [How to Use AI to Do Stuff: An Opinionated Guide](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-stuff-an-opinionated)
+  — Just an opinionated guide
+  ([HN](https://news.ycombinator.com/item?id=36743784))
+  - Writing: Bing, Cluade2, GPT
+  - Making images: Adobe Firefly, Stable Diffusion, DALL-E, Midjourney
+  - Ideation: Bing, GPT
+  - Making videos: D-iD, Runway v2, ElevenLabs
+  - Code, data and documents: Code Interpreter, Calude 2, Bing Sidebar
+  - Information and learning: Bing, Khanmigo
+
 Courses
 
 - [Neural Networks: Zero to Hero](https://www.youtube.com/watch?v=VMj-3S1tku0&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&ab_channel=AndrejKarpathy)
