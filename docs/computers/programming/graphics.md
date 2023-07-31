@@ -22,7 +22,7 @@ WebGPU
     to textures and running computations on GPU
   - WebGPU is similar to WebGL but WebGL is a stateful API and WebGPU is not
 - [Learn WebGPU | eliemichel.github.io](https://eliemichel.github.io/LearnWebGPU/)
-  - Writing native 3D applications in C++ with WebGPU
+  — Writing native 3D applications in C++ with WebGPU
 - [WebGPU - All of the cores, none of the canvas](https://surma.dev/things/webgpu/)
   — Another explainer on WebGPU
 
@@ -37,13 +37,13 @@ WebGPU
   - But the HN thread contains some better examples like this
     [ASCII fluid dynamics in IOCCC2012](https://youtu.be/QMYfkOtYYlg)
 - [Animate Kids Drawings](https://fairanimateddrawings.com/site/home)
-  ([HN](https://news.ycombinator.com/item?id=35561203))
-  [Code](https://github.com/facebookresearch/AnimatedDrawings#readme) — Animate
+  ([HN](https://news.ycombinator.com/item?id=35561203),
+  [Code](https://github.com/facebookresearch/AnimatedDrawings#readme)) — Animate
   hand-drawn characters
 - [How the Computer Graphics Industry Got Started at the University of Utah](https://spectrum.ieee.org/history-of-computer-graphics-industry)
   ([HN](https://news.ycombinator.com/item?id=36264744))
   - Cofounders of Pixar, Adobe and Netscape all started at the University of
     Utah and their company Evans and Sutherland
-- [Human Shader](https://humanshader.com/) — funny, performing shading
-  operations by hand following a worksheet, no calculator is allowed —
-  ([HN](https://news.ycombinator.com/item?id=36779855))
+- [Human Shader](https://humanshader.com/)
+  ([HN](https://news.ycombinator.com/item?id=36779855)) — funny, performing
+  shading operations by hand following a worksheet, no calculator is allowed
