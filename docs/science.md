@@ -25,3 +25,8 @@ Math
     offspring or share nutrients
   - How confirmation bias affects scientists and journalists amplify studies
     with emotional and seductive stories
+- [Matrices and Graphs](https://thepalindrome.org/p/matrices-and-graphs)
+  ([HN](https://news.ycombinator.com/item?id=36734771))
+  - Matrices are graphs and graphs are matrices
+  - Frobenius normal form: revealing cyclic subspaces and edges between the
+    subspaces
