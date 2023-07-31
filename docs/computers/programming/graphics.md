@@ -43,4 +43,7 @@ WebGPU
 - [How the Computer Graphics Industry Got Started at the University of Utah](https://spectrum.ieee.org/history-of-computer-graphics-industry)
   ([HN](https://news.ycombinator.com/item?id=36264744))
   - Cofounders of Pixar, Adobe and Netscape all started at the University of
-    Utah and at their company Evans and Sutherland
+    Utah and their company Evans and Sutherland
+- [Human Shader](https://humanshader.com/) — funny, performing shading
+  operations by hand following a worksheet, no calculator is allowed —
+  ([HN](https://news.ycombinator.com/item?id=36779855))
