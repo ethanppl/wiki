@@ -8,6 +8,11 @@ Related pages:
 - [Computers / Database](/computers/database)
 - [Computers / Network](/computers/network)
 
+## Notes
+
+- [Data-Oriented Design Principles](https://data-oriented.design/) — The purpose
+  of all programs is to transform data from one form to another.
+
 ## Resources
 
 - [The Architect's Bookshelf | Gregor Hohpe](https://architectelevator.com/architecture/architect-bookshelf/)
