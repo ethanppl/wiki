@@ -118,3 +118,9 @@ Working as a Software Engineer:
   engineering hours per week
 - [A Senior Engineer's Guide to FAANG Interviews | interviewing.io](https://interviewing.io/guides/hiring-process)
   - The usual process / specific rules for each company (FAANG + Microsoft)
+- [Don't Let Architecture Astronauts Scare You | Joel Spolsky](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)
+  - Too much conceptual abstraction but never focus on the actual problem in the
+    reality
+  - Solve the real issues, not fancy, interesting, boastful architectures
+    > Architecture people are solving problems that they think they can solve,
+    > not problems that are useful to solve
