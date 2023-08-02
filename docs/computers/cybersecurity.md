@@ -6,6 +6,10 @@ I played CTF challenges for around a year to realize I am not as talented in
 finding flaws. It requires a lot of knowledge in multiple fields and a
 completely different mindset to approach problems, but it's fun.
 
+## Sites
+
+- [OWASP](https://owasp.org/) — Open Web Application Security Project
+
 ## Links
 
 - [Capturing the flag with GPT-4](https://micahflee.com/2023/04/capturing-the-flag-with-gpt-4/)
