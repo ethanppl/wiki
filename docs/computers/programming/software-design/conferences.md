@@ -1,6 +1,7 @@
-# The Elm Architecture
+# Conferences
 
-Explaining good software design with Elm.
+Explaining good software design, especially with functional programming (e.g.
+Elm).
 
 ## Links
 
@@ -11,7 +12,7 @@ Explaining good software design with Elm.
 
   - How can this be improved?
 
-    ```elm showLineNumbers
+    ```fsharp showLineNumbers
     type Contact = {
       FirstName: string
       MiddleInitial: string
@@ -24,7 +25,7 @@ Explaining good software design with Elm.
 
   - A data structure that represents design choice:
 
-    ```elm showLineNumbers
+    ```fsharp showLineNumbers
     type String50 = String 50 of string
 
     let createString50 (s: string) =
@@ -38,7 +39,7 @@ Explaining good software design with Elm.
 
     or:
 
-    ```elm showLineNumbers
+    ```fsharp showLineNumbers
     let createEmailAddress (s: string) =
       if s.Contains "@"
         then Some (EmailAddress s)
@@ -50,7 +51,7 @@ Explaining good software design with Elm.
 
   - Union types:
 
-    ```elm showLineNumbers
+    ```fsharp showLineNumbers
     type VerifiedEmail = VerifiedEmail of EmailAddress
     type VertificationService =
       (EmailAddress * Verificationhash) -> VerifiedEmail option
@@ -62,7 +63,7 @@ Explaining good software design with Elm.
 
   - A data structure that represents a business rule:
 
-    ```elm showLineNumbers
+    ```fsharp showLineNumbers
     type Contact = {
       Name: PersonalName
       Email: EmailContactInfo
@@ -92,7 +93,8 @@ Explaining good software design with Elm.
     ```elm showLineNumbers
     type Model =
       { status: Maybe String
-      , questionToRestore: Maybe SurveyQuestion}
+      , questionToRestore: Maybe SurveyQuestion
+      }
     ```
 
   - Happy path:
