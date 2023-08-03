@@ -48,6 +48,13 @@ Improve one's cognitive capability.
   - "A belief is not dangerous until it turns absolute."
   - In HN comments: "It is the mark of an educated mind to be able to entertain
     a thought without accepting it" — Aristotle
+- [A Complete Guide to Getting What You Want](https://www.raptitude.com/2018/06/getting-what-you-want/)
+  - Identify something you want, then identify conflicting wants and sort them
+    out
+  - Learn how other people have already gotten the thing you want
+  - Do what others did. Imagine how one could do it if one has maximum courage
+    and tolerance.
+  - Adjust course as needed, but only as needed
 
 Writing — for better thinking and communication
 
