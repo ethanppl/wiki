@@ -39,3 +39,7 @@
   - The tokenization is biased towards English words
   - Glitch tokens: words that have no meaning but got tokenized, and get near 0
     weight after training lead to weird glitch
+- [The history of open-source LLMs | Deep (Learning) Focus](https://cameronrwolfe.substack.com/p/the-history-of-open-source-llms-better)
+  - Nice graphs and tables visualizing the performances of different LLMs
+  - Explains the evolution from lower-quality LLMs (BLOOM and OPT) to recent
+    powerful models (LLaMA and MPT)
