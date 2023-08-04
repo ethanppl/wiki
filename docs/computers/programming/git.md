@@ -13,6 +13,8 @@ Git commands.
   - `git rm --cached path/to/file`
 - [Copy or reset a single file from another branch/commit](https://stackoverflow.com/questions/7147270/hard-reset-of-a-single-file)
   - `git checkout <branch/commit> -- file-name.txt`
+- [Delete a collection of branches with grep](https://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git)
+  - `` git branch -d `git branch | grep <pattern>` ``
 
 ## Links
 
