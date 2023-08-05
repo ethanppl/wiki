@@ -54,7 +54,7 @@
     - Caching: to reduce latency and cost for semantically similar requests
     - Guardrails: to ensure output quality (syntactically and factually correct,
       free from harmful content)
-    - Defensive UX: guide user behavior, avert possible misues & handle errors
+    - Defensive UX: guide user behaviour, avert possible misuse & handle errors
       gracefully
     - Collect user feedback: incorporate user feedback into the UX design to
       build a data flywheel
