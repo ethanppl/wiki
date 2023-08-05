@@ -43,3 +43,18 @@
   - Nice graphs and tables visualizing the performances of different LLMs
   - Explains the evolution from lower-quality LLMs (BLOOM and OPT) to recent
     powerful models (LLaMA and MPT)
+- [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
+  ([HN](https://news.ycombinator.com/item?id=36965993))
+  - Will be a long read. Contains patterns for the following seven topics:
+    - Evaluations: to measure the performance of the models
+    - Retrieval-Augmented Generation (RAG): to provide richer context to the
+      model
+    - Fine-tuning: to get better at specific tasks, usually a domain-specific
+      dataset
+    - Caching: to reduce latency and cost for semantically similar requests
+    - Guardrails: to ensure output quality (syntactically and factually correct,
+      free from harmful content)
+    - Defensive UX: guide user behavior, avert possible misues & handle errors
+      gracefully
+    - Collect user feedback: incorporate user feedback into the UX design to
+      build a data flywheel
