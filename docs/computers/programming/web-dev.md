@@ -37,6 +37,11 @@ Developing user interfaces of web pages.
     callbacks
   - Optimize existing JavaScript: event delegation, attach a single event
     listener to a common ancestor of many elements
+- [I'm betting on HTML](https://catskull.net/html.html)
+  ([HN](https://news.ycombinator.com/item?id=36966653))
+  - HTML can handle more things than before
+  - Some interesting tabs: `<abbr>`, `<datalist>`, `<details>`, `<dialog>`,
+    `<mark>`, `<meter>`, `<progress>`, etc.
 
 SVG
 
