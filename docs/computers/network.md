@@ -32,6 +32,11 @@ Communications between computers.
 - [The Secret Life of the 500+ Cables that Run the Internet | CNET](https://www.cnet.com/home/internet/features/the-secret-life-of-the-500-cables-that-run-the-internet/)
   - A simple explanation of subsea cables. How they work, how they are
     installed, geopolitical complications, etc.
+- [Why is DNS still hard to learn? | Julia Evans](https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/)
+  - It has been operating the same way for 30 years, it's still hard to learn
+    because of the hidden details
+  - Some tips from the author to deal with hidden systems, confusing tools and
+    some weird gotchas
 
 Ethernet
 
