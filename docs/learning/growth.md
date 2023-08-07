@@ -18,6 +18,12 @@ Improve one's cognitive capability.
     different fields, what would the intersection look like?"
   - Almost an hour of reading. Hard to summarize. Worth rereading from time to
     time.
+- [Highlights from the Sequences | LessWrong](https://www.lesswrong.com/highlights)
+  - The Sequences is a series of blogs written by Eliezer Yudkowsky on his view
+    of rationality between 2006-2009
+  - This page contains the top 50 posts from the Sequences, from thinking about
+    our thinking, then recognizing pitfalls of our reasoning, then understanding
+    laws that guide our beliefs, and many more
 - [Excellence is a habit, but so is failure](https://awesomekling.github.io/Excellence-is-a-habit-but-so-is-failure/)
   ([HN](https://news.ycombinator.com/item?id=36659166))
   - A short article on bad habits incrementally accumulate over time
@@ -26,8 +32,11 @@ Improve one's cognitive capability.
 ## Sites
 
 - [Untools](https://untools.co/) — Tools and frameworks to assist thinking,
-  decision-making and problem-solving.
+  decision-making and problem-solving
   ([Guide](https://untools.co/thinking-tools-guide/))
+- [LessWrong](https://www.lesswrong.com/) — Forum and community dedicated to
+  improving human reasoning
+  ([User's Guide](https://www.lesswrong.com/posts/LbbrnRvc9QwjJeics/new-user-s-guide-to-lesswrong))
 
 ## Links
 
