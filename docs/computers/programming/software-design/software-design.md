@@ -34,6 +34,11 @@ Related pages:
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
   - Benefits, criticism, history, classification of patterns
   - [A collection of creational, structural, and behavioural design patterns](https://refactoring.guru/design-patterns/catalog)
+- [awesome-falsehood | GitHub @kdeldycke](https://github.com/kdeldycke/awesome-falsehood)
+  - A curated list of falsehoods programmers believes to be true but isn't
+  - About dates, emails, names, all kinds of stuff
+  - The article that started it all:
+    [falsehood programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 
 ## Links
 
