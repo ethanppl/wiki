@@ -16,3 +16,7 @@ Web Environment Integrity (WEI)
 - [Google v.s. the open web](https://interpeer.io/blog/2023/07/google-vs-the-open-web/)
   - It's not just targeting bots, it's also advertisement
   - Reactions to the policy and rebuttals from the author
+- [Splitting the Web | Ploum](https://ploum.net/2023-08-01-splitting-the-web.html)
+  ([HN](https://news.ycombinator.com/item?id=36955146))
+  - A little bit extreme IMO, the Internet is always split in some way, but it's
+    an interesting topic to look into
