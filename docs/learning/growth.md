@@ -90,3 +90,12 @@ Writing — for better thinking and communication
   ([HN](https://news.ycombinator.com/item?id=36741620))
   - But there are reasons to continue writing. The cons listed in the blog
     aren't cons to me.
+- [Some tactics for writing in public | Julia Evans](https://jvns.ca/blog/2023/08/07/tactics-for-writing-in-public/)
+  ([HN](https://news.ycombinator.com/item?id=37033403))
+  - Content: facts, experiences and stories, provide context and preemptively
+    add common suggestions
+  - Avoid starting common debates like Vim or not, functional vs imperative,
+    etc.
+  - Ask technical questions and ask for examples/experiences, not opinions
+  - Set boundaries for the conversations, analyze negative comments, don't argue
+    and fix mistakes
