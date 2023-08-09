@@ -43,3 +43,11 @@ Related:
     flexible work
   - Anchoring: after the pandemic, employees are anchored to work-life balance
     and flexibility
+- [The future of remote work](https://staysaasy.com/management/2023/08/06/the-future-of-remote-work.html)
+  - It's hard to reason about remote work without the context
+  - There are experiences on remote (pros vs cons), and also the market dynamics
+    of remote (companies vs talents)
+  - Companies with slower growth and a product market fit are better for remote
+    work
+  - Don't bluff, don't say remote is the future/mandate office. It hurts
+    credibility.
