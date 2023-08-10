@@ -91,6 +91,11 @@ Examples/Stories:
   - There will always be survivor bias though
 - [Ask HN: Side project of more than $2k monthly revenue?](https://news.ycombinator.com/item?id=35567822)
 - [@levelsio Twitter](https://twitter.com/levelsio) — Solo entrepreneur
+- [How the most successful B2B startups came up with their original idea](https://www.lennysnewsletter.com/p/how-the-most-successful-b2b-startups)
+  - Part 1 out of 7 of How to Kickstart and Scale a B2B Business
+  - Interviews with founders of B2B startups of their stories
+  - Ideation comes from past pain (retool, linear), ponder and probe (figma,
+    notion), or present pull (slack, loom)
 
 Ideas:
 
