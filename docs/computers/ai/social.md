@@ -23,3 +23,12 @@ The social impact of AI.
   - From getting the prestige of being the best research group, and
     industry-leading technologies, to Google killing the project because there
     isn't enough value to capture
+- [The Expanding Dark Forest and Generative AI](https://maggieappleton.com/ai-dark-forest)
+  - It's like there is a dark forest full of AI-generated content, bots, ads,
+    trolls, clickbait, etc.
+  - AI can also generate video essays, TikTok clips, podcasts, slide decks, etc.
+  - Reverse Turing test: humans to prove they are not AI
+  - Triangulate on objective reality: humans can consult a shared physical
+    reality to settle disagreements
+  - La langue (formal concept of language) vs la parole (everyday speech,
+    quirks, dialects, memes, jargon, etc.)
