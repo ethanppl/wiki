@@ -20,3 +20,8 @@ How human behaves.
     relatedness)
   - Players look for surprising feedback. Great games create a safe environment
     to practice and give a sense of winning regularly
+- [Have Attention Spans Been Declining](https://slimemoldtimemold.com/2023/07/24/your-mystery-have-attention-spans-been-declining/)
+  - A meta-analysis of the available studies on attention span
+  - Metrics to measure attention span and existing literature we have
+  - There is no convincing evidence yet. The author gave what could an ideal
+    study be like
