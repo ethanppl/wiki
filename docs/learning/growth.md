@@ -64,6 +64,10 @@ Improve one's cognitive capability.
   - Do what others did. Imagine how one could do it if one has maximum courage
     and tolerance.
   - Adjust course as needed, but only as needed
+- [Ask HN: What are the big/important problems to work on?](https://news.ycombinator.com/item?id=37033312)
+  - Free software: work against authoritarianism, censorship, and surveillance
+  - Or "What is the highest-impact problem that you are capable of solving?"
+    Finding the balance between optimism and pessimism
 
 Writing — for better thinking and communication
 
