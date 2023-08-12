@@ -124,3 +124,7 @@ Working as a Software Engineer:
   - Solve the real issues, not fancy, interesting, boastful architectures
     > Architecture people are solving problems that they think they can solve,
     > not problems that are useful to solve
+- [A senior engineer/EM job search story | Gergely](https://blog.pragmaticengineer.com/a-senior-engineer-em-job-search-story/)
+  - 350 job applications to get 3 offers
+  - 2 helpful things: New York City's Salary Transparency Law and the power of
+    LinkedIn intro and headline
