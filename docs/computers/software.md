@@ -40,3 +40,10 @@ Developing and maintaining software.
     - **The community approach:** contextual and intentional communication,
       maintaining healthy conversational flows. Designing other healthy choice
       architecture is a way to build a better community.
+- [Temptations of an open-source browser extension developer | Github @extesy](https://github.com/extesy/hoverzoom/discussions/670)
+  - Author and maintainer of the Chrome extension HoverZoom
+  - A collection of temptations received, including offers like collecting and
+    selling user data for targetted advertisements
+  - Some developers are fortunate to have a stable job to voluntarily maintain
+    open-source software, but some are likely to fall into these temptations
+    that deviate from the purpose of the software
