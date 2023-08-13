@@ -34,6 +34,10 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [QR Codes in Anime that works](https://www.reddit.com/r/StableDiffusion/comments/141hg9x/controlnet_for_qr_code/)
   — the code is simple but still quite creative and impressive
 - [The Password Game](https://neal.fun/password-game/)
+- [Wavy walls use fewer bricks than a straight wall](https://twistedsifter.com/2020/06/how-wavy-crinkle-crankle-walls-use-less-bricks-than-straight-walls/)
+  - [Crinkle Crankle Walls | Wikipedia](https://en.wikipedia.org/wiki/Crinkle_crankle_wall),
+    [Crinkle Crankle Calculus | John D. Cook](https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/)
+  - A straight wall needs more layers or buttresses, which requires more bricks
 
 April Fools
 
