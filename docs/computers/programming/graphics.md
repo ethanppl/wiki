@@ -47,3 +47,9 @@ WebGPU
 - [Human Shader](https://humanshader.com/)
   ([HN](https://news.ycombinator.com/item?id=36779855)) — funny, performing
   shading operations by hand following a worksheet, no calculator is allowed
+- [The Future of Technology Looks a Lot Like... Pixar?](https://digitalnative.substack.com/p/the-future-of-technology-looks-a)
+  - The advancement of computer graphics because of Pixar, and how it influences
+    the development of OpenUSD
+  - The possibility and potential of OpenUSD to be "the HTML of the metaverse"
+  - Going forward with better tools and AI: the remixing of intellectual
+    property + the fragmentation of culture
