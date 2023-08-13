@@ -4,6 +4,13 @@ Store and query data. I will add more later.
 
 ## Links
 
+- [Database Cryptography Fur the Rest of Us | Soatok](https://soatok.blog/2023/03/01/database-cryptography-fur-the-rest-of-us/)
+  - A guide to the difficulty and possible solution for database encryption
+  - Confused deputies, canonicalization attacks, multi-tenancy, and the
+    additional complexity in NoSQL databases
+  - Searchable encryption: order-preserving or order-revealing encryption,
+    deterministic encryption, homomorphic encryption, searchable symmetric
+    encryption, HMAC
 - [Nine Ways to Shoot Yourself in the Foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
   ([HN](https://news.ycombinator.com/item?id=35684220))
   - `work_mem`, functions and procedures, triggers, `NOTIFY`, `EXPLAIN_ANALYZE`,
@@ -29,3 +36,7 @@ Store and query data. I will add more later.
   - Efficiency: the real issue is ORMs encourage poor practices. Data loaders
     can handle N+1 problems in ORMs
   - Visibility problem: translating SQL error to ORM error confuses developers
+- [Securing PostgreSQL DB with Roles & Privileges | Romario](https://rlopzc.com/posts/securing-your-postgresql-db-with-roles--privileges/)
+  - Scope and implement roles and privileges in PostgreSQL
+  - Commands like `CREATE`, `GRANT`, `ALTER DEFAULT PRIVILEGES`, and
+    `REASSIGN OWNED`

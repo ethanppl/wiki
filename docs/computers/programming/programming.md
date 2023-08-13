@@ -45,13 +45,6 @@ science/programming.
   - A helpful guide to navigate faster in editors, a nice skill to acquire for
     all programmers
   - Vim motions, the navigation, is different from using Vim, the text editor
-- [Database Cryptography Fur the Rest of Us | Soatok](https://soatok.blog/2023/03/01/database-cryptography-fur-the-rest-of-us/)
-  - A guide to the difficulty and possible solution for database encryption
-  - Confused deputies, canonicalization attacks, multi-tenancy, and the
-    additional complexity in NoSQL databases
-  - Searchable encryption: order-preserving or order-revealing encryption,
-    deterministic encryption, homomorphic encryption, searchable symmetric
-    encryption, HMAC
   - Case study on MongoDB MongoCrypt implementation
 - [Self-hosting in 2023](https://grifel.dev/decentralization/)
   ([HN](https://news.ycombinator.com/item?id=34860655))
