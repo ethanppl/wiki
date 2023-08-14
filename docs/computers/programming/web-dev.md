@@ -42,6 +42,12 @@ Developing user interfaces of web pages.
   - HTML can handle more things than before
   - Some interesting tabs: `<abbr>`, `<datalist>`, `<details>`, `<dialog>`,
     `<mark>`, `<meter>`, `<progress>`, etc.
+- [Things you forgot (or never knew) because of React | Josh Collinsworth](https://joshcollinsworth.com/blog/antiquated-react)
+  - The author has a strong opinion, but it's a good overview of what React is
+    outdated compared to others
+  - With React assumed to be the default, people don't realize features like web
+    components are missing
+  - There are better alternatives like Svelte, Vue, Solid, etc.
 
 SVG
 
