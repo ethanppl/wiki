@@ -38,6 +38,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - [Crinkle Crankle Walls | Wikipedia](https://en.wikipedia.org/wiki/Crinkle_crankle_wall),
     [Crinkle Crankle Calculus | John D. Cook](https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/)
   - A straight wall needs more layers or buttresses, which requires more bricks
+- [The Egg | Andy Weir](http://www.galactanet.com/oneoff/theegg_mod.html) —
+  worth spending 5 minutes to read
 
 April Fools
 
