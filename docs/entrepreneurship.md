@@ -96,6 +96,10 @@ Examples/Stories:
   - Interviews with founders of B2B startups of their stories
   - Ideation comes from past pain (retool, linear), ponder and probe (figma,
     notion), or present pull (slack, loom)
+- [My $0 → $100m → $0 in 5 years story | r/startup](https://old.reddit.com/r/startups/comments/15p8qrx/my_0100m0_in_5_years_story/)
+  - Misalignment between founders and VCs kills the company
+  - Focus on building, selling and delivering, rather than hiring VPs that just
+    bloat payroll unproportionally
 
 Ideas:
 
