@@ -42,10 +42,6 @@ Related pages:
 
 ## Links
 
-- YouTube:
-  [Making impossible states impossible | elm-conf](https://youtu.be/IcgmSRJHu_8)
-  - Better domain modelling, design data types around the real-world domain
-  - Understanding union type, zip list, opaque type
 - [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
   ([HN](https://news.ycombinator.com/item?id=35399603))
   - How logical clocks order events in distributed systems
@@ -118,3 +114,9 @@ Related pages:
     object for extensibility
   - Do not enforce security through obscurity, make IDs unguessable, but prefix
     ID with an entity name
+- [Squeeze the hell out of the system you have | Dan Slimmon](https://blog.danslimmon.com/2023/08/11/squeeze-the-hell-out-of-the-system-you-have/)
+  ([HN](https://news.ycombinator.com/item?id=37091983))
+  - Increasing the complexity costs time, effort as well as attention required
+    for all future decisions
+  - Until reaching the fundamental limit of the current (dumb) system, try to
+    optimize and squeeze as much as possible
