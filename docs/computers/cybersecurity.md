@@ -30,3 +30,9 @@ completely different mindset to approach problems, but it's fun.
     physical memory
   - Physical memory encryption, like Xbox and PS5 game consoles, can counter it,
     but most CPUs on the planet don't do that
+- [How early PayPal was nearly devastated by a security upgrade | Max Levchin](https://max.levch.in/post/724289457144070144/shamir-secret-sharing-its-3am-paul-the-head-of)
+  - Max Levchin, one of the co-founders of PayPal, implemented a Shamir Secret
+    Sharing protocol to replace a passphrase
+  - During the migration, something went wrong that almost locked the whole DB
+  - Turns out there is an incompatibility between Linux and Solaris. "Shoulda
+    RTFM".
