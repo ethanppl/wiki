@@ -12,3 +12,6 @@ A few tricks and configurations improved my user experience.
   up searches
 - [Start specific Chrome user profile](https://superuser.com/questions/377186/how-do-i-start-chrome-using-a-specified-user-profile)
   — specify `--profile-directory=Default`
+- [Filesystems in Windows and WSL](https://learn.microsoft.com/en-us/windows/wsl/filesystems)
+  - Path to WSL in Windows: `\\wsl.localhost\Ubuntu-20.04`
+  - Path to Windows in WSL: `/mnt/c/`.
