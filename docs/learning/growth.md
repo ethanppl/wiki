@@ -67,7 +67,13 @@ Improve one's cognitive capability.
 - [Ask HN: What are the big/important problems to work on?](https://news.ycombinator.com/item?id=37033312)
   - Free software: work against authoritarianism, censorship, and surveillance
   - Or "What is the highest-impact problem that you are capable of solving?"
-    Finding the balance between optimism and pessimism
+  - Finding the balance between optimism and pessimism
+- [The carrot problem](https://www.atvbt.com/the-carrot-problem/)
+  ([HN](https://news.ycombinator.com/item?id=37100226))
+  - British lying to the Germans about their radar
+  - Anytime someone makes up excuses for their success, it misleads people to
+    put effort and time into the wrong things
+  - It is impossible to know the scale but being an insider helps
 
 Writing — for better thinking and communication
 
@@ -103,3 +109,8 @@ Writing — for better thinking and communication
   - Ask technical questions and ask for examples/experiences, not opinions
   - Set boundaries for the conversations, analyze negative comments, don't argue
     and fix mistakes
+- [Write about what you learn. It pushes you to understand topics better. | Addy Osmani](https://addyosmani.com/blog/write-learn/)
+  ([HN](https://news.ycombinator.com/item?id=37118883))
+  - Explore, articulate, reflect and reveal gaps in knowledge consistently
+  - The Feynman Technique: research → explain → fill in holes → simplify and
+    make analogies → explain …
