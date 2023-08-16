@@ -80,6 +80,13 @@ Related pages:
     business
   - Small businesses that don't require scale, charge high prices, target
     businesses, and target a small market
+- [How startups lose spark | John Qian](https://blog.johnqian.com/startup-spark)
+  ([HN](https://news.ycombinator.com/item?id=37098483))
+  - When the team is small, design, ideation, implementation and launching are
+    all fun and exciting
+  - When the team is >100, things start to get boring and slow
+  - Might not be preventable, but don't accelerate the death, keep it fun like a
+    startup instead of copying large companies
 
 Examples/Stories:
 
