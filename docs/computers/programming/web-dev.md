@@ -48,6 +48,10 @@ Developing user interfaces of web pages.
   - With React assumed to be the default, people don't realize features like web
     components are missing
   - There are better alternatives like Svelte, Vue, Solid, etc.
+- [A Blog Post with Every HTML Element](https://www.patrickweaver.net/blog/a-blog-post-with-every-html-element/)
+  ([HN](https://news.ycombinator.com/item?id=37104742))
+  - More than a hundred different HTML tags, categorized, all used somewhere in
+    the post
 
 SVG
 
