@@ -6,9 +6,13 @@ sidebar_position: 1
 
 Sometimes, I vaguely remember something I read but I couldn't find the link to
 it. Sometimes, I want to get started learning something but don't know where to
-start. This is my personal wiki to record the resources and links that I think
-will be helpful to me in the future. This wiki is inspired by
-[https://wiki.nikiv.dev/](https://wiki.nikiv.dev/).
+start. And sometimes I want to force myself to take notes of what I learned and
+accumulate them.
+
+This is my personal wiki to record the resources and links that I think will be
+helpful to me in the future. This wiki is inspired by
+[https://wiki.nikiv.dev/](https://wiki.nikiv.dev/) (sadly most of the resources
+are behind a paywall now).
 
 The idea is to have a place to keep the links to what I think is interesting,
 and hopefully, these links are helpful to my future self and others. I hope the
@@ -18,12 +22,13 @@ resources I found useful.
 
 # How is each page organized?
 
-I try to keep each page focused. A page will be split into multiple pages if
-there are too many links. The goal is to keep the wiki easy to navigate. Each
-link has some comments to aid my future self (and possibly you) to find the
-right one.
+Honestly, I don't know how to divide human vast knowledge into categories. I
+tried to keep each page focused. A page will be split into multiple pages if
+there are too many links. But you will see some pages contain way more than
+others. The goal is to keep the wiki easy to navigate. Each link has some notes
+and comments to aid my future self (and possibly you) to understand it.
 
-I try to classify the links into three main categories:
+I try to split each page into three main categories:
 
 - **Resources**: Link to a beginner-friendly guide for the topic
 - **Sites**: Link to a hub where it contains relevant information for the topic
@@ -53,5 +58,7 @@ start, I suggest checking out these pages:
 
 - [Learning](./learning) page: I believe learning how to learn is the most
   important skill to have
+- [Growth](./learning/growth.md) page: Seeking growth, improving one's cognitive
+  capability
 - [Computers](./computers) page: This page contains the largest tree in this
-  wiki
+  wiki, simply because that's my interest
