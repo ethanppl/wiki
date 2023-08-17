@@ -14,3 +14,9 @@ A program that runs programs.
 - [Putting the "You" in CPU | CPU Land](https://cpu.land/)
   - What happens after you run a program?
   - Basic modes, multitasking, exec, ELF, paging, fork, etc.
+
+## Links
+
+- [A video game where you are an operating system](https://plbrault.com/blog-posts/i-created-the-nerdierst-game-ever-en/)
+  ([HN](https://news.ycombinator.com/item?id=37115626))
+  - Fun for nerds. Handle CPU cores, processes, memory pages and swap space
