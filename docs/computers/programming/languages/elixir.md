@@ -24,3 +24,9 @@ programming language.
     a sample code
   - Not an idiomatic way to write code, but touch upon a lot of low-level
     details of how processes work
+- [Why the dot when calling anonymous functions?](https://dashbit.co/blog/why-the-dot)
+  ([HN](https://news.ycombinator.com/item?id=37122006))
+  - To disambiguate, to distinguish anonymous functions and normal functions,
+    given the Lisp-2 approach that Elixir has
+  - Without the dot, Elixir still doesn't have the expressiveness of Lisp-1, but
+    also losses the clarity of Lisp-2
