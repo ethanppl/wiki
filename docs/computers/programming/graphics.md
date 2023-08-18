@@ -53,3 +53,9 @@ WebGPU
   - The possibility and potential of OpenUSD to be "the HTML of the metaverse"
   - Going forward with better tools and AI: the remixing of intellectual
     property + the fragmentation of culture
+
+Cool Examples
+
+- [My Room In 3D | Bruno Simon](https://github.com/brunosimon/my-room-in-3d/tree/main)
+- Maxime Heckel R3F — [Refraction](https://r3f.maximeheckel.com/refraction),
+  [Portal](https://r3f.maximeheckel.com/portal)
