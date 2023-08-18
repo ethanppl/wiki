@@ -88,6 +88,14 @@ Cognitive Load:
     we can aim for larger chunks
   - A section on how to learn effectively to expand and improve developers'
     processing power
+- [The Source of Readability](https://loup-vaillant.fr/articles/source-of-readability)
+  - Tips to make code readable, e.g.:
+  - "Code locality": code that is read together should be written together, e.g.
+    no global variables
+  - Write less code: having 2-3 designs, just stopping as soon as it "works" is
+    too tempting
+  - Keep modules deep: small interfaces with more functionality, to avoid being
+    forced to understand complicated interfaces
 
 Working as a Software Engineer:
 
