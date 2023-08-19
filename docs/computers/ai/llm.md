@@ -58,3 +58,8 @@
       gracefully
     - Collect user feedback: incorporate user feedback into the UX design to
       build a data flywheel
+- [10 open challenges in LLM research | Chip Huyen](https://huyenchip.com/2023/08/16/llm-research-open-challenges.html)
+  ([HN](https://news.ycombinator.com/item?id=37155080))
+  - Reduce & measure hallucinations, optimize context construction, multimodal
+    inputs, faster & cheaper, new architecture, GPU alternatives, agents acting
+    on behalf of LLM, human preference, chat interface, non-English language
