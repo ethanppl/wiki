@@ -36,3 +36,9 @@ completely different mindset to approach problems, but it's fun.
   - During the migration, something went wrong that almost locked the whole DB
   - Turns out there is an incompatibility between Linux and Solaris. "Shoulda
     RTFM".
+- [Short session expiration does not help security](https://www.sjoerdlangkemper.nl/2023/08/16/session-timeout/)
+  ([HN](https://news.ycombinator.com/item?id=37173339))
+  - It could not prevent problems caused by XSS, leaked logs, shared computers,
+    etc.
+  - Requiring frequent re-authentication has risks as well
+  - Facebook, Google, Amazon and GitHub have sessions that last forever as well
