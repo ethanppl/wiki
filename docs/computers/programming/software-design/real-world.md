@@ -51,5 +51,7 @@
     lightweight formal verification
   - The last bit is inspiring, scaling the team is as important as scaling the
     technology. Encouraging ownership intrinsically motivates people to push
-    forward. As a senior engineer is to develop and articulate problems, rather
-    than pitching solutions.
+    forward. As a senior engineer develop and articulate problems, rather than
+    pitching solutions.
+- [8 Reasons Why WhatsApp Was Able to Support 50 Billion Messages a Day With Only 32 Engineers](https://newsletter.systemdesign.one/p/whatsapp-engineering)
+  - WhatsApp focused on the core features (messaging) to keep the product simple
