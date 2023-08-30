@@ -18,6 +18,8 @@ Developing user interfaces of web pages.
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web) — Mozilla, the
   most useful and complete web docs
+- [CSS Selectors: A Visual Guide](https://fffuel.co/css-selectors/) — Select
+  specific HTML elements to apply CSS to
 
 ## Links
 
@@ -52,6 +54,13 @@ Developing user interfaces of web pages.
   ([HN](https://news.ycombinator.com/item?id=37104742))
   - More than a hundred different HTML tags, categorized, all used somewhere in
     the post
+- [Adapting Illustrations to Dark Mode](https://blog.simonfarshid.com/adapting-illustrations-to-dark-mode)
+  - Keep the colour the same, only inverting the lightness
+  - `invert(1)` invert all RGB, `hue-rotate(180deg)` inverts revert back to the
+    original colour
+    ```css
+    filter: invert(1) hue-rotate(180deg);
+    ```
 
 SVG
 
