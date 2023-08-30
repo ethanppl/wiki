@@ -30,3 +30,9 @@ Math
   - Matrices are graphs and graphs are matrices
   - Frobenius normal form: revealing cyclic subspaces and edges between the
     subspaces
+- [We are not empty](https://aeon.co/essays/why-the-empty-atom-picture-misunderstands-quantum-theory)
+  - Atoms are 99% empty is a myth in popular science
+  - Based on quantum theory, the nucleus delocalised into "continuous quantum
+    clouds"
+  - A long and detailed explanation of the structure of atoms with quantum
+    theory
