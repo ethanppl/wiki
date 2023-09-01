@@ -87,6 +87,15 @@ Related pages:
   - When the team is >100, things start to get boring and slow
   - Might not be preventable, but don't accelerate the death, keep it fun like a
     startup instead of copying large companies
+- [Start a business, not a startup | Overthinking Money](https://overthinkingmoney.com/2023/05/02/start-a-business-not-a-startup-part-1/)
+  - 4 Parts of why starting a business, instead of a startup (i.e. a
+    venture-capital-backed business)
+- [Ask HN: What are some easy ways to earn some side money?](https://news.ycombinator.com/item?id=37150862)
+  - Easy and money don't usually work together, few sites:
+    [BoringCashCow](https://boringcashcow.com/),
+    [IndieHackers](https://www.indiehackers.com/products?commitment=side-project&sorting=highest-revenue),
+    [Acquire.com](https://acquire.com/buyers/),
+    [Centurica MarketWatch](https://app.centurica.com/marketwatch)
 
 Examples/Stories:
 
