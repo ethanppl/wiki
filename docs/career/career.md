@@ -64,3 +64,9 @@ Related pages:
     what did he learn?
     > It's easy to see a good PM do their job, without realizing all the parts
     > they have to keep coordinated in lockstep.
+- [Salary negotiations for job offers](https://interviewing.io/blog/sabotage-salary-negotiation-before-even-start)
+  ([HN](https://news.ycombinator.com/item?id=37239747))
+  - Never reveal too much information and negotiate too early
+  - Gather information, find leverage, and negotiate at the right time
+  - Some examples and sample phrases to use at different stages of job
+    application
