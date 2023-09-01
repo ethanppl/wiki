@@ -62,6 +62,14 @@ Websites:
     bunch of smooth-sided pebbles won't work
   - They create a flat surface, excellent drainage, cope with contraction and
     expansion, ground movement and vibration
+- YouTube:
+  [Every Construction Machine Explained in 15 Minutes | Practical Engineering](https://youtu.be/6CmX4ZmhwPM)
+  - If you ever stair at a construction site and wonder about the machines
+- [America's Electrical Grid Is an Incredible Feat of Engineering](https://every.to/p/america-s-electrical-grid-is-an-incredible-feat-of-engineering-and-it-s-falling-apart)
+  - An in-depth explanation of the challenge that the grid faces and where it
+    goes in the future
+  - How does the grid work? Generation, transmission and distribution of the
+    power
 
 Concrete / Cement
 
