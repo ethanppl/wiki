@@ -4,6 +4,11 @@ The web.
 
 ## Links
 
+- [ISPs Should Not Police Online Speech—No Matter How Awful It Is.](https://www.eff.org/deeplinks/2023/08/isps-should-not-police-online-speech-no-matter-how-awful-it)
+  ([HN](https://news.ycombinator.com/item?id=37313349))
+  - Censorship is too powerful, too easy to abuse, yet too hard to maintain
+  - Protect the victim and go after the criminals, not cut off all speech
+
 Web Environment Integrity (WEI)
 
 - [Web Environment Integrity Spec | GitHub @RupertBenWiser](https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md)
@@ -18,5 +23,5 @@ Web Environment Integrity (WEI)
   - Reactions to the policy and rebuttals from the author
 - [Splitting the Web | Ploum](https://ploum.net/2023-08-01-splitting-the-web.html)
   ([HN](https://news.ycombinator.com/item?id=36955146))
-  - A little bit extreme IMO, the Internet is always split in some way, but it's
-    an interesting topic to look into
+  - Maybe a little bit extreme, the Internet is always split in some way, but
+    it's an interesting topic to look into
