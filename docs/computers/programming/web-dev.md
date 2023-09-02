@@ -61,6 +61,10 @@ Developing user interfaces of web pages.
     ```css
     filter: invert(1) hue-rotate(180deg);
     ```
+- [Moving 50,000 lines of code to React Server Components](https://www.mux.com/blog/what-are-react-server-components)
+  - What are React Server Components (RSCs)? What are the pros and cons?
+  - RSCs Demo. Methods to incrementally adopt RSCs. Some advanced patterns
+    handling client & server components.
 
 SVG
 
