@@ -2,22 +2,22 @@
 
 zzz
 
-Sleep is important. Sleep repairs our body after a long day, improve the immune
-system, reduce stress, solidifies memory for knowledge and motor skills, removes
-painful emotion, improves creativity and many more. In 2022,
+Sleep is important. Sleep repairs our body after a long day, improves the immune
+system, reduces stress, solidifies memory for knowledge and motor skills,
+removes painful emotions, improves creativity and many more. In 2022,
 [the American Heart Association added sleep duration as a metric for health checks](https://newsroom.heart.org/news/american-heart-association-adds-sleep-to-cardiovascular-health-checklist),
 as important as diet, physical activities, weight, blood pressure, etc.
 
 It is recommended to sleep 7-9 hours a day with a regular sleep schedule. Avoid
 exercising, caffeine, alcoholic drinks, and large meals before bed. Avoid
-napping after 3 pm, relax before going to bed and avoid lying in bed awake.
+napping after 3 p.m., relax before going to bed and avoid lying in bed awake.
 Having a dark, cool, quiet and gadget-free environment helps.
 
 ## Resources
 
 - [Journey into Sleep | Reuters](https://www.reuters.com/graphics/HEALTH-SLEEP/mopakyjmnpa/)
-  - A graphical illustration of sleep affects different systems of our body, and
-    why is it important
+  - A graphical illustration of how sleep affects different systems of our body,
+    and why is it important
   - Beginner-friendly, very helpful graphics to visualize the process of sleep
 - [Understanding Sleep | Northern Pain Centre](https://www.northernpaincentre.com.au/wellness/chronic-pain-sleep/)
   - Understanding sleep, sleep problems, and how to sleep better
@@ -56,3 +56,8 @@ Having a dark, cool, quiet and gadget-free environment helps.
   - The study confirmed the communication between the hippocampus (short-term
     memory) and the prefrontal cortex (long-term memory) during sleep for memory
     consolidation and a way to strengthen the connection
+- [Lie still in bed](https://ognjen.io/lie-still-in-bed/)
+  ([HN](https://news.ycombinator.com/item?id=37281060))
+  - Practice. Use your willpower. Progress will be slow but consistent.
+- [Sleeping at night](https://www.marginalia.nu/log/86-sleep/)
+  - Long walk (45 mins - 1.5 hr) in the morning fixed the circadian rhythm
