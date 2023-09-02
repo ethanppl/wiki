@@ -45,7 +45,7 @@ Guides
     etc.
   - E.g.: saturate the neutrals, colours in a palette should have distinct
     brightness levels
-  - It's like those things that I know it feels right when I saw them, but
+  - It's like those things that I know it feels right when I see them, but
     cannot objectively explain why
 - [8 A/B Testing Mistakes | Posthog](https://posthog.com/blog/ab-testing-mistakes)
   ([HN](https://news.ycombinator.com/item?id=36354280))
@@ -54,7 +54,12 @@ Guides
   - Neglect counter metrics, ignore seasonality, unclear hypothesis,
     overreliance on A/B testing
 - [Invisible Details of Interaction Design](https://rauno.me/craft/interaction-design)
-  - There is something that makes interaction design feels right
+  - There is something that makes interaction design feel right
+- [UX patterns for loading](https://pencilandpaper.io/articles/ux-pattern-analysis-loading-feedback/)
+  ([HN](https://news.ycombinator.com/item?id=37331778))
+  - What could be shown as an indicator of "loading" per different durations
+  - Adding more animation to something already slow can be controversial, but
+    might find some inspiration here
 
 Blogs
 
@@ -66,5 +71,5 @@ Opinions
 
 - [A rant on web font licenses](https://manuelmoreale.com/a-rant-on-web-font-licenses)
   — fairly short but true, some pricing schemes for web fonts are ridiculous
-- [Stop Using Custom Web Fonts](https://bt.ht/webfonts) — web fonts aren't
+- [Stop Using Custom Web Fonts](https://bt.ht/webfonts) — Web fonts aren't
   necessary, system fonts improve performance and save resources
