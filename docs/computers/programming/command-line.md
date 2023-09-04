@@ -11,13 +11,17 @@ Text-based interface.
 - [Command Line Interface Guidelines](https://clig.dev/)
   - A guide to building command line interfaces, very detailed and informative
   - The philosophy of a good CLI and the guidelines to follow when building one
+- [The terminal | furbo.org](https://furbo.org/2014/09/03/the-terminal/)
+  - A long list of commands in Unix and Mac
 
 ## Sites
 
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
   - A collection of modern alternatives for some classic Unix commands
 - [Explain Shell](https://explainshell.com/)
-  - Visually breakdown and explain a shell command
+  - Visually breaking down and explaining a shell command
+- [tldr.sh](https://tldr.sh/)
+  - Simplified and community-driven manual
 
 ## Links
 
