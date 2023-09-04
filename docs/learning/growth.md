@@ -74,14 +74,21 @@ Improve one's cognitive capability.
   - Anytime someone makes up excuses for their success, it misleads people to
     put effort and time into the wrong things
   - It is impossible to know the scale but being an insider helps
+- [Cultivating a state of mind where new ideas are born](https://www.lesswrong.com/posts/R5yL6oZxqJfmqnuje/cultivating-a-state-of-mind-where-new-ideas-are-born)
+  - The capacity to be alone. To question and work on problems solitarily.
+  - Linger in confusion, patience with confusion to wait for a powerful question
+    to arise from loose attention
+  - To be good at surfacing new questions rather than answering questions
+  - The zone: A state with no judgement, wholly unconstrained, free of
+    self-censorship for orienting creative thoughts
 
 Writing — for better thinking and communication
 
 - [Write It Down | Deb Liu](https://debliu.substack.com/p/write-it-down)
   - Context is writing things down in a work setting, but should be helpful in
     other settings as well
-  - How writing clearly can drive alignment, ensures clarity, creates
-    accountability, passes on knowledge, and achieve success
+  - How writing clearly can drive alignment, ensure clarity, create
+    accountability, pass on knowledge, and achieve success
 - [Why Write? Bastian Rieck](https://bastian.rieck.me/blog/posts/2023/writing_why/)
   ([HN](https://news.ycombinator.com/item?id=36493191))
   - Focus on academic writing but the same applies to other forms of writing
@@ -92,7 +99,7 @@ Writing — for better thinking and communication
     easier for readers to understand
 - [Why engineers should focus on writing?](https://www.yieldcode.blog/post/why-engineers-should-write/)
   ([HN](https://news.ycombinator.com/item?id=36659166))
-  - Writing to organize thoughts, learn something new, and helps identify
+  - Writing to organize thoughts, learn something new, and help identify
     mistakes
   - Writing requires practice. Write as if it is a challenge and strive to
     improve every time
@@ -104,7 +111,7 @@ Writing — for better thinking and communication
   ([HN](https://news.ycombinator.com/item?id=37033403))
   - Content: facts, experiences and stories, provide context and preemptively
     add common suggestions
-  - Avoid starting common debates like Vim or not, functional vs imperative,
+  - Avoid starting common debates like Vim or not, functional v.s. imperative,
     etc.
   - Ask technical questions and ask for examples/experiences, not opinions
   - Set boundaries for the conversations, analyze negative comments, don't argue
