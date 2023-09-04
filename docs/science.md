@@ -9,6 +9,8 @@ Physics
 - [The Feynman Lectures on Physics](https://www.feynmanlectures.caltech.edu/I_toc.html)
 - [Physics Info](https://physics.info/) — mechanics, thermal, waves & optics,
   electromagnetic, etc.
+- [So You Want to Learn Physics](https://www.susanrigetti.com/physics) —
+  Collection of textbooks on different topics
 
 Math
 
