@@ -25,6 +25,8 @@ Government policies.
     — 出售公共資產，拆售物業，外判管理權
   - [公產成私利的港鐵](https://ol.mingpao.com/ldy/cultureleisure/culture/20210822/1629569116317/)
     — 公私不分，股權混雜，鐵路服務退步
+- [周日話題：重塑的不只是區議會](https://ol.mingpao.com/ldy/cultureleisure/culture/20230507/1683396602983)
+  - 不信任的是制度，抑或是制度所彰顯的民意？
 - [人工島的可鑑前車：十年一覺三跑夢，空域無望廢武功](https://news.mingpao.com/pns/%E5%89%AF%E5%88%8A/article/20230730/s00005/1690650325479/)
   <!-- prettier-ignore -->
   - 三跑項目是基建失敗告終的典範，究其原因包括違反科學（沒有空域）、盲目樂觀、大香港主義等
