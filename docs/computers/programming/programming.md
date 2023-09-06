@@ -4,7 +4,7 @@ Instructing computers to work for humans.
 
 I have quite some experience in C, C++, Python, JavaScript/TypeScript, Java,
 Kotlin, Elixir, Solidity, and Gleam. The following guide might not be as
-complete or beginner friendly as I would like it to be, perhaps I will write
+complete or beginner-friendly as I would like it to be, perhaps I will write
 more and add more links in the future.
 
 ## Resources
@@ -37,7 +37,7 @@ YouTube Channels:
 
 ## Links
 
-Still a bit like resources, but target a specific area of computer
+Still a bit like resources, but targets a specific area of computer
 science/programming.
 
 - [Vim Motions Playlist by ThePrimeagen](https://www.youtube.com/playlist?list=PLm323Lc7iSW_wuxqmKx_xxNtJC_hJbQ7R)
@@ -120,7 +120,7 @@ Working as a Software Engineer:
 - [A Senior Engineer's Guide to FAANG Interviews | interviewing.io](https://interviewing.io/guides/hiring-process)
   - The usual process / specific rules for each company (FAANG + Microsoft)
 - [Don't Let Architecture Astronauts Scare You | Joel Spolsky](https://www.joelonsoftware.com/2001/04/21/dont-let-architecture-astronauts-scare-you/)
-  - Too much conceptual abstraction but never focus on the actual problem in the
+  - Too much conceptual abstraction but never focus on the actual problem in
     reality
   - Solve the real issues, not fancy, interesting, boastful architectures
     > Architecture people are solving problems that they think they can solve,
@@ -129,3 +129,6 @@ Working as a Software Engineer:
   - 350 job applications to get 3 offers
   - 2 helpful things: New York City's Salary Transparency Law and the power of
     LinkedIn intro and headline
+- [Career advice for young system programmers](https://glaubercosta-11125.medium.com/career-advice-for-young-system-programmers-c7443f2d3edf)
+  - Do open source in the right way. Play with real systems and make meaningful
+    contributions to standout
