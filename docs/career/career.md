@@ -28,7 +28,7 @@ Related pages:
 
 - [What I learned at Stripe](https://steinkamp.us/post/2022/11/10/what-i-learned-at-stripe.html)
   ([HN](https://news.ycombinator.com/item?id=34968371))
-  - Practices in Stripe that the author think is good/bad
+  - Practices in Stripe that the author thinks are good/bad
 - [The Underground Economy of Company Reviews](https://www.careerfair.io/company-reviews)
   - The underground economy of adding, removing and analyzing company job
     reviews on sites like Glassdoor, ranging from freelancers to different
@@ -70,3 +70,11 @@ Related pages:
   - Gather information, find leverage, and negotiate at the right time
   - Some examples and sample phrases to use at different stages of job
     application
+- [Why I don't want to grow my freelance design studio into an agency | Nela Dunato](https://neladunato.com/blog/why-wont-grow-freelance-studio-into-agency)
+  ([HN](https://news.ycombinator.com/item?id=37371084))
+  - Being freelance is very different from working in an agency, as part of or
+    leading a team
+  - Agencies/directors require a degree of accountability and responsibility for
+    others' life
+  - Lifestyle business: another form of life, another form of growth,
+    self-expression is also a necessity
