@@ -5,7 +5,12 @@ Possible solutions to daily life problems.
 ## Sites
 
 - [Reddit r/BuyItForLife](https://www.reddit.com/r/BuyItForLife/) — Practical,
-  durable and quality made products that are made to last
+  durable and quality products that are made to last
+- [Animated Knots](https://www.animatedknots.com/)
+  - From [the basic](https://www.animatedknots.com/basic-knots) to more
+    technical bits about knots and ropes
+  - Also,
+    [how to tie a tie](https://www.animatedknots.com/how-to-tie-a-tie-necktie-knots)
 
 ## Links
 
