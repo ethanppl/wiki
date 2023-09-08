@@ -30,6 +30,9 @@ Store and query data. I will add more later.
   - Efficiency: The real issue is ORMs encourage poor practices. Data loaders
     can handle N+1 problems in ORMs
   - Visibility problem: Translating SQL error to ORM error confuses developers
+- [Explaining the Postgres Meme](https://www.avestura.dev/blog/explaining-the-postgres-meme)
+  - There are numerous concepts in the iceberg meme of database
+  - More like explaining database concepts using Postgres as an example
 
 Postgres
 
