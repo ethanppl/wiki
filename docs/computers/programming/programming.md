@@ -69,6 +69,9 @@ science/programming.
   - Reasons: Laziness, time limitation, comfortability, lack of confidence
   - Instead, spend the effort to understand and analyze content, rather than
     blindly copying
+- [Hidden features in GitHub](https://buttondown.email/hillelwayne/archive/github-has-too-many-hidden-features/)
+  - For example, `.` for `github.dev`, an online VSCode instance that can edit,
+    push commits, and review PR.
 
 Cognitive Load:
 
