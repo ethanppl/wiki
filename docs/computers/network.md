@@ -37,6 +37,8 @@ Communications between computers.
     because of the hidden details
   - Some tips from the author to deal with hidden systems, confusing tools and
     some weird gotchas
+- [VPN relationship map 2023 | Windscribe](https://windscribe.com/vpnmap)
+  - Ownership, paid affiliates, cooperation & partnerships between VPN companies
 
 Ethernet
 
