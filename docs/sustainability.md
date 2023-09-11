@@ -4,7 +4,10 @@ A balance.
 
 ## Sites
 
-- [Drawdown Solution Library](https://www.drawdown.org/solutions)
+- [Drawdown Solution Library](https://www.drawdown.org/solutions) — Solutions to
+  reduce emissions to reach drawdown
+- [Climate Change Tracker](https://climatechangetracker.org/) — Track climate
+  change, global warming and greenhouse gas emissions
 
 ## Links
 
