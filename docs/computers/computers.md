@@ -54,3 +54,7 @@ News/forums/communities:
     software (Job Control Language, COBOL, CICS)
   - Why mainframe survives? Customer "lock-in". The important niche of
     high-volume and business-critical data processing.
+- [Everything I know about floppy disks](https://thejpster.org.uk/blog/blog-2023-08-28/)
+  ([HN](https://news.ycombinator.com/item?id=37376369))
+  - The mechanisms, flux transitions, and comparison of different formats
+  - Different specs, properties and features of different floppy disks
