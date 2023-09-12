@@ -38,3 +38,9 @@ Math
     clouds"
   - A long and detailed explanation of the structure of atoms with quantum
     theory
+- YouTube:
+  [How the Most Useless Branch of Math Could Save Your Life | Veritasium](https://youtu.be/8DBhTXM_Br4)
+  - The knot theory, the knot equivalence problem and nowadays common knot
+    applications in chemistry and biology
+  - Invariants: crossing number, p-colorable, alexander polynomial, jones
+    polynomial, HOMFLY-PT polynomial, etc.
