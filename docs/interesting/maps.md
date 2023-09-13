@@ -21,3 +21,5 @@ To Navigate.
   [How to find a street in 2 minutes | RAINBOLT](https://youtu.be/rl2Q9xH8e7M)
   ([HN](https://news.ycombinator.com/item?id=36912880))
   - Some common sense tricks + using overpass turbo to query OpenStreetMap data
+- [World Population Cargogram 2015](https://imgur.com/ZD4GaDF)
+  - The map with the size of a country proportional to its population
