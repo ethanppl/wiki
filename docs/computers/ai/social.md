@@ -32,3 +32,6 @@ The social impact of AI.
     reality to settle disagreements
   - La langue (formal concept of language) vs la parole (everyday speech,
     quirks, dialects, memes, jargon, etc.)
+- [Inside Elon Musk's Struggle for the Future of AI | Walter Isaacson](https://time.com/6310076/elon-musk-ai-walter-isaacson-biography/)
+  - Elon Musk's history with AI, from DeepMind, to OpenAI, to xAI, and his views
+    and vision for general AI
