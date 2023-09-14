@@ -71,6 +71,12 @@ Developing user interfaces of web pages.
   $ zip -DXjq9 somesite.zip index.html mylogo.png
   $ echo "https://smolsite.zip/`cat somesite.zip | base64 --wrap 0`"
   ```
+- [The Rules of Margin Collapse](https://www.joshwcomeau.com/css/rules-of-margin-collapse/)
+  - Only vertical and adjacent margins collapse, not in grid or Flexbox, and the
+    bigger margin wins
+  - Nesting doesn't prevent collapsing. Padding, border, empty space or scroll
+    container blocks collapsing.
+  - More advance: direction, more than 2 margins, negative margins
 
 SVG
 
