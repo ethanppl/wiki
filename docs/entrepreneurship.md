@@ -116,6 +116,10 @@ Examples/Stories:
   - Misalignment between founders and VCs kills the company
   - Focus on building, selling and delivering, rather than hiring VPs that just
     bloat payroll unproportionally
+- [We build the fastest CI in the world. It failed. Here's what we learned | Earthly](https://earthly.dev/blog/shutting-down-earthly-ci/)
+  - A very good read, from ideation, to launching, to pivoting, to shutting down
+  - One insight: developer tools should not need demoing. People will buy it,
+    but you cannot sell it.
 
 Ideas:
 
