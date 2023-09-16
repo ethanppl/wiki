@@ -20,3 +20,4 @@ A program that runs programs.
 - [A video game where you are an operating system](https://plbrault.com/blog-posts/i-created-the-nerdierst-game-ever-en/)
   ([HN](https://news.ycombinator.com/item?id=37115626))
   - Fun for nerds. Handle CPU cores, processes, memory pages and swap space
+- [Linux kernel map](https://makelinux.github.io/kernel/map/)
