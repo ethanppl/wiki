@@ -25,3 +25,7 @@ Living remotely.
     RVing
   - One idea I like is "take your time on the road". "Sitters" rather than
     "movers".
+- [How I Got Paid to Live in Antarctica](https://wandereatwrite.com/how-i-got-paid-to-live-in-antarctica/)
+  - A FAQ about living and working in Antarctica
+  - Research stations, type of staffs, what is life like, work, accomodations,
+    culture, seasons, weather, internet, food, etc.
