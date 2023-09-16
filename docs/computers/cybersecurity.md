@@ -42,3 +42,15 @@ completely different mindset to approach problems, but it's fun.
     etc.
   - Requiring frequent re-authentication has risks as well
   - Facebook, Google, Amazon and GitHub have sessions that last forever as well
+- [Any sufficiently advanced uninstaller is indistinguishable from malware](https://devblogs.microsoft.com/oldnewthing/20230911-00/?p=108749)
+  ([HN](https://news.ycombinator.com/item?id=37491862))
+  - An uninstaller that self-deleting with code injection is indistinguishable
+    from malware
+  - There is a `js` file example of how to delete itself and other files, leave
+    no race, without code injection
+- [When MFA isn't actually MFA | Retool](https://retool.com/blog/mfa-isnt-mfa/)
+  ([HN](https://news.ycombinator.com/item?id=37500895))
+  - Google's update to backup MFA secrets to cloud means MFA becomes a
+    single-factor-authentication
+  - Getting access to the Google account once is enough to control all OTPs
+    stored in Google Authenticator
