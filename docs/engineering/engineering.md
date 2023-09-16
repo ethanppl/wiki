@@ -70,6 +70,13 @@ Websites:
     goes in the future
   - How does the grid work? Generation, transmission and distribution of the
     power
+- YouTube:
+  [Should Airships Make a Comeback? | Veritasium](https://youtu.be/ZjBgEkbnX2I)
+  - The possiblity of airship being faster than cargo ships but cheaper than
+    plane
+  - The problem of low margin in the cargo market, combating sail effect,
+    balancing the bouyancy, hydrogen vs helium, technical difficulty in
+    manufacturing, regulatory concerns, etc.
 
 Concrete / Cement
 
