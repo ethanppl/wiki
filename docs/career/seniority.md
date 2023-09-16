@@ -64,3 +64,6 @@ Moving towards seniority/maturity in work.
   - Invest in the ecosystem: build relationships with other teams, sales,
     product owners, ops, etc
   - Translate engineering to executives with data: provide data and metrics
+- [The way that Jensen Huang runs Nvidia is wild](https://twitter.com/danhockenmaier/status/1701608618087571787)
+  - Direct reports, no status reports, everyone has context, no formal planning
+    cycles
