@@ -63,3 +63,9 @@
   - Reduce & measure hallucinations, optimize context construction, multimodal
     inputs, faster & cheaper, new architecture, GPU alternatives, agents acting
     on behalf of LLM, human preference, chat interface, non-English language
+- [Asking 60+ LLMs a set of 20 questions](https://benchmarks.llmonitor.com/)
+  ([HN](https://news.ycombinator.com/item?id=37445401))
+  - Benchmarking LLMs with some relxion, knowledge, code, instructions and
+    creativity questions
+  - More "realistic" benchmarks then those exams because it's likely it's
+    outside of the training set
