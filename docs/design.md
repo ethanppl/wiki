@@ -10,6 +10,13 @@ Making things friendly and appealing.
 - [Colour and Contrast](https://colorandcontrast.com/) — Anything visualizing
   colour and contrast. Each page is short but there are a lot of pages
 
+Design systems and guidelines:
+
+- [A Design Systems for the U.S. Goverment](https://designsystem.digital.gov/) —
+  Design principles, components, patterns and more used by the US government
+- [A Design Systems for the Canadian Goverment](https://design.canada.ca/) —
+  Style guide, templates, content style guides and more
+
 Collections of UX/UI Design:
 
 - [Page Collective](https://pagecollective.com/)
