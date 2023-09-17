@@ -135,3 +135,10 @@ Working as a Software Engineer:
 - [Career advice for young system programmers](https://glaubercosta-11125.medium.com/career-advice-for-young-system-programmers-c7443f2d3edf)
   - Do open source in the right way. Play with real systems and make meaningful
     contributions to standout
+- [The Engineer’s Guide to Career Growth — Advice from My Time at Stripe and Facebook](https://review.firstround.com/the-engineers-guide-to-career-growth-advice-from-my-time-at-stripe-and-facebook)
+  ([HN](https://news.ycombinator.com/item?id=37398921))
+  - Raylene Yung, engineering manager at Facebook then Stripe
+  - Lessons: be valuable but not critical, establish emotion equilibrium, focus
+    on learning not just climbing the ladder
+  - Advices for early engineers, ICs, tech lead, managers, to whom leading
+    organizations
