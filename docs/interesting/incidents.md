@@ -21,6 +21,8 @@ Events:
 - [How One Ship Caused a Global Traffic Jam (Suez Canal)](https://youtu.be/8RxmRw1kCrc)
 - [How the CIA Found Osama bin Laden | neo](https://youtu.be/WrX2QVJ2c3Q)
 - [The Incredible Thai Cave Rescue | neo](https://youtu.be/-mzqQ_vNiKg)
+- [The Hunt for the King of the Dark Web | fern](https://youtu.be/gq01C2kjMiM) —
+  Alpha02
 
 Mysteries:
 
