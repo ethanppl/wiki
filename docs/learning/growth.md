@@ -37,6 +37,8 @@ Improve one's cognitive capability.
 - [LessWrong](https://www.lesswrong.com/) — Forum and community dedicated to
   improving human reasoning
   ([User's Guide](https://www.lesswrong.com/posts/LbbrnRvc9QwjJeics/new-user-s-guide-to-lesswrong))
+- [Everyday Concepts](https://everydayconcepts.io/) — a catalog of concepts with
+  nice graphs and simple descriptions
 
 ## Links
 
