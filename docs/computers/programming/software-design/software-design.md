@@ -120,3 +120,9 @@ Related pages:
     for all future decisions
   - Until reaching the fundamental limit of the current (dumb) system, try to
     optimize and squeeze as much as possible
+- [Tracing: structured logging, but better in every way](https://andydote.co.uk/2023/09/19/tracing-is-better/)
+  - Log levels is not useful, messages can be better if structured, `stdout` is
+    mixed
+  - No relationship between lines, no timing/duration but only timestamps,
+    querying logs is ineffective and hard
+  - Contains an example of how to evolve the system to use OpenTelemetry Tracing
