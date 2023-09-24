@@ -33,6 +33,11 @@ Store and query data. I will add more later.
 - [Explaining the Postgres Meme](https://www.avestura.dev/blog/explaining-the-postgres-meme)
   - There are numerous concepts in the iceberg meme of database
   - More like explaining database concepts using Postgres as an example
+- [Inside the New Query Engine of MongoDB | Nikita Lapkov](https://laplab.me/posts/inside-new-query-engine-of-mongodb/)
+  - A writeup of the rewrite of the query execution engine in MongoDB version
+    7.0
+  - 2 major reasons for rewrite and the idea of a Slot Based Engine
+  - Architecture, data flow and compiler for the slot based engine
 
 Postgres
 
