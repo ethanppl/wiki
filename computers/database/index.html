@@ -7,8 +7,8 @@
 <link rel="preconnect" href="https://www.googletagmanager.com">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SCMKX3W2PG"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-SCMKX3W2PG",{anonymize_ip:!0})</script><link rel="stylesheet" href="/wiki/assets/css/styles.b1a1e737.css">
-<link rel="preload" href="/wiki/assets/js/runtime~main.e362be4f.js" as="script">
-<link rel="preload" href="/wiki/assets/js/main.1587d759.js" as="script">
+<link rel="preload" href="/wiki/assets/js/runtime~main.afd44912.js" as="script">
+<link rel="preload" href="/wiki/assets/js/main.a2722353.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}return t}()||function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"light")}()</script><div id="__docusaurus">
@@ -21,7 +21,8 @@ PgBouncer</li><li>Vertical partition: Move groups of tables onto different datab
 availability impact to &lt;1 minute</li><li>PgBouncer to redirect traffic. Logical replication to copy tables. LSNs to
 verify synchronization.</li></ul></li><li><a href="https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F" target="_blank" rel="noopener noreferrer">Is ORM still an &#x27;anti-pattern&#x27;? | GitHub @getlago</a><ul><li>The paradigm mismatch between ORM data representation and relational data
 model, directed pointers vs. undirected graphs</li><li>Efficiency: The real issue is ORMs encourage poor practices. Data loaders
-can handle N+1 problems in ORMs</li><li>Visibility problem: Translating SQL error to ORM error confuses developers</li></ul></li><li><a href="https://www.avestura.dev/blog/explaining-the-postgres-meme" target="_blank" rel="noopener noreferrer">Explaining the Postgres Meme</a><ul><li>There are numerous concepts in the iceberg meme of database</li><li>More like explaining database concepts using Postgres as an example</li></ul></li></ul><p>Postgres</p><ul><li><a href="https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql" target="_blank" rel="noopener noreferrer">Nine Ways to Shoot Yourself in the Foot with PostgreSQL</a>
+can handle N+1 problems in ORMs</li><li>Visibility problem: Translating SQL error to ORM error confuses developers</li></ul></li><li><a href="https://www.avestura.dev/blog/explaining-the-postgres-meme" target="_blank" rel="noopener noreferrer">Explaining the Postgres Meme</a><ul><li>There are numerous concepts in the iceberg meme of database</li><li>More like explaining database concepts using Postgres as an example</li></ul></li><li><a href="https://laplab.me/posts/inside-new-query-engine-of-mongodb/" target="_blank" rel="noopener noreferrer">Inside the New Query Engine of MongoDB | Nikita Lapkov</a><ul><li>A writeup of the rewrite of the query execution engine in MongoDB version
+7.0</li><li>2 major reasons for rewrite and the idea of a Slot Based Engine</li><li>Architecture, data flow and compiler for the slot based engine</li></ul></li></ul><p>Postgres</p><ul><li><a href="https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql" target="_blank" rel="noopener noreferrer">Nine Ways to Shoot Yourself in the Foot with PostgreSQL</a>
 (<a href="https://news.ycombinator.com/item?id=35684220" target="_blank" rel="noopener noreferrer">HN</a>)<ul><li><code>work_mem</code>, functions and procedures, triggers, <code>NOTIFY</code>, <code>EXPLAIN_ANALYZE</code>,
 CTEs v.s. subqueries (debatable), recursive CTEs, missing indexes for
 foreign keys, <code>=</code> v.s. <code>IS NOT DISTINCT FROM</code></li></ul></li><li><a href="https://blog.mastermind.dev/indexes-in-postgresql" target="_blank" rel="noopener noreferrer">Understanding Database Indexes in PostgreSQL | Mastermind Dev</a>
@@ -30,7 +31,7 @@ Hash, GiST, SP-GiST, GIN, BRIN)</li><li>Different ways to index: basic, partial,
 <code>REASSIGN OWNED</code></li></ul></li><li><a href="https://scalegrid.io/blog/using-jsonb-in-postgresql-how-to-effectively-store-index-json-data-in-postgresql/" target="_blank" rel="noopener noreferrer">Using JSONB in PostgreSQL | ScaleGrid</a><ul><li>Includes patterns &amp; antipatterns, data structures, operators &amp; functions,
 indexing JSONB columns in Postgres</li></ul></li><li><a href="https://hakibenita.com/postgresql-unused-index-size" target="_blank" rel="noopener noreferrer">The Unexpected Find That Freed 20GB of Unused Index Space</a>
 (<a href="https://news.ycombinator.com/item?id=37294793" target="_blank" rel="noopener noreferrer">HN</a>)<ul><li>A few tricks like <code>pg_stat_all_indexes</code> and <code>REINDEX</code> free up space</li><li>Finding that Postgres index NULL values. Partial indexes can free up space</li></ul></li></ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/wiki/computers/cybersecurity"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Cybersecurity</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/wiki/computers/network"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Computer Network</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#resources" class="table-of-contents__link toc-highlight">Resources</a></li><li><a href="#links" class="table-of-contents__link toc-highlight">Links</a></li></ul></div></div></div></div></main></div></div></div>
-<script src="/wiki/assets/js/runtime~main.e362be4f.js"></script>
-<script src="/wiki/assets/js/main.1587d759.js"></script>
+<script src="/wiki/assets/js/runtime~main.afd44912.js"></script>
+<script src="/wiki/assets/js/main.a2722353.js"></script>
 </body>
 </html>
