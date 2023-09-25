@@ -44,3 +44,24 @@ Math
     applications in chemistry and biology
   - Invariants: crossing number, p-colorable, alexander polynomial, jones
     polynomial, HOMFLY-PT polynomial, etc.
+
+Curves
+
+- YouTube:
+  [The Beauty of Bézier Curves | Freya Holmér](https://youtu.be/aVwxzDHniEw)
+  - Best explanation of Bézier curves I've seen
+  - Things explained:
+    - Lerp → Quadratic Bézier curve → Cubic Bézier curve
+    - De Casteljau's algorithm, Bernstein Polynomial Form
+    - 1st derivative (velocity, tangent & normals), 2nd derivative
+      (acceleration), 3rd derivative (jerk)
+    - Curvature, bounding box, arc length, arc length parameterization (LUT)
+- [Curves and Surfaces | Bartosz Ciechanowski](https://ciechanow.ski/curves-and-surfaces/)
+  - Interactive animations to understand how curves and surfaces are definied by
+    limited set of poins
+  - And an older article:
+    [Drawing Bézier Curves | Bartosz Ciechanowski](https://ciechanow.ski/drawing-bezier-curves/)
+- [A Primer on Bézier Curves](https://pomax.github.io/bezierinfo/)
+  - Free online book about Bézier curves
+- [Bézier Curves](https://blog.richardekwonye.com/bezier-curves)
+  - Drawing Bézier curves in SVG/CSS and the logic behind the parameters
