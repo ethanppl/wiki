@@ -9,6 +9,8 @@ completely different mindset to approach problems, but it's fun.
 ## Sites
 
 - [OWASP](https://owasp.org/) — Open Web Application Security Project
+- [Have I Been Pwned?](https://haveibeenpwned.com/) — Check breached
+  accounts/emails/passwords
 
 ## Links
 
@@ -54,3 +56,7 @@ completely different mindset to approach problems, but it's fun.
     single-factor-authentication
   - Getting access to the Google account once is enough to control all OTPs
     stored in Google Authenticator
+- [A strange sign of times](https://www.abc.net.au/news/2023-09-23/cybersecurity-troy-hunt-have-i-been-pwned-fighting-data-breaches/102803748)
+  - The story of Troy Hunt, the guy behind Have I Been Pwned
+  - The story of the site, the threats and stress, and the problem of relying on
+    1 guy to guard the web
