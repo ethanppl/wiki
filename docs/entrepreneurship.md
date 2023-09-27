@@ -96,6 +96,9 @@ Related pages:
     [IndieHackers](https://www.indiehackers.com/products?commitment=side-project&sorting=highest-revenue),
     [Acquire.com](https://acquire.com/buyers/),
     [Centurica MarketWatch](https://app.centurica.com/marketwatch)
+- [Ask HN: Tips for Solopreneur?](https://news.ycombinator.com/item?id=37662937)
+  - Tips on: being solo turns down investors, about milestones, locations, VCs
+    vs. bootstrapping, etc.
 
 Examples/Stories:
 
@@ -120,6 +123,12 @@ Examples/Stories:
   - A very good read, from ideation, to launching, to pivoting, to shutting down
   - One insight: developer tools should not need demoing. People will buy it,
     but you cannot sell it.
+- [My solopreneur story: zero to $45K/mo in 2 years | Tony Dinh](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
+  ([HN](https://news.ycombinator.com/item?id=37622702))
+  - [@tdinh_me Twitter](https://twitter.com/tdinh_me)
+  - Creator of Xnapper. His few examples of growing a business in solo and the
+    goods and bads of his lifestyle
+  - From failed experiences, to building audience, growing 4 successful products
 
 Ideas:
 
