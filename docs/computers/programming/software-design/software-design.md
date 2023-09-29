@@ -126,3 +126,10 @@ Related pages:
   - No relationship between lines, no timing/duration but only timestamps,
     querying logs is ineffective and hard
   - Contains an example of how to evolve the system to use OpenTelemetry Tracing
+- [Choose Postgres Queue Technology](https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/)
+  ([HN](https://news.ycombinator.com/item?id=37636841))
+  - Not specifically about Postgres queue, but the cult of prioritizing
+    scalability over other things
+  - Build boring technology: If and only if the boring technology is unable to
+    meet demands should alternatives be considered
+  - Build escape hatches: abstractions (adapters) to make it easy to replace
