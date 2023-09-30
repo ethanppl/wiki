@@ -129,6 +129,9 @@ Examples/Stories:
   - Creator of Xnapper. His few examples of growing a business in solo and the
     goods and bads of his lifestyle
   - From failed experiences, to building audience, growing 4 successful products
+- [Burning money on paid ads for a dev tool - what we've learned | Posthog](https://posthog.com/blog/dev-marketing-paid-ads)
+  - Misconceptions about paid ads and agencies
+  - Conversion, awarness and effectiveness for different marketing channels
 
 Ideas:
 
