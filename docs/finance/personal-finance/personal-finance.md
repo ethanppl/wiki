@@ -22,6 +22,12 @@ Just my two cents:
 - [A Random Walk Down Wall Street](https://www.goodreads.com/book/show/40242274-a-random-walk-down-wall-street)
   - This book teaches almost all the fundamental concepts related to investing
   - I think this is the best book to learn about investing
+
+## Sites
+
+- [Paisa.fyi](https://paisa.fyi/)
+  ([HN](https://news.ycombinator.com/item?id=37613054)) — An open source
+  personal finance tool based on ledger double entry accounting tool
 - [rich01.com](https://rich01.com/mr-market-for-new/) (Chinese)
   - When I first started, this blog helped me a lot. It is written in Chinese
   - Debt, emergency fund, budgeting, risk and reward, diversification, tools,
