@@ -35,6 +35,7 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - A straight wall needs more layers or buttresses, which requires more bricks
 - [The Egg | Andy Weir](http://www.galactanet.com/oneoff/theegg_mod.html) —
   worth spending 5 minutes to read
+- [Car allergic to vanilla ice cream](https://www.cs.cmu.edu/~wkw/humour/carproblems.txt)
 
 April Fools
 
