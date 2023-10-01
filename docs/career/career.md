@@ -78,3 +78,8 @@ Related pages:
     others' life
   - Lifestyle business: another form of life, another form of growth,
     self-expression is also a necessity
+- [Working at a Startup vs in Big Tech | Gergely Orosz](https://blog.pragmaticengineer.com/working-at-a-startup-vs-in-big-tech/)
+  - Startup: learning and impact, with more financial risk, stress and possible
+    failure
+  - Big tech: specialization, networking and financial stability, but might feel
+    a lack of purpose, more bureaucracy and misaligned incentives
