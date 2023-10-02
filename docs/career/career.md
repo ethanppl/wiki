@@ -83,3 +83,8 @@ Related pages:
     failure
   - Big tech: specialization, networking and financial stability, but might feel
     a lack of purpose, more bureaucracy and misaligned incentives
+- [How (not) to apply for a software job | Ben Hoyt](https://benhoyt.com/writings/how-to-apply/)
+  ([HN](https://news.ycombinator.com/item?id=37656149))
+  - No AI, avoid flowery prose, show your work, don't be too generic and full of
+    buzzwords
+  - Some resume tips: don't include all skills, make it stand out
