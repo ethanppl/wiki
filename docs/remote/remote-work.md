@@ -51,3 +51,9 @@ Related:
     work
   - Don't bluff, don't say remote is the future/mandate office. It hurts
     credibility.
+- [Return to Office is Bullshit and Everyone Knows It](https://soatok.blog/2023/10/02/return-to-office-is-bullshit-and-everyone-knows-it/)
+  - The bullshit is forcing relocation top down for the whole organization
+  - Never choose the option that gives an ultimatum. Never dehumanize yourself
+    in submission.
+  - Forced relocation ultimatums will eventually hurt trust and lost talents for
+    big companies
