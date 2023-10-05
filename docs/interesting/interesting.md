@@ -60,3 +60,15 @@ Ever-expanding drawing with tons of details
     [YouTube videos](https://www.youtube.com/@floor7965/videos)
 - YouTube: [How to Draw Medieval Cities](https://youtu.be/vQgRU2Kq_zc)
 - [A hand-drawn map on Reddit](https://www.reddit.com/r/mapmaking/comments/l9wtpj/i_wanted_to_try_making_a_hand_drawn_map_found_it/)
+
+Elon Musk
+
+- [Elon Musk | Ashlee Vance](https://www.goodreads.com/en/book/show/25541028) —
+  the 2015 book
+- [Elon Musk | Walter Isaacson](https://www.goodreads.com/en/book/show/122765395)
+  — the 2023 book
+- [Elon's decision making: an anecdote compilation](https://nintil.com/elon-anecdotes/)
+  - Some non-conventional decisions collected from books, whether the decisions
+    are success or not
+- [Book Review: Elon Musk](https://www.astralcodexten.com/p/book-review-elon-musk)
+  - A collection of Q&A with stories frm the 2015 biography by Ashlee Vance
