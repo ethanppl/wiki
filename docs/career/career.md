@@ -88,3 +88,10 @@ Related pages:
   - No AI, avoid flowery prose, show your work, don't be too generic and full of
     buzzwords
   - Some resume tips: don't include all skills, make it stand out
+- [3 ways to balance money and meaning](https://every.to/no-small-plans/the-three-ways-to-balance-money-and-meaning)
+  - Deferred life plan: solve money problem → do what you want, but it might be
+    later than you think
+  - Being bivocational: job for money + side projects, but you might never
+    allocate enough time or never make the jump
+  - Integrate: monetize what you enjoy, but values and money might be pulling in
+    different directions
