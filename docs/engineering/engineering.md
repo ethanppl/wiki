@@ -77,6 +77,13 @@ Websites:
   - The problem of low margin in the cargo market, combating sail effect,
     balancing the bouyancy, hydrogen vs helium, technical difficulty in
     manufacturing, regulatory concerns, etc.
+- YouTube:
+  [The Incredible Potential of Superconductors | Real Engineering](https://youtu.be/tuEYQvEYR-M)
+  - Concepts: critical temperature, Cooper pairs, unconventional superconductor,
+    levitation and diamagnetism
+  - [Theory of Superconductivity](https://journals.aps.org/pr/abstract/10.1103/PhysRev.108.1175)
+    — Explains why superconductivity happens at low temperature because of
+    Cooper pairs
 
 Concrete / Cement
 
