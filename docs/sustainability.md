@@ -18,3 +18,9 @@ A balance.
   - Ocean absorbs a quarter of CO2 emission, through electrolysis or
     electrodialysis to separate CO2 from seawater
   - The concern is that seawater will become more acidic
+- [Tire dust makes up the majority of ocean microplastics](https://www.thedrive.com/news/tire-dust-makes-up-the-majority-of-ocean-microplastics-study-finds)
+  ([HN](https://news.ycombinator.com/item?id=37726539))
+  - 78% of ocean microplastics are from synthetic tire rubber, which are toxic
+    and flow directly into the ocean
+  - This problem won't go away with EVs and EVs tend to shed around 20% more
+    becuase of higher weight and torque
