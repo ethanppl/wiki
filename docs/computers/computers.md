@@ -58,3 +58,21 @@ News/forums/communities:
   ([HN](https://news.ycombinator.com/item?id=37376369))
   - The mechanisms, flux transitions, and comparison of different formats
   - Different specs, properties and features of different floppy disks
+
+Time
+
+- YouTube: [Network Time Protocol | Computerphile](https://youtu.be/BAo5C2qbLq8)
+  - One round trip to estimate the round-trip time and server-processing time
+- YouTube:
+  [The Problem with Time & Timezones | Computerphile](https://youtu.be/-5wpm-gesOY)
+  - You thank the people who write the date time library and made it open source
+- [Time, technology and leaping seconds](https://googleblog.blogspot.com/2011/09/time-technology-and-leaping-seconds.html)
+  - Google leap smear. Instead of doing a leap second NTP servers, it smear the
+    second over a day
+- [Where does my computer get the time from?](https://dotat.at/@/2023-05-26-whence-time.html)
+  - Network time protocol (NTP) ← GPS ← Schriever Space Force Base (SFB)
+  - Schriever SFB ← US Naval Observatory (USNO) Alternate Master CLock ← atomic
+    clocks
+  - Atomic clocks ← Internatioal Earth Rotation Service (IERS) & International
+    bureau of weights and measures in Paris (BIPM)
+  - Plus some history of defining a seconds with astronomical data
