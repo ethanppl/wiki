@@ -72,3 +72,6 @@ Moving towards seniority/maturity in work.
 - [The way that Jensen Huang runs Nvidia is wild](https://twitter.com/danhockenmaier/status/1701608618087571787)
   - Direct reports, no status reports, everyone has context, no formal planning
     cycles
+- [What it's like to start a job as CEO?](https://www.ejorgenson.com/blog/what-its-like-ceo)
+  - E.g.: learn quick, be curious about the details but not micromanage, big
+    decisions with bizarrely little context
