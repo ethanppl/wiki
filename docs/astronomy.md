@@ -74,3 +74,11 @@ YouTube:
 - [Apollo 11 Lunar Mission Flight Path](https://airandspace.si.edu/multimedia-gallery/5317hjpg)
   (7000 × 2300) — I like this graphic a lot
   - Graphics of the sequence of major events during the Apollo 11 lunar mission
+- [The largest telescope that will ever be built\* | Tom Scott](https://youtu.be/QqRREz0iBes)
+  - Very large telescopes (VLTs) in Chile: 4 optical telescopes with 8.2 meters
+    mirror
+  - Interesting tech: active optics, aluminium coating, adaptive optics with
+    laser beacons, real-time optical interferometer
+  - Extremely large telescope: 39.2 meters comprised of 798 hexagonal mirrors
+  - [Different light path through VLTs to different instruments | ESO](https://youtu.be/d8ALi6X_zww)
+  - [VLT Interferometer system | ESO](https://youtu.be/wyKpc77BZA0)
