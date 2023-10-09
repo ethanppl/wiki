@@ -133,3 +133,6 @@ Related pages:
   - Build boring technology: If and only if the boring technology is unable to
     meet demands should alternatives be considered
   - Build escape hatches: abstractions (adapters) to make it easy to replace
+- [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
+  - CRDTs, data structure that guarantee eventual consistency
+  - Examples with last write win register and last write win map
