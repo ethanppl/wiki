@@ -99,6 +99,11 @@ Related pages:
 - [Ask HN: Tips for Solopreneur?](https://news.ycombinator.com/item?id=37662937)
   - Tips on: being solo turns down investors, about milestones, locations, VCs
     vs. bootstrapping, etc.
+- [Never say "no", but rarely say "yes".](https://longform.asmartbear.com/say-yes/)
+  - Charge extra for something that doesn't fit
+  - Set the condition of yes such that if the counterparty says:
+    - "yes": you are happy because the terms and money are so good
+    - "no": you are happy because it's not a great fit anyway
 
 Examples/Stories:
 
