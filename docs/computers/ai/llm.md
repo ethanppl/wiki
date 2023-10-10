@@ -69,3 +69,6 @@
     creativity questions
   - More "realistic" benchmarks then those exams because it's likely it's
     outside of the training set
+- [How transformers work](https://ig.ft.com/generative-ai/)
+  - Nice graphics explaining concepts like embeddings, self-attention mechanism,
+    beam search and hallucination
