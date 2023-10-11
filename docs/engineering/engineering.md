@@ -84,6 +84,11 @@ Websites:
   - [Theory of Superconductivity](https://journals.aps.org/pr/abstract/10.1103/PhysRev.108.1175)
     — Explains why superconductivity happens at low temperature because of
     Cooper pairs
+- YouTube:
+  [World's Smallest Nerf Gun Shoots an Ant](https://youtu.be/9c2NqlUWZfo)
+  - Two cool things: compliant mechanism, carbon nanotube and DNA orgami
+    scaffold and staple strands
+  - [BYU Compliant Mechanisms Maker Resources](https://compliantmechanisms.byu.edu/maker-resources)
 
 Concrete / Cement
 
