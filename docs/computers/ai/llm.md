@@ -72,3 +72,9 @@
 - [How transformers work](https://ig.ft.com/generative-ai/)
   - Nice graphics explaining concepts like embeddings, self-attention mechanism,
     beam search and hallucination
+- [Decomposing Language Models Into Understandable Components](https://www.anthropic.com/index/decomposing-language-models-into-understandable-components)
+  ([HN](https://news.ycombinator.com/item?id=37806861))
+  - A single neuron does not have consistent meaning, but a group of neurons
+    does, called "features"
+  - Artificially activating features can steer the output of models, improving
+    security and our understanding of LLMs
