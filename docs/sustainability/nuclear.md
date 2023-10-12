@@ -25,3 +25,9 @@ Fission. Fusion?
     [Economics of Nuclear Reactor | Illinois EnergyProf](https://youtu.be/cbeJIwF1pVY)
   - The revenue and costs of nuclear power plants
   - Levelized cost of electricity (LCOE) is high for nuclear
+- [Why Does Nuclear Power Plant Construction Cost So Much](https://progress.institute/nuclear-power-plant-construction-costs/)
+  - Costs of nuclear power plants increased over decades
+  - High construction costs, rising labour costs, constantly changing
+    regulatory/QA/QC requirements
+  - Possible ways to bring down the cost: mature supply chain, predictable
+    regulations, public support, etc.
