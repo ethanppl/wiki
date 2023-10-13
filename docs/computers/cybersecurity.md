@@ -60,3 +60,11 @@ completely different mindset to approach problems, but it's fun.
   - The story of Troy Hunt, the guy behind Have I Been Pwned
   - The story of the site, the threats and stress, and the problem of relying on
     1 guy to guard the web
+- [How it works: The novel HTTP/2 'Rapid Reset' DDoS Attack](https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack)
+  - [Google mitigated the largest DDoS attack to date, peaking above 398 million rps](https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps)
+  - Enabled by HTTP/2 stream multiplexing, where a request/connection can open
+    multiple streams, increasing throughput
+  - What attacker did is opening streams + rapidly resetting streams, a
+    connection can then have infinite amount of requests, as cancelling previous
+    requests means it never exceeds the max concurrent connection but always
+    keep the connection open
