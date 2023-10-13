@@ -26,3 +26,10 @@ Computers that move?
     turns
   - Innovations: diagonal turn (Mitee 3), dc motors, gyroscopes, tape for grip,
     fan for downforces (6Gs turn)
+- [How Disney Packed Big Emotion Into a Little Robot](https://spectrum.ieee.org/disney-robot)
+  - Trained on a reinforcement-learning system. Walking is just one input, the
+    important input is _how_ it walks
+  - The training of the functionality (navigation) is combined with the training
+    of the personality (emotions), in one model
+  - The training methodology is hardware agnostic, it can be applied to robots
+    with different hardware configurations
