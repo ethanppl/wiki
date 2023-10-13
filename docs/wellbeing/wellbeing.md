@@ -39,6 +39,9 @@ How to live a happier, healthier, and more productive life.
   - Checking email? You are probably not breathing.
   - The body is feeling stressed and alert. Set breath reminders, use larger
     screens, and allow the nervous system to relax
+- [Forty years of programming](https://fabiensanglard.net/40/index.html)
+  ([HN](https://news.ycombinator.com/item?id=37814748))
+  - Ergonomics of mouse, keyboard and desk. Practice to stretch and meditate.
 
 Eyes
 
