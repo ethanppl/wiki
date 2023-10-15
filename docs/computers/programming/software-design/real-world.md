@@ -55,3 +55,8 @@
     pitching solutions.
 - [8 Reasons Why WhatsApp Was Able to Support 50 Billion Messages a Day With Only 32 Engineers](https://newsletter.systemdesign.one/p/whatsapp-engineering)
   - WhatsApp focused on the core features (messaging) to keep the product simple
+- [Stevey's Google Platforms Rant](https://gist.github.com/chitchcock/1281611)
+  (2011)
+  - Transforming to a service oriented architecture, dogfood your own service
+  - How Google does not understand building a platform v.s. building a product,
+    comparing to other tech giants
