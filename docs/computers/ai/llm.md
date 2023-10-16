@@ -65,10 +65,10 @@
     on behalf of LLM, human preference, chat interface, non-English language
 - [Asking 60+ LLMs a set of 20 questions](https://benchmarks.llmonitor.com/)
   ([HN](https://news.ycombinator.com/item?id=37445401))
-  - Benchmarking LLMs with some relxion, knowledge, code, instructions and
+  - Benchmarking LLMs with some reflexion, knowledge, code, instructions and
     creativity questions
   - More "realistic" benchmarks then those exams because it's likely it's
-    outside of the training set
+    outside the training set
 - [How transformers work](https://ig.ft.com/generative-ai/)
   - Nice graphics explaining concepts like embeddings, self-attention mechanism,
     beam search and hallucination
@@ -78,3 +78,6 @@
     does, called "features"
   - Artificially activating features can steer the output of models, improving
     security and our understanding of LLMs
+- [ChatGPT system prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md)
+  ([HN](https://news.ycombinator.com/item?id=37879077))
+  - [How it's done by OP](https://old.reddit.com/r/OpenAI/comments/176mxj8/chatgpt_with_vision_system_prompt/k4r5lyh/)
