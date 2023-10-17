@@ -99,6 +99,10 @@ Cognitive Load:
     too tempting
   - Keep modules deep: small interfaces with more functionality, to avoid being
     forced to understand complicated interfaces
+- [On Importance of naming in Programming](https://wasp-lang.dev/blog/2023/10/12/on-importance-of-naming-in-programming)
+  - Clean code is about naming the logics in the right way actually
+  - Good name doesn't misdirect, doesn't omit and doesn't assume
+  - Long names might just mean the function is too complex
 
 Working as a Software Engineer:
 
