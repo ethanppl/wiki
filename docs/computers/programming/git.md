@@ -32,3 +32,11 @@ Git commands.
   - Tracing and finding any version of a specific file in the `.git` directory
   - Content addressed storage: the name of the file is the hash of the content,
     same content doesn't take extra space
+- [Organizing multiple git identities](https://garrit.xyz/posts/2023-10-13-organizing-multiple-git-identities)
+  ([HN](https://news.ycombinator.com/item?id=37886049))
+  - Organize repos into separate directories
+  - Git config can conditionally include other git config file with
+    ```
+    [includeIf "gitdir:~/personal/"]
+      path = ~/.gitconfig-personal
+    ```
