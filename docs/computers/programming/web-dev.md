@@ -78,6 +78,12 @@ Developing user interfaces of web pages.
     container blocks collapsing.
   - More advance: direction, more than 2 margins, negative margins
 
+CSS games
+
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+  ([HN](https://news.ycombinator.com/item?id=37713530)) — Learn CSS Flexbox
+- [Grid Garden](https://cssgridgarden.com/) — Learn CSS Grid
+
 SVG
 
 - [Online SVG Path Editor | GitHub @ygnn](https://yqnn.github.io/svg-path-editor/)
