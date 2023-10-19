@@ -35,3 +35,7 @@ The social impact of AI.
 - [Inside Elon Musk's Struggle for the Future of AI | Walter Isaacson](https://time.com/6310076/elon-musk-ai-walter-isaacson-biography/)
   - Elon Musk's history with AI, from DeepMind, to OpenAI, to xAI, and his views
     and vision for general AI
+- [Is AI enough to increase your productivity | StackOverflow Blog](https://stackoverflow.blog/2023/10/16/is-ai-enough-to-increase-your-productivity/)
+  - What AI is good at and what's not, specifically for coding
+  - There's more productivity than code faster: automation, share knowledge,
+    good processes, and empowering people
