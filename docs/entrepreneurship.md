@@ -104,6 +104,11 @@ Related pages:
   - Set the condition of yes such that if the counterparty says:
     - "yes": you are happy because the terms and money are so good
     - "no": you are happy because it's not a great fit anyway
+- [Superlinear returns | Paul](http://paulgraham.com/superlinear.html)
+  - Returns are superlinear, half as efficient means 0 customers not half the
+    customers
+  - Focus on growth rate rather than absolute numbers, look for exponential
+    growth, work that compounds
 
 Examples/Stories:
 
