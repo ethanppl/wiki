@@ -31,3 +31,9 @@ Fission. Fusion?
     regulatory/QA/QC requirements
   - Possible ways to bring down the cost: mature supply chain, predictable
     regulations, public support, etc.
+- [How to Scale Nuclear Power](https://a16z.com/how-to-scale-nuclear-power/)
+  - Almost none of the nuclear power plant in the US is new, the cost is high
+  - The success is more about managing cost, project management and policies
+    rather than engineering or safety concerns
+  - The safety concerns for radiation, nuclear waste or nuclear meltdowns are
+    not significant any more
