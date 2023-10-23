@@ -2,6 +2,13 @@
 
 Moving towards seniority/maturity in work.
 
+## Resources
+
+- [Startup CTO Handbook](https://github.com/ZachGoldberg/Startup-CTO-Handbook/blob/main/StartupCTOHandbook.md)
+  - Targetting devs growing into CTO role. How to manage a tech team.
+  - People: management, coaching, hiring, etc.; Tech: debt, roadmap, DX, DevOps,
+    testing, security & compliance, etc.
+
 ## Sites
 
 - [Reinventing Organizations Wiki](https://reinventingorganizationswiki.com/en/)
