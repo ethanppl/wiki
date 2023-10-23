@@ -36,6 +36,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [The Egg | Andy Weir](http://www.galactanet.com/oneoff/theegg_mod.html) —
   worth spending 5 minutes to read
 - [Car allergic to vanilla ice cream](https://www.cs.cmu.edu/~wkw/humour/carproblems.txt)
+- [The secret life of Jimmy Zhong | CNBC](https://www.cnbc.com/2023/10/17/crypto911.htmltill)
+  - Stole $3 billion worth of Bitcoin from Silk Road. The story of how
+    investigators tracked him down
 
 April Fools
 
