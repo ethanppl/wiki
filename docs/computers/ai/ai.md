@@ -76,3 +76,13 @@ Courses
     [`GhostMix` model](https://civitai.com/api/download/models/76907) it uses
   - The later the `ControlNet` starts or the earlier it ends the photo is more
     realistic, but risking of losing the QR code
+- [Embeddings: what are they and why they matter | Simon Willison](https://simonwillison.net/2023/Oct/23/embeddings/)
+  - Embeddings: turn any piece of data into a fixed-length vector
+  - Finding related contents and relationship between words, e.g. `germany` +
+    (`paris` - `france`) = `berlin` in Word2Vec
+  - CLIP: multimodal embeddings for both images and text provide interesting
+    image searching capabilities
+  - Retrieval-augmented generation (RAG): generate embeddings for a collection
+    of documents, use embeddings to find similar documents with the question,
+    paste original excerpts of the documents alongside the question to the LLM
+    to generate answers
