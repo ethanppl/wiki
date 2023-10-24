@@ -34,6 +34,12 @@ Effectively prompt AI models to utilize their power.
 - [A developer's guide to prompt engineering and LLMs | GitHub Blog](https://github.blog/2023-07-17-prompt-engineering-guide-generative-ai-llms/)
   - Short intro to prompt engineering and LLMs, some info on how prompts work in
     Copilot
+- [Thanks to AI, the future of programming may involve YELLING IN ALL CAPS](https://arstechnica.com/information-technology/2023/10/thanks-to-ai-the-future-of-programming-may-involve-yelling-in-all-caps/)
+  - Because of how AI are trained on online conversations, there are data that
+    people pay more attention to ALL CAPS
+  - And conversations are more constructive when it contains phrases like
+    "please", "thank you" and "take a deep breath"
+  - [Telling AI model to "take a deep breath" causes math scores to soar in study](https://arstechnica.com/information-technology/2023/09/telling-ai-model-to-take-a-deep-breath-causes-math-scores-to-soar-in-study/)
 
 Prompt Injection
 
