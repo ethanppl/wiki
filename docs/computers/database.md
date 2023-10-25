@@ -38,6 +38,12 @@ Store and query data. I will add more later.
     7.0
   - 2 major reasons for rewrite and the idea of a Slot Based Engine
   - Architecture, data flow and compiler for the slot based engine
+- [How to create a Streaming SQL Engine | Episo](https://www.epsio.io/blog/how-to-create-a-streaming-sql-engine)
+  - Streaming SQL Engine: keep queries' results up to date without recalculating
+  - Nodes processing messages in a format of `(key: modification)`, can perform
+    filtering, join, group by, etc.
+  - Indexes and caching can optimize up to a point that they can't and streaming
+    SQL engine just solves it
 
 Postgres
 
