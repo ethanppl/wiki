@@ -72,6 +72,17 @@ science/programming.
 - [Hidden features in GitHub](https://buttondown.email/hillelwayne/archive/github-has-too-many-hidden-features/)
   - For example, `.` for `github.dev`, an online VSCode instance that can edit,
     push commits, and review PR.
+- [What Every Developer Should Know about GPU Computing](https://codeconfessions.substack.com/p/gpu-computing)
+  - More about the hardware computation and memory design, and how instructions
+    are executed
+  - Streaming multiprocessors (SMs): GPU consists of multiple SMs, each with
+    multiple cores
+  - Each SM has many registers, a low latency SRAM shared memory and a L1 cache.
+    Then, shared L2 cache and global memory
+  - Execute kernel on the GPU: grid of thread blocks, each consists of multiple
+    threads
+  - Wraps: group of threads. Single Instruction Multiple Threads: threads in a
+    warp execute the same instruction
 
 Cognitive Load:
 
