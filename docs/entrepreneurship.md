@@ -109,6 +109,17 @@ Related pages:
     customers
   - Focus on growth rate rather than absolute numbers, look for exponential
     growth, work that compounds
+- [The ideation flywheel | Stackfix](https://www.stackfix.com/blog/the-ideation-flywheel)
+  - A mental model for choosing startup ideas to pursue
+  - Focus on the problems first, collect problems, rank them, define the
+    problems with real users
+  - Focus on the problems rather than the solution, the problems exists around
+    peoples life, not the solution
+  - Idea Maze: possible solutions, constraints, how the maze changes over time,
+    look for 10x improvements
+  - Not solvable or not worth solving →
+    [linear ideation](https://medium.com/entrepreneur-first/how-to-pivot-properly-linear-ideation-5be605f37d04):
+    look for upside of what's discovered and starts again
 
 Examples/Stories:
 
