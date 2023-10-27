@@ -120,6 +120,10 @@ Related pages:
   - Not solvable or not worth solving →
     [linear ideation](https://medium.com/entrepreneur-first/how-to-pivot-properly-linear-ideation-5be605f37d04):
     look for upside of what's discovered and starts again
+- [Confessions of a Middle-Class Founder](https://nymag.com/intelligencer/article/venture-capital-backed-startup-founder-confessions.html)
+  - From the perspective of a "middle-class" founder, looking for money,
+    pitching to VC, late 2010s world to 2020 COVID
+  - And now still waiting for the exit opportunity
 
 Examples/Stories:
 
