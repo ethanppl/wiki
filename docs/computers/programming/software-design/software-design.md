@@ -39,6 +39,8 @@ Related pages:
   - About dates, emails, names, all kinds of stuff
   - The article that started it all:
     [falsehood programmers believe about names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+- [Byte-sized System Design Concepts | GitHub @ByteByteGoHq](https://github.com/ByteByteGoHq/system-design-101)
+  - System design 101 with visuals and simpler terms
 
 ## Links
 
