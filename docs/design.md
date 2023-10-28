@@ -70,6 +70,10 @@ Guides
 - [Designing the Kowloon Walled City Infographics for SCMP | Adolfo Arranz Twitter](https://twitter.com/adolfux/status/1636026798894104578)
   - [This infographic of the Kowloon Walled City](https://pbs.twimg.com/media/FrRQg_BagAAx9bb?format=jpg&name=4096x4096)
   - The process of ideation, design and drawing the graphics
+- [How to draw beautiful software architecture diagrams](https://terrastruct.com/blog/post/draw-software-architecture-diagrams/)
+  ([HN](https://news.ycombinator.com/item?id=38035505))
+  - Things like minimize neighbour distance, symmetry, aligned, container
+    groups, etc.
 
 Fonts
 
