@@ -44,6 +44,8 @@ Math
     applications in chemistry and biology
   - Invariants: crossing number, p-colorable, alexander polynomial, jones
     polynomial, HOMFLY-PT polynomial, etc.
+- [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/)
+  - An online book about stat, with examples using R
 
 Curves
 
