@@ -40,6 +40,15 @@ Effectively prompt AI models to utilize their power.
   - And conversations are more constructive when it contains phrases like
     "please", "thank you" and "take a deep breath"
   - [Telling AI model to "take a deep breath" causes math scores to soar in study](https://arstechnica.com/information-technology/2023/09/telling-ai-model-to-take-a-deep-breath-causes-math-scores-to-soar-in-study/)
+- [Prompt Engineering in DALL-E 3](https://simonwillison.net/2023/Oct/26/add-a-walrus/)
+  ([HN](https://news.ycombinator.com/item?id=38031839))
+  - Prompting DALL-E 3 is available through ChatGPT only, which turns query into
+    multiple prompt
+  - ChatGPT prompt seems to prompt DALL-E in the client side, showing the
+    underlying system prompt
+    ([here](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/_system-prompts/dall-e.md?plain=1))
+  - Seeds: Ask for the seed, ask it to modify the image based on seeds to create
+    consistent looks
 
 Prompt Injection
 
