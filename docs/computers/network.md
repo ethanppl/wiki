@@ -8,6 +8,8 @@ Communications between computers.
   - A textbook about the fundamentals of computer networking in the OSI model
   - Application, transport, network, and link layer
   - Contains videos, PowerPoints and Wireshark labs
+- [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet0/html/split/)
+  - Basic network concepts with some projects done in Python
 
 ## Links
 
