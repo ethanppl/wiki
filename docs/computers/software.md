@@ -15,3 +15,8 @@ while hardware is "hard" because it is physical and hard to change.
   - The marginal user drives product to be simple and "stupid", which in the end
     deteriorates the quality
   - The marginal user is a state of mind. We've all been the marginal user.
+- [Every trick Microsoft pulled to make you browse Edge instead of Chrome](https://www.theverge.com/23935029/microsoft-edge-forced-windows-10-google-chrome-fight)
+  - Some tricks are pretty invasive, it does look like what bloatware and
+    spyware would do
+  - Open source software and operating system might be the solution to safeguard
+    freedom in general computing
