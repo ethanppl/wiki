@@ -40,3 +40,6 @@ Git commands.
     [includeIf "gitdir:~/personal/"]
       path = ~/.gitconfig-personal
     ```
+- [Some miscellaneous git facts | Julia Evans](https://jvns.ca/blog/2023/10/20/some-miscellaneous-git-facts/)
+  - About the staging area, internals of stashes, types of references, and merge
+    commits diff
