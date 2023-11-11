@@ -74,6 +74,8 @@ Guides
   ([HN](https://news.ycombinator.com/item?id=38035505))
   - Things like minimize neighbour distance, symmetry, aligned, container
     groups, etc.
+- [A guide to digital design at The Guardian](https://design.theguardian.com/)
+  - Guardian's digital design style guide: layout, spacing, font, colours, etc.
 
 Fonts
 
