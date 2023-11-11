@@ -15,6 +15,8 @@ Using AI
   - Making videos: D-iD, Runway v2, ElevenLabs
   - Code, data and documents: Code Interpreter, Calude 2, Bing Sidebar
   - Information and learning: Bing, Khanmigo
+- [Neutral Networks and Deep Learning | Michael Nielson](http://neuralnetworksanddeeplearning.com/)
+  - Learning neural networks by building one to recognize handwritten digits
 
 Courses
 
