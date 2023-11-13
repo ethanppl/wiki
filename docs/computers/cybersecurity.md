@@ -68,3 +68,7 @@ completely different mindset to approach problems, but it's fun.
     connection can then have infinite amount of requests, as cancelling previous
     requests means it never exceeds the max concurrent connection but always
     keep the connection open
+- [Stop deploying web application firewalls](https://www.macchaffee.com/blog/2023/wafs/)
+  - WAFs are slow, ineffective, unsafe and noisy
+  - Instead, isolate application, immutable system, static analysis in CI, and
+    capability-based security
