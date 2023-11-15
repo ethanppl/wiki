@@ -20,3 +20,7 @@ while hardware is "hard" because it is physical and hard to change.
     spyware would do
   - Open source software and operating system might be the solution to safeguard
     freedom in general computing
+- [YouTube's Anti-adblock and uBlock Origin](https://andadinosaur.com/youtube-s-anti-adblock-and-ublock-origin)
+  - The battle between YouTube's anti-adblock effort and adblockers
+  - And the struggle of open source contributors to maintain and support
+    software for free
