@@ -60,3 +60,7 @@
   - Transforming to a service oriented architecture, dogfood your own service
   - How Google does not understand building a platform v.s. building a product,
     comparing to other tech giants
+- [The Architecture Behind A One-Person Tech Startup](https://anthonynsimon.com/blog/one-man-saas-architecture/)
+  - The infra setup for things including zero downtime deploys, autoscaling,
+    health checks, DNS, TLS, ingress, etc.
+  - Cloudflare → load balancer → Kubernetes, inside with Nginx → services
