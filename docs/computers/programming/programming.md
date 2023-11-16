@@ -83,6 +83,10 @@ science/programming.
     threads
   - Wraps: group of threads. Single Instruction Multiple Threads: threads in a
     warp execute the same instruction
+- [A decade of developing programming language](https://yorickpeterse.com/articles/a-decade-of-developing-a-programming-language/)
+  - 10 lessons learn from building a programming language
+  - E.g. avoid self-hosting compiler, which means using the language built to
+    build the compiler for that language
 
 Cognitive Load:
 
