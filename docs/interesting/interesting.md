@@ -39,6 +39,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [The secret life of Jimmy Zhong | CNBC](https://www.cnbc.com/2023/10/17/crypto911.htmltill)
   - Stole $3 billion worth of Bitcoin from Silk Road. The story of how
     investigators tracked him down
+- [I trapped scammers in an impossible maze | Kitboga](https://youtu.be/dWzz3NeDz3E)
+  - A fake website and phone tree to waste scammers' time trying to claim
+    Bitcoin
 
 April Fools
 
