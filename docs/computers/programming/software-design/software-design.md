@@ -138,3 +138,6 @@ Related pages:
 - [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
   - CRDTs, data structure that guarantee eventual consistency
   - Examples with last write win register and last write win map
+- [Retries](https://encore.dev/blog/retries)
+  - Visualizing how to design retry mechanisms, with exponential backoff and
+    jitter
