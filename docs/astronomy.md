@@ -24,6 +24,9 @@ Telescopes for stargazing (if binoculars aren't enough):
 
 ## Sites
 
+- [NASA's Eyes](https://eyes.nasa.gov/) — 3D visualization of Earth, the solar
+  system, asteroids, spacecrafts, etc. e.g.:
+  [Eyes on the Solar System](https://eyes.nasa.gov/apps/solar-system/#/home)
 - [Awesome Space | GitHub @orbitalindex](https://github.com/orbitalindex/awesome-space)
   — space-related code, APIs, data, and other resources
 - [Who Is In Space](https://whoisinspace.com/) — who is in space right now?
