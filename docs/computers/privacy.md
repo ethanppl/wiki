@@ -29,3 +29,7 @@ Privacy is not the same as anonymity or security.
   - Firefox: only when `privacy.resistFingerprinting` is enabled, the
     fingerprint is masked
   - Tor Browser: secure against fingerprinting
+- [Email Obfuscation: What still works in 2023?](https://spencermortensen.com/articles/email-obfuscation/)
+  - Different techniques to obfuscate how an email address is displayed on a
+    website, to prevent bots spamming it
+  - Different techniques for `mailto` link vs plaintext email address
