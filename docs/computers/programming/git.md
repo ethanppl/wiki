@@ -43,3 +43,8 @@ Git commands.
 - [Some miscellaneous git facts | Julia Evans](https://jvns.ca/blog/2023/10/20/some-miscellaneous-git-facts/)
   - About the staging area, internals of stashes, types of references, and merge
     commits diff
+- [Git branches: intuition and reality | Julia Evans](https://jvns.ca/blog/2023/11/23/branches-intuition-reality/)
+  - Git branches are the full history of commits, not just the diff between
+    branches
+  - Intuitive model: branches only contains "offshoot commits". This is helpful
+    explaining some but not all git operations
