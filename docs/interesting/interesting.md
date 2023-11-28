@@ -42,6 +42,12 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [I trapped scammers in an impossible maze | Kitboga](https://youtu.be/dWzz3NeDz3E)
   - A fake website and phone tree to waste scammers' time trying to claim
     Bitcoin
+- [How to Build a Better Social Network | Every](https://every.to/p/how-to-build-a-better-social-network)
+  - Interesting idea, to use a decaying points rewarding system to redistribute
+    the rank
+  - Might not work because of possibly no one have that attention span to rank
+    by numbers, but it does point out the problems of existing social network
+    and possible approach to address them
 
 April Fools
 
