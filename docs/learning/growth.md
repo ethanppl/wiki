@@ -83,6 +83,13 @@ Improve one's cognitive capability.
   - To be good at surfacing new questions rather than answering questions
   - The zone: A state with no judgement, wholly unconstrained, free of
     self-censorship for orienting creative thoughts
+- [My $500M Mars Rover Mistake: A Failure Story](https://www.chrislewicki.com/articles/failurestory)
+  - A single faulty connection almost turned $500M Mars rover to a piece of
+    scrap
+  - Accept your failure, let your scars shows your learning, capability and
+    resilience
+  - "Remember this feeling the next time you have to sign-off that something is
+    OK"
 
 Writing — for better thinking and communication
 
