@@ -124,6 +124,16 @@ Related pages:
   - From the perspective of a "middle-class" founder, looking for money,
     pitching to VC, late 2010s world to 2020 COVID
   - And now still waiting for the exit opportunity
+- [The Fairytale Narrative: Structured strategic planning](https://longform.asmartbear.com/strategic-planning/)
+  - Strategic Objectives: we must advance, the problems to be solved and goals
+    to achieve
+  - Obstacles: but something is in the way, some events that trigger the
+    adventure in fairy tale
+  - Main Activities: so we do something, how to overcome obstacles and achieve
+    the strategic objectives
+  - Measures: and until victory, how we know whether we are making progress
+  - Not doing: what did we leave out so that we can do the even more important
+    and urgent things
 
 Examples/Stories:
 
