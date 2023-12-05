@@ -48,3 +48,7 @@ Git commands.
     branches
   - Intuitive model: branches only contains "offshoot commits". This is helpful
     explaining some but not all git operations
+- [GQL - Git Query Language | Github @AmrDeveloper](https://github.com/AmrDeveloper/GQL)
+  - SQL like language to perform queries on files inside `.git`
+  - "Tables" for `references`, `commits`, `diffs`, `branches`, and `tags`
+  - E.g.: `SELECT DISTINCT title as tt FROM commits`
