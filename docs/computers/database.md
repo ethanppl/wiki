@@ -21,7 +21,7 @@ Store and query data. I will add more later.
     PgBouncer
   - Vertical partition: Move groups of tables onto different databases
   - A detailed description of how the migration was done to limit the
-    availability impact to <1 minute
+    availability impact to \<1 minute
   - PgBouncer to redirect traffic. Logical replication to copy tables. LSNs to
     verify synchronization.
 - [Is ORM still an 'anti-pattern'? | GitHub @getlago](https://github.com/getlago/lago/wiki/Is-ORM-still-an-%27anti-pattern%27%3F)
