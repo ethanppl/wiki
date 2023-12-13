@@ -95,3 +95,9 @@ Related pages:
     allocate enough time or never make the jump
   - Integrate: monetize what you enjoy, but values and money might be pulling in
     different directions
+- [How to Choose a Startup](https://www.danhock.co/p/how-to-choose-a-startup)
+  - Stage: understand what stage of a company to look for
+  - Team: founders, the team, talent density, culture
+  - Company metrics: user retention, revenue retention, growth rate, etc.
+  - Role: role that maximize impact, a fit between expertise and company needs
+  - Compensation: important but could be the last to consider
