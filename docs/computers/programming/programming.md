@@ -87,6 +87,14 @@ science/programming.
   - 10 lessons learn from building a programming language
   - E.g. avoid self-hosting compiler, which means using the language built to
     build the compiler for that language
+- [Code is run more than read](https://olano.dev/2023-11-30-code-is-run-more-than-read/)
+  ([HN](https://news.ycombinator.com/item?id=38483181))
+  - `maintainer > author` when we say code is read more than written
+  - `user > dev`: but actually the code need to be usable
+  - `user > ops > dev`: the code need to be able to operate in production
+  - `biz > user > ops > dev`: the code need to be valuable to the organization
+  - This stops us from having unmaintainable code, unusable software, or "works
+    locally" software
 
 Cognitive Load:
 
