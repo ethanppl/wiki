@@ -24,3 +24,8 @@ A balance.
     and flow directly into the ocean
   - This problem won't go away with EVs and EVs tend to shed around 20% more
     becuase of higher weight and torque
+- [Generating Power on Earth from the Coldness of Deep Space](https://spectrum.ieee.org/energy-from-cold)
+  - How radioactive cooling works, potential for reducing HVAC load, and
+    possible applications
+  - How does temperature difference generate electricity and possibly creating
+    "reverse solar panels"?
