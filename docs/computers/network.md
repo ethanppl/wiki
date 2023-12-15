@@ -11,6 +11,11 @@ Communications between computers.
 - [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet0/html/split/)
   - Basic network concepts with some projects done in Python
 
+## Sites
+
+- [IP Guide](https://ip.guide/) — Internet numbers, can try
+  `curl -sL ip.guide/<ip-address>`
+
 ## Links
 
 - [I spent a week without IPv4 to understand IPv6 transition mechanisms](https://www.apalrd.net/posts/2023/network_ipv6/)
