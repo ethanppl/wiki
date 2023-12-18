@@ -134,6 +134,14 @@ Related pages:
   - Measures: and until victory, how we know whether we are making progress
   - Not doing: what did we leave out so that we can do the even more important
     and urgent things
+- [Why are we surprised that startups are so freaking hard? Every.to](https://every.to/p/why-are-we-surprised-that-startups-are-so-freaking-hard)
+  - Athletes don't often say the years of training is harder than they thought
+    in post-game interview
+  - Why successful businesses founders say it is harder than they thought?
+  - People get attracted to the specific niche, special missing piece in the
+    market
+  - But there are more tedious problems, struggles and competitions a company
+    will eventually needs to deal with
 
 Examples/Stories:
 
