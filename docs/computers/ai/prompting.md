@@ -8,6 +8,10 @@ Effectively prompt AI models to utilize their power.
   ([HN](https://news.ycombinator.com/item?id=34883486))
   - Techniques to improve the results of large language models
   - HN thread more or less focuses on if this is a field of engineering at all
+- [Six strategies for getting better results | Open AI](https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results)
+  - Write clear instructions, provide reference/context
+  - Break down tasks, use chain of thought, inner monologue
+  - Use external tools and conduct systematic test
 
 ## Links
 
