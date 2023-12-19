@@ -101,3 +101,7 @@ Related pages:
   - Company metrics: user retention, revenue retention, growth rate, etc.
   - Role: role that maximize impact, a fit between expertise and company needs
   - Compensation: important but could be the last to consider
+- [Breaking into VC: The Rough Guide](https://www.linkedin.com/pulse/breaking-vc-rough-guide-sajith-pai-rzb7c/)
+  - One takeaway: top-tier VCs are sell side not buy side, they are selling
+    capital and add value to founders in return for equity in startups. Founders
+    are the one picking capital
