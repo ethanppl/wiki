@@ -69,3 +69,12 @@ Postgres
   ([HN](https://news.ycombinator.com/item?id=37294793))
   - A few tricks like `pg_stat_all_indexes` and `REINDEX` free up space
   - Finding that Postgres index NULL values. Partial indexes can free up space
+- [Transaction Isolation in Postgres, explained](https://www.thenile.dev/blog/transaction-isolation-postgres)
+  - ACID - atomicity, consistency, isolation and durability
+  - Isolation as defined in SQL 92 Standard: serializable isolation. Results of
+    concurrent transactions are the same as running them sequentially
+  - Anomalies: dirty reads, non-repeatable reads, phantom reads
+  - Postgres MVCC: anything lower than the lowest active XIDs, new versions of
+    existing rows and new rows are hidden
+  - Postgres vacuuming: freeing XIDs for reuse since XIDs are limited to 32 bits
+  - [Postgres isolation test suite](https://github.com/postgres/postgres/tree/master/src/test/isolation)
