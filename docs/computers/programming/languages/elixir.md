@@ -30,3 +30,7 @@ programming language.
     given the Lisp-2 approach that Elixir has
   - Without the dot, Elixir still doesn't have the expressiveness of Lisp-1, but
     also losses the clarity of Lisp-2
+- [Elixir at Ramp](https://engineering.ramp.com/elixir-at-ramp)
+  - The reason why Elixir in chosen in Ramp: BEAM, OPT, Dev Ex, macros, sigils,
+    immutability, modules, etc.
+  - [Technical Storytelling: Making of Elixir at Ramp](https://morepablo.com/2023/03/technical-storytelling-making-of-elixir-at-ramp.html)
