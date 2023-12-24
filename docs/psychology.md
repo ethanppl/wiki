@@ -25,3 +25,11 @@ How human behaves.
   - Metrics to measure attention span and existing literature we have
   - There is no convincing evidence yet. The author gave what could an ideal
     study be like
+- [What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything](https://youtu.be/mScpHTIi-kM)
+  - Axelord's tournament: tit-for-tat, repeat the last move
+  - Nice: do not start retaliation first
+  - Forgiving: do not keep defecting, be nice after the other cooperates
+  - Retaliatory: strike back immediately, do not push over
+  - Be clear: simple strategy, easy to cooperate, establish pattern of trust
+  - Strategies evolves, and they can change the environment they play in because
+    the game is not zero-sum
