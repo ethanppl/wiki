@@ -72,3 +72,5 @@ completely different mindset to approach problems, but it's fun.
   - WAFs are slow, ineffective, unsafe and noisy
   - Instead, isolate application, immutable system, static analysis in CI, and
     capability-based security
+- [Security at Startup](https://vadimkravcenko.com/shorts/security-at-startup/)
+  - Different levels of security configuration for different phases of startup
