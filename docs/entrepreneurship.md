@@ -142,6 +142,7 @@ Related pages:
     market
   - But there are more tedious problems, struggles and competitions a company
     will eventually needs to deal with
+- [What I Wish Someone Had Told Me | Sam Altman](https://blog.samaltman.com/what-i-wish-someone-had-told-me)
 
 Examples/Stories:
 
