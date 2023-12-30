@@ -64,3 +64,9 @@
   - The infra setup for things including zero downtime deploys, autoscaling,
     health checks, DNS, TLS, ingress, etc.
   - Cloudflare → load balancer → Kubernetes, inside with Nginx → services
+- [iMessage, explained](https://jjtech.dev/reverse-engineering/imessage-explained/)
+  - From the creator of the `pypush` repo, how does iMessage works
+  - How it builds on top of Apple Push Notification Service (APNs) and the
+    keyserver (IDS)
+  - How APNs and IDS is designed to handle 2FA, block non-Apple devices and
+    encryption
