@@ -46,6 +46,9 @@ Math
     polynomial, HOMFLY-PT polynomial, etc.
 - [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/)
   - An online book about stat, with examples using R
+- [3Blue1Brown Lessons](https://www.3blue1brown.com/#lessons)
+  - 3Blue1Brown lessons by topics (calculus, puzzles, Pi, neural networks,
+    computer science, etc.)
 
 Curves
 
