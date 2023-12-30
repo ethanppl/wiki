@@ -6,6 +6,10 @@ Store and query data. I will add more later.
 
 - [Database Normalization | Wikipedia](https://en.wikipedia.org/wiki/Database_normalization)
   — Structuring relational database for data integrity
+- [Database Fundamentals](https://tontinton.com/posts/database-fundementals/)
+  ([HN](https://news.ycombinator.com/item?id=38655066))
+  - The fundamental problems in the world of databases and common approaches to
+    solve them
 
 ## Links
 
