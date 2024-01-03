@@ -20,6 +20,8 @@
 - [LLM Visualization](https://bbycroft.net/llm)
   - 3D graphics visualizing parameters of a LLM model at each stage from
     tokenization to the output
+- [LLM Course | GitHub @mlabonne](https://github.com/mlabonne/llm-course)
+  - Resources from mathematics, to Python, to neural networks, to NLP
 
 ## Links
 
