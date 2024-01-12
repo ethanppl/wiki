@@ -29,3 +29,5 @@ Possible solutions to daily life problems.
     interesting
   - HN has a different point of view though, it became rich people justifying
     paying a lot for high-status products
+- [Mold Course | United States Environmental Protection Agency](https://www.epa.gov/mold/mold-course-introduction)
+  - What, why, where mold grows. Mold prevention and mold remediation.
