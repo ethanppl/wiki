@@ -54,3 +54,8 @@ Learning how to learn.
   - Frame "mindless" reading online as opportunities to scout topics to learn,
     but the actual learning requires time and deliberate effort to actively
     consume the content
+- YouTube:
+  [The Backwards Brain Bicycle | Smarter Every Day](https://youtu.be/MFzDaBzBlL0)
+  - Turning the handlebar to the left makes the wheel turn to the right
+  - Be careful of how you interpret knowledge. There is something special about
+    knowing v.s. understanding
