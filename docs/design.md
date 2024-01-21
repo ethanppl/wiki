@@ -76,6 +76,8 @@ Guides
     groups, etc.
 - [A guide to digital design at The Guardian](https://design.theguardian.com/)
   - Guardian's digital design style guide: layout, spacing, font, colours, etc.
+- [The Eight Golden Rules of Interface Design | Ben Shneiderman](https://www.cs.umd.edu/~ben/goldenrules.html)
+  - E.g.: consistency, informative feedback, reversibility
 
 Fonts
 
