@@ -25,7 +25,7 @@ How human behaves.
   - Metrics to measure attention span and existing literature we have
   - There is no convincing evidence yet. The author gave what could an ideal
     study be like
-- [What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything](https://youtu.be/mScpHTIi-kM)
+- [What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything | Veritasium](https://youtu.be/mScpHTIi-kM)
   - Axelord's tournament: tit-for-tat, repeat the last move
   - Nice: do not start retaliation first
   - Forgiving: do not keep defecting, be nice after the other cooperates

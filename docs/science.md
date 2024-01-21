@@ -17,6 +17,12 @@ Math
 - [Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) — the
   methods of proving mathematical theorems
 
+Mixed
+
+- [3Blue1Brown Lessons](https://www.3blue1brown.com/#lessons)
+  - 3Blue1Brown lessons by topics (calculus, puzzles, Pi, neural networks,
+    computer science, etc.)
+
 ## Links
 
 - [Where the wood-wide web narrative went wrong](https://undark.org/2023/05/25/where-the-wood-wide-web-narrative-went-wrong/)
@@ -46,9 +52,24 @@ Math
     polynomial, HOMFLY-PT polynomial, etc.
 - [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/)
   - An online book about stat, with examples using R
-- [3Blue1Brown Lessons](https://www.3blue1brown.com/#lessons)
-  - 3Blue1Brown lessons by topics (calculus, puzzles, Pi, neural networks,
-    computer science, etc.)
+
+Numbers, riddles, conjectures
+
+- [6174 | Wikipedia](https://en.wikipedia.org/wiki/6174),
+  [Kaprekar's routine | Wikipedia](https://en.wikipedia.org/wiki/Kaprekar%27s_routine)
+- [Magic square | Wikipedia](https://en.wikipedia.org/wiki/Magic_square)
+  - Famous examples, properties, classification, enumeration, transformation,
+    construction, etc.
+- [3x + 1, Collatz Conjecture | Veritasium](https://youtu.be/094y1Z2wpJg)
+  - The simplest math problem no one can solve
+    > It shows math is hard. If anything, it shows that all of the things we can
+    > solve are miracles. We have no right to have solutions for all these
+    > problems.
+    >
+    > -- _Prof. Alex Kontorovich_
+- [The Riddle That Seems Impossible Even If You Know The Answer | Veritasium](https://youtu.be/iSNsgj1OCLA)
+  - 100 Prisoners Riddle
+    ([Wikipedia](https://en.wikipedia.org/wiki/100_prisoners_problem))
 
 Curves
 
