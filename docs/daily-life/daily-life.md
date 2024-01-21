@@ -31,3 +31,9 @@ Possible solutions to daily life problems.
     paying a lot for high-status products
 - [Mold Course | United States Environmental Protection Agency](https://www.epa.gov/mold/mold-course-introduction)
   - What, why, where mold grows. Mold prevention and mold remediation.
+- [The Ultimate Guide to Leather Grades](https://www.popovleather.com/blogs/from-the-workshop/the-ultimate-guide-to-leather-grades)
+  - Leather starts with cowhides. Cowhides are split into usable sections
+  - Leather grades: Top Grain (Full Grain, Corrected Grain) > Split Grain
+    (Genuine Leather) > Bonded Leather
+  - Full Grain: it breathes, absorb moisture and oils, patina, includes natural
+    markings, etc.
