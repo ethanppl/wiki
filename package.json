@@ -20,9 +20,9 @@
     "count-bullet-points": "grep -roe ^[[:blank:]]*\\-[[:blank:]] --include \\*.md docs/* | wc -l | xargs echo \"Total number of bullet points: \""
   },
   "dependencies": {
-    "@docusaurus/core": "^3.0.1",
-    "@docusaurus/plugin-google-gtag": "^3.0.1",
-    "@docusaurus/preset-classic": "^3.0.1",
+    "@docusaurus/core": "^3.1.0",
+    "@docusaurus/plugin-google-gtag": "^3.1.0",
+    "@docusaurus/preset-classic": "^3.1.0",
     "@easyops-cn/docusaurus-search-local": "^0.40.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.1.0",
@@ -31,7 +31,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^3.0.1",
+    "@docusaurus/module-type-aliases": "^3.1.0",
     "@tsconfig/docusaurus": "^2.0.2",
     "prettier": "^3.1.1",
     "typescript": "^5.3.3"
