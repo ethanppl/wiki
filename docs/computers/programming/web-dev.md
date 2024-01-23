@@ -77,6 +77,7 @@ Developing user interfaces of web pages.
   - Nesting doesn't prevent collapsing. Padding, border, empty space or scroll
     container blocks collapsing.
   - More advance: direction, more than 2 margins, negative margins
+- [HTML Tips & Tricks](https://www.htmhell.dev/tips/)
 
 CSS games
 
