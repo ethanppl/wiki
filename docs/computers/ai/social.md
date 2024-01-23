@@ -39,3 +39,8 @@ The social impact of AI.
   - What AI is good at and what's not, specifically for coding
   - There's more productivity than code faster: automation, share knowledge,
     good processes, and empowering people
+- [4000 of my closest friends | Cat and Girl](https://catandgirl.com/4000-of-my-closest-friends/)
+  ([HN](https://news.ycombinator.com/item?id=39016395))
+  - On being listed as an artist whose work was used to train Midjourney
+    > But I can't even get cartoons to most people for free, now. Without doing
+    > unpaid work for the profit-making companies...
