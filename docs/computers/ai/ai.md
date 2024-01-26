@@ -88,3 +88,5 @@ Courses
     of documents, use embeddings to find similar documents with the question,
     paste original excerpts of the documents alongside the question to the LLM
     to generate answers
+- [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering)
+  - Collections of concepts, methodologies, tools and tips to train LLM and VLM
