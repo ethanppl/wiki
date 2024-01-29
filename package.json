@@ -20,7 +20,7 @@
     "count-bullet-points": "grep -roe ^[[:blank:]]*\\-[[:blank:]] --include \\*.md docs/* | wc -l | xargs echo \"Total number of bullet points: \""
   },
   "dependencies": {
-    "@docusaurus/core": "^3.1.0",
+    "@docusaurus/core": "^3.1.1",
     "@docusaurus/plugin-google-gtag": "^3.1.0",
     "@docusaurus/preset-classic": "^3.1.0",
     "@easyops-cn/docusaurus-search-local": "^0.40.1",
