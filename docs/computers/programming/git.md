@@ -52,3 +52,5 @@ Git commands.
   - SQL like language to perform queries on files inside `.git`
   - "Tables" for `references`, `commits`, `diffs`, `branches`, and `tags`
   - E.g.: `SELECT DISTINCT title as tt FROM commits`
+- [Inside `.git` | Julia Evans](https://jvns.ca/blog/2024/01/26/inside-git/)
+  - A comic and explanation of what's each directory is for in `.git`
