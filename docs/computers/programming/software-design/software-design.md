@@ -141,3 +141,10 @@ Related pages:
 - [Retries](https://encore.dev/blog/retries)
   - Visualizing how to design retry mechanisms, with exponential backoff and
     jitter
+- [The Big Little Guide to Message Queues](https://sudhir.io/the-big-little-guide-to-message-queues)
+  - What are message queues? When to and when not to use queues?
+  - Delivery guarantees: at-least-once, at-most-once, exactly-once
+  - Ordering vs parallelism, and parallel doesn't mean random
+  - Fan out/in design, and the use of topics on top of queues
+  - Consideration of poison pills and dead letters queue
+  - Common implementation: AWS SNS/SQS, Redis Streams, Kafka, RabbitMQ, etc.
