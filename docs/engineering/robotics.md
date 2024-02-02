@@ -2,6 +2,11 @@
 
 Computers that move?
 
+## Sites
+
+- [Wokwi - Simulate IoT Projects in Browser](https://wokwi.com/) — Arduino,
+  ESP32, STM32, etc.
+
 ## Links
 
 - YouTube:
