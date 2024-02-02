@@ -70,3 +70,6 @@
     keyserver (IDS)
   - How APNs and IDS is designed to handle 2FA, block non-Apple devices and
     encryption
+- [How we built a fair multi-tenant queuing system | Inngest](https://www.inngest.com/blog/building-the-inngest-queue-pt-i-fairness-multi-tenancy)
+  - Fairness: a tiered queue with a high level queue recording the earliest
+    available job of individual queue
