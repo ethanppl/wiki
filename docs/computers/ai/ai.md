@@ -36,6 +36,8 @@ Courses
   (Spring 2018)
 - [Deep Learning Foundations to Stable Diffusion | Fast.AI](https://www.youtube.com/watch?v=_7rMfsA24Ls&list=PLfYUBJiXbdtRUvTUYpLdfHHp9a58nWVXP&ab_channel=JeremyHoward)
   ([Website](https://course.fast.ai/Lessons/part2.html))
+- [Machine Learning Video Library | Caltech](https://work.caltech.edu/library/)
+  — Videos categorized by topics in machine learning
 
 ## Links
 
