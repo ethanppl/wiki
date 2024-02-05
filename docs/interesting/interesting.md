@@ -49,6 +49,11 @@ Things that are interesting or for fun. Not sure where to put these yet.
     by numbers, but it does point out the problems of existing social network
     and possible approach to address them
 - [Reading QR Codes withOUT a computer](https://qr.blinry.org/)
+- [The possibility of making money from shredded banknote pieces using computer vision](https://arxiv.org/ftp/arxiv/papers/2401/2401.06133.pdf)
+  - Hong Kong Monetary Authority sells shredded banknotes equivalent to $138,000
+  - Computer vision could possibly put them back like a jigsaw puzzle
+  - And the paper weight contains stones inside, possibly contained far less
+    money than HKMA claimed
 
 April Fools
 
