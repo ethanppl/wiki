@@ -54,3 +54,11 @@ Git commands.
   - E.g.: `SELECT DISTINCT title as tt FROM commits`
 - [Inside `.git` | Julia Evans](https://jvns.ca/blog/2024/01/26/inside-git/)
   - A comic and explanation of what's each directory is for in `.git`
+- [My favourite Git commit](https://dhwthompson.com/2019/my-favourite-git-commit)
+  ([HN](https://news.ycombinator.com/item?id=39217149) has some good comments
+  too)
+  - [The commit `63b36f93bf75a848e2125008aa1e880c5861cf46`](https://github.com/alphagov/govuk-puppet/commit/63b36f93bf75a848e2125008aa1e880c5861cf46),
+    plus some comments of the commit in GitHub
+  - Explains the reason for change, error message is searchable, tells a story,
+    reader learns something, and it builds compassion and trust
+  - Or maybe I would put it in the PR description or internal docs
