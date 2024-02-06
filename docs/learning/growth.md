@@ -90,6 +90,19 @@ Improve one's cognitive capability.
     resilience
   - "Remember this feeling the next time you have to sign-off that something is
     OK"
+- [How to Get Focused | Taylor Pearson](https://taylorpearson.me/how-to-get-focused/)
+  - 25 years plan: not too short, it feels spacious to think about what really
+    matters
+  - 90 days north star: getting over the Amara's Law, not to under/over-estimate
+    one's capability
+  - Every 90 days is approximately 1% of 25 years
+- [Three Focus Failures | Taylor Pearson](https://taylorpearson.me/three-focus-failures/)
+  - Do set falsifiable goals: At some point the goal should be "did it" or
+    "didn't make it"
+  - Goals are better with short timelines with sense of urgency. Visions should
+    be set years into the future keep dreams big, exciting and motivating
+  - Do set process driven metrics, metrics that are in control of (100 sales
+    call rather than 20 sales)
 
 Writing — for better thinking and communication
 
