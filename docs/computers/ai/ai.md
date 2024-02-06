@@ -92,3 +92,8 @@ Courses
     to generate answers
 - [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering)
   - Collections of concepts, methodologies, tools and tips to train LLM and VLM
+- [The pain points of building a copilot system](https://austinhenley.com/blog/copilotpainpoints.html)
+  - Trial and error in prompting, difficult to orchestrate data sources &
+    prompts, flaky tests
+  - Unclear and evolving best practices, safety, privacy, compliance,
+    undesirable DevEx
