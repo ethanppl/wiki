@@ -61,12 +61,6 @@ Courses
   ([HN](https://news.ycombinator.com/item?id=35702490))
   - 70 pages cookbook lowering the barrier of entry for training AI with
     self-supervised learning
-- [Production AI Systems are really hard | Kevin Fischer](https://methexis.substack.com/p/production-ai-systems-are-really)
-  ([HN](https://news.ycombinator.com/item?id=36111596))
-  - Using radiologists as an example to explain why it is hard to build
-    production AI systems that can replace an occupation
-  - The top comment in HN gives good insight, sometimes the market AI companies
-    focus on is wrong
 - [Self-healing Code is the Future of Software Development | StackOverflow](https://stackoverflow.blog/2023/06/07/self-healing-code-is-the-future-of-software-development/)
   - Give a goal to the AI, the AI uses its output to prompt itself again
   - E.g.: feed the AI code, compilation error or execution logs back to the AI
@@ -92,8 +86,24 @@ Courses
     to generate answers
 - [Machine Learning Engineering Open Book](https://github.com/stas00/ml-engineering)
   - Collections of concepts, methodologies, tools and tips to train LLM and VLM
+- [Ask HN: What have you built with LLMs?](https://news.ycombinator.com/item?id=39263664)
+  - [ChatGPT Phone](https://github.com/kevingduck/ChatGPT-phone/) to practice
+    cold calls
+
+Productizing AI
+
+- [Production AI Systems are really hard | Kevin Fischer](https://methexis.substack.com/p/production-ai-systems-are-really)
+  ([HN](https://news.ycombinator.com/item?id=36111596))
+  - Using radiologists as an example to explain why it is hard to build
+    production AI systems that can replace an occupation
+  - The top comment in HN gives good insight, sometimes the market AI companies
+    focus on is wrong
 - [The pain points of building a copilot system](https://austinhenley.com/blog/copilotpainpoints.html)
   - Trial and error in prompting, difficult to orchestrate data sources &
     prompts, flaky tests
   - Unclear and evolving best practices, safety, privacy, compliance,
     undesirable DevEx
+- [AI Design Patterns](https://tomtunguz.com/ai-design-patterns/)
+  - 4 AI design patterns for deployment & training, e.g.:
+  - AI Router: route recognized type to small language model
+  - Proxy to clean query and answer for AI
