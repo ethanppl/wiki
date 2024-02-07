@@ -105,3 +105,7 @@ Related pages:
   - One takeaway: top-tier VCs are sell side not buy side, they are selling
     capital and add value to founders in return for equity in startups. Founders
     are the one picking capital
+- [The undercover generalist](https://ochagavia.nl/blog/the-undercover-generalist/)
+  - Marketing as a generalist is hard, especially as an independent contractor
+  - Marketing as a specialist build trust, yet can still put generalist skills
+    to use. Branding makes a difference.
