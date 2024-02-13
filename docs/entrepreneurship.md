@@ -143,6 +143,11 @@ Related pages:
   - But there are more tedious problems, struggles and competitions a company
     will eventually needs to deal with
 - [What I Wish Someone Had Told Me | Sam Altman](https://blog.samaltman.com/what-i-wish-someone-had-told-me)
+- [What's not going to change in 10 years? | Jeff Benzos](https://www.youtube.com/embed/O4MtQGRIIuA?start=267)
+  - It's hard to answer what's going to be like in 10 years
+  - It's easier to answer what's not going to change in 10 years
+  - Continuously improve for things that genuinely matters, e.g. cheaper price,
+    faster delivery for Amazon
 
 Examples/Stories:
 
