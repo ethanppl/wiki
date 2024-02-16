@@ -54,6 +54,11 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - Computer vision could possibly put them back like a jigsaw puzzle
   - And the paper weight contains stones inside, possibly contained far less
     money than HKMA claimed
+- [Making a PDF that's larger than Germany](https://alexwlchan.net/2024/big-pdf/)
+  - The size claim is not the limit to the file format, it's what Adobe Acrobat
+    supports
+  - [How to create a simple PDF file](https://help.callassoftware.com/a/798383-how-to-create-a-simple-pdf-file),
+    the internal structure of PDF
 
 April Fools
 
