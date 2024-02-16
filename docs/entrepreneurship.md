@@ -190,3 +190,4 @@ Ideas:
   [2nd list](https://samsquire.github.io/ideas2/),
   [3rd list](https://samsquire.github.io/ideas3/),
   [4th list](https://samsquire.github.io/ideas4/)
+- [Y Combinator Request For Startup](https://www.ycombinator.com/rfs)
