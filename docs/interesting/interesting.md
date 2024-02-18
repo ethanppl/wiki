@@ -62,6 +62,11 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [Staying Alive | Philosophy Experiments](https://www.philosophyexperiments.com/stayingalive/Default.aspx)
   - Probing the edge of what it means to be alive, body or soul?
   - How your feels might be conflicting
+- [No Vehicles in the Park](https://novehiclesinthepark.com/)
+  - Why is it hard to enforce rules.
+  - [Why it's impossible to agree on what's allowed](https://danluu.com/impossible-agree/)
+    ([HN](https://news.ycombinator.com/item?id=39313942))
+  - [This HN Thread has good arguments](https://news.ycombinator.com/item?id=39326506)
 
 April Fools
 
