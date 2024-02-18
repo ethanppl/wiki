@@ -44,11 +44,6 @@ Related pages:
 
 ## Links
 
-- [Clocks and Causality - Ordering Events in Distributed Systems](https://www.exhypothesi.com/clocks-and-causality/)
-  ([HN](https://news.ycombinator.com/item?id=35399603))
-  - How logical clocks order events in distributed systems
-  - Clocks introduced: Lamport clock, Lamport origin clock, vector clock and
-    dotted vector clock, Lamport causal clock
 - [Conway's Law](https://martinfowler.com/bliki/ConwaysLaw.html)
   ([HN](https://news.ycombinator.com/item?id=35591026))
   - "Any organization that designs a system (defined broadly) will produce a
@@ -135,9 +130,6 @@ Related pages:
   - Build boring technology: If and only if the boring technology is unable to
     meet demands should alternatives be considered
   - Build escape hatches: abstractions (adapters) to make it easy to replace
-- [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
-  - CRDTs, data structure that guarantee eventual consistency
-  - Examples with last write win register and last write win map
 - [Retries](https://encore.dev/blog/retries)
   - Visualizing how to design retry mechanisms, with exponential backoff and
     jitter
