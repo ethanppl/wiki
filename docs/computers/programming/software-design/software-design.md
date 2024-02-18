@@ -148,3 +148,8 @@ Related pages:
   - Fan out/in design, and the use of topics on top of queues
   - Consideration of poison pills and dead letters queue
   - Common implementation: AWS SNS/SQS, Redis Streams, Kafka, RabbitMQ, etc.
+- [Every infrastructure decision I endorse or regret after 4 years at a startup](https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
+  ([HN](https://news.ycombinator.com/item?id=39313623))
+  - Reflecting each product choice or architecture decision. Why they are
+    good/bad
+  - And as always, interesting opinions in the HN thread
