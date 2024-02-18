@@ -59,6 +59,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
     supports
   - [How to create a simple PDF file](https://help.callassoftware.com/a/798383-how-to-create-a-simple-pdf-file),
     the internal structure of PDF
+- [Staying Alive | Philosophy Experiments](https://www.philosophyexperiments.com/stayingalive/Default.aspx)
+  - Probing the edge of what it means to be alive, body or soul?
+  - How your feels might be conflicting
 
 April Fools
 
