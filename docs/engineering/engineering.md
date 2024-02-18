@@ -89,6 +89,11 @@ Websites:
   - Two cool things: compliant mechanism, carbon nanotube and DNA orgami
     scaffold and staple strands
   - [BYU Compliant Mechanisms Maker Resources](https://compliantmechanisms.byu.edu/maker-resources)
+- [A cube that balances on its corner](https://willempennings.nl/balancing-cube/)
+  ([Video](https://youtu.be/zGclFqkZBsk?feature=shared))
+  ([HN](https://news.ycombinator.com/item?id=39336139))
+  - The mechanical, hardware and controller design for balancing a cube on its
+    corner with reaction wheels
 
 Concrete / Cement
 
