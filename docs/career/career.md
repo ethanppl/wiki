@@ -109,3 +109,6 @@ Related pages:
   - Marketing as a generalist is hard, especially as an independent contractor
   - Marketing as a specialist build trust, yet can still put generalist skills
     to use. Branding makes a difference.
+- [Breaking into Silicon Valley | Twitter @andrewchen](https://twitter.com/andrewchen/status/1757787648360694153)
+  - Tips: meet people, ask for advice and new connections, have a project on
+    hand, build an audience, etc.
