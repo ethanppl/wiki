@@ -44,3 +44,10 @@ The social impact of AI.
   - On being listed as an artist whose work was used to train Midjourney
     > But I can't even get cartoons to most people for free, now. Without doing
     > unpaid work for the profit-making companies...
+- [I worry our Copilot is leaving some passengers behind | Josh Collinsworth](https://joshcollinsworth.com/blog/copilot)
+  - Copilot suggesting JavaScript when simple HTML works, harming website
+    accessibility
+  - Whose responsibility to safeguard AI generated code, considering its
+    abundance
+  - The difference between web search that is an active task with options to
+    choose from, versus AI that is passive consumption with zero context given
