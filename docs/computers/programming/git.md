@@ -5,7 +5,16 @@ Git commands.
 ## Sites
 
 - [oh shit, git](https://ohshitgit.com/) or
-  [dang it, git](https://dangitgit.com/)
+  [dang it, git](https://dangitgit.com/), when you think you messed up
+- [Git Tips and Tricks](https://blog.gitbutler.com/git-tips-and-tricks/)
+  - `git blame -w -C -C -C -L 15,26 path/to/file`, ignore rename, movements,
+    etc.
+  - `git diff --word-diff`, diff by word, e.g. tailwind
+  - `git config --global branch.sort -committerdate`, sort branches by last
+    commit
+  - `git push --force-with-lease`, only force push if the ref is latest
+  - `git maintenance start`, cron job for prefetch and other optimizations
+  - `git config core.fsmonitor true` on large repo, faster `git status`
 
 ## Notes
 
