@@ -41,6 +41,7 @@ Free Design Tools/Applications (likely alternative to Adobe):
 - [Krita](https://krita.org/en/features/highlights/) — Open-source painting
   software ([manual](https://docs.krita.org/en/user_manual.html),
   [code](https://invent.kde.org/graphics/krita))
+- [Who can use](https://www.whocanuse.com/) this colour combination
 
 ## Links
 
@@ -78,6 +79,8 @@ Guides
   - Guardian's digital design style guide: layout, spacing, font, colours, etc.
 - [The Eight Golden Rules of Interface Design | Ben Shneiderman](https://www.cs.umd.edu/~ben/goldenrules.html)
   - E.g.: consistency, informative feedback, reversibility
+- [Should a toggle button show its current state or the state to which it will change](https://ux.stackexchange.com/questions/1318/should-a-toggle-button-show-its-current-state-or-the-state-to-which-it-will-chan)
+  - Either don't use it, or put the states outside the toggle
 
 Fonts
 
