@@ -112,3 +112,7 @@ Related pages:
 - [Breaking into Silicon Valley | Twitter @andrewchen](https://twitter.com/andrewchen/status/1757787648360694153)
   - Tips: meet people, ask for advice and new connections, have a project on
     hand, build an audience, etc.
+- [Finding a New Software Developer Job](https://henrikwarne.com/2024/02/11/finding-a-new-software-developer-job/)
+  ([HN](https://news.ycombinator.com/item?id=39337696))
+  - A good write up from laid off, to searching, interviews and assignments,
+    salary and offers
