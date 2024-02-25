@@ -34,6 +34,8 @@ Related pages:
     ladder and what does that mean
   - This was the post that inspired me to think about entrepreneurship from a
     different perspective
+- [Entrepreneurship Resources | GitHub @charlax](https://github.com/charlax/entrepreneurship-resources)
+  - Resources related to entrepreneurship (something like this Wiki)
 
 ## Links
 

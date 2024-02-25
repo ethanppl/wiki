@@ -8,6 +8,9 @@ Moving towards seniority/maturity in work.
   - Targetting devs growing into CTO role. How to manage a tech team.
   - People: management, coaching, hiring, etc.; Tech: debt, roadmap, DX, DevOps,
     testing, security & compliance, etc.
+- [Engineering Management | GitHub @charlax](https://github.com/charlax/engineering-management/)
+  - List of resources related to (engineering) management (something like this
+    Wiki)
 
 ## Sites
 
