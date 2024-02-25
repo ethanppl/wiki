@@ -94,6 +94,10 @@ Websites:
   ([HN](https://news.ycombinator.com/item?id=39336139))
   - The mechanical, hardware and controller design for balancing a cube on its
     corner with reaction wheels
+- YouTube:
+  [The Self Balancing Monorail | Primal Space](https://youtu.be/kUYzuAJeg3M)
+  - Yeah it's gyroscope, but with some genius iterations and optimizations, in
+    1910
 
 Concrete / Cement
 
