@@ -27,6 +27,9 @@ more and add more links in the future.
   - It might not have taught me something that I don't know, but it summarizes
     the concepts and serves as a good reminder of how to approach different
     problems as a software engineer
+- [Professional Programming | GitHub @charlax](https://github.com/charlax/professional-programming)
+  - Learning resources for curious software engineers by topics
+  - Honestly the dream of this Wiki is to be like this list
 
 ## Sites
 
