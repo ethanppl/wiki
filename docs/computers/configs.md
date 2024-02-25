@@ -1,8 +1,17 @@
-# PC Configurations
+# Tips/Tricks/Configs
 
 A few tricks and configurations improved my user experience.
 
 ## Links
+
+### Linux
+
+- [`Received disconnect from x.x.x.x port 22:2: Too many authentication failures`](https://www.tecmint.com/fix-ssh-too-many-authentication-failures-error/)
+  - `IdentitiesOnly=yes`
+- [Size of folder and files in a directory](https://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line)
+  - `du -h --max-depth=1 | sort -hr`
+
+### Windows
 
 - [AutoHotkey](https://github.com/ethanppl/ahk),
   [run AHK on startup](https://stackoverflow.com/questions/41723490/how-to-build-ahk-scripts-automatically-on-startup)
