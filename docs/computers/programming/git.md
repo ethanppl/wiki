@@ -71,3 +71,6 @@ Git commands.
   - Explains the reason for change, error message is searchable, tells a story,
     reader learns something, and it builds compassion and trust
   - Or maybe I would put it in the PR description or internal docs
+- [Popular git config options](https://jvns.ca/blog/2024/02/16/popular-git-config-options/)
+  - A few I like: `merge.conflictstyle zdiff3`, `diff.algorithm histogram`,
+    `push.autoSetupRemote true`
