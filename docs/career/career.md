@@ -116,3 +116,7 @@ Related pages:
   ([HN](https://news.ycombinator.com/item?id=39337696))
   - A good write up from laid off, to searching, interviews and assignments,
     salary and offers
+- [I ran a background check on a startup](https://www.careerfair.io/background-check)
+  - Companies often run background check, what about the applicant run
+    background check on the employer?
+  - Three areas: legal, financial (valuation & business model) and cultural
