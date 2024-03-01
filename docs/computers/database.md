@@ -48,6 +48,16 @@ Store and query data. I will add more later.
     filtering, join, group by, etc.
   - Indexes and caching can optimize up to a point that they can't and streaming
     SQL engine just solves it
+- [My Notes on GitLab's Postgres Schema Design | Shekhar Gulati](https://shekhargulati.com/2022/07/08/my-notes-on-gitlabs-postgres-schema-design/)
+  ([HN](https://news.ycombinator.com/item?id=39413972))
+  - GitLab uses either `serial` or `bigserial` for primary keys, no UUID
+  - `text` type with `CHECK` constraint to define length constraints
+  - Use foreign key constraints except for immutable tables like logs and events
+  - Partitioning on big tables to improve performance, e.g. `PARTITION BY RANGE`
+    for time-series data
+  - Trigram text search with `pg_trm` for faster `LIKE` search
+  - `updated_at` only for tables that can be modified
+  - Enums are `smallint` rather than `character varying`
 
 Postgres
 
