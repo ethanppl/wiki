@@ -67,6 +67,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - [Why it's impossible to agree on what's allowed](https://danluu.com/impossible-agree/)
     ([HN](https://news.ycombinator.com/item?id=39313942))
   - [This HN Thread has good arguments](https://news.ycombinator.com/item?id=39326506)
+- [Reverse Graffiti](https://en.wikipedia.org/wiki/Reverse_graffiti) — graffiti
+  by removing dirt
 
 April Fools
 
