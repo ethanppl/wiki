@@ -4,7 +4,7 @@ Running a business.
 
 Related pages:
 
-- [Career](./career/career.md) — as an entrepreneur, help others build a good
+- [Career](/career/career.md) — as an entrepreneur, help others build a good
   career and shape a better working environment.
 - [Remote Work](/remote/remote-work)
 
@@ -150,41 +150,6 @@ Related pages:
   - It's easier to answer what's not going to change in 10 years
   - Continuously improve for things that genuinely matters, e.g. cheaper price,
     faster delivery for Amazon
-
-Examples/Stories:
-
-- [Solo founders with profitable businesses | blog.kowalczyk.info](https://blog.kowalczyk.info/article/wjRD/solo-founders-with-profitable-businesses-collected-stories.html)
-  - Also:
-    [Small business stories | blog.kowalczyk.info](https://blog.kowalczyk.info/article/81714acf995e4968bb220684d95c9495/small-business-stories.html)
-  - Collection of successful solo founder stories from HN discussions, from 3K
-    to 1M per month in revenue
-  - There will always be survivor bias though
-- [Ask HN: Side project of more than $2k monthly revenue?](https://news.ycombinator.com/item?id=35567822)
-- [@levelsio Twitter](https://twitter.com/levelsio) — Solo entrepreneur
-- [How the most successful B2B startups came up with their original idea](https://www.lennysnewsletter.com/p/how-the-most-successful-b2b-startups)
-  - Part 1 out of 7 of How to Kickstart and Scale a B2B Business
-  - Interviews with founders of B2B startups of their stories
-  - Ideation comes from past pain (retool, linear), ponder and probe (figma,
-    notion), or present pull (slack, loom)
-- [My $0 → $100m → $0 in 5 years story | r/startup](https://old.reddit.com/r/startups/comments/15p8qrx/my_0100m0_in_5_years_story/)
-  - Misalignment between founders and VCs kills the company
-  - Focus on building, selling and delivering, rather than hiring VPs that just
-    bloat payroll unproportionally
-- [We build the fastest CI in the world. It failed. Here's what we learned | Earthly](https://earthly.dev/blog/shutting-down-earthly-ci/)
-  - A very good read, from ideation, to launching, to pivoting, to shutting down
-  - One insight: developer tools should not need demoing. People will buy it,
-    but you cannot sell it.
-- [My solopreneur story: zero to $45K/mo in 2 years | Tony Dinh](https://news.tonydinh.com/p/my-solopreneur-story-zero-to-45kmo)
-  ([HN](https://news.ycombinator.com/item?id=37622702))
-  - [@tdinh_me Twitter](https://twitter.com/tdinh_me)
-  - Creator of Xnapper. His few examples of growing a business in solo and the
-    goods and bads of his lifestyle
-  - From failed experiences, to building audience, growing 4 successful products
-- [Burning money on paid ads for a dev tool - what we've learned | Posthog](https://posthog.com/blog/dev-marketing-paid-ads)
-  - Misconceptions about paid ads and agencies
-  - Conversion, awarness and effectiveness for different marketing channels
-- [Lessons from my third year running a SaaS](https://maxrozen.com/lessons-from-my-third-year-running-a-saas)
-  - OnlineOrNot, started as a toy, grew into a SaaS app
 
 Ideas:
 
