@@ -120,3 +120,6 @@ Related pages:
   - Companies often run background check, what about the applicant run
     background check on the employer?
   - Three areas: legal, financial (valuation & business model) and cultural
+- [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
+  - Mindset of salary negotiation, don't be afraid to negotiate
+  - Advices and example responses, how to not give out information too early
