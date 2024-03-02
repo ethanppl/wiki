@@ -1,4 +1,4 @@
-# Competition
+# Competition & Community
 
 Capitalists strive for monopoly.
 
@@ -14,3 +14,7 @@ Capitalists strive for monopoly.
   - 3 min read: How Apple is repeating Microsoft mistake of trying to dominate
   - Winning the competition temporarily might lose the hearts users in the long
     term
+- [Can we get more decentralised than the fediverse?](https://gist.github.com/loreanvictor/bddd8824c744024d338e935bd7e96707)
+  - Fediverse is like the middle ground between full central and distributed,
+    similar to email servers
+  - Extension on RSS to support interaction as content for less centralization
