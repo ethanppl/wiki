@@ -85,3 +85,8 @@ YouTube:
   - Extremely large telescope: 39.2 meters comprised of 798 hexagonal mirrors
   - [Different light path through VLTs to different instruments | ESO](https://youtu.be/d8ALi6X_zww)
   - [VLT Interferometer system | ESO](https://youtu.be/wyKpc77BZA0)
+- YouTube:
+  [What Would Happen if the Earth Had Rings? | Joe Scott](https://youtu.be/DUztyRYQ5iU)
+  - The ring will look different depends on the latitude
+  - At night, the Earth's shadow will appear on the ring
+  - Change of season, the sun behind the ring means longer winter
