@@ -145,3 +145,7 @@ Related pages:
   - Reflecting each product choice or architecture decision. Why they are
     good/bad
   - And as always, interesting opinions in the HN thread
+- [Add `ARCHITECTURE.md`](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
+  (Feb 2021) ([HN](https://news.ycombinator.com/item?id=39494925))
+  - Specify a codemap, not how but where is the code and what is it for
+  - Help occasional contributor to figure out where to find something
