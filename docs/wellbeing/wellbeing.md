@@ -42,6 +42,14 @@ How to live a happier, healthier, and more productive life.
 - [Forty years of programming](https://fabiensanglard.net/40/index.html)
   ([HN](https://news.ycombinator.com/item?id=37814748))
   - Ergonomics of mouse, keyboard and desk. Practice to stretch and meditate.
+- [Stop postponing things by embracing the mess](https://www.deprocrastination.co/blog/stop-postponing-things-by-embracing-the-mess)
+  ([HN](https://news.ycombinator.com/item?id=39451793))
+  - Embrace the mess, reset and continue forward
+  - Don't be precious about routines, sometimes accept there is no routine
+  - Don't blow work out of proportion into something overwhelming, do in chunks
+  - Don't expect focus to be perfect to get things done
+  - Productivity is not binary, think of it as a spectrum
+  - Any action will be better than no action
 
 Eyes
 
