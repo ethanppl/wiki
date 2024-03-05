@@ -21,3 +21,5 @@ Design characters
 - [B612 Font Family](https://b612-font.com/)
   - Airbus research to create a font that improve the legibility and comfort of
     reading on cockpit screens
+- [Chartwell](https://www.vectrotype.com/chartwell)
+  - A font that renders charts, but might hurt accessibility
