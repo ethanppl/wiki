@@ -71,3 +71,7 @@
 - [ChatGPT system prompts](https://github.com/spdustin/ChatGPT-AutoExpert/blob/main/System%20Prompts.md)
   ([HN](https://news.ycombinator.com/item?id=37879077))
   - [How it's done by OP](https://old.reddit.com/r/OpenAI/comments/176mxj8/chatgpt_with_vision_system_prompt/k4r5lyh/)
+- [Training great LLMs entirely from ground zero in the wilderness as a startup](https://www.yitay.net/blog/training-great-llms-entirely-from-ground-zero-in-the-wilderness)
+  - Technology used, difficulties for startup "in the wild" (i.e. outside
+    Google)
+  - Some comparison of training in startup v.s. training with Google infra
