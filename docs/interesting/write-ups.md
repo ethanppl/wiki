@@ -19,3 +19,6 @@ A collection of stories that people share about their investigations.
   - [The Internet of Unprofitable Things](https://strugglers.net/~andy/blog/2018/12/24/the-internet-of-unprofitable-things/)
     - Another interesting story of the same company "NetThings" misusing the NTP
       protocol
+- [Thanks FedEx, This is Why we Keep Getting Phished](https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/)
+  - Is this a phishing message or is this legit from FedEx?
+  - Scammers pretend to be legit while FedEx is like they are imitating scammers
