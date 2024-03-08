@@ -22,3 +22,5 @@ A collection of stories that people share about their investigations.
 - [Thanks FedEx, This is Why we Keep Getting Phished](https://www.troyhunt.com/thanks-fedex-this-is-why-we-keep-getting-phished/)
   - Is this a phishing message or is this legit from FedEx?
   - Scammers pretend to be legit while FedEx is like they are imitating scammers
+- [What happens to the coins tossed into Rome's Trevi Fountain? | Reuters The Wider Image](https://www.reuters.com/investigates/special-report/italy-fountain-coins/)
+  - 1.4 million Euros a year. It goes to charity
