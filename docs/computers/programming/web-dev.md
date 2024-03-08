@@ -78,6 +78,8 @@ Developing user interfaces of web pages.
     container blocks collapsing.
   - More advance: direction, more than 2 margins, negative margins
 - [HTML Tips & Tricks](https://www.htmhell.dev/tips/)
+- [CSS for printing](https://voussoir.net/writing/css_for_printing/)
+  - `@page` rule, `@media print` and more
 
 CSS games
 
