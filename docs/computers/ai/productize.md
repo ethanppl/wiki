@@ -34,3 +34,8 @@ AI as a product.
   - 4 AI design patterns for deployment & training, e.g.:
   - AI Router: route recognized type to small language model
   - Proxy to clean query and answer for AI
+- [What we learned in 6 months of working on a CodeGen dev tool - GPT Pilot](https://blog.pythagora.ai/2024/02/19/gpt-pilot-what-did-we-learn-in-6-months-of-working-on-a-codegen-pair-programmer/)
+  - Spec writer for better initial description
+  - Iterative process and allowing agents to review themselves
+  - LLMs work best when focused on one problem, on smile files
+  - Asking LLM to code with verbose logs helps LLM to debug the code
