@@ -349,7 +349,7 @@ assumes it is local time. One solution is to ask Linux to store the hardware
 clock as local time:
 
 ```bash
-timedatectl set-local-rtc `
+timedatectl set-local-rtc 1
 ```
 
 [Read more in this guide from It's Foss](https://itsfoss.com/wrong-time-dual-boot/)
