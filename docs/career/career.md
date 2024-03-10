@@ -123,3 +123,6 @@ Related pages:
 - [Salary Negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
   - Mindset of salary negotiation, don't be afraid to negotiate
   - Advices and example responses, how to not give out information too early
+- [The end of Airplane.dev](https://yolken.net/blog/end-of-airplanedev)
+  ([HN](https://news.ycombinator.com/item?id=39619041))
+  - Just a nicely written story about working in a startup
