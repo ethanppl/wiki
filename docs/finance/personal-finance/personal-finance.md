@@ -45,3 +45,7 @@ Just my two cents:
   - It rebuts the critiques of passive investing in the market
   - Touches on how passive investment shifted and possibly improved the finance
     industry
+- YouTube:
+  [Why financial literacy education in the US sucks | Vox](https://youtu.be/0uvurQcj0fs)
+  - Shift in focus with the national defense education act in 1958
+  - It's improving now
