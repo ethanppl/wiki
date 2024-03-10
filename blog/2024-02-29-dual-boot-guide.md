@@ -11,7 +11,7 @@ toc_max_heading_level: 3
 authors: ethan
 ---
 
-A few months ago I finally took the time to set up dual boot on my laptop. I
+A few months ago, I finally took the time to set up dual boot on my laptop. I
 would love to try Ubuntu as my daily driver again, while keeping the Windows OS
 just in case. I treated this as a learning opportunity and configured dual boot
 with secure boot still enabled and have full disk encryption configured for both
@@ -40,7 +40,7 @@ You can do step 1 and 2 separately. From step 3 onwards, I suggest doing in 1
 sitting, which might take an hour or more.
 
 What I have is a Lenovo ThinkPad X1 Carbon 7th Gen laptop, running Windows 11
-home and I would like it to dual boot into Ubuntu 22.04. And as mentioned, with
+home and I would like it to dual boot into Ubuntu 22.04. And, as mentioned, with
 secure boot enabled in the boot process and full disk encryption for both
 operating systems.
 
@@ -49,8 +49,8 @@ with booting or decrypting the disk. It's a good time to document the steps and
 share the resources that I found helpful. Hopefully this is helpful to others
 and maybe one day my future self.
 
-**Dual boot is stressful and it has risk. This guide by no means are complete.**
-I have dual boot a few times before so I kind of know how things look like. To
+**Dual boot is stressful and it has risk. This guide by no means is complete.**
+I have dual boot a few times before, so I kind of know how things look like. To
 me, it's helpful to watch YouTube video of people dual booting before doing it
 to understand what to expect. Also, check a few more guides, compare and
 understand which part is common and which part is custom.
@@ -65,9 +65,9 @@ another device to access your notes or search the Internet for answers.
 
 Let's start!
 
-The first step is to prepare for dual boot. All the steps in this stage is done
+The first step is to prepare for dual boot. All the steps in this stage are done
 within the Windows. There is no specific order for these steps and no need to do
-it in 1 sitting. I had my laptop running in Windows, so all the preparation are
+it in 1 sitting. I had my laptop running on Windows, so all the preparation are
 done in Windows.
 
 - UEFI, not BIOS
