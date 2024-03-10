@@ -41,7 +41,8 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
         },
-        blog: false,
+        blog: {
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -65,6 +66,7 @@ const config = {
           src: "img/logo.png",
         },
         items: [
+          {to: 'blog', label: 'Blog', position: 'left'},
           {
             href: "https://github.com/ethanppl/wiki",
             label: "GitHub",
