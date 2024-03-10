@@ -13,8 +13,8 @@
             <link>https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide</link>
             <guid>https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide</guid>
             <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[A few months ago I finally took the time to set up dual boot on my laptop. I]]></description>
-            <content:encoded><![CDATA[<p>A few months ago I finally took the time to set up dual boot on my laptop. I
+            <description><![CDATA[A few months ago, I finally took the time to set up dual boot on my laptop. I]]></description>
+            <content:encoded><![CDATA[<p>A few months ago, I finally took the time to set up dual boot on my laptop. I
 would love to try Ubuntu as my daily driver again, while keeping the Windows OS
 just in case. I treated this as a learning opportunity and configured dual boot
 with secure boot still enabled and have full disk encryption configured for both
@@ -38,15 +38,15 @@ compiled for my dual boot set up.</p>
 <p>You can do step 1 and 2 separately. From step 3 onwards, I suggest doing in 1
 sitting, which might take an hour or more.</p>
 <p>What I have is a Lenovo ThinkPad X1 Carbon 7th Gen laptop, running Windows 11
-home and I would like it to dual boot into Ubuntu 22.04. And as mentioned, with
+home and I would like it to dual boot into Ubuntu 22.04. And, as mentioned, with
 secure boot enabled in the boot process and full disk encryption for both
 operating systems.</p>
 <p>Now the system has been running for a few months and things work fine. No issue
 with booting or decrypting the disk. It's a good time to document the steps and
 share the resources that I found helpful. Hopefully this is helpful to others
 and maybe one day my future self.</p>
-<p><strong>Dual boot is stressful and it has risk. This guide by no means are complete.</strong>
-I have dual boot a few times before so I kind of know how things look like. To
+<p><strong>Dual boot is stressful and it has risk. This guide by no means is complete.</strong>
+I have dual boot a few times before, so I kind of know how things look like. To
 me, it's helpful to watch YouTube video of people dual booting before doing it
 to understand what to expect. Also, check a few more guides, compare and
 understand which part is common and which part is custom.</p>
@@ -57,9 +57,9 @@ graphics card config is wrong, or the pointer device is unusable. You will need
 another device to access your notes or search the Internet for answers.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="preparation-in-windows">Preparation in Windows<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#preparation-in-windows" class="hash-link" aria-label="Direct link to Preparation in Windows" title="Direct link to Preparation in Windows">​</a></h2>
 <p>Let's start!</p>
-<p>The first step is to prepare for dual boot. All the steps in this stage is done
+<p>The first step is to prepare for dual boot. All the steps in this stage are done
 within the Windows. There is no specific order for these steps and no need to do
-it in 1 sitting. I had my laptop running in Windows, so all the preparation are
+it in 1 sitting. I had my laptop running on Windows, so all the preparation are
 done in Windows.</p>
 <ul>
 <li>UEFI, not BIOS<!-- -->
