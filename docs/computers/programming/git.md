@@ -74,3 +74,6 @@ Git commands.
 - [Popular git config options](https://jvns.ca/blog/2024/02/16/popular-git-config-options/)
   - A few I like: `merge.conflictstyle zdiff3`, `diff.algorithm histogram`,
     `push.autoSetupRemote true`
+- [Why Facebook doesn't use Git](https://graphite.dev/blog/why-facebook-doesnt-use-git)
+  - They use Mercurial. Partly technical, more so social. They were more open
+    for collaboration and improvements
