@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_wiki=self.webpackChunkmy_wiki||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Dual Boot Windows and Ubuntu with Secure Boot and Full Disk Encryption","permalink":"/wiki/blog/2024/02/29/dual-boot-guide","unlisted":false}]}')}}]);

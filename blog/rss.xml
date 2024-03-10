@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Ethan's Wiki Blog</title>
+        <link>https://ethanppl.github.io/wiki/blog</link>
+        <description>Ethan's Wiki Blog</description>
+        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Dual Boot Windows and Ubuntu with Secure Boot and Full Disk Encryption]]></title>
+            <link>https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide</link>
+            <guid>https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide</guid>
+            <pubDate>Thu, 29 Feb 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[A few months ago I finally took the time to set up dual boot on my laptop. I]]></description>
+            <content:encoded><![CDATA[<p>A few months ago I finally took the time to set up dual boot on my laptop. I
+would love to try Ubuntu as my daily driver again, while keeping the Windows OS
+just in case. I treated this as a learning opportunity and configured dual boot
+with secure boot still enabled and have full disk encryption configured for both
+operating systems.</p>
+<p>I wrote this blog because I could not find a single guide explains all steps for
+secure boot and full disk encryption sequentially, and these steps interleave
+each other. So, I made some notes before the installation to ensure I am doing
+the right thing at the right time. For example, I won't accidentally skip a step
+about configuring secure boot when I am focused on following another guide about
+full disk encryption. This guide is a cleaned up version of the notes that I
+compiled for my dual boot set up.</p>
+<p>I organized the whole flow into 6 general steps:</p>
+<ol>
+<li>Preparing in Windows: set boot mode, partition disk, etc.</li>
+<li>Configure BIOS: boot mode and other BIOS settings</li>
+<li>Configure Ubuntu Partition: boot and data partition</li>
+<li>Install Ubuntu: configure dual boot and mounting volumes correctly</li>
+<li>Set up <code>crypttab</code> for full disk encryption</li>
+<li>Reboot and fix some other issues</li>
+</ol>
+<p>You can do step 1 and 2 separately. From step 3 onwards, I suggest doing in 1
+sitting, which might take an hour or more.</p>
+<p>What I have is a Lenovo ThinkPad X1 Carbon 7th Gen laptop, running Windows 11
+home and I would like it to dual boot into Ubuntu 22.04. And as mentioned, with
+secure boot enabled in the boot process and full disk encryption for both
+operating systems.</p>
+<p>Now the system has been running for a few months and things work fine. No issue
+with booting or decrypting the disk. It's a good time to document the steps and
+share the resources that I found helpful. Hopefully this is helpful to others
+and maybe one day my future self.</p>
+<p><strong>Dual boot is stressful and it has risk. This guide by no means are complete.</strong>
+I have dual boot a few times before so I kind of know how things look like. To
+me, it's helpful to watch YouTube video of people dual booting before doing it
+to understand what to expect. Also, check a few more guides, compare and
+understand which part is common and which part is custom.</p>
+<p><strong>Make sure you have access to guides and notes on mobile or another device.</strong>
+You won't be able to access notes in the device during dual boot. Things might
+break after dual booting. Maybe the Wi-Fi card driver is not working, or
+graphics card config is wrong, or the pointer device is unusable. You will need
+another device to access your notes or search the Internet for answers.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="preparation-in-windows">Preparation in Windows<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#preparation-in-windows" class="hash-link" aria-label="Direct link to Preparation in Windows" title="Direct link to Preparation in Windows">​</a></h2>
+<p>Let's start!</p>
+<p>The first step is to prepare for dual boot. All the steps in this stage is done
+within the Windows. There is no specific order for these steps and no need to do
+it in 1 sitting. I had my laptop running in Windows, so all the preparation are
+done in Windows.</p>
+<ul>
+<li>UEFI, not BIOS<!-- -->
+<ul>
+<li>On Windows: <code>System Information</code> → <code>BIOS Mode</code> = <code>UEFI</code> instead of <code>Legacy</code></li>
+<li><code>UEFI</code> is required for secure boot, GUID partition table (GPT) t's faster,
+and many other features</li>
+<li>Read more here: <a href="https://itsfoss.com/check-uefi-or-bios/" target="_blank" rel="noopener noreferrer">https://itsfoss.com/check-uefi-or-bios/</a></li>
+</ul>
+</li>
+<li>GPT, not MBR<!-- -->
+<ul>
+<li>On Windows: <code>Disk management</code> → <code>Create and format hard disk partitions</code> →
+right-click disk → <code>Properties</code> → <code>Volume</code> → <code>Partition style</code> =
+<code>GUID Partition Table (GPT)</code></li>
+<li>Read more here: <a href="https://itsfoss.com/check-mbr-or-gpt/" target="_blank" rel="noopener noreferrer">https://itsfoss.com/check-mbr-or-gpt/</a></li>
+</ul>
+</li>
+<li>Use <a href="https://rufus.ie/en/" target="_blank" rel="noopener noreferrer">Rufus</a> to create the bootable USB<!-- -->
+<ul>
+<li>Get the <a href="https://ubuntu.com/download/desktop" target="_blank" rel="noopener noreferrer">Ubuntu Desktop Image</a></li>
+<li>Partition scheme: Select <code>GPT</code></li>
+<li>Target System: Select <code>UEFI</code></li>
+</ul>
+</li>
+<li>Backup BitLocker recovery key<!-- -->
+<ul>
+<li>Make sure your BitLocker recovery key is saved to your Microsoft account, or
+any other ways of backing it up</li>
+<li>Read more on how to back up in
+<a href="https://support.microsoft.com/en-us/windows/back-up-your-bitlocker-recovery-key-e63607b4-77fb-4ad3-8022-d6dc428fbd0d" target="_blank" rel="noopener noreferrer">Microsoft official guide</a></li>
+</ul>
+</li>
+<li>Partition your disk<!-- -->
+<ul>
+<li>Assuming Windows now taking up the full disk, you will need to shrink the
+volume available to Windows and create space for Linux</li>
+<li>Disable BitLocker<!-- -->
+<ul>
+<li>I had to disable BitLocker to shrink the Windows volume</li>
+<li>Follow the on-screen instructions for each to decrypt and reboot, it will
+take some time</li>
+<li>Read more on
+<a href="https://www.diskpart.com/articles/resize-bitlocker-partition-windows-10-0725.html" target="_blank" rel="noopener noreferrer">this guide about resize BitLocker partition</a></li>
+</ul>
+</li>
+<li>Partition<!-- -->
+<ul>
+<li>I used <a href="https://www.diskpart.com/download.html" target="_blank" rel="noopener noreferrer">AOMEI Partition Assistant</a></li>
+<li>Read their
+<a href="https://www.diskpart.com/safely-partition.html" target="_blank" rel="noopener noreferrer">How to safely partition</a>
+tutorial</li>
+<li>Other guides I found useful:
+<a href="https://www.diskpart.com/help/align-partition.html" target="_blank" rel="noopener noreferrer">Align partition</a>,
+<a href="https://www.diskpart.com/lib/PreOS-mode.html" target="_blank" rel="noopener noreferrer">PreOS Mode</a></li>
+<li>If you want to use the Disk Management tool from Windows but failed,
+<a href="https://answers.microsoft.com/en-us/windows/forum/all/windows-disk-management-unable-to-shrink-c-drive/217c3521-b254-4662-bac9-bc90dc633fab" target="_blank" rel="noopener noreferrer">this post</a>
+might be helpful</li>
+</ul>
+</li>
+<li>Move <code>WinRe</code> partition after the Windows partition<!-- -->
+<ul>
+<li>This is the recovery partition for Windows to support failover</li>
+<li>It is recommended to keep this as a separate partition and put it right
+after the Windows partition</li>
+<li>Read more on
+<a href="https://learn.microsoft.com/en-us/answers/questions/1354739/the-recovery-partition-is-typically-created-at-the" target="_blank" rel="noopener noreferrer">this post</a></li>
+<li>So what I had is [Windows | WinRe | Unused space (for Ubuntu later)]</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-bios-in-the-bios-menu">Configure BIOS in the BIOS Menu<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#configure-bios-in-the-bios-menu" class="hash-link" aria-label="Direct link to Configure BIOS in the BIOS Menu" title="Direct link to Configure BIOS in the BIOS Menu">​</a></h2>
+<p>Just to make sure a few things are set in the BIOS menu. Knowing how to get into
+the BIOS menu is also helpful in case of bad things happened.</p>
+<p>Reboot the computer and enter the BIOS menu before the OS load. Search online
+how to do it for your computer. It's usually F2 or F12. For me is pressing Enter
+when it says something like "Press Enter to interrupt".</p>
+<p>Things to check:</p>
+<ul>
+<li>Make sure the UEFI BIOS is up-to-date</li>
+<li>SATA mode is <code>AHCI</code>, as Ubuntu doesn't support other operations</li>
+<li>Secure boot is enabled and CSM is disabled<!-- -->
+<ul>
+<li>It is required to install Ubuntu with secure boot enabled for secure boot to
+work with Ubuntu</li>
+<li>CSM is to support non-UEFI OS. It should already be disabled with secure
+boot enabled</li>
+</ul>
+</li>
+<li>Boot mode is UEFI only</li>
+<li>TPM security has to be enabled for BitLocker in Windows</li>
+<li>You can check the Boot order in the BIOS menu as well</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-ubuntu-partition">Configure Ubuntu Partition<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#configure-ubuntu-partition" class="hash-link" aria-label="Direct link to Configure Ubuntu Partition" title="Direct link to Configure Ubuntu Partition">​</a></h2>
+<p>The important bits start here! From now on, it's better to do all remaining
+steps in one go.</p>
+<p>This stage is to boot into Ubuntu with the live USB and configure the Ubuntu
+partition that is encrypted.</p>
+<ol>
+<li>
+<p>Boot the USB stick and select <code>Try without installing</code> when prompted</p>
+</li>
+<li>
+<p>You should see the default Ubuntu desktop, open a terminal</p>
+</li>
+<li>
+<p>In the terminal, change to root with</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo su</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Check the partition table again</p>
+<ol>
+<li>Check with <code>sgdisk</code>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sgdisk --print /dev/nvme0n1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>If your disk is not <code>/dev/nvme0n1</code>, then you will have to replace all the
+following commands to your disk name, e.g. <code>/dev/sda</code></li>
+<li>Look for the disk name (e.g. <code>/dev/sda</code> or <code>/dev/nvme0n1</code>) not the
+partition name (e.g. <code>/dev/sda1</code> or <code>/dev/nvme0n1p1</code>)</li>
+</ol>
+</li>
+<li>
+<p>Create 2 partitions in the empty space in your disk, one for boot and the
+rest for root</p>
+<ol>
+<li>New 1800M partition for boot<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sgdisk --new=5:0:+1800M /dev/nvme0n1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>New partition using the rest for root<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sgdisk --new=6:0:0 /dev/nvme0n1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>Name the partitions<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sgdisk --change-name=5:/boot --change-name=6:rootfs /dev/nvme0n1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>Choose 8300 as the type code for the file system (Linux filesystem)<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sgdisk --typecode=5:8300 --typecode=6:8300 /dev/nvme0n1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<!-- -->(you can find all typecode with <code>sgdisk -L</code>)</li>
+<li>Make EXT4 file system (notice that here is the partition name)<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mkfs.ext4 -L boot /dev/nvme0n1p5</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ol>
+</li>
+<li>
+<p>Encrypt the Linux data partition with LUKS</p>
+<ul>
+<li>In the following codeblock, I am showing the output as well</li>
+<li>Lines after <code>#</code> are what needed to be inputted to the terminal</li>
+<li>The passphrase you chose at this step is what you needed to decrypt the
+disk when booting</li>
+</ul>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># cryptsetup luksFormat --type=luks2 /dev/nvme0n1p6</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">WARNING!</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">========</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">This will overwrite data on /dev/nvme0n1p6 irrevocably.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Are you sure? (Type uppercase yes): YES</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Enter passphrase for /dev/nvme0n1p6:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Verify passphrase:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># cryptsetup open /dev/nvme0n1p6 nvme0n1p6_crypt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Enter passphrase for /dev/nvme0n1p6:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># ls /dev/mapper/</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">control nvme0n1p6_crypt</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Set up logical volume manager (LVM), with root, swap and home partition</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># pvcreate /dev/mapper/nvme0n1p6_crypt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Physical volume "/dev/mapper/nvme0n1p6_crypt" successfully created.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># vgcreate ubuntu-vg /dev/mapper/nvme0n1p6_crypt</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Volume group "ubuntu-vg" successfully created</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># lvcreate -L 64G -n root ubuntu-vg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Logical volume "root" created.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># lvcreate -L 16G -n swap ubuntu-vg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Logical volume "swap" created.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># lvcreate -l 100%FREE -n home ubuntu-vg</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Logical volume "home" created.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ol>
+<p>Now all the Ubuntu partitions are prepared. Without exiting the live
+environment, use the GUI to continue the installation.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="install-ubuntu">Install Ubuntu<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#install-ubuntu" class="hash-link" aria-label="Direct link to Install Ubuntu" title="Direct link to Install Ubuntu">​</a></h2>
+<p>We will install Ubuntu on the encrypted disk and configure things to make sure
+secure boot also works.</p>
+<ol>
+<li>Run the graphical installer</li>
+<li>Connect to your Wi-Fi network</li>
+<li>On the software step, for "Other options" (This step is important for secure
+boot to work)<!-- -->
+<ol>
+<li>Check the "Download updates" option</li>
+<li>Check the "Install third-party software for graphics and Wi-Fi hardware"</li>
+<li>Check the "Configure Secure Boot" option and enter a password, remember
+this password. Useful for the MOK management step explained below.</li>
+<li>Save and continue</li>
+</ol>
+</li>
+<li>When asked what to do with the disk, pick "Something else", or the option
+that allows you to manually assign disk partition<!-- -->
+<ol>
+<li>Use the ~1800MB partition as <code>ext4</code> with mount point as <code>/boot</code></li>
+<li>Use the <code>/dev/mapper/ubuntu-vg-root</code> as <code>ext4</code> FS and mount it to <code>/</code></li>
+<li>Use the <code>/dev/mapper/ubuntu-vg-home</code> as <code>ext4</code> FS and mount it to <code>/home</code></li>
+<li>Use the <code>/dev/mapper/ubuntu-vg-swap</code> as <code>swap</code></li>
+<li>Do the same as above if you have more or less partitions</li>
+<li>The bootloader device should be <code>/dev/nvme0n1</code></li>
+</ol>
+</li>
+<li>Proceed with the installation</li>
+<li>When finished, select <code>Continue Testing</code>, and it should bring you back to the
+Ubuntu Desktop environment</li>
+</ol>
+<p>Do not leave the live environment just yet.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="set-up-crypttab">Set up <code>crypttab</code><a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#set-up-crypttab" class="hash-link" aria-label="Direct link to set-up-crypttab" title="Direct link to set-up-crypttab">​</a></h2>
+<p><code>crypttab</code> is used to decrypt the disk on boot.</p>
+<ol>
+<li>
+<p>Open the terminal and find the UUID of the partition with LUKS</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo blkid /dev/nvme0n1p6</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Example output:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">/dev/nvme0n1p6: UUID="abcdefgh-1234-5678-9012-abcdefghijklm" TYPE="crypto_LUKS"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>I suggest writing the UUID down somewhere</p>
+</li>
+<li>
+<p>Mount the drives and chroot into the mount:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">mount /dev/mapper/ubuntu-vg-root /target</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">mount /dev/nvme0n1p5 /target/boot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">for n in proc sys dev etc/resolv.conf; do mount --rbind /$n /target/$n; done</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">chroot /target</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">mount -a</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Configure <code>/etc/crypttab</code>:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># &lt;target name&gt; &lt;source device&gt; &lt;key file&gt; &lt;options&gt;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># options used:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#     luks    - specifies that this is a LUKS encrypted device</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#     tries=0 - allows to re-enter password unlimited number of times</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#     discard - allows SSD TRIM command, WARNING: potential security risk (more: "man crypttab")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">#     loud    - display all warnings</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nvme0n1p6_crypt UUID=abcdefgh-1234-5678-9012-abcdefghijklm none luks,discard</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>
+<p>Apply the changes (still inside chroot)</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">update-initramfs -k all -c</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reboot-and-some-remaining-issues">Reboot and some remaining issues<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#reboot-and-some-remaining-issues" class="hash-link" aria-label="Direct link to Reboot and some remaining issues" title="Direct link to Reboot and some remaining issues">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blue-screen-mok-management">Blue screen MOK management<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#blue-screen-mok-management" class="hash-link" aria-label="Direct link to Blue screen MOK management" title="Direct link to Blue screen MOK management">​</a></h3>
+<ol>
+<li>When reboot, because of the secure boot, you will see a blue screen and ask
+to perform MOK management</li>
+<li>Choose Enroll MOK, continue, yes</li>
+<li>Input the password that you inputted on the step for software install during
+the installation for third party drivers<!-- -->
+<ul>
+<li>It won't show what you typed, trust that it's there</li>
+<li>This is only a one time thing so no worries</li>
+<li>Once successful you don't need the password anymore</li>
+</ul>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="windows-bitlocker-issue">Windows BitLocker Issue<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#windows-bitlocker-issue" class="hash-link" aria-label="Direct link to Windows BitLocker Issue" title="Direct link to Windows BitLocker Issue">​</a></h3>
+<p>You might need to input the BitLocker recovery key when booting into Windows.
+Find your recovery key in where ever you saved (e.g. Microsoft account) and
+input it. This is also one time thing, so no worries.</p>
+<p>If you have disabled BitLocker before to partition the disk, you will need to
+re-enable it and encrypt the Windows partition again.</p>
+<p>To encrypt again, you need to make sure you meet the pre-requisites to enable
+BitLocker:</p>
+<ul>
+<li>Check that the partition table is GPT</li>
+<li>BIOS is set to UEFI</li>
+<li>Secure boot is enabled</li>
+</ul>
+<p>Go to <code>System information</code> → scroll down and see device encryption support needs
+to be <code>meets prerequisites</code>. If not, check the above again and maybe reboot and
+see.</p>
+<p>Once the prerequisites are met, go to Settings → privacy &amp; security → device
+encryption and enable BitLocker.</p>
+<p>To check the progress:</p>
+<ul>
+<li>Open admin command prompt and input <code>manage-bde -status C:</code></li>
+<li>If the status stuck, not updating, try <code>manage-bde -pause C:</code> and then
+<code>manage-bde -resume C:</code></li>
+</ul>
+<p>With BitLocker re-enabled, this means both Ubuntu and Windows have full disk
+encryption and secure boot enabled!</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wrong-timezone-after-dual-boot">Wrong timezone after dual boot<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#wrong-timezone-after-dual-boot" class="hash-link" aria-label="Direct link to Wrong timezone after dual boot" title="Direct link to Wrong timezone after dual boot">​</a></h3>
+<p>You might notice one of the OS show the wrong time before resyncing their time.
+This is because they store time into the computer hardware clock differently.
+Linux assumes that the time on the hardware clock is stored in UTC and Windows
+assumes it is local time. One solution is to ask Linux to store the hardware
+clock as local time:</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">timedatectl set-local-rtc `</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p><a href="https://itsfoss.com/wrong-time-dual-boot/" target="_blank" rel="noopener noreferrer">Read more in this guide from It's Foss</a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-full-disk-encryption">About full disk encryption:<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-full-disk-encryption" class="hash-link" aria-label="Direct link to About full disk encryption:" title="Direct link to About full disk encryption:">​</a></h3>
+<ul>
+<li><a href="https://www.mikekasberg.com/blog/2020/04/08/dual-boot-ubuntu-and-windows-with-encryption.html" target="_blank" rel="noopener noreferrer">How to Dual-Boot Ubuntu 20.04 (or 22.04) and Windows 10 (or 11) with Encryption | Mike Kasberg</a> -
+recommend reading</li>
+<li><a href="https://gist.github.com/luispabon/db2c9e5f6cc73bb37812a19a40e137bc" target="_blank" rel="noopener noreferrer">Dual boot with encryption nodes | GitHub Gist from @luispabon</a></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-secure-boot">About secure boot:<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-secure-boot" class="hash-link" aria-label="Direct link to About secure boot:" title="Direct link to About secure boot:">​</a></h3>
+<ul>
+<li><a href="https://www.reddit.com/r/linux4noobs/comments/osotp3/ubuntu_dual_boot_with_windows_10_can_i_enable/" target="_blank" rel="noopener noreferrer">Can I enable secure boot again? | Reddit</a> -
+Ans: no</li>
+<li><a href="https://youtu.be/GqJBniwj1Mg" target="_blank" rel="noopener noreferrer">A Clean Install of Linux Ubuntu 20.04 (Lenovo UEFI BIOS with Secure Boot and MOK) | YouTube</a> -
+worth watching parts about the secure boot and MOK step</li>
+<li><a href="https://askubuntu.com/questions/880240/it-is-possible-to-dual-boot-linux-and-windows-10-with-secure-boot-enabled" target="_blank" rel="noopener noreferrer">It is possible to dual boot Linux and Windows 10 with secure boot enabled? | Ask Ubuntu</a> -
+Ans: yes</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-partition-and-bitlocker">About partition and BitLocker:<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-partition-and-bitlocker" class="hash-link" aria-label="Direct link to About partition and BitLocker:" title="Direct link to About partition and BitLocker:">​</a></h3>
+<ul>
+<li><a href="https://answers.microsoft.com/en-us/windows/forum/all/windows-disk-management-unable-to-shrink-c-drive/217c3521-b254-4662-bac9-bc90dc633fab" target="_blank" rel="noopener noreferrer">Windows Disk Management unable to shrink C: drive volume</a></li>
+<li><a href="https://www.diskpart.com/articles/resize-bitlocker-partition-windows-10-0725.html" target="_blank" rel="noopener noreferrer">How can I resize BitLocker partition in Windows 10/11</a></li>
+<li><a href="https://itsfoss.com/dual-boot-ubuntu-windows-bitlocker/" target="_blank" rel="noopener noreferrer">Dual Booting Ubuntu with Windows 10 Pro with BitLocker Encryption</a></li>
+</ul>
+<p>That's it and I hope you can set up dual boot without issues!</p>]]></content:encoded>
+            <category>Dual Boot</category>
+            <category>Ubuntu</category>
+            <category>Windows</category>
+        </item>
+    </channel>
+</rss>
