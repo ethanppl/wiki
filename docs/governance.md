@@ -2,6 +2,12 @@
 
 Government policies.
 
+## US
+
+- YouTube:
+  [Why US elections only give you two choices | Vox](https://youtu.be/bqWwV3xk9Qk)
+  - Winner takes all v.s. proportional representative
+
 ## Hong Kong
 
 ### Site
