@@ -51,3 +51,7 @@ The social impact of AI.
     abundance
   - The difference between web search that is an active task with options to
     choose from, versus AI that is passive consumption with zero context given
+- [A few social media influencers are shaping AI](https://spectrum.ieee.org/social-media-ai)
+  - Papers shared by 2 curators gets 2-3 times more citation counts
+  - The consequence of a few influencers have outsized effect on the research
+    industry
