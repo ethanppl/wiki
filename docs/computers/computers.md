@@ -76,3 +76,7 @@ Time
   - Atomic clocks ← Internatioal Earth Rotation Service (IERS) & International
     bureau of weights and measures in Paris (BIPM)
   - Plus some history of defining a seconds with astronomical data
+- [List of 2024 Leap Day Bugs](https://codeofmatt.com/list-of-2024-leap-day-bugs/)
+  - You think in 2024 it won't happen anymore, but it doesn't
+- [Programmer falsehood of time](https://gist.github.com/timvisee/fcda9bbdff88d45cc9061606b4b923ca)
+  - [The day before Saturday is always Friday.](https://stackoverflow.com/questions/52066656/falsehood-programmer-beliefs-about-time)
