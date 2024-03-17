@@ -14,3 +14,5 @@ It was supposed to be an interpreted language for browsers...
   - Historical: JQuery, Sourcemaps, CoffeeScript, ES6
   - Bundlers, transpilers, frameworks, custom compilers, TypeScript, server-side
     rendering
+- [Disillusioned with Deno](https://www.baldurbjarnason.com/2024/disillusioned-with-deno/)
+  - Problem of Deno or Bun, backed by VCs, in a direct competition with Node
