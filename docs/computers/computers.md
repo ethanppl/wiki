@@ -58,6 +58,9 @@ News/forums/communities:
   ([HN](https://news.ycombinator.com/item?id=37376369))
   - The mechanisms, flux transitions, and comparison of different formats
   - Different specs, properties and features of different floppy disks
+- [New Breakthrough Brings Matrix Multiplication Closer to Ideal](https://www.quantamagazine.org/new-breakthrough-brings-matrix-multiplication-closer-to-ideal-20240307/)
+  - Includes brief explanation of breakthrough over the past 50 years from n^3
+    to ~n^2.3715
 
 Time
 
