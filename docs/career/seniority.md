@@ -85,3 +85,7 @@ Moving towards seniority/maturity in work.
 - [What it's like to start a job as CEO?](https://www.ejorgenson.com/blog/what-its-like-ceo)
   - E.g.: learn quick, be curious about the details but not micromanage, big
     decisions with bizarrely little context
+- [The most important skill in a startup engineering leadership](https://danielmangum.com/posts/most-important-skill-startup-engineering-leadership/)
+  - Pacing, the leader pace and the member pace
+  - Be honesty and transparent, constant measurement
+  - Set goals, make incremental changes and carefully name the repercussions
