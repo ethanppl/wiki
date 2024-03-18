@@ -57,3 +57,6 @@ The social impact of AI.
     industry
 - [HN discussion on Devin: AI software engineer](https://news.ycombinator.com/item?id=39679787#39681757)
   - What does it mean to create AI product, what problems are they solving?
+- [Plentiful, high-paying jobs in the age of AI](https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the)
+  - Because compute resource is limited, comparative advantage and opportunity
+    cost exist, human always have a job
