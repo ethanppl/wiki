@@ -57,6 +57,12 @@ Moving towards seniority/maturity in work.
   - Brag document: records of completed projects, professional development,
     feedback and recognition, etc
   - Communicate well, mentor others, write documentation, and continue to learn
+- [The Curse of the Senior Software Engineer](https://www.yieldcode.blog/post/the-curse-of-the-senior-engineer/)
+  - The curse of staying too long at a senior role
+  - Too senior to be considered as a senior but too inexperience for leadership
+    role
+  - Either play the corporate game and climb the ladder, or quit the game and do
+    something that doesn't care about the titles
 
 ### Managerial Role
 
