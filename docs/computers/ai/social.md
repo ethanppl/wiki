@@ -55,3 +55,5 @@ The social impact of AI.
   - Papers shared by 2 curators gets 2-3 times more citation counts
   - The consequence of a few influencers have outsized effect on the research
     industry
+- [HN discussion on Devin: AI software engineer](https://news.ycombinator.com/item?id=39679787#39681757)
+  - What does it mean to create AI product, what problems are they solving?
