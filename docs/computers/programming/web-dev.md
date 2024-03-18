@@ -80,6 +80,9 @@ Developing user interfaces of web pages.
 - [HTML Tips & Tricks](https://www.htmhell.dev/tips/)
 - [CSS for printing](https://voussoir.net/writing/css_for_printing/)
   - `@page` rule, `@media print` and more
+- [A formula for responsive font-size](https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/)
+  - No `@media` breakpoints, just a linear function:
+    `font-size: calc(1rem + 0.25vw);`
 
 CSS games
 
