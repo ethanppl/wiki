@@ -60,3 +60,6 @@ The social impact of AI.
 - [Plentiful, high-paying jobs in the age of AI](https://www.noahpinion.blog/p/plentiful-high-paying-jobs-in-the)
   - Because compute resource is limited, comparative advantage and opportunity
     cost exist, human always have a job
+- [What I learned from looking at 900 most popular open source AI tools](https://huyenchip.com/2024/03/14/ai-oss.html)
+  - The owners of repos, the speed of adoption, China's OSS ecosystem, other
+    stats
