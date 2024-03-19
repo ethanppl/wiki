@@ -103,6 +103,13 @@ Improve one's cognitive capability.
     be set years into the future keep dreams big, exciting and motivating
   - Do set process driven metrics, metrics that are in control of (100 sales
     call rather than 20 sales)
+- [Stubborn Visionaries & Pigheaded Fools](https://longform.asmartbear.com/perseverance/)
+  - Success through perseverance: winners never quit, keep trying...
+  - Failure through obstinance: repeating history is doomed to fail...
+  - They are the same before knowing the outcome, the job is to find out which
+    scenario as soon as possible
+  - Timebox it. What is the rate of progress? Still enjoying? Learning?
+    Opportunity cost?
 
 Writing — for better thinking and communication
 
