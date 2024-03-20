@@ -22,6 +22,9 @@
     tokenization to the output
 - [LLM Course | GitHub @mlabonne](https://github.com/mlabonne/llm-course)
   - Resources from mathematics, to Python, to neural networks, to NLP
+- [Spreadsheets are all you need](https://spreadsheets-are-all-you-need.ai/index.html#watch-the-lessons)
+  ([HN](https://news.ycombinator.com/item?id=39700256))
+  - Understand GPT with Excel Spreadsheet
 
 ## Links
 
