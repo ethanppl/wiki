@@ -42,6 +42,8 @@ Free Design Tools/Applications (likely alternative to Adobe):
   software ([manual](https://docs.krita.org/en/user_manual.html),
   [code](https://invent.kde.org/graphics/krita))
 - [Who can use](https://www.whocanuse.com/) this colour combination
+- [Tangram](https://www.trangram.com/) — create and share animations like Adobe
+  Illustrator + animation tools
 
 ## Links
 
