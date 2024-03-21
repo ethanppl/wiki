@@ -46,6 +46,11 @@ Communications between computers.
     some weird gotchas
 - [VPN relationship map 2023 | Windscribe](https://windscribe.com/vpnmap)
   - Ownership, paid affiliates, cooperation & partnerships between VPN companies
+- [HTTP/2 and HTTP/3 explained](https://alexandrehtrb.github.io/posts/2024/03/http2-and-http3-explained/)
+  - HTTP/1.1: persistent TCP connections, `Host`, header conventions
+  - HTTP/2: streams and frames for multiplexing many messages in a TCP packet
+  - HTTP/3: solving TCP head-of-line blocking with UDP, moving integrity from
+    transport layer to the application layer, designed for unstable connections
 
 Ethernet
 
