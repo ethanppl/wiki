@@ -149,3 +149,10 @@ Starlink
 - YouTube:
   [Why SpaceX is Making Starlink | Real Engineering (2019)](https://youtu.be/giQ8xEWjnBs)
   - The business incentives and the potential for building a Starlink network
+
+Aeronautics
+
+- [Beginner's Guide to Aeronautics | NASA](https://www.grc.nasa.gov/WWW/K-12/VirtualAero/BottleRocket/airplane/guided.htm)
+- [Airfoil | Bartosz Ciechanowski](https://ciechanow.ski/airfoil/)
+  ([HN](https://news.ycombinator.com/item?id=39526057))
+- [Airfoil Lifting Force Misconception](http://www.amasci.com/wing/airfoil.html)
