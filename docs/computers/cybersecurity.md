@@ -74,3 +74,8 @@ completely different mindset to approach problems, but it's fun.
     capability-based security
 - [Security at Startup](https://vadimkravcenko.com/shorts/security-at-startup/)
   - Different levels of security configuration for different phases of startup
+- [Audio fingerprinting](https://fingerprint.com/blog/audio-fingerprinting/)
+  - Each browser generate a unique audio fingerprint with the web audio API
+  - The value is stable across session and remains the same in incognito mode
+  - [Bypass safari 17 audio fingerprinting protection](https://fingerprint.com/blog/bypassing-safari-17-audio-fingerprinting-protection/)
+    - Sampling to denoise the noise added by safari
