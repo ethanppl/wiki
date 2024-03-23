@@ -126,3 +126,10 @@ Related pages:
 - [The end of Airplane.dev](https://yolken.net/blog/end-of-airplanedev)
   ([HN](https://news.ycombinator.com/item?id=39619041))
   - Just a nicely written story about working in a startup
+- [Choosing startup life](https://mirror.xyz/brunny.eth/CyjJBx4Vee-IJGyu52WNI93umtnX0LwtksFn3S3VSdI)
+  - The usual comparison, likelihood of success, money, learning opportunity,
+    etc.
+  - I found a few tips helpful: deeply introspect and reflect on what kind of
+    startup to work for
+  - Follow startup funding announcement to find startup companies
+  - It's not startup vs big tech, each company or even each team is unique
