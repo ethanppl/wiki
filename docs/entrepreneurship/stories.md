@@ -2,6 +2,10 @@
 
 Stories of founders, businesses, start-ups
 
+## Sites
+
+- [Y Combinator Founder Stories](https://www.ycombinator.com/blog/tag/founder-stories)
+
 ## Links
 
 - [Solo founders with profitable businesses | blog.kowalczyk.info](https://blog.kowalczyk.info/article/wjRD/solo-founders-with-profitable-businesses-collected-stories.html)
@@ -39,3 +43,6 @@ Stories of founders, businesses, start-ups
 - [How I turned my open-source project into a business](https://docs.emailengine.app/how-i-turned-my-open-source-project-into/)
   - EmailEngine, the difference between open source v.s. source available
   - Charging business customers is "more reliable and predictable"
+- [The Reddits | Y Combinator](https://www.ycombinator.com/blog/the-reddits)
+  - The stories of how YC gave Steve and Alexis the idea of Reddit
+  - The personality of the founders and how that shaped Reddit the product
