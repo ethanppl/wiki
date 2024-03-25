@@ -37,3 +37,7 @@ Possible solutions to daily life problems.
     (Genuine Leather) > Bonded Leather
   - Full Grain: it breathes, absorb moisture and oils, patina, includes natural
     markings, etc.
+- [Why Are (Most) Sofas So Bad?](https://www.dwell.com/article/dtc-sofa-crisis-32304b9e)
+  ([HN](https://news.ycombinator.com/item?id=39706330))
+  - Change in manufacturing process to accommodate the change in manufacturing
+    places and consumer model
