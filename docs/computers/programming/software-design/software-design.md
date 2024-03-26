@@ -95,15 +95,6 @@ Related pages:
   - Others: log a unique ID, descriptive error responses, prefixed tokens,
 - [Feature Flags: Theory vs Reality](https://bpapillon.com/post/feature-flags-theory-vs-reality/)
   — Problems and possible ways to better manage feature flags
-- [Sequence Diagrams | Mermaid Chart](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development)
-  ([HN](https://news.ycombinator.com/item?id=36342931))
-  - Sequence diagram: visualize the dynamic flow of messages across systems. Map
-    out "black boxes" and show how they interact
-  - Start with happy paths and then add edge cases. The flow of the happy path
-    should remain as the anchor for other edge cases
-  - Comprehensiveness is the enemy of comprehensibility: the code is the best
-    source of comprehensiveness, keep the diagrams simple for effective
-    communication
 - [Common design pattern at Stripe](https://dev.to/stripe/common-design-patterns-at-stripe-1hb4)
   - Patterns for designing APIs, part 4 of
     [Designing APIs for Humans](https://dev.to/paulasjes/series/19794)
@@ -145,7 +136,3 @@ Related pages:
   - Reflecting each product choice or architecture decision. Why they are
     good/bad
   - And as always, interesting opinions in the HN thread
-- [Add `ARCHITECTURE.md`](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html)
-  (Feb 2021) ([HN](https://news.ycombinator.com/item?id=39494925))
-  - Specify a codemap, not how but where is the code and what is it for
-  - Help occasional contributor to figure out where to find something
