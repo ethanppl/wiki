@@ -28,3 +28,6 @@ Games:
 - [Conway's Game of Life](https://playgameoflife.com/)
 - [Pixpaint | Max Bittker](https://warms.maxbittker.repl.co/) — I find this fun
   to play. It's more human-friendly lol
+- [Game of Life | omio.io](https://oimo.io/works/life/)
+  ([HN](https://news.ycombinator.com/item?id=39799755))
+  - Game of Life, simulating itself, infinitely zoomable
