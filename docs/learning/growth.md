@@ -110,6 +110,10 @@ Improve one's cognitive capability.
     scenario as soon as possible
   - Timebox it. What is the rate of progress? Still enjoying? Learning?
     Opportunity cost?
+- [101 things I would tell myself from 10 years ago](https://www.approachwithalacrity.com/101-things-for-my-past-self/)
+  - Just saying, these kinds of statements/quotes are powerful, usually they
+    don't give much context, but it plants a seed in your brain, and you will
+    fill in details to justify the statement
 
 Writing — for better thinking and communication
 
