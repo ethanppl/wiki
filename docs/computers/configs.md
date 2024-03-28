@@ -10,6 +10,9 @@ A few tricks and configurations improved my user experience.
   - `IdentitiesOnly=yes`
 - [Size of folder and files in a directory](https://unix.stackexchange.com/questions/185764/how-do-i-get-the-size-of-a-directory-on-the-command-line)
   - `du -h --max-depth=1 | sort -hr`
+- [How to make active window visually stand out more in Ubuntu 18.04 Gnome 3](https://askubuntu.com/questions/1098539/how-to-make-active-window-visually-stand-out-more-in-ubuntu-18-04-gnome-3)
+  - `~/.config/gtk-3.0/gtk.css` set `decoration`/ `decoration:backdrop` and
+    `headerbar.titlebar`/`headerbar.titlebar:backdrop`
 
 ### Windows
 
