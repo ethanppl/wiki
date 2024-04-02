@@ -79,3 +79,6 @@ completely different mindset to approach problems, but it's fun.
   - The value is stable across session and remains the same in incognito mode
   - [Bypass safari 17 audio fingerprinting protection](https://fingerprint.com/blog/bypassing-safari-17-audio-fingerprinting-protection/)
     - Sampling to denoise the noise added by safari
+- [xz-utils](https://news.ycombinator.com/item?id=39865810)
+  - [backdoor in upstream xz/liblzma leading to ssh server compromise](https://www.openwall.com/lists/oss-security/2024/03/29/4)
+  - [FAQ on the xz-utils backdoor (CVE-2024-3094)](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
