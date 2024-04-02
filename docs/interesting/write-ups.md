@@ -24,3 +24,5 @@ A collection of stories that people share about their investigations.
   - Scammers pretend to be legit while FedEx is like they are imitating scammers
 - [What happens to the coins tossed into Rome's Trevi Fountain? | Reuters The Wider Image](https://www.reuters.com/investigates/special-report/italy-fountain-coins/)
   - 1.4 million Euros a year. It goes to charity
+- [Car allergic to vanilla ice cream](https://www.cs.cmu.edu/~wkw/humour/carproblems.txt)
+- [The Wi-Fi only works when it's raining](https://predr.ag/blog/wifi-only-works-when-its-raining/)
