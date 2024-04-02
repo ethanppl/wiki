@@ -150,6 +150,10 @@ Related pages:
   - It's easier to answer what's not going to change in 10 years
   - Continuously improve for things that genuinely matters, e.g. cheaper price,
     faster delivery for Amazon
+- [How to trade software for small money](https://www.scattered-thoughts.net/writing/how-to-trade-software-for-small-money/)
+  - The pricing model of software could be SaaS, license per server, by seats,
+    by installation, proprietary features, support and consulting, sponsorship,
+    etc.
 
 Ideas:
 
