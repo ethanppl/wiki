@@ -47,3 +47,6 @@ Developing and maintaining open source software.
   - Some developers are fortunate to have a stable job to voluntarily maintain
     open-source software, but some are likely to fall into these temptations
     that deviate from the purpose of the software
+- [A Microcosm of the interactions in Open Source projects](https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/)
+  - A email thread in the xz/liblzma mail list
+  - Consumers need to stop demanding OSS maintainers
