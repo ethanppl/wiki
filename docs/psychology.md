@@ -33,3 +33,9 @@ How human behaves.
   - Be clear: simple strategy, easy to cooperate, establish pattern of trust
   - Strategies evolves, and they can change the environment they play in because
     the game is not zero-sum
+- YouTube:
+  [37 - Why is this number everywhere? Veritasium](https://youtu.be/d6iQrh2TK98)
+  - Asking people to pick random number is easy to land on 3, 7, 37, 73
+  - Being odd, prime, with 3 and 7 makes it "more random"
+  - Blue-seven phenomenon, across all culture humans are not good as making
+    random choice
