@@ -39,3 +39,6 @@ AI as a product.
   - Iterative process and allowing agents to review themselves
   - LLMs work best when focused on one problem, on smile files
   - Asking LLM to code with verbose logs helps LLM to debug the code
+- [Why Google failed to make GPT-3 + Why Multimodal Agents are the path to AGI](https://www.latent.space/p/adept)
+  - Google has Transformer, why OpenAI ended up with GPT 1/2/3, not Google?
+  - Internal processes slow researchers
