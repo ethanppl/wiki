@@ -172,3 +172,7 @@ Working as a Software Engineer:
     on learning not just climbing the ladder
   - Advices for early engineers, ICs, tech lead, managers, to whom leading
     organizations
+- [The best engineering interview question I've ever gotten](https://quuxplusone.github.io/blog/2022/01/06/memcached-interview/)
+  - Implement multiplication in `memcached`, which only has addition support
+  - [Part 2](https://quuxplusone.github.io/blog/2022/01/07/memcached-interview-solution/):
+    includes solution and explanation why this is great
