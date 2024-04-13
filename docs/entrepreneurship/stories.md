@@ -46,3 +46,7 @@ Stories of founders, businesses, start-ups
 - [The Reddits | Y Combinator](https://www.ycombinator.com/blog/the-reddits)
   - The stories of how YC gave Steve and Alexis the idea of Reddit
   - The personality of the founders and how that shaped Reddit the product
+- [How GitHub replaced SourceForge as the dominant code hosting platform](https://graphite.dev/blog/github-monopoly-on-code-hosting)
+  - What existed before GitHub as code hosting
+  - The gap that GitHub fills in: online code browsing, social interactions,
+    etc.
