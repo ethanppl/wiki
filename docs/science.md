@@ -52,6 +52,8 @@ Mixed
     polynomial, HOMFLY-PT polynomial, etc.
 - [Introduction to Modern Statistics](https://openintro-ims2.netlify.app/)
   - An online book about stat, with examples using R
+- [The collapse of insects | Reuters Graphics](https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/)
+  - Nice graphic illustrating the global Insect Apocalypse
 
 Numbers, riddles, conjectures
 
