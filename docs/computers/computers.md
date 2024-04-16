@@ -61,6 +61,7 @@ News/forums/communities:
 - [New Breakthrough Brings Matrix Multiplication Closer to Ideal](https://www.quantamagazine.org/new-breakthrough-brings-matrix-multiplication-closer-to-ideal-20240307/)
   - Includes brief explanation of breakthrough over the past 50 years from n^3
     to ~n^2.3715
+- [What Computers Cannot Do: The Consequences of Turing-Completeness](https://yzena.com/2024/03/what-computers-cannot-do-the-consequences-of-turing-completeness/)
 
 Time
 
