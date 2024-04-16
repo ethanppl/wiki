@@ -2,6 +2,10 @@
 
 A few tricks and configurations improved my user experience.
 
+Related
+
+- [Keyboard](./keyboard.md) — see keyboard remapping with AutoHotkey or keyd
+
 ## Links
 
 ### Linux
@@ -16,8 +20,6 @@ A few tricks and configurations improved my user experience.
 
 ### Windows
 
-- [AutoHotkey](https://github.com/ethanppl/ahk),
-  [run AHK on startup](https://stackoverflow.com/questions/41723490/how-to-build-ahk-scripts-automatically-on-startup)
 - [Pinout "Sound" to Windows Taskbar](https://superuser.com/questions/1271817/how-to-pin-out-sound-to-windows-taskbar)
 - [Windows search configuration](https://devblogs.microsoft.com/windows-search-platform/configuration-and-settings/)
   — remove folders like `node_modules` in the list of search locations to speed
