@@ -36,6 +36,15 @@ Related pages:
     different perspective
 - [Entrepreneurship Resources | GitHub @charlax](https://github.com/charlax/entrepreneurship-resources)
   - Resources related to entrepreneurship (something like this Wiki)
+- [Product-Market Fit (PMF) Isn't a Black Box](https://pmf.firstround.com/levels)
+  - Dimensions: customer satisfaction, market demand and product efficiency
+  - Levels:
+    - Nascent: a few initial customers, focus on satisfaction
+    - Developing: 20 customers, focus on satisfaction and demand
+    - Strong: 100-200 customers, time to focus on efficiency
+    - Extreme: product is repeatable and efficient, solving an urgent problem
+  - Details case study on companies of each level, what to aim for, what it
+    feels like and what to avoid
 
 ## Links
 
