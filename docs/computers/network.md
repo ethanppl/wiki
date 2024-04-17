@@ -51,6 +51,12 @@ Communications between computers.
   - HTTP/2: streams and frames for multiplexing many messages in a TCP packet
   - HTTP/3: solving TCP head-of-line blocking with UDP, moving integrity from
     transport layer to the application layer, designed for unstable connections
+- [The invisible seafaring industry that keeps the internet afloat | The Verge](https://www.theverge.com/c/24070570/internet-cables-undersea-deep-repair-ships)
+  - Long form writing of the ~20 ships that maintains subsea cables
+  - How the ships operates, stories of incidents and the aging problem of ships
+    and people
+  - If done correctly, despite being vital to the internet, their work will
+    continue to be unnoticed
 
 Ethernet
 
