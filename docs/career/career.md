@@ -133,3 +133,11 @@ Related pages:
     startup to work for
   - Follow startup funding announcement to find startup companies
   - It's not startup vs big tech, each company or even each team is unique
+- [Why you need a "WTF Notebook"](https://www.simplermachines.com/why-you-need-a-wtf-notebook/)
+  ([HN](https://news.ycombinator.com/item?id=40078106))
+  - When joining a new team, write down the WTF moments and observer rather than
+    complain
+  - Cross out items that have good reason for it, or it's already known or
+    irrelevant
+  - Be the one that solves problem and help the team make progress rather than
+    the one complaining
