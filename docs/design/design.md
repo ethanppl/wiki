@@ -83,3 +83,7 @@ Guides
   - E.g.: consistency, informative feedback, reversibility
 - [Should a toggle button show its current state or the state to which it will change](https://ux.stackexchange.com/questions/1318/should-a-toggle-button-show-its-current-state-or-the-state-to-which-it-will-chan)
   - Either don't use it, or put the states outside the toggle
+- [Hardest problem in computer science: centering things](https://tonsky.me/blog/centering/)
+  ([HN](https://news.ycombinator.com/item?id=40069599))
+  - Once you see it you can't unsee, problems of web fonts, line height, icons,
+    etc.
