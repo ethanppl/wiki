@@ -77,3 +77,7 @@ Git commands.
 - [Why Facebook doesn't use Git](https://graphite.dev/blog/why-facebook-doesnt-use-git)
   - They use Mercurial. Partly technical, more so social. They were more open
     for collaboration and improvements
+- [Notes on git's error messages | Julia Evans](https://jvns.ca/blog/2024/04/10/notes-on-git-error-messages/)
+  - Fun one, git error messages is sometimes confusing, and we are just used to
+    being confused
+  - E.g. I also automatically replace 'ref' with 'branch' in error message
