@@ -50,6 +50,14 @@ How to live a happier, healthier, and more productive life.
   - Don't expect focus to be perfect to get things done
   - Productivity is not binary, think of it as a spectrum
   - Any action will be better than no action
+- [Mental health in software engineering](https://vadimkravcenko.com/shorts/mental-health-in-software-engineering/)
+  ([HN](https://news.ycombinator.com/item?id=40001150))
+  - Understand that deadlines most of the time are arbitrary
+  - Saying no to non-critical in off time, setting boundaries between work and
+    life
+  - Putting things in perspective. Ask: "Will this matter in two years?"
+  - Learn about mental health and emotional intelligence, it's ok to be
+    vulnerable
 
 Eyes
 
