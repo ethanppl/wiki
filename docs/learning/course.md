@@ -36,3 +36,7 @@ Other places to look at
   - Main categories: Programming, engineering, computer science, social
     sciences, science, art & design, mathematics, humanities, business, health &
     medicine, data science, education & teaching, personal development
+- [The best tacit knowledge videos on every subject | LessWrong](https://www.lesswrong.com/posts/SXJGSPeQWbACveJhs/the-best-tacit-knowledge-videos-on-every-subject)
+  - Tacit knowledge: can't be properly transmitted via verbal or written
+    instruction
+  - E.g. woodworking, housekeeping
