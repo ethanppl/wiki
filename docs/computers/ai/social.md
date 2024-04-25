@@ -63,3 +63,11 @@ The social impact of AI.
 - [What I learned from looking at 900 most popular open source AI tools](https://huyenchip.com/2024/03/14/ai-oss.html)
   - The owners of repos, the speed of adoption, China's OSS ecosystem, other
     stats
+- [Meta's Open Source AI Ambitions](https://nandu.substack.com/p/metas-open-source-ai-ambitions)
+  - Two possible worlds:
+    - Value accrues to the models: foundation models are different and have high
+      switching costs, like cloud providers
+    - Value accrues to the applications: models are substitutable for building
+      better applications
+  - Meta is an application company, and they are betting on the 2nd scenario
+  - OpenAI is building iOS and Meta is trying to build Android
