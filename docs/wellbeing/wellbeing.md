@@ -58,6 +58,11 @@ How to live a happier, healthier, and more productive life.
   - Putting things in perspective. Ask: "Will this matter in two years?"
   - Learn about mental health and emotional intelligence, it's ok to be
     vulnerable
+- [My experience using financial commitments to overcome akrasia](https://www.lesswrong.com/posts/DRrAMiekmqwDjnzS5/my-experience-using-financial-commitments-to-overcome)
+  - [Forfeit](https://www.forfeit.app/) - set an amount of money at stake for
+    TODOs
+  - Approaches: punishment and reward, counter-cyclical (no streak), promote
+    better planning
 
 Eyes
 
