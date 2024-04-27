@@ -21,3 +21,7 @@ A program that runs programs.
   ([HN](https://news.ycombinator.com/item?id=37115626))
   - Fun for nerds. Handle CPU cores, processes, memory pages and swap space
 - [Linux kernel map](https://makelinux.github.io/kernel/map/)
+- [Hello World](https://thecoder08.github.io/hello-world.html)
+  ([HN](https://news.ycombinator.com/item?id=39967709))
+  - What happens when you compile and run a hello world program in C, down to
+    the assembly level, standard library, syscall and then kernel
