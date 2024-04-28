@@ -68,6 +68,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - [This HN Thread has good arguments](https://news.ycombinator.com/item?id=39326506)
 - [Reverse Graffiti](https://en.wikipedia.org/wiki/Reverse_graffiti) — graffiti
   by removing dirt
+- [My mother declared my bedroom a disaster area](https://news.lettersofnote.com/p/my-mother-declared-my-bedroom-a-disaster)
+  - President Reagan responds to a unique request for funding
 
 April Fools
 
@@ -104,3 +106,13 @@ Elon Musk
     are success or not
 - [Book Review: Elon Musk](https://www.astralcodexten.com/p/book-review-elon-musk)
   - A collection of Q&As with stories from the 2015 biography by Ashlee Vance
+
+Rubik's cube
+
+- [Ruwix](https://ruwix.com/) — the Wiki for Rubik's cube
+  - [Beginners](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/),
+    [Advanced: OLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/orient-the-last-layer-oll/),
+    [Advanced: PLL](https://ruwix.com/the-rubiks-cube/advanced-cfop-fridrich/permutate-the-last-layer-pll/)
+  - [Patterns](https://ruwix.com/the-rubiks-cube/rubiks-cube-patterns-algorithms/)
+- YouTube:
+  [What's inside of a Rubik's Cube? | Jared Owen](https://youtu.be/bgcScY7CiMs)
