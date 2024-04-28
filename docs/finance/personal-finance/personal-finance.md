@@ -49,3 +49,11 @@ Just my two cents:
   [Why financial literacy education in the US sucks | Vox](https://youtu.be/0uvurQcj0fs)
   - Shift in focus with the national defense education act in 1958
   - It's improving now
+- YouTube:
+  [My honest advice to someone who wants financial freedom | Ali Abdaal](https://youtu.be/BBAuhqvT_ds)
+  (43:29)
+  - The advice is still the good old starting your own business advance, but
+    delivered with good stories and a persuasive monologue
+  - Ask the why, what (how much) and how (how to get there)
+  - Reading list: The Millionaire Fastlane, Million Dollar Weekend, $100M
+    Offers, Dotcom secrets
