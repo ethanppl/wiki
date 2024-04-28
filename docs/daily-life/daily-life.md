@@ -41,3 +41,8 @@ Possible solutions to daily life problems.
   ([HN](https://news.ycombinator.com/item?id=39706330))
   - Change in manufacturing process to accommodate the change in manufacturing
     places and consumer model
+- YouTube:
+  [The BEST office and gaming chairs 2023-2024 | Ahnestly](https://youtu.be/WQEkEfQs5vs)
+  (1:28:04)
+  - 3 categories by different height map to each 3 tiers of chairs by price
+  - [Spreadsheet](https://docs.google.com/spreadsheets/d/1vSmatzpY0i8Iv-qJ1e2HhKq8OWNtCRdF2EdSF5uHk-o/edit#gid=1070173305)
