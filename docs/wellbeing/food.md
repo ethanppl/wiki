@@ -18,3 +18,7 @@ Things that you can put into a mouth.
     - Ignored the health benefits of plant oil
     - Grouped healthy proteins into the same category as unhealthy proteins (red
       meat and processed meat)
+- [Thoughts on seed oil | LessWrong](https://www.lesswrong.com/posts/DHkkL2GxhxoceLzua/thoughts-on-seed-oil)
+  - A summary of meta-analysis, studies and evidences on comparing the effect of
+    seed oil, animal oil, other vegetable oil, saturated fat v.s. unsaturated
+    fat, etc. on health
