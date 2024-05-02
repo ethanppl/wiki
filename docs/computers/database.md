@@ -58,6 +58,13 @@ Store and query data. I will add more later.
   - Trigram text search with `pg_trm` for faster `LIKE` search
   - `updated_at` only for tables that can be modified
   - Enums are `smallint` rather than `character varying`
+- [Why SQLite Uses Bytecode](https://sqlite.org/draft/whybytecode.html)
+  - Bytecode implementation vs tree-of-objects implementation of the prepared
+    statement
+  - Bytecode: smaller, faster, easier to understand & debug, can be run
+    incrementally
+  - Tree-of-objects: query planning can be tweaked at runtime, dynamically
+    self-tuning, and easy to parallelize
 
 Postgres
 
