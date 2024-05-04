@@ -83,6 +83,9 @@ Developing user interfaces of web pages.
 - [A formula for responsive font-size](https://jameshfisher.com/2024/03/12/a-formula-for-responsive-font-size/)
   - No `@media` breakpoints, just a linear function:
     `font-size: calc(1rem + 0.25vw);`
+- [A brief history of web development](https://gebna.gg/blog/brief-history-of-web-development)
+  - And why your framework doesn't matter
+  - Angular, React, GraphQL, Vercel & Next.js, Svelte, HTMX
 
 CSS games
 
