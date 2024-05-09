@@ -58,7 +58,7 @@ start, I suggest checking out these pages:
 
 - [Learning](./learning) page: I believe learning how to learn is the most
   important skill to have
-- [Growth](./learning/growth.md) page: Seeking growth, improving one's cognitive
-  capability
+- [Growth](./learning/growth/growth.md) page: Seeking growth, improving one's
+  cognitive capability
 - [Computers](./computers) page: This page contains the largest tree in this
   wiki, simply because that's my interest
