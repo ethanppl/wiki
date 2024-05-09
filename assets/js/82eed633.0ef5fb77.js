@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_wiki=self.webpackChunkmy_wiki||[]).push([[8595],{638:s=>{s.exports=JSON.parse('{"label":"Windows","permalink":"/wiki/blog/tags/windows","allTagsPath":"/wiki/blog/tags","count":1,"unlisted":false}')}}]);

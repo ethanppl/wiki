@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_wiki=self.webpackChunkmy_wiki||[]).push([[8578],{6323:i=>{i.exports=JSON.parse('{"tags":[{"label":"Dual Boot","permalink":"/wiki/blog/tags/dual-boot","count":1},{"label":"Ubuntu","permalink":"/wiki/blog/tags/ubuntu","count":1},{"label":"Windows","permalink":"/wiki/blog/tags/windows","count":1}]}')}}]);
