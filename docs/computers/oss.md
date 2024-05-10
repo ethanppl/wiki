@@ -50,3 +50,5 @@ Developing and maintaining open source software.
 - [A Microcosm of the interactions in Open Source projects](https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/)
   - A email thread in the xz/liblzma mail list
   - Consumers need to stop demanding OSS maintainers
+- [How contributing to open source helped you | lobste.rs](https://lobste.rs/s/4lplbe/how_contributing_open_source_helped_you)
+  - To be a better developer or landed you a job
