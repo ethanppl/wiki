@@ -57,6 +57,13 @@ Communications between computers.
     and people
   - If done correctly, despite being vital to the internet, their work will
     continue to be unnoticed
+- [It's always `TCP_NODELAY`. Every damn time.](https://brooker.co.za/blog/2024/05/09/nagle.html)
+  ((HN)[https://news.ycombinator.com/item?id=40310896])
+  - Disable Nagle's algorithm, on delaying sending data until an `ACK` is
+    received
+  - Problem is it works terribly with delayed `ACK`, and optimizations is
+    already pushed to application layer. We seldom send packets that the header
+    takes more space than the data
 
 Ethernet
 
