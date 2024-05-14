@@ -2,6 +2,12 @@
 
 Making things friendly and appealing.
 
+## Resouces
+
+- [Hack Design](https://hackdesign.org/lessons)
+  - Typography, UI, UX, graphics, mobile, interactive, mobile, front-end,
+    product design, etc.
+
 ## Sites
 
 - [Iconhunt](https://www.iconhunt.site/) — Free and open-source SVG icons
