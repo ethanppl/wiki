@@ -66,6 +66,13 @@ Store and query data. I will add more later.
   - Tree-of-objects: query planning can be tweaked at runtime, dynamically
     self-tuning, and easy to parallelize
 
+Soft delete
+
+- [Easy, alternative soft deletion: `deleted_record_insert`](https://brandur.org/fragments/deleted-record-insert)
+  - Hard delete and create a function that dump into a schemaless table
+- [Avoid the soft delete anti-pattern](https://www.cultured.systems/2024/04/24/Soft-delete/)
+  - Few alternatives proposed, e.g. add state, temp table, use data warehouse
+
 Postgres
 
 - [Nine Ways to Shoot Yourself in the Foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
