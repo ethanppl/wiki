@@ -70,6 +70,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
   by removing dirt
 - [My mother declared my bedroom a disaster area](https://news.lettersofnote.com/p/my-mother-declared-my-bedroom-a-disaster)
   - President Reagan responds to a unique request for funding
+- [foto-webcam.eu](https://www.foto-webcam.eu/webcam/lucknerhaus)
+  - Aurora
+    [2024-05-11](https://www.foto-webcam.eu/webcam/lucknerhaus/2024/05/11/0110)
 
 April Fools
 
