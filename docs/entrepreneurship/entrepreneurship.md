@@ -163,6 +163,14 @@ Related pages:
   - The pricing model of software could be SaaS, license per server, by seats,
     by installation, proprietary features, support and consulting, sponsorship,
     etc.
+- [How to Price a Data Asset](https://pivotal.substack.com/p/how-to-price-a-data-asset)
+  - Axioms: value of data depends on use case and the user, value is additive
+    and rivalrous
+  - Implications: standard way of pricing fails, e.g. by seat, by volume, by API
+    calls, etc.
+  - Price by access, or wrap it into a service, or monetize usage rights, or a
+    data flywheel with constant stream of new data for recurring value
+  - Legibility of the dataset is the key
 
 Ideas:
 
