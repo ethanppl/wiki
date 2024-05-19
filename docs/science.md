@@ -54,6 +54,9 @@ Mixed
   - An online book about stat, with examples using R
 - [The collapse of insects | Reuters Graphics](https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/)
   - Nice graphic illustrating the global Insect Apocalypse
+- [Immersive Math](https://immersivemath.com/ila/index.html)
+  - 10 chapters from basic geometry to vectors, to matrix, to eigenvalues and
+    eigenvectors
 
 Numbers, riddles, conjectures
 
