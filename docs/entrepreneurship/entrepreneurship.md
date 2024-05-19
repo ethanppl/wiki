@@ -171,6 +171,9 @@ Related pages:
   - Price by access, or wrap it into a service, or monetize usage rights, or a
     data flywheel with constant stream of new data for recurring value
   - Legibility of the dataset is the key
+- [VCs aren't your friends](https://openvc.app/blog/vcs-arent-your-friends)
+  - VCs aren't teachers or mentors. There is no second chance. They are
+    investors not a coach.
 
 Ideas:
 
