@@ -90,6 +90,12 @@ YouTube:
   - The ring will look different depends on the latitude
   - At night, the Earth's shadow will appear on the ring
   - Change of season, the sun behind the ring means longer winter
+- [The Lunacy of Artemis](https://idlewords.com/2024/5/the_lunacy_of_artemis.htm)
+  - A lot of problems in Artemis program design
+  - Not just complex but unnecessary and risky
+  - Worse of all NASA tries to cover it up with lies and hide the true estimate
+  - Also talked by Destin before on YouTube:
+    [I was SCARED to say this to NASA...](https://youtu.be/OoJsPvmFixU)
 
 ISS
 
