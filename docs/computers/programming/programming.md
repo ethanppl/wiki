@@ -183,3 +183,7 @@ Working as a Software Engineer:
     time
   - E.g.: design patterns, functional programming abstractions, SQL, HTTP, shell
     scripting, algorithms and data structures
+- [Essays on programming I think about a lot](https://www.benkuhn.net/progessays/)
+  - A collection of 10+ good articles on programming, highly recommend
+  - All of them worth to be listed in this wiki
+  - From code structure, system design, hiring, engineering mindset, etc.
