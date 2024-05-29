@@ -174,6 +174,8 @@ Related pages:
 - [VCs aren't your friends](https://openvc.app/blog/vcs-arent-your-friends)
   - VCs aren't teachers or mentors. There is no second chance. They are
     investors not a coach.
+- [Building products is an unforgiving grind](https://threadreaderapp.com/thread/1481118406749220868.html)
+  - Tests for finding product market fit
 
 Ideas:
 
