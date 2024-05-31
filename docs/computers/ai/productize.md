@@ -42,3 +42,6 @@ AI as a product.
 - [Why Google failed to make GPT-3 + Why Multimodal Agents are the path to AGI](https://www.latent.space/p/adept)
   - Google has Transformer, why OpenAI ended up with GPT 1/2/3, not Google?
   - Internal processes slow researchers
+- [What we learned from a year building with LLMs](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
+  - Part 1: tactical practices on prompting, RAG, tuning, caching, evaluation &
+    monitoring
