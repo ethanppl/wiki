@@ -67,6 +67,12 @@ Things that are interesting or for fun. Not sure where to put these yet.
   by removing dirt
 - [My mother declared my bedroom a disaster area](https://news.lettersofnote.com/p/my-mother-declared-my-bedroom-a-disaster)
   - President Reagan responds to a unique request for funding
+- [Drone flying 101 FPV Sim](https://fpvsim.com/drone-flying-101)
+  ([HN](https://news.ycombinator.com/item?id=40449278))
+  - Raw, pitch, roll
+  - Fun video about FPV on YouTube:
+    [Nurk FPV Flight of the Year](https://youtu.be/nQDcDZ6rmGE), over, under,
+    into moving trains
 
 April Fools
 
