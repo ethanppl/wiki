@@ -27,3 +27,7 @@ Web Environment Integrity (WEI)
   ([HN](https://news.ycombinator.com/item?id=36955146))
   - Maybe a little bit extreme, the Internet is always split in some way, but
     it's an interesting topic to look into
+- [Engineering for Slow Internet](https://brr.fyi/posts/engineering-for-slow-internet)
+  - Do not hardcode timeout, prefer incremental transfer
+  - Allow users to bring their own downloader, provide URL, allow pause and
+    resume, show progress, etc.
