@@ -86,6 +86,11 @@ Developing user interfaces of web pages.
 - [A brief history of web development](https://gebna.gg/blog/brief-history-of-web-development)
   - And why your framework doesn't matter
   - Angular, React, GraphQL, Vercel & Next.js, Svelte, HTMX
+- [Design System Retrospective](https://kyleshevlin.com/design-system-retrospective/)
+  - The good and bad of a functional composition design system
+  - The difficulty in understanding how composition changes the context and how
+    it renders
+  - Object composition like Tailwind is easier to adapt for devs
 
 CSS games
 
