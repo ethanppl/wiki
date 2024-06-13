@@ -50,6 +50,8 @@ Free Design Tools/Applications (likely alternative to Adobe):
 - [Who can use](https://www.whocanuse.com/) this colour combination
 - [Tangram](https://www.trangram.com/) — create and share animations like Adobe
   Illustrator + animation tools
+- [Wired JS](https://wiredjs.com/) — set of common UI elements with hand-drawn
+  look ([GitHub](https://github.com/rough-stuff/wired-elements))
 
 ## Links
 
