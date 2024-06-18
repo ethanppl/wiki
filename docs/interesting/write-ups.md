@@ -26,3 +26,8 @@ A collection of stories that people share about their investigations.
   - 1.4 million Euros a year. It goes to charity
 - [Car allergic to vanilla ice cream](https://www.cs.cmu.edu/~wkw/humour/carproblems.txt)
 - [The Wi-Fi only works when it's raining](https://predr.ag/blog/wifi-only-works-when-its-raining/)
+- [The Time I Build an ROV to Solve Missing Person Cases](https://suanto.com/2024/06/06/the-time-I-built-an-ROV-01/)
+  ([HN](https://news.ycombinator.com/item?id=40623864))
+  - Long, 13 parts blog but very interesting read
+  - From the learnings at each stage, to planning and investigating, and the
+    story telling is good
