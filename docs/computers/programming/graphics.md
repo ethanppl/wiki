@@ -53,6 +53,10 @@ WebGPU
   - The possibility and potential of OpenUSD to be "the HTML of the metaverse"
   - Going forward with better tools and AI: the remixing of intellectual
     property + the fragmentation of culture
+- [My favourite animation trick: exponential smoothing](https://lisyarus.github.io/blog/programming/2023/02/21/exponential-smoothing.html)
+  ([HN](https://news.ycombinator.com/item?id=39637487))
+  - The smooth transition of states in animations for a pleasant, seamless feel
+  - It's stateless and handles any inputs the same
 
 Cool Examples
 

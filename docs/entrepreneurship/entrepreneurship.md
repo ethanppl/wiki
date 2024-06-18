@@ -163,6 +163,19 @@ Related pages:
   - The pricing model of software could be SaaS, license per server, by seats,
     by installation, proprietary features, support and consulting, sponsorship,
     etc.
+- [How to Price a Data Asset](https://pivotal.substack.com/p/how-to-price-a-data-asset)
+  - Axioms: value of data depends on use case and the user, value is additive
+    and rivalrous
+  - Implications: standard way of pricing fails, e.g. by seat, by volume, by API
+    calls, etc.
+  - Price by access, or wrap it into a service, or monetize usage rights, or a
+    data flywheel with constant stream of new data for recurring value
+  - Legibility of the dataset is the key
+- [VCs aren't your friends](https://openvc.app/blog/vcs-arent-your-friends)
+  - VCs aren't teachers or mentors. There is no second chance. They are
+    investors not a coach.
+- [Building products is an unforgiving grind](https://threadreaderapp.com/thread/1481118406749220868.html)
+  - Tests for finding product market fit
 
 Ideas:
 

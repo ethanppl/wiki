@@ -54,6 +54,14 @@ Mixed
   - An online book about stat, with examples using R
 - [The collapse of insects | Reuters Graphics](https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/)
   - Nice graphic illustrating the global Insect Apocalypse
+- [Immersive Math](https://immersivemath.com/ila/index.html)
+  - 10 chapters from basic geometry to vectors, to matrix, to eigenvalues and
+    eigenvectors
+- [An animated introduction to Fourier series](https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles)
+  - Long form guide from circles, to sinusoids, to epicycles to Fourier series
+- [An Intuitive Guide to Maxwell's Equations](https://photonlines.substack.com/p/an-intuitive-guide-to-maxwells-equations)
+  - In depth, long form guide explaining the 4 Maxwell's equations, explaining
+    equations with graphs
 
 Numbers, riddles, conjectures
 

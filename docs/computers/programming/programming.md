@@ -176,3 +176,14 @@ Working as a Software Engineer:
   - Implement multiplication in `memcached`, which only has addition support
   - [Part 2](https://quuxplusone.github.io/blog/2022/01/07/memcached-interview-solution/):
     includes solution and explanation why this is great
+- [Fundamentals | Mark Seemann](https://blog.ploeh.dk/2024/05/20/fundamentals/)
+  - Rather than aiming to stay current with specific technologies, learn the
+    fundamentals
+  - Understanding fundamentals increase the change of learning new tech just in
+    time
+  - E.g.: design patterns, functional programming abstractions, SQL, HTTP, shell
+    scripting, algorithms and data structures
+- [Essays on programming I think about a lot](https://www.benkuhn.net/progessays/)
+  - A collection of 10+ good articles on programming, highly recommend
+  - All of them worth to be listed in this wiki
+  - From code structure, system design, hiring, engineering mindset, etc.

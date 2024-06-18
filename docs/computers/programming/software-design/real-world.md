@@ -73,3 +73,8 @@
 - [How we built a fair multi-tenant queuing system | Inngest](https://www.inngest.com/blog/building-the-inngest-queue-pt-i-fairness-multi-tenancy)
   - Fairness: a tiered queue with a high level queue recording the earliest
     available job of individual queue
+- [Development notes from xkcd's "Machine"](https://chromakode.com/post/xkcd-machine/)
+  ([HN](https://news.ycombinator.com/item?id=40300454))
+  - Design considerations, philosophy and constraints
+  - Building simulations and rendering graphics and interactions in the
+    frontend, API and backend for moderation

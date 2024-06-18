@@ -2,6 +2,12 @@
 
 Making things friendly and appealing.
 
+## Resouces
+
+- [Hack Design](https://hackdesign.org/lessons)
+  - Typography, UI, UX, graphics, mobile, interactive, mobile, front-end,
+    product design, etc.
+
 ## Sites
 
 - [Iconhunt](https://www.iconhunt.site/) — Free and open-source SVG icons
@@ -44,6 +50,8 @@ Free Design Tools/Applications (likely alternative to Adobe):
 - [Who can use](https://www.whocanuse.com/) this colour combination
 - [Tangram](https://www.trangram.com/) — create and share animations like Adobe
   Illustrator + animation tools
+- [Wired JS](https://wiredjs.com/) — set of common UI elements with hand-drawn
+  look ([GitHub](https://github.com/rough-stuff/wired-elements))
 
 ## Links
 

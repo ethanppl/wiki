@@ -63,6 +63,13 @@ How to live a happier, healthier, and more productive life.
     TODOs
   - Approaches: punishment and reward, counter-cyclical (no streak), promote
     better planning
+- [Managing My Motivation, as a Solo Dev](https://mbuffett.com/posts/maintaining-motivation/)
+  - Convert external sources to motivation, e.g. bot on someone subscribed
+  - Leave tasks unfinished to make it easier to start
+  - Feel the pain, address the pain, make painful task less painful
+  - Write update every month, see progress
+  - Do nothing two-step transition: Reddit to focused work is hard, Reddit to do
+    nothing for a few minutes before focused work
 
 Eyes
 
