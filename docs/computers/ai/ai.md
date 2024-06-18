@@ -89,3 +89,6 @@ Courses
 - [Ask HN: What have you built with LLMs?](https://news.ycombinator.com/item?id=39263664)
   - [ChatGPT Phone](https://github.com/kevingduck/ChatGPT-phone/) to practice
     cold calls
+- [Building the next generation of AI infrastructure at home | IFP](https://ifp.org/compute-in-america-building-the-next-generation-of-ai-infrastructure-at-home/)
+  - [How to Build an AI Data Center](https://ifp.org/compute-in-america-building-the-next-generation-of-ai-infrastructure-at-home/)
+    - Cost, power, computing devices, network, cooling, reliability
