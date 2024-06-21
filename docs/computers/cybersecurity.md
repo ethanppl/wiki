@@ -82,3 +82,5 @@ completely different mindset to approach problems, but it's fun.
 - [xz-utils](https://news.ycombinator.com/item?id=39865810)
   - [backdoor in upstream xz/liblzma leading to ssh server compromise](https://www.openwall.com/lists/oss-security/2024/03/29/4)
   - [FAQ on the xz-utils backdoor (CVE-2024-3094)](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
+- [VSCode extensions are insecure](https://www.baldurbjarnason.com/2024/vscode-extensions-are-insecure/)
+  - [How we hacked multi-billion dollar companies in 30 minutes using a fake VSCode extension](https://medium.com/@amitassaraf/the-story-of-extensiontotal-how-we-hacked-the-vscode-marketplace-5c6e66a0e9d7)
