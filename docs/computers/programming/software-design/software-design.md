@@ -136,3 +136,16 @@ Related pages:
   - Reflecting each product choice or architecture decision. Why they are
     good/bad
   - And as always, interesting opinions in the HN thread
+- [Understanding SPF, DKIM and DMARC: A simple Guide](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
+  ([HN](https://news.ycombinator.com/item?id=40708476))
+  - SPF: a list of email friends that can send email on behalf of this domain
+  - DKIM: public key to verify email are not modified
+  - DMARC: rule book of how to handle SPF and DKIM checks
+
+Algo
+
+- [Everything I Know about the Fast Inverse Square Root Algorithm](https://github.com/francisrstokes/githublog/blob/main/2024%2F5%2F29%2Ffast-inverse-sqrt.md)
+  ([HN](https://news.ycombinator.com/item?id=40544716))
+  - Every step involved to build the fast inverse square root algorithm
+  - From how 32-bit floating point is stored, to properties of log and Newton's
+    method of root finding
