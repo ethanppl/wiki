@@ -84,3 +84,7 @@ completely different mindset to approach problems, but it's fun.
   - [FAQ on the xz-utils backdoor (CVE-2024-3094)](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27)
 - [VSCode extensions are insecure](https://www.baldurbjarnason.com/2024/vscode-extensions-are-insecure/)
   - [How we hacked multi-billion dollar companies in 30 minutes using a fake VSCode extension](https://medium.com/@amitassaraf/the-story-of-extensiontotal-how-we-hacked-the-vscode-marketplace-5c6e66a0e9d7)
+- [A Vigilante Hacker Took Down North Korea's Internet | Wired](https://www.wired.com/story/p4x-north-korea-internet-hacker-identity-reveal/)
+  - [I'm the hacker that brought down North Korea's Internet for over a week. AMA | Reddit r/IAma](https://www.reddit.com/r/IAmA/comments/1divlp3/im_the_hacker_that_brought_down_north_koreas/)
+  - Finding out two gateway routers of North Korea's internet, exhaust its
+    bandwidth
