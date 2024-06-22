@@ -4,10 +4,125 @@
         <title>Ethan's Wiki Blog</title>
         <link>https://ethanppl.github.io/wiki/blog</link>
         <description>Ethan's Wiki Blog</description>
-        <lastBuildDate>Thu, 29 Feb 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 19 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Don't say it's a weird bug, because it makes you look stupid]]></title>
+            <link>https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue</link>
+            <guid>https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue</guid>
+            <pubDate>Wed, 19 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Often when someone is debugging an issue, you might hear:]]></description>
+            <content:encoded><![CDATA[<p>Often when someone is debugging an issue, you might hear:</p>
+<ul>
+<li>It's a <em>weird bug</em></li>
+<li><em>Somehow</em> it throws an error, it's <em>weird</em></li>
+<li>I followed the README, but <em>weirdly</em> it doesn't work</li>
+</ul>
+<p>As if something outside their control misbehaved, they expect someone to help
+them eliminate the "weirdness". I find that a bit annoying. What does "weird"
+actually mean?</p>
+<p>We think "it's weird" because we feel like we did nothing wrong, and the outcome
+is not what we intended. We do not understand why something unexpected happened,
+and our first instinct is to label it as "it's weird". If the system is "weird",
+then it is no longer our problem.</p>
+<p>However, is this true? Should you ever say computers behaved "weirdly"?</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="computers-never-lie">Computers never lie<a href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#computers-never-lie" class="hash-link" aria-label="Direct link to Computers never lie" title="Direct link to Computers never lie">​</a></h2>
+<p>One day, something like this happened. I was interrupted by my colleague because
+he found a weird issue. He was debugging an API. While testing it, he missed the
+authorization token in one of the service-to-service APIs, and as expected, an
+unauthorized error was thrown. His immediate response was "weird", and then seek
+help, and told me "it's weird". Huh? Why? What is weird though?</p>
+<p>I understand what he felt like "weird" is he supplied a user token already, how
+can it be unauthorized? The unauthorized error feels "weird" because the reason
+is unknown. However, the reality is one of the APIs the program uses expects
+another type of token, and the code missed that. There is nothing "weird", but
+that immediate thought of the computer being "weird" makes it sound like he
+thinks the computer lied to him, hence weird.</p>
+<p>But computers don't lie! Computers are devices that take inputs, process and
+then output. If the output is unexpected, either the inputs or the process, or
+both are wrong. Data and code are both provided by users, programmers or other
+systems. The computer only executes it. There is nothing weird about the
+computer itself.</p>
+<p>It's even worse when a developer says something is weird with the program that
+they wrote. You wrote the program! The computer follows your instructions. How
+would you blame something that exactly follows your instructions as weird, and
+pretend to take no ownership of the error?</p>
+<p>If you think seeing an unauthorized error is weird. It's not the computer
+behaving weirdly, instead, it is you not understanding how your code works. It
+is you not checking the API documentation before commenting it is weird. It is
+not the computer lying to you therefore the code throw an error. Instead, it is
+you who made a mistake in the code causing it to throw.</p>
+<p>Computers don't lie. Even if they do because of hardware failure or cosmic rays
+from light years away flipping a bit in the processor, it's abiding by the law
+of physics. Figure out why and own the problem. That's how you learn.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-makes-you-look-stupid">Why it makes you look stupid<a href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#why-it-makes-you-look-stupid" class="hash-link" aria-label="Direct link to Why it makes you look stupid" title="Direct link to Why it makes you look stupid">​</a></h2>
+<p>When blaming something as weird, it sounds like blaming some external factors
+causing the weirdness, as if you take no responsibility for the issue, and you
+are not eager to understand the problem.</p>
+<p>When you get used to saying "it's weird" to anything unexpected, your first
+instinct is to make it sound like you have no control. It sounds like you do not
+understand the issue only because some "weirdness" is hindering your ability to
+understand. But to someone who understands, they know the reason is you lack the
+knowledge to understand, not because it's weird. It just sounds like you do not
+understand how things work, you are making up excuses, and you are not taking
+ownership of figuring it out yourself. It doesn't matter how you think, it might
+just be a filler word, but others who listen feel differently. It sounds like
+you are stupid.</p>
+<p>Even worse is if you are used to settling for the answer of "it's weird", you do
+not try to understand what is wrong. You are tempted to seek help immediately.
+Once you get used to that, you no longer self-learn and improve. You think you
+don't understand just because things are "weird". You learn less.</p>
+<p>Imagine if there are network issues, rather than labelling it as a "weird
+internet problem", you take the time to investigate, you might figure out how
+HTTP calls are structured, the difference between TCP and UDP, how DNS records
+propagate, or how routing protocols work. That is how we learn.</p>
+<p>So, whenever we are debugging, and when we encounter something unexpected, try
+not to say "it's weird".</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="instead-state-the-facts">Instead, state the facts<a href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#instead-state-the-facts" class="hash-link" aria-label="Direct link to Instead, state the facts" title="Direct link to Instead, state the facts">​</a></h2>
+<p>The fact is we don't know. We find it unexpected because we don't know why, and
+there is nothing wrong with stating that. Imagine someone coming to you to ask
+you a question, which way is better:</p>
+<blockquote>
+<p>How do I find the log of this line in the console? Weirdly the log is not
+showing up.</p>
+</blockquote>
+<p>Or,</p>
+<blockquote>
+<p>How do I find the log of this line in the console? I tried checking the
+browser console, but I could not find it. I don't know where it is logged, can
+you help?</p>
+</blockquote>
+<p>See the difference? The first one sounds like the person is blaming some
+weirdness that swallowed the console.log. But in fact, it is some piece of code
+changing the control flow causing that line not to log. Or it's just looking at
+the wrong place to find the log, it could be in the server-side console.</p>
+<p>Taking the unauthorized error example, instead of a filler word "weird", he
+could comment "I already put in my token, I expect the API calls to be
+authorized", and then proceed to find the source of the error.</p>
+<p>It's mysterious and weird only because you don't understand how the program you
+wrote works. State that you don't know what caused the unexpected behaviour is
+better than labelling it as "weird".</p>
+<p>Sooner or later you will figure out the issue. It might be some global variables
+and side effects in functions. It might be some outdated cache. It might be race
+conditions. Or it might be some network failure. No matter what it is, you will
+realize there is nothing "weird", just a lack of understanding. So, admit that
+it's just you don't know, and you will try to understand it.</p>
+<p>To get even better, state what you have tried when seeking help. Divide and
+conquer. Check intermediate outputs. Narrow down the scope and state your
+findings when asking questions. "I tried checking the browser console". "This
+line is logged in the console but not this". This shows that you are eager to
+figure it out and learn. You put in the effort to understand the issue and try
+to demystify it yourself. Talk to a
+<a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" target="_blank" rel="noopener noreferrer">rubber duck</a> and you might
+eventually figure it out all yourself :)</p>
+<p>So, avoiding saying "it's weird". State what you found, what you expect to see
+and what is unexpected. It will make you sound more credible. A person who takes
+ownership.</p>]]></content:encoded>
+            <category>Thoughts</category>
+            <category>Workplace</category>
+        </item>
         <item>
             <title><![CDATA[Dual Boot Windows and Ubuntu with Secure Boot and Full Disk Encryption]]></title>
             <link>https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide</link>
