@@ -27,7 +27,7 @@ is not what we intended. We do not understand why something unexpected happened,
 and our first instinct is to label it as "it's weird". If the system is "weird",
 then it is no longer our problem.</p>
 <p>However, is this true? Should you ever say computers behaved "weirdly"?</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="computers-never-lie">Computers never lie<a href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#computers-never-lie" class="hash-link" aria-label="Direct link to Computers never lie" title="Direct link to Computers never lie">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="computers-never-lie">Computers never lie<a class="hash-link" aria-label="Direct link to Computers never lie" title="Direct link to Computers never lie" href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#computers-never-lie">​</a></h2>
 <p>One day, something like this happened. I was interrupted by my colleague because
 he found a weird issue. He was debugging an API. While testing it, he missed the
 authorization token in one of the service-to-service APIs, and as expected, an
@@ -56,7 +56,7 @@ you who made a mistake in the code causing it to throw.</p>
 <p>Computers don't lie. Even if they do because of hardware failure or cosmic rays
 from light years away flipping a bit in the processor, it's abiding by the law
 of physics. Figure out why and own the problem. That's how you learn.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-makes-you-look-stupid">Why it makes you look stupid<a href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#why-it-makes-you-look-stupid" class="hash-link" aria-label="Direct link to Why it makes you look stupid" title="Direct link to Why it makes you look stupid">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-it-makes-you-look-stupid">Why it makes you look stupid<a class="hash-link" aria-label="Direct link to Why it makes you look stupid" title="Direct link to Why it makes you look stupid" href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#why-it-makes-you-look-stupid">​</a></h2>
 <p>When blaming something as weird, it sounds like blaming some external factors
 causing the weirdness, as if you take no responsibility for the issue, and you
 are not eager to understand the problem.</p>
@@ -79,7 +79,7 @@ HTTP calls are structured, the difference between TCP and UDP, how DNS records
 propagate, or how routing protocols work. That is how we learn.</p>
 <p>So, whenever we are debugging, and when we encounter something unexpected, try
 not to say "it's weird".</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="instead-state-the-facts">Instead, state the facts<a href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#instead-state-the-facts" class="hash-link" aria-label="Direct link to Instead, state the facts" title="Direct link to Instead, state the facts">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="instead-state-the-facts">Instead, state the facts<a class="hash-link" aria-label="Direct link to Instead, state the facts" title="Direct link to Instead, state the facts" href="https://ethanppl.github.io/wiki/blog/2024/06/19/weird-issue#instead-state-the-facts">​</a></h2>
 <p>The fact is we don't know. We find it unexpected because we don't know why, and
 there is nothing wrong with stating that. Imagine someone coming to you to ask
 you a question, which way is better:</p>
@@ -173,7 +173,7 @@ You won't be able to access notes in the device during dual boot. Things might
 break after dual booting. Maybe the Wi-Fi card driver is not working, or
 graphics card config is wrong, or the pointer device is unusable. You will need
 another device to access your notes or search the Internet for answers.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="preparation-in-windows">Preparation in Windows<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#preparation-in-windows" class="hash-link" aria-label="Direct link to Preparation in Windows" title="Direct link to Preparation in Windows">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="preparation-in-windows">Preparation in Windows<a class="hash-link" aria-label="Direct link to Preparation in Windows" title="Direct link to Preparation in Windows" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#preparation-in-windows">​</a></h2>
 <p>Let's start!</p>
 <p>The first step is to prepare for dual boot. All the steps in this stage are done
 within the Windows. There is no specific order for these steps and no need to do
@@ -251,7 +251,7 @@ after the Windows partition</li>
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-bios-in-the-bios-menu">Configure BIOS in the BIOS Menu<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#configure-bios-in-the-bios-menu" class="hash-link" aria-label="Direct link to Configure BIOS in the BIOS Menu" title="Direct link to Configure BIOS in the BIOS Menu">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-bios-in-the-bios-menu">Configure BIOS in the BIOS Menu<a class="hash-link" aria-label="Direct link to Configure BIOS in the BIOS Menu" title="Direct link to Configure BIOS in the BIOS Menu" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#configure-bios-in-the-bios-menu">​</a></h2>
 <p>Just to make sure a few things are set in the BIOS menu. Knowing how to get into
 the BIOS menu is also helpful in case of bad things happened.</p>
 <p>Reboot the computer and enter the BIOS menu before the OS load. Search online
@@ -273,7 +273,7 @@ boot enabled</li>
 <li>TPM security has to be enabled for BitLocker in Windows</li>
 <li>You can check the Boot order in the BIOS menu as well</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-ubuntu-partition">Configure Ubuntu Partition<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#configure-ubuntu-partition" class="hash-link" aria-label="Direct link to Configure Ubuntu Partition" title="Direct link to Configure Ubuntu Partition">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-ubuntu-partition">Configure Ubuntu Partition<a class="hash-link" aria-label="Direct link to Configure Ubuntu Partition" title="Direct link to Configure Ubuntu Partition" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#configure-ubuntu-partition">​</a></h2>
 <p>The important bits start here! From now on, it's better to do all remaining
 steps in one go.</p>
 <p>This stage is to boot into Ubuntu with the live USB and configure the Ubuntu
@@ -339,7 +339,7 @@ disk when booting</li>
 </ol>
 <p>Now all the Ubuntu partitions are prepared. Without exiting the live
 environment, use the GUI to continue the installation.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="install-ubuntu">Install Ubuntu<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#install-ubuntu" class="hash-link" aria-label="Direct link to Install Ubuntu" title="Direct link to Install Ubuntu">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="install-ubuntu">Install Ubuntu<a class="hash-link" aria-label="Direct link to Install Ubuntu" title="Direct link to Install Ubuntu" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#install-ubuntu">​</a></h2>
 <p>We will install Ubuntu on the encrypted disk and configure things to make sure
 secure boot also works.</p>
 <ol>
@@ -371,7 +371,7 @@ that allows you to manually assign disk partition<!-- -->
 Ubuntu Desktop environment</li>
 </ol>
 <p>Do not leave the live environment just yet.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="set-up-crypttab">Set up <code>crypttab</code><a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#set-up-crypttab" class="hash-link" aria-label="Direct link to set-up-crypttab" title="Direct link to set-up-crypttab">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="set-up-crypttab">Set up <code>crypttab</code><a class="hash-link" aria-label="Direct link to set-up-crypttab" title="Direct link to set-up-crypttab" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#set-up-crypttab">​</a></h2>
 <p><code>crypttab</code> is used to decrypt the disk on boot.</p>
 <ol>
 <li>
@@ -394,8 +394,8 @@ Ubuntu Desktop environment</li>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">update-initramfs -k all -c</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 </li>
 </ol>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reboot-and-some-remaining-issues">Reboot and some remaining issues<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#reboot-and-some-remaining-issues" class="hash-link" aria-label="Direct link to Reboot and some remaining issues" title="Direct link to Reboot and some remaining issues">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blue-screen-mok-management">Blue screen MOK management<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#blue-screen-mok-management" class="hash-link" aria-label="Direct link to Blue screen MOK management" title="Direct link to Blue screen MOK management">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reboot-and-some-remaining-issues">Reboot and some remaining issues<a class="hash-link" aria-label="Direct link to Reboot and some remaining issues" title="Direct link to Reboot and some remaining issues" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#reboot-and-some-remaining-issues">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="blue-screen-mok-management">Blue screen MOK management<a class="hash-link" aria-label="Direct link to Blue screen MOK management" title="Direct link to Blue screen MOK management" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#blue-screen-mok-management">​</a></h3>
 <ol>
 <li>When reboot, because of the secure boot, you will see a blue screen and ask
 to perform MOK management</li>
@@ -409,7 +409,7 @@ the installation for third party drivers<!-- -->
 </ul>
 </li>
 </ol>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="windows-bitlocker-issue">Windows BitLocker Issue<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#windows-bitlocker-issue" class="hash-link" aria-label="Direct link to Windows BitLocker Issue" title="Direct link to Windows BitLocker Issue">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="windows-bitlocker-issue">Windows BitLocker Issue<a class="hash-link" aria-label="Direct link to Windows BitLocker Issue" title="Direct link to Windows BitLocker Issue" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#windows-bitlocker-issue">​</a></h3>
 <p>You might need to input the BitLocker recovery key when booting into Windows.
 Find your recovery key in where ever you saved (e.g. Microsoft account) and
 input it. This is also one time thing, so no worries.</p>
@@ -435,7 +435,7 @@ encryption and enable BitLocker.</p>
 </ul>
 <p>With BitLocker re-enabled, this means both Ubuntu and Windows have full disk
 encryption and secure boot enabled!</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wrong-timezone-after-dual-boot">Wrong timezone after dual boot<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#wrong-timezone-after-dual-boot" class="hash-link" aria-label="Direct link to Wrong timezone after dual boot" title="Direct link to Wrong timezone after dual boot">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wrong-timezone-after-dual-boot">Wrong timezone after dual boot<a class="hash-link" aria-label="Direct link to Wrong timezone after dual boot" title="Direct link to Wrong timezone after dual boot" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#wrong-timezone-after-dual-boot">​</a></h3>
 <p>You might notice one of the OS show the wrong time before resyncing their time.
 This is because they store time into the computer hardware clock differently.
 Linux assumes that the time on the hardware clock is stored in UTC and Windows
@@ -443,14 +443,14 @@ assumes it is local time. One solution is to ask Linux to store the hardware
 clock as local time:</p>
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">timedatectl set-local-rtc 1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p><a href="https://itsfoss.com/wrong-time-dual-boot/" target="_blank" rel="noopener noreferrer">Read more in this guide from It's Foss</a></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-full-disk-encryption">About full disk encryption:<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-full-disk-encryption" class="hash-link" aria-label="Direct link to About full disk encryption:" title="Direct link to About full disk encryption:">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a class="hash-link" aria-label="Direct link to References" title="Direct link to References" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#references">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-full-disk-encryption">About full disk encryption:<a class="hash-link" aria-label="Direct link to About full disk encryption:" title="Direct link to About full disk encryption:" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-full-disk-encryption">​</a></h3>
 <ul>
 <li><a href="https://www.mikekasberg.com/blog/2020/04/08/dual-boot-ubuntu-and-windows-with-encryption.html" target="_blank" rel="noopener noreferrer">How to Dual-Boot Ubuntu 20.04 (or 22.04) and Windows 10 (or 11) with Encryption | Mike Kasberg</a> -
 recommend reading</li>
 <li><a href="https://gist.github.com/luispabon/db2c9e5f6cc73bb37812a19a40e137bc" target="_blank" rel="noopener noreferrer">Dual boot with encryption nodes | GitHub Gist from @luispabon</a></li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-secure-boot">About secure boot:<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-secure-boot" class="hash-link" aria-label="Direct link to About secure boot:" title="Direct link to About secure boot:">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-secure-boot">About secure boot:<a class="hash-link" aria-label="Direct link to About secure boot:" title="Direct link to About secure boot:" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-secure-boot">​</a></h3>
 <ul>
 <li><a href="https://www.reddit.com/r/linux4noobs/comments/osotp3/ubuntu_dual_boot_with_windows_10_can_i_enable/" target="_blank" rel="noopener noreferrer">Can I enable secure boot again? | Reddit</a> -
 Ans: no</li>
@@ -459,7 +459,7 @@ worth watching parts about the secure boot and MOK step</li>
 <li><a href="https://askubuntu.com/questions/880240/it-is-possible-to-dual-boot-linux-and-windows-10-with-secure-boot-enabled" target="_blank" rel="noopener noreferrer">It is possible to dual boot Linux and Windows 10 with secure boot enabled? | Ask Ubuntu</a> -
 Ans: yes</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-partition-and-bitlocker">About partition and BitLocker:<a href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-partition-and-bitlocker" class="hash-link" aria-label="Direct link to About partition and BitLocker:" title="Direct link to About partition and BitLocker:">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="about-partition-and-bitlocker">About partition and BitLocker:<a class="hash-link" aria-label="Direct link to About partition and BitLocker:" title="Direct link to About partition and BitLocker:" href="https://ethanppl.github.io/wiki/blog/2024/02/29/dual-boot-guide#about-partition-and-bitlocker">​</a></h3>
 <ul>
 <li><a href="https://answers.microsoft.com/en-us/windows/forum/all/windows-disk-management-unable-to-shrink-c-drive/217c3521-b254-4662-bac9-bc90dc633fab" target="_blank" rel="noopener noreferrer">Windows Disk Management unable to shrink C: drive volume</a></li>
 <li><a href="https://www.diskpart.com/articles/resize-bitlocker-partition-windows-10-0725.html" target="_blank" rel="noopener noreferrer">How can I resize BitLocker partition in Windows 10/11</a></li>
