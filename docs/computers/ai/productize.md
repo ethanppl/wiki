@@ -45,3 +45,5 @@ AI as a product.
 - [What we learned from a year building with LLMs](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
   - Part 1: tactical practices on prompting, RAG, tuning, caching, evaluation &
     monitoring
+- [Secrets of the ChatGPT Linux system](https://incoherency.co.uk/blog/stories/chatgpt-linux.html)
+  - On poking the sandboxed environment where ChatGPT run code
