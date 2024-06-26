@@ -141,3 +141,8 @@ Related pages:
     irrelevant
   - Be the one that solves problem and help the team make progress rather than
     the one complaining
+- [Responsibility Over Freedom: How Netflix’s Culture Has Changed](https://www.nytimes.com/2024/06/24/business/media/netflix-corporate-culture.html?unlocked_article_code=1.2U0.upEj.EIos50pozWp5)
+  - The latest Netflix's memo on the culture that Netflix is famous for
+  - The keeper test — "if X wanted to leave, would I fight to keep them?"
+  - "The key about the Netflix culture is we really try to systematically think
+    what generates long-term excellence"
