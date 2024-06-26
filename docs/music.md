@@ -17,3 +17,5 @@ Nice sound put together?
   - And [this thread](https://news.ycombinator.com/item?id=37432415) resonates,
     not sure if anyone gone through a "proper training" of something has the
     same feeling
+- YouTube:
+  [111 instruments in 111 seconds | InstrumentManiac](https://youtu.be/qOvPWvJaMuc)
