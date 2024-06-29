@@ -73,6 +73,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - Fun video about FPV on YouTube:
     [Nurk FPV Flight of the Year](https://youtu.be/nQDcDZ6rmGE), over, under,
     into moving trains
+- [The t-test was invented in Guinness Brewery](https://www.scientificamerican.com/article/how-the-guinness-brewery-invented-the-most-important-statistical-method-in/)
+  ([HN](https://news.ycombinator.com/item?id=40485313))
 
 April Fools
 
