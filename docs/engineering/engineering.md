@@ -98,6 +98,14 @@ Websites:
   [The Self Balancing Monorail | Primal Space](https://youtu.be/kUYzuAJeg3M)
   - Yeah it's gyroscope, but with some genius iterations and optimizations, in
     1910
+- YouTube:
+  [NFPA Fire Code and One of My Favourite Red Team Cover Identities | DeviantOllam](https://youtu.be/CtHpiNBzPsk)
+  (2:07:56)
+  - How does the NFPA fire code works, particularly on sprinkler systems, exit
+    and egress, and fire-resistant constructions
+  - From the perspective of a red team, how to use this knowledge to cover
+    identities
+  - Long but very interesting, exciting and energizing vibe
 
 Concrete / Cement
 
