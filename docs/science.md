@@ -62,6 +62,9 @@ Mixed
 - [An Intuitive Guide to Maxwell's Equations](https://photonlines.substack.com/p/an-intuitive-guide-to-maxwells-equations)
   - In depth, long form guide explaining the 4 Maxwell's equations, explaining
     equations with graphs
+- [Calculus with Julia](https://jverzani.github.io/CalculusWithJuliaNotes.jl/)
+  - From the basic use of Julia, to limits, derivatives and integrals, ODEs and
+    vector calculus
 
 Numbers, riddles, conjectures
 
