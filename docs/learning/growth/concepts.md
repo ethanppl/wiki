@@ -37,3 +37,6 @@ More like an observed pattern than a rule
   - A disproportionately high value on DIY products
 - [Catfish effect](https://en.wikipedia.org/wiki/Catfish_effect)
   - Introducing strong competitor has in causing the weak to better themselves
+- [Bouba/kiki effect](https://en.wikipedia.org/wiki/Bouba/kiki_effect)
+  ([HN](https://news.ycombinator.com/item?id=40699583))
+  - Cross-cultural association of certain speech sounds to certain visual shapes
