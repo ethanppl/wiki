@@ -50,12 +50,6 @@ Related pages:
     design whose structure is a copy of the organization's communication
     structure."
   - Projects plans should follow how people communicate in the organization
-- [Load balancing algorithms](https://samwho.dev/load-balancing/)
-  ([HN](https://news.ycombinator.com/item?id=35588797))
-  - A little bit of Bartosz Ciechanowski style visualizing load balancing
-    algorithms, with a playground at the end
-  - Round robin, weighted random, weighted round robin, least connections, peak
-    EWMA
 - [Payments 101 for a developer](https://github.com/juspay/hyperswitch/wiki/Payments-101-for-a-Developer)
   - A guide for developers developing systems involving the transfer of money.
     The common terminologies and concepts.
@@ -114,6 +108,25 @@ Related pages:
   - No relationship between lines, no timing/duration but only timestamps,
     querying logs is ineffective and hard
   - Contains an example of how to evolve the system to use OpenTelemetry Tracing
+- [Every infrastructure decision I endorse or regret after 4 years at a startup](https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
+  ([HN](https://news.ycombinator.com/item?id=39313623))
+  - Reflecting each product choice or architecture decision. Why they are
+    good/bad
+  - And as always, interesting opinions in the HN thread
+- [Understanding SPF, DKIM and DMARC: A simple Guide](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
+  ([HN](https://news.ycombinator.com/item?id=40708476))
+  - SPF: a list of email friends that can send email on behalf of this domain
+  - DKIM: public key to verify email are not modified
+  - DMARC: rule book of how to handle SPF and DKIM checks
+
+Queues
+
+- [Load balancing algorithms](https://samwho.dev/load-balancing/)
+  ([HN](https://news.ycombinator.com/item?id=35588797))
+  - A little bit of Bartosz Ciechanowski style visualizing load balancing
+    algorithms, with a playground at the end
+  - Round robin, weighted random, weighted round robin, least connections, peak
+    EWMA
 - [Choose Postgres Queue Technology](https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/)
   ([HN](https://news.ycombinator.com/item?id=37636841))
   - Not specifically about Postgres queue, but the cult of prioritizing
@@ -131,16 +144,9 @@ Related pages:
   - Fan out/in design, and the use of topics on top of queues
   - Consideration of poison pills and dead letters queue
   - Common implementation: AWS SNS/SQS, Redis Streams, Kafka, RabbitMQ, etc.
-- [Every infrastructure decision I endorse or regret after 4 years at a startup](https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/)
-  ([HN](https://news.ycombinator.com/item?id=39313623))
-  - Reflecting each product choice or architecture decision. Why they are
-    good/bad
-  - And as always, interesting opinions in the HN thread
-- [Understanding SPF, DKIM and DMARC: A simple Guide](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
-  ([HN](https://news.ycombinator.com/item?id=40708476))
-  - SPF: a list of email friends that can send email on behalf of this domain
-  - DKIM: public key to verify email are not modified
-  - DMARC: rule book of how to handle SPF and DKIM checks
+- [Queueing | Encore](https://encore.dev/blog/queueing)
+  - Interactively visualizing queueing strategies: FIFO, LIFO, priority queue,
+    active queue management
 
 Algo
 
