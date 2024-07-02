@@ -75,6 +75,15 @@ Things that are interesting or for fun. Not sure where to put these yet.
     into moving trains
 - [The t-test was invented in Guinness Brewery](https://www.scientificamerican.com/article/how-the-guinness-brewery-invented-the-most-important-statistical-method-in/)
   ([HN](https://news.ycombinator.com/item?id=40485313))
+- YouTube:
+  [How One Small Change broke Wikipedia's First Link Rule | Not David](https://youtu.be/-llumS2rA8I)
+  (20:32)
+  - [Getting to Philosophy | Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Getting_to_Philosophy):
+    keep clicking on the first link in a Wikipedia page will lead to the
+    Philosophy page
+  - Using math to determine why the Philosophy page is important in the network
+  - How to break the game? What happens if we do the second link, or a random
+    link?
 
 April Fools
 
