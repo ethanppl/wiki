@@ -37,3 +37,10 @@ Fission. Fusion?
     rather than engineering or safety concerns
   - The safety concerns for radiation, nuclear waste or nuclear meltdowns are
     not significant any more
+- [Will We Ever Get Fusion Power?](https://www.construction-physics.com/p/will-we-ever-get-fusion-power)
+  - What is fusion, how it works, why fusion reactor shape like that (called
+    tokamak)
+  - The slow development of fusion over the last 70 years, the bull and bear
+    point of view on fusion
+  - Bull: more private sector attention and investment it might work
+  - Bear: even if it works it might be too expensive
