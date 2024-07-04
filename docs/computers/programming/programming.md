@@ -33,6 +33,9 @@ more and add more links in the future.
 
 ## Sites
 
+- [Learn X in Y Minutes](https://learnxinyminutes.com/) — quick summary of
+  programming languages
+
 YouTube Channels:
 
 - [Fireship](https://www.youtube.com/@Fireship/videos) — 100 seconds
@@ -129,6 +132,10 @@ Cognitive Load:
   - Clean code is about naming the logics in the right way actually
   - Good name doesn't misdirect, doesn't omit and doesn't assume
   - Long names might just mean the function is too complex
+- [Cognitive Load is what matters](https://github.com/zakirullin/cognitive-load)
+  - Meaningful intermediate variables, early returns rather than nested ifs,
+    composition over inheritance, monolith with isolated modules rather than
+    shallow modules and shallow microservices
 
 Working as a Software Engineer:
 
