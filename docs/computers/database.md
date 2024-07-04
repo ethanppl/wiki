@@ -106,3 +106,8 @@ Postgres
     existing rows and new rows are hidden
   - Postgres vacuuming: freeing XIDs for reuse since XIDs are limited to 32 bits
   - [Postgres isolation test suite](https://github.com/postgres/postgres/tree/master/src/test/isolation)
+
+SQL
+
+- [Get records with max value for each group of grouped SQL results](https://stackoverflow.com/questions/12102200/get-records-with-max-value-for-each-group-of-grouped-sql-results)
+  - Just a page that I keep coming back to
