@@ -29,3 +29,8 @@ A balance.
     possible applications
   - How does temperature difference generate electricity and possibly creating
     "reverse solar panels"?
+- YouTube:
+  [The problem of wind energy | Real Engineering](https://youtu.be/LklUVkMPl8g?si=ror3jPQHCD7BW2cd)
+  (16:46)
+  - The gearbox and inverter system that controls the frequency of the output to
+    align with the frequency of the grid because wind is unstable
