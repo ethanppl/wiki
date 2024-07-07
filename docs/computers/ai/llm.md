@@ -78,3 +78,5 @@
   - Technology used, difficulties for startup "in the wild" (i.e. outside
     Google)
   - Some comparison of training in startup v.s. training with Google infra
+- [LLM Generality is a Timeline Crux | LessWrong](https://www.lesswrong.com/posts/k38sJNLk7YbJA72ST/llm-generality-is-a-timeline-crux)
+  - Limitation exists, scaling, scaffolding and tooling can't fully overcome
