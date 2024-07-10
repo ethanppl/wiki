@@ -31,3 +31,8 @@ A collection of stories that people share about their investigations.
   - Long, 13 parts blog but very interesting read
   - From the learnings at each stage, to planning and investigating, and the
     story telling is good
+- [Reverse Engineering TicketMaster's Rotating Barcodes (SafeTix)](https://conduition.io/coding/ticketmaster/)
+  ([HN](https://news.ycombinator.com/item?id=40906148))
+  - Decoding the barcode to token + 2 TOTPs + timestamp
+  - Finding the TOTP shared key in the TicketMaster app
+  - Generating barcode offline as long as the token didn't change
