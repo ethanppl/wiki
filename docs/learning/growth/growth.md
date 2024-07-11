@@ -112,3 +112,10 @@ Improve one's cognitive capability.
   - Just saying, these kinds of statements/quotes are powerful, usually they
     don't give much context, but it plants a seed in your brain, and you will
     fill in details to justify the statement
+- [The Right Kind of Stubborn | Paul Graham](https://paulgraham.com/persistence.html)
+  - Persistent v.s. obstinate: successful, persistent people listen to
+    disagreement
+  - Persistent is to achieve the goal, the engine doesn't stop. Obstinate is to
+    the methodology, the wheel doesn't turn.
+  - Persistence requires energy, imagination, resilience, good judgement and
+    focus
