@@ -64,6 +64,8 @@ Communications between computers.
   - Problem is it works terribly with delayed `ACK`, and optimizations is
     already pushed to application layer. We seldom send packets that the header
     takes more space than the data
+- [6 DNS concepts](https://jonahdevs.com/youre-closer-than-you-think-the-only-6-dns-concepts-you-really-need/)
+  - `A`, `CNAME`, `MX`, `TXT`, `NX`, `TTL`
 
 Ethernet
 
