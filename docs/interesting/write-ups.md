@@ -36,3 +36,9 @@ A collection of stories that people share about their investigations.
   - Decoding the barcode to token + 2 TOTPs + timestamp
   - Finding the TOTP shared key in the TicketMaster app
   - Generating barcode offline as long as the token didn't change
+- [Reliable Sources: How Wikipedia Admin David Gerard Launders His Grudges into the Public Record](https://www.tracingwoodgrains.com/p/reliable-sources-how-wikipedia-admin)
+  - Using bureaucracy and policies like citing reliable sources to alter public
+    record
+  - Stories over the year when Gerard leave traces over the Internet
+  - Wikipedia and maybe the Internet as a whole is insufficient to deal with a
+    motivated bad-faith actor
