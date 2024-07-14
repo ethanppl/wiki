@@ -17,6 +17,13 @@ Related
 - [How to make active window visually stand out more in Ubuntu 18.04 Gnome 3](https://askubuntu.com/questions/1098539/how-to-make-active-window-visually-stand-out-more-in-ubuntu-18-04-gnome-3)
   - `~/.config/gtk-3.0/gtk.css` set `decoration`/ `decoration:backdrop` and
     `headerbar.titlebar`/`headerbar.titlebar:backdrop`
+- Tmux copy to clipboard
+  - Add `set -s copy-comand 'xclip -selection clipboard -i'` in `.tmux.conf`
+    (tmux 3.2 and later)
+  - All of the following doesn't work but gave me some ideas:
+  - [StackExchange](https://unix.stackexchange.com/questions/348913/copy-selection-to-a-clipboard-in-tmux),
+    [StackOverflow](https://stackoverflow.com/questions/48129640/how-can-i-copy-text-from-a-tmux-window-to-the-system-clipboard),
+    [Clipboard | Tmux Wiki](https://github.com/tmux/tmux/wiki/Clipboard)
 
 ### Windows
 
