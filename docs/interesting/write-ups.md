@@ -13,6 +13,8 @@ A collection of stories that people share about their investigations.
   - Wi-Fi without internet but contains flight data
   - HN thread: Ways of people using Wi-Fi without authentication
   - HN thread: Ways of people using visualizing flight data with similar API
+  - Check [PySkyWiFi](https://robertheaton.com/pyskywifi/) as well in
+    [side projects](./side-projects.md)
 - [What's the touchscreen in my room?](https://laplab.me/posts/whats-that-touchscreen-in-my-room/)
   - Poorly designed IoT systems that user gain root access with something called
     `tcf-agent`

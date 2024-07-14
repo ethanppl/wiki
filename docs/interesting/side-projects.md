@@ -14,3 +14,13 @@ Fun, pet projects
 - [Woodworking as an escape from the absurdity of software](https://alinpanaitiu.com/blog/woodworking-escape-from-software-absurdity/)
   ([HN](https://news.ycombinator.com/item?id=40245601))
   - Series of woodworking projects, chess board, table, bench, etc.
+- [PySkyWiFi: completely free, unbelievably stupid Wi-Fi on long-haul flights](https://robertheaton.com/pyskywifi/)
+  ([HN](https://news.ycombinator.com/item?id=40915082))
+  - By updating and reading the name field in the miles account to send and
+    receive data, for free
+
+Fun projects collection
+
+- [vimsudoku](https://vimsudoku.com/)
+- [Headphones Morse code translator](https://github.com/EtherDream/headphone-morse-transmitter)
+- [One Million Checkboxes](https://onemillioncheckboxes.com/)
