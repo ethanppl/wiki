@@ -23,3 +23,7 @@ To Navigate.
   - Some common sense tricks + using overpass turbo to query OpenStreetMap data
 - [World Population Cargogram 2015](https://imgur.com/ZD4GaDF)
   - The map with the size of a country proportional to its population
+- [Why is Chile so Long?](https://unchartedterritories.tomaspueyo.com/p/why-is-chile-so-long)
+  ([HN](https://news.ycombinator.com/item?id=40856030))
+  - It's so long that it is curved, as long as Norway to Morocco
+  - Because of its unique geography, the Andes mountain
