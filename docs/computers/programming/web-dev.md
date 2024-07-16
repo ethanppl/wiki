@@ -91,6 +91,9 @@ Developing user interfaces of web pages.
   - The difficulty in understanding how composition changes the context and how
     it renders
   - Object composition like Tailwind is easier to adapt for devs
+- [Notes on implementing dark mode](https://brandur.org/fragments/dark-mode-notes)
+  - `prefers-color-scheme`, tri-state of themes, theme flicker, theme changes
+    from OS/tabs
 
 CSS games
 
