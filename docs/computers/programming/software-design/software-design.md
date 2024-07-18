@@ -118,6 +118,11 @@ Related pages:
   - SPF: a list of email friends that can send email on behalf of this domain
   - DKIM: public key to verify email are not modified
   - DMARC: rule book of how to handle SPF and DKIM checks
+- [Why, after 6 years, I am over GraphQL](https://bessey.dev/blog/2024/05/24/why-im-over-graphql/)
+  - Attack surface is large: authorisation, nested queries and rate limiting,
+    query parsing
+  - Performance issue: n+1, authorising with n+1, dataloaders boilerplate
+  - Coupling business logic into the API, increasing complexity of API tests
 
 Queues
 
