@@ -96,6 +96,7 @@ YouTube:
   - Worse of all NASA tries to cover it up with lies and hide the true estimate
   - Also talked by Destin before on YouTube:
     [I was SCARED to say this to NASA...](https://youtu.be/OoJsPvmFixU)
+- [A guide to attending a space launch in person](https://countdowntoignition.com/guide-to-attending-launch)
 
 ISS
 
