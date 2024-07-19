@@ -84,6 +84,7 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - Using math to determine why the Philosophy page is important in the network
   - How to break the game? What happens if we do the second link, or a random
     link?
+- [The Art of Andrew Wulf](https://digcon.art/) — cool generative art
 
 April Fools
 
