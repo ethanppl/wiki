@@ -52,10 +52,6 @@ science/programming.
     all programmers
   - Vim motions, the navigation, is different from using Vim, the text editor
   - Case study on MongoDB MongoCrypt implementation
-- [Self-hosting in 2023](https://grifel.dev/decentralization/)
-  ([HN](https://news.ycombinator.com/item?id=34860655))
-  - Interesting read. Self-host a blog with Raspberry Pi, Coolify for deployment
-    and DDClient to solve the problem of a dynamic IP
 - [What a good debugger can do](https://werat.dev/blog/what-a-good-debugger-can-do/)
   ([HN](https://news.ycombinator.com/item?id=35092998))
   - Breakpoints: column breakpoints, conditional breakpoints, tracing
