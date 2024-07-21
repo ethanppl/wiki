@@ -11,6 +11,14 @@ completely different mindset to approach problems, but it's fun.
 - [OWASP](https://owasp.org/) — Open Web Application Security Project
 - [Have I Been Pwned?](https://haveibeenpwned.com/) — Check breached
   accounts/emails/passwords
+- [OverTheWire Wargames](https://overthewire.org/wargames/)
+  - [Bandit](https://overthewire.org/wargames/bandit/) (beginners),
+    [Natas](https://overthewire.org/wargames/natas/) (web), etc.
+  - [Bandit Overview | MayADevBe](https://mayadevbe.me/posts/overthewire/bandit/overview/)
+    — tutorial
+  - [Natas Writeup | CertCube Labs](https://blog.certcube.com/overthewire-natas/)
+    — tutorial
+- [List of file signatures | Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
 
 ## Links
 
