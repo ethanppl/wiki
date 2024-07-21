@@ -34,3 +34,6 @@ Text-based interface.
   - Server current directory over HTTP: `python -m http.server 8000`
   - Pretty-print JSON: `echo '{"key": "value"}' | python -m json.tool`
   - `tokenize`, `base64`, `random`, `calendar`, etc.
+- [What does `2>/dev/null` means?](https://askubuntu.com/questions/350208/what-does-2-dev-null-mean)
+  - `>` means redirect, `2> file` means redirect `stderr` to file, `/dev/null`
+    is the null device
