@@ -24,6 +24,14 @@ Related pages:
   - At last, never be afraid to be a small fish in a big pond, go where the
     actions are happening
 
+## Sites
+
+CV maker
+
+- [Flow CV](https://app.flowcv.com/dashboard) — nice UI
+- [rendercv | GitHub @sinaatalay](https://github.com/sinaatalay/rendercv) —
+  Render PDF CV from YAML
+
 ## Links
 
 - [What I learned at Stripe](https://steinkamp.us/post/2022/11/10/what-i-learned-at-stripe.html)
