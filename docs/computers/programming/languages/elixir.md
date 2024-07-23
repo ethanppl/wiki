@@ -34,3 +34,9 @@ programming language.
   - The reason why Elixir in chosen in Ramp: BEAM, OPT, Dev Ex, macros, sigils,
     immutability, modules, etc.
   - [Technical Storytelling: Making of Elixir at Ramp](https://morepablo.com/2023/03/technical-storytelling-making-of-elixir-at-ramp.html)
+- [To spawn or not](https://www.theerlangelist.com/article/spawn_or_not)
+  - Functions & modules for domain concerns. Processes for runtime concerns.
+  - E.g. a game can involve many states and can have many processes to keep
+    track of the states, but the game state is highly synchronized. It makes
+    more sense to keep the game as 1 state while having functions and modules to
+    manage the state
