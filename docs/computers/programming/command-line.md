@@ -37,3 +37,15 @@ Text-based interface.
 - [What does `2>/dev/null` means?](https://askubuntu.com/questions/350208/what-does-2-dev-null-mean)
   - `>` means redirect, `2> file` means redirect `stderr` to file, `/dev/null`
     is the null device
+- [Entering text in the terminal is complicated](https://jvns.ca/blog/2024/07/08/readline/)
+  ([HN](https://news.ycombinator.com/item?id=40907581))
+  - The baseline:
+    - No arrows, no history
+    - `Ctrl+W` delete word, `Ctrl+U` delete line
+    - `stty -a` list what's supported in the terminal
+  - `readline`:
+    - Up arrow to previous command
+    - `Ctrl+E` or `End`, `Ctrl+A` or `Home`, `Ctrl+left/right` back/forward 1
+      word
+    - `Ctrl+R` to search history
+    - `rlwrap python` to wrap a program with readline support
