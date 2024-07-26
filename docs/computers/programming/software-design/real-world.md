@@ -78,3 +78,8 @@
   - Design considerations, philosophy and constraints
   - Building simulations and rendering graphics and interactions in the
     frontend, API and backend for moderation
+- [Ariane 501 Inquiry Board Report](https://esamultimedia.esa.int/docs/esa-x-1819eng.pdf)
+  - Copy and pasted legacy code that assign 64-bit float to 16-bit signed int
+    brought down the rocket
+  - Avoid copy and pasting, using systems that are not well understood
+  - Testing is essential, especially for edge cases and exceptions
