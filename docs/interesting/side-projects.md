@@ -18,6 +18,11 @@ Fun, pet projects
   ([HN](https://news.ycombinator.com/item?id=40915082))
   - By updating and reading the name field in the miles account to send and
     receive data, for free
+- [Generating sudokus for fun](https://tn1ck.com/blog/how-to-generate-sudokus)
+  ([HN](https://news.ycombinator.com/item?id=41062072))
+  - How to solve sudoku: skip invalid, minimum remaining value, arc consistency
+  - How to generate soduku requires knowing how to solve sudoku to rate the
+    difficulty
 
 Fun projects collection
 
