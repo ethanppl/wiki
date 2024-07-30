@@ -66,6 +66,11 @@ Communications between computers.
     takes more space than the data
 - [6 DNS concepts](https://jonahdevs.com/youre-closer-than-you-think-the-only-6-dns-concepts-you-really-need/)
   - `A`, `CNAME`, `MX`, `TXT`, `NX`, `TTL`
+- [The New Internet | Tailscale](https://tailscale.com/blog/new-internet)
+  - A commentary on how Tailscale can redesign the Internet, to simplify it
+  - Things that are improved and things that are worse while we have more
+    abstractions. Tailscale vision to redesign the Internet because it is now
+    centralized in cloud providers hand
 
 Ethernet
 
