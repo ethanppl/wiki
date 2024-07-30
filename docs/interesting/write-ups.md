@@ -44,3 +44,7 @@ A collection of stories that people share about their investigations.
   - Stories over the year when Gerard leave traces over the Internet
   - Wikipedia and maybe the Internet as a whole is insufficient to deal with a
     motivated bad-faith actor
+- [Jailbreaking RabbitOS: Uncovering Secret Logs and GPL violations](https://www.da.vidbuchanan.co.uk/blog/r1-jailbreak.html)
+  ([HN](https://news.ycombinator.com/item?id=40987730))
+  - Jailbreaking by exploiting the insecure boot chain, subsituting data between
+    verification and use
