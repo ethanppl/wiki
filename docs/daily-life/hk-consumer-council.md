@@ -5,6 +5,8 @@ The Hong Kong Consumer Council is an independent statutory authority.
 Sadly, they don't provide the full report online for free. Most of the results
 require a paid subscription and are only reported in Chinese newspapers.
 
+- [Well, they kind of killed their credibility](https://hongkongfp.com/2024/07/18/hong-kong-consumer-watchdog-apologises-after-chinese-drink-giant-nongfu-spring-slams-unscientific-report/)
+
 ## Sites
 
 - [Consumer Council](https://www.consumer.org.hk/en) — Official Website
