@@ -15,6 +15,8 @@ Making things friendly and appealing.
   fonts, a collection of the fastest fonts available across operating systems
 - [Colour and Contrast](https://colorandcontrast.com/) — Anything visualizing
   colour and contrast. Each page is short but there are a lot of pages
+- [Catalog of Dark Patterns](https://hallofshame.design/collection/) — deceptive
+  UX design practices
 
 Design systems and guidelines:
 
