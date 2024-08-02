@@ -97,6 +97,8 @@ const config = {
         hashed: true,
         docsRouteBasePath: "/",
         language: ["en", "zh"],
+        removeDefaultStemmer: true,
+        searchResultLimits: 12,
       }),
     ],
   ],
