@@ -113,16 +113,26 @@ Related pages:
   - Reflecting each product choice or architecture decision. Why they are
     good/bad
   - And as always, interesting opinions in the HN thread
-- [Understanding SPF, DKIM and DMARC: A simple Guide](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
-  ([HN](https://news.ycombinator.com/item?id=40708476))
-  - SPF: a list of email friends that can send email on behalf of this domain
-  - DKIM: public key to verify email are not modified
-  - DMARC: rule book of how to handle SPF and DKIM checks
 - [Why, after 6 years, I am over GraphQL](https://bessey.dev/blog/2024/05/24/why-im-over-graphql/)
   - Attack surface is large: authorisation, nested queries and rate limiting,
     query parsing
   - Performance issue: n+1, authorising with n+1, dataloaders boilerplate
   - Coupling business logic into the API, increasing complexity of API tests
+
+Emails
+
+- [Email, explained from first principles](https://explained-from-first-principles.com/email/)
+  - From basic concepts and terminologies of email systems
+  - To the architecture, protocols and format for email to work
+  - Issues with emails like spamming and privacy, and recent standards to
+    address it
+  - Alongside with many concepts introduced about the internet like TLS, replay
+    attacks, CRAM, SCRAM, channel bindings, etc.
+- [Understanding SPF, DKIM and DMARC: A simple Guide](https://github.com/nicanorflavier/spf-dkim-dmarc-simplified)
+  ([HN](https://news.ycombinator.com/item?id=40708476))
+  - SPF: a list of email friends that can send email on behalf of this domain
+  - DKIM: public key to verify email are not modified
+  - DMARC: rule book of how to handle SPF and DKIM checks
 
 Queues
 
