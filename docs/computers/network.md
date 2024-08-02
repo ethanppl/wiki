@@ -4,6 +4,9 @@ Communications between computers.
 
 ## Resources
 
+- [The Internet, explained from first principles](https://explained-from-first-principles.com/internet/)
+  - Starting from protocols to the OSI models
+  - The key concepts of each layer and plenty of links to external resources
 - [Computer Networking: A Top-Down Approach Course](https://gaia.cs.umass.edu/kurose_ross/lectures.php)
   - A textbook about the fundamentals of computer networking in the OSI model
   - Application, transport, network, and link layer
