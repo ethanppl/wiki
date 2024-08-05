@@ -26,6 +26,7 @@ Other places to look at
   [the GitHub repo](https://github.com/nikitavoloboev/knowledge/tree/main/docs))
 - [Learn Anything](https://learn-anything.xyz/)
   ([GitHub](https://github.com/learn-anything/learn-anything))
+- [Second Brain | ssp.sh](https://www.ssp.sh/brain/)
 - This Wiki :)
 
 ## Links
