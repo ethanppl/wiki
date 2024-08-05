@@ -50,3 +50,7 @@ Stories of founders, businesses, start-ups
   - What existed before GitHub as code hosting
   - The gap that GitHub fills in: online code browsing, social interactions,
     etc.
+- [Running One-man SaaS, 9 Years In](https://blog.healthchecks.io/2024/07/running-one-man-saas-9-years-in/)
+  ([HN](https://news.ycombinator.com/item?id=41104293))
+  - Running [healthchecks.io](healthchecks.io), more in the blogs on infra setup
+    and philosophy on running 1 man SaaS
