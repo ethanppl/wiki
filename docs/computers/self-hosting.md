@@ -35,3 +35,6 @@ A private web server
   - Hosting websites, databases, plausible for analytics, sentry for error
     alerts, personal utils
   - Handling security, monitoring, backup and disaster recovery
+- [Repurpose your old laptop into a home server](https://jakew.me/home-server/)
+  - Ubuntu server, install docker, run Plex and secure remote connection with
+    tailscale
