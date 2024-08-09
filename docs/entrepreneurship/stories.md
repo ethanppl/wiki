@@ -52,5 +52,5 @@ Stories of founders, businesses, start-ups
     etc.
 - [Running One-man SaaS, 9 Years In](https://blog.healthchecks.io/2024/07/running-one-man-saas-9-years-in/)
   ([HN](https://news.ycombinator.com/item?id=41104293))
-  - Running [healthchecks.io](healthchecks.io), more in the blogs on infra setup
-    and philosophy on running 1 man SaaS
+  - Running [healthchecks.io](https://healthchecks.io), more in the blogs on
+    infra setup and philosophy on running 1 man SaaS
