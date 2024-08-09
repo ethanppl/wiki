@@ -32,3 +32,4 @@ jobs:
           publish_dir: ./build
           user_name: ethanppl
           user_email: 43922849+ethanppl@users.noreply.github.com
+          cname: wiki.ethanppl.com
