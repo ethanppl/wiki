@@ -48,3 +48,8 @@ A collection of stories that people share about their investigations.
   ([HN](https://news.ycombinator.com/item?id=40987730))
   - Jailbreaking by exploiting the insecure boot chain, subsituting data between
     verification and use
+- [Troubleshooting: Terminal Lag](https://lock.cmpxchg8b.com/slowterm.html)
+  ([HN](https://news.ycombinator.com/item?id=41114569))
+  - Finding out why `xterm` in WSL is slower than in Fedora
+  - Slow window effects, potential slow profile features, tuning with
+    `hyperfine`
