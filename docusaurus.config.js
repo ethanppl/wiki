@@ -34,6 +34,16 @@ const config = {
     locales: ["en"],
   },
 
+  // Plausible Analytics
+  scripts: [
+    {
+      src: "https://plausible.ethanppl.com/js/script.js",
+      async: true,
+      defer: true,
+      "data-domain": "wiki.ethanppl.com",
+    }
+  ],
+
   presets: [
     [
       "classic",
