@@ -83,3 +83,7 @@
     brought down the rocket
   - Avoid copy and pasting, using systems that are not well understood
   - Testing is essential, especially for edge cases and exceptions
+- [How we sped up Notion in the browser with WASM SQLite](https://www.notion.so/blog/how-we-sped-up-notion-in-the-browser-with-wasm-sqlite)
+  - Using web assembly implementation of SQLite
+  - Each tab has read worker while write access is forwarded to the same worker,
+    the worker of the active tab
