@@ -24,3 +24,5 @@ The science and engineering of bicycles.
   [Most People Don't Know How Bikes Work | Veritasium](https://youtu.be/9cNmUNHSBac)
   - Modify a bike to demonstrate how bicycles turn by first steering to the
     other side and leaning back
+- YouTube:
+  [World's smallest bike | Stuff Made Here](https://youtu.be/YqywL9PkM2s)
