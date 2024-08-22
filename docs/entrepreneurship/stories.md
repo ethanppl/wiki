@@ -54,3 +54,8 @@ Stories of founders, businesses, start-ups
   ([HN](https://news.ycombinator.com/item?id=41104293))
   - Running [healthchecks.io](https://healthchecks.io), more in the blogs on
     infra setup and philosophy on running 1 man SaaS
+- [I've built my first successful side project, and I hate it](https://switowski.com/blog/i-have-built-my-first-successful-side-project-and-i-hate-it/)
+  - Good write-up of the process of building, selling, till burnout, realizing
+    automations and boundaries are needed
+  - Lessons: don't let it burn you out, B2C is hard, be nice to people and
+    assume good intention
