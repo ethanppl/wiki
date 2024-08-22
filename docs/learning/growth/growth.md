@@ -119,3 +119,7 @@ Improve one's cognitive capability.
     the methodology, the wheel doesn't turn.
   - Persistence requires energy, imagination, resilience, good judgement and
     focus
+- [You don't know how bad most things are nor precisely how they're bad | LessWrong](https://www.lesswrong.com/posts/PJu2HhKsyTEJMxS9a/you-don-t-know-how-bad-most-things-are-nor-precisely-how)
+  - A story with a piano tuner, out of tune with itself and with others, etc.
+  - Some art, only few possess the level of skill to know, it's unfortunate if
+    it dies out yet no one knows
