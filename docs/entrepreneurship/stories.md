@@ -2,6 +2,10 @@
 
 Stories of founders, businesses, start-ups
 
+Related
+
+- [Side projects](/interesting/side-projects)
+
 ## Sites
 
 - [Y Combinator Founder Stories](https://www.ycombinator.com/blog/tag/founder-stories)
