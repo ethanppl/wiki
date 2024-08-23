@@ -97,6 +97,13 @@ science/programming.
   - `biz > user > ops > dev`: the code need to be valuable to the organization
   - This stops us from having unmaintainable code, unusable software, or "works
     locally" software
+- [It works on my machine. Why?](https://thoughtbot.com/blog/it-works-on-my-machine-why)
+  - Lists of possible differences in runtime environment or the code
+- [Effective Changelogs](https://xavd.id/blog/post/effective-changelogs/)
+  - Write a changelog file, distributed together with the package
+  - Include version number and date, in chronological order
+  - Use icons and group changes, give context or brief summary if needed
+  - Only add brief and factual update focus on user impact
 
 Cognitive Load:
 
