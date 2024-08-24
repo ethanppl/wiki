@@ -97,3 +97,5 @@ Guides
   ([HN](https://news.ycombinator.com/item?id=40069599))
   - Once you see it you can't unsee, problems of web fonts, line height, icons,
     etc.
+- [Toasts are Bad UX](https://maxschmitt.me/posts/toasts-bad-ux)
+  - Because it disappears, unknown delay time, but still better than no feedback
