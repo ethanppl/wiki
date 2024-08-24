@@ -123,3 +123,4 @@ Improve one's cognitive capability.
   - A story with a piano tuner, out of tune with itself and with others, etc.
   - Some art, only few possess the level of skill to know, it's unfortunate if
     it dies out yet no one knows
+- [A bridge to meta-rationality v.s. civilizational collapse](https://metarationality.com/stem-fluidity-bridge)

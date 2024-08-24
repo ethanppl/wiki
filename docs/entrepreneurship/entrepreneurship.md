@@ -45,6 +45,42 @@ Related pages:
     - Extreme: product is repeatable and efficient, solving an urgent problem
   - Details case study on companies of each level, what to aim for, what it
     feels like and what to avoid
+- [The Millionaire Fastlane | M.J. DeMarco](https://www.goodreads.com/book/show/18872437-the-millionaire-fastlane)
+  - A book, have to ignore the title, the tone and language but take the
+    concepts
+  - Wealth is not an event but a process, get rich quick/fast ≠ get rich easy
+  - Wealth is health, relationship and freedom, and money provides the freedom
+  - Affordable means negligible opportunity cost, no regret if anything happened
+  - Sidewalk: pay check to pay check is one accident to poverty
+  - Slowlane: saving and investing is slow because it depends on factors that
+    cannot be controlled or leveraged
+  - Fastlane: building up assets value, construct a system that do the heavy
+    lifting
+  - Systems: rental > software > content > distribution (e-commerce,
+    franchise) > human resources
+  - Commandment of control, entry, need, time and scale
+- YouTube:
+  [Entrepreneurship Masterclass: $10K - $1M - Daniel Priestley | Deep Dive with Ali Abdaal](https://youtu.be/jOgqIbeLXkE)
+  - YouTube:
+    [Mindset of A Multi-Million Dollar Entrepreneur - Daniel Priestley | Deep Dive with Ali Abdaal](https://youtu.be/VwLqwcjJwRo)
+    - What are J-curve businesses, lead generation, marketing and sales
+    - Lifestyle and mindset, ideation, scorecards and MVP
+  - Starting: Not a component labor, entrepreneur is the organizing force for
+    the system
+    - Concept: non-J curve business aiming for 2K for 5 sales each month
+    - Audience: who is frustrated, an event, a scorecard, a focus group, does
+      anyone show up
+    - Offer: slide deck, presentation, brochure, present it face to face, do at
+      least 30 customers
+    - Sales: providing the least resistance path to overcome the obstacles and
+      criteria to move from the current reality to the desired reality of the
+      customers. Professional sales are not pushy
+    - LAPS: leads → appointment → presentation → sales
+  - 100K: key person influencer, building a personal brand, making
+    differentiation and publish content
+  - Grow the asset, media, intellectual property, software, etc., things that
+    scale
+  - Bigger carrot and bigger stick as en entrepreneur. Rough roads end smooth.
 
 ## Links
 
@@ -186,3 +222,4 @@ Ideas:
   [3rd list](https://samsquire.github.io/ideas3/),
   [4th list](https://samsquire.github.io/ideas4/)
 - [Y Combinator Request For Startup](https://www.ycombinator.com/rfs)
+- [LLM Applications I want to see](https://sarahconstantin.substack.com/p/llm-applications-i-want-to-see)
