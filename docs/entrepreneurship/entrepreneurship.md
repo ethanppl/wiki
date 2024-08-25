@@ -65,6 +65,8 @@ Related pages:
     [Mindset of A Multi-Million Dollar Entrepreneur - Daniel Priestley | Deep Dive with Ali Abdaal](https://youtu.be/VwLqwcjJwRo)
     - What are J-curve businesses, lead generation, marketing and sales
     - Lifestyle and mindset, ideation, scorecards and MVP
+  - The steps of each stage of building a business, demystifying the thought
+    process and the work required
   - Starting: Not a component labor, entrepreneur is the organizing force for
     the system
     - Concept: non-J curve business aiming for 2K for 5 sales each month

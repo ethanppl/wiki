@@ -106,6 +106,9 @@ Postgres
     existing rows and new rows are hidden
   - Postgres vacuuming: freeing XIDs for reuse since XIDs are limited to 32 bits
   - [Postgres isolation test suite](https://github.com/postgres/postgres/tree/master/src/test/isolation)
+- [How postgres stores data on disk](https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/)
+  - Heap, segment, page, tuple
+  - Using the `pageinspect` extension to see how data are stored
 
 SQL
 
