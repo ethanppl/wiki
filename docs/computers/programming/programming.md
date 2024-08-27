@@ -104,6 +104,9 @@ science/programming.
   - Include version number and date, in chronological order
   - Use icons and group changes, give context or brief summary if needed
   - Only add brief and factual update focus on user impact
+- [Fixing a Bug in Google Chrome as a First-Time Contributor](https://cprimozic.net/blog/fixing-a-bug-in-google-chrome/)
+  - An interesting read of the process of debugging, fixing, submitting a change
+    list, writing tests and releasing
 
 Cognitive Load:
 
