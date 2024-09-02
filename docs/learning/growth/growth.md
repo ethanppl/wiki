@@ -124,3 +124,11 @@ Improve one's cognitive capability.
   - Some art, only few possess the level of skill to know, it's unfortunate if
     it dies out yet no one knows
 - [A bridge to meta-rationality v.s. civilizational collapse](https://metarationality.com/stem-fluidity-bridge)
+- [Willingness to look stupid](https://danluu.com/look-stupid/)
+  - On to developing a very deep understanding of topics
+  - A ton of examples from the author listed in the blog, quite inspiring
+  - It looks stupid to try, practice, think, ask about the same thing
+    repeatedly, but eventually that makes one skilled at that particular skill.
+    It can be rock-climbing, driving, playing video games, studying, etc.
+  - Allowing the conscious process of evaluating the stupid thoughts is already
+    better than reflexively rejecting
