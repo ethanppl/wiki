@@ -72,13 +72,13 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Personal Wiki",
+        title: "Ethan's Wiki",
         logo: {
-          alt: "My Wiki Logo",
+          alt: "Ethan's Wiki Logo",
           src: "img/logo.png",
         },
         items: [
-          {to: 'blog', label: 'Blog', position: 'left'},
+          {to: 'blog', label: 'Blogs', position: 'left'},
           {
             href: "https://github.com/ethanppl/wiki",
             label: "GitHub",
