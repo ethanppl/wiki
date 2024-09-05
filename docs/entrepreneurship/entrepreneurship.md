@@ -214,6 +214,10 @@ Related pages:
     investors not a coach.
 - [Building products is an unforgiving grind](https://threadreaderapp.com/thread/1481118406749220868.html)
   - Tests for finding product market fit
+- [Hacking sales as an introvert](https://shwin.co/blog/hacking-sales-as-an-introvert)
+  - Language: framing the offer to what appealing
+  - Delivery: zoom setup, tone, body language
+  - Story hacking: fit the offer into customer's story
 
 Ideas:
 
