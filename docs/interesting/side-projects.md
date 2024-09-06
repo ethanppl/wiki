@@ -29,3 +29,9 @@ Fun projects collection
 - [vimsudoku](https://vimsudoku.com/)
 - [Headphones Morse code translator](https://github.com/EtherDream/headphone-morse-transmitter)
 - [One Million Checkboxes](https://onemillioncheckboxes.com/)
+- [Homemade automated solar concentrator](https://github.com/remipch/solar_concentrator)
+  ([HN](https://news.ycombinator.com/item?id=41389176))
+- [Free Public APIs](https://www.freepublicapis.com/tags/popular) - availability
+  tested daily
+- [Open and shut](https://github.com/veggiedefender/open-and-shut) - type with
+  Morse code using laptop lid
