@@ -35,6 +35,7 @@ more and add more links in the future.
 
 - [Learn X in Y Minutes](https://learnxinyminutes.com/) — quick summary of
   programming languages
+- [Some programming blogs to consider reading | danluu.com](https://danluu.com/programming-blogs/)
 
 YouTube Channels:
 
