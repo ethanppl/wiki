@@ -154,3 +154,7 @@ CV maker
   - The keeper test — "if X wanted to leave, would I fight to keep them?"
   - "The key about the Netflix culture is we really try to systematically think
     what generates long-term excellence"
+- [Postmortem of my 9 year journey at Google](https://tinystruggles.com/posts/google_postmortem/)
+  ([HN](https://news.ycombinator.com/item?id=41278907))
+  - L3 to L6, what worked, what didn't, what's changed, factors that make Google
+    less attractive over time
