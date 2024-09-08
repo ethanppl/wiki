@@ -4,10 +4,238 @@
         <title>Ethan's Wiki Blog</title>
         <link>https://wiki.ethanppl.com/blog</link>
         <description>Ethan's Wiki Blog</description>
-        <lastBuildDate>Wed, 19 Jun 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Sep 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How I use keyd to remap my keyboard in Ubuntu 22.04 with Wayland]]></title>
+            <link>https://wiki.ethanppl.com/blog/2024/09/08/keyd</link>
+            <guid>https://wiki.ethanppl.com/blog/2024/09/08/keyd</guid>
+            <pubDate>Sun, 08 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Think about how you use your keyboard. Imagine how good it would be if your]]></description>
+            <content:encoded><![CDATA[<p>Think about how you use your keyboard. Imagine how good it would be if your
+<code>CapsLock</code> can be used as <code>Ctrl</code>, how much better it would be for your left
+pinky? That is the power of remapping the keyboard. It means you can customize
+the functionality of each key on your keyboard.</p>
+<p>This is a walkthrough of my setup in Ubuntu using <code>keyd</code>. A guide I wish it
+existed when I first try to find out how to remap my keyboard in Ubuntu.</p>
+<p><img decoding="async" loading="lazy" src="https://imgs.xkcd.com/comics/borrow_your_laptop.png" alt="xkcd 1806" class="img_ev3q"></p>
+<p><em><a href="https://xkcd.com/1806/" target="_blank" rel="noopener noreferrer">xkcd 1806: borrow your laptop</a></em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-i-remap-my-keyboard">Why I Remap my Keyboard<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#why-i-remap-my-keyboard" class="hash-link" aria-label="Direct link to Why I Remap my Keyboard" title="Direct link to Why I Remap my Keyboard">​</a></h2>
+<p>After I <a href="https://wiki.ethanppl.com/blog/2024/02/29/dual-boot-guide">dual-boot with Ubuntu</a> and used it as
+my daily driver for work and personal use, one key thing I missed is
+<a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a>. It is a software that I used to remap
+my keyboard in Windows and create shortcuts and "hotstrings". For example,</p>
+<ul>
+<li>Remapping <code>CapsLock</code> to <code>Ctrl</code> on hold, but works as <code>Esc</code> when clicked alone</li>
+<li><code>z+d</code> to scroll down and <code>z+u</code> to scroll up, and other ways to move my mouse</li>
+<li><code>z+e</code> and <code>z+g</code> to insert my email addresses</li>
+<li><code>|!=</code>, <code>|-&gt;</code>, <code>|&lt;-</code> will be replaced by not equal (≠), right arrow (→) and
+left arrow (←), etc., automatically</li>
+</ul>
+<p>I shared
+<a href="https://github.com/ethanppl/ahk" target="_blank" rel="noopener noreferrer">my AHK configuration in this repository</a> if
+you are interested. I might write about it later too.</p>
+<p>I think remapping keyboard is one of the most important change I made to my
+laptop ever since I know how to use a computer. It is like the first time you
+discovered you can use <code>Ctrl+C</code> rather than right click and select copy. I
+highly encourage everyone to try it, especially for keys like <code>CapsLock</code> that is
+in a very convenient location but is rarely used.</p>
+<p>So once I boot to Ubuntu, the first thing I wanted to do is to replicate this
+setup. Unfortunately, AHK only works for Windows, so I need to look for
+alternatives. The first difficulty that you might face as well is Ubuntu 22.04
+by default uses <a href="https://en.wikipedia.org/wiki/Wayland_(protocol)" target="_blank" rel="noopener noreferrer">Wayland</a> as
+the window system, but a lot of tools available online works for
+<a href="https://en.wikipedia.org/wiki/X_Window_System" target="_blank" rel="noopener noreferrer">X11</a> only. For example, there is
+<a href="https://github.com/autokey/autokey" target="_blank" rel="noopener noreferrer">AutoKey</a> that seems to be popular but only
+works for X11.</p>
+<p>I first tried <a href="https://github.com/sezanzeb/input-remapper" target="_blank" rel="noopener noreferrer"><code>input-remapper</code></a>. It
+looks promising with nice graphical user interface, but it didn't work out when
+I tried to add more complicated logics. I also tried
+<a href="https://github.com/boppreh/keyboard" target="_blank" rel="noopener noreferrer">keyboard</a>, a Python module which allows me
+to create custom keyboard events in Python code. It's like coding my own daemon,
+but I found it too much overhead and quite laggy. In the end, I found
+<a href="https://wiki.archlinux.org/title/Input_remap_utilities" target="_blank" rel="noopener noreferrer">a list of input remapping utilities</a>
+provided by Arch Linux wiki. Going through the list and I chose
+<a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer"><code>keyd</code></a> which works for me quite well over the
+past year.</p>
+<p>If you are using Windows, you can check
+<a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a> as linked above. If you are on Mac, I
+read that
+<a href="https://karabiner-elements.pqrs.org/docs/getting-started/features/" target="_blank" rel="noopener noreferrer">Karabiner</a>
+is good, but I have not used a Mac before. If your keyboard supports it,
+<a href="https://docs.qmk.fm/#/newbs" target="_blank" rel="noopener noreferrer">QMK</a>/<a href="https://www.caniusevia.com/docs/specification" target="_blank" rel="noopener noreferrer">VIA</a>
+might be good for you. Even if <code>keyd</code> doesn't work for you, you may follow along
+to get some inspiration even though the syntax of the config is not the same.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="basic-concepts-in-keyd">Basic Concepts in <code>keyd</code><a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#basic-concepts-in-keyd" class="hash-link" aria-label="Direct link to basic-concepts-in-keyd" title="Direct link to basic-concepts-in-keyd">​</a></h2>
+<p>The very first thing to understand in <code>keyd</code> config is it operates in terms of
+layers. The most intuitive way for me to understand a layer is the <code>Shift</code> key.
+When the <code>Shift</code> key is pressed and hold, a different layer is activated and all
+the keys on your keyboard have a different meaning. And what <code>keyd</code> allows you
+to do is to define custom layers, that is, defining how the layers are activated
+and deactivated, and what each key means in each of the defined layer.</p>
+<p>The major reason I select <code>keyd</code> is it works in X, sway and gnome in Wayland.
+Second, it natively supports key overloading, which allows me to configure the
+<code>CapsLock</code> key to behave as <code>Ctrl</code> on hold while <code>Esc</code> when tapped. From what I
+test, it is instant and fast too.</p>
+<p>To get started, install <code>keyd</code> from source. Clone
+<a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer">the repository</a> and build it from source.
+Follow the instructions in the
+<a href="https://github.com/rvaiya/keyd?tab=readme-ov-file#from-source" target="_blank" rel="noopener noreferrer">README</a> to
+install it.</p>
+<p>Here are some helpful commands to know:</p>
+<ul>
+<li><code>sudo systemctl enable keyd</code>: start <code>keyd</code>, probably run it once in your
+lifetime</li>
+<li><code>sudo keyd reload</code>: reload the config every time after you edit the config</li>
+<li><code>sudo keyd monitor</code>: print key events, useful to debug what is remapped</li>
+<li><code>keyd list-keys</code>: list all the valid key names, useful to check the
+possibilities</li>
+<li><code>backspace+escape+enter</code> keyboard combo: terminate <code>keyd</code> anywhere anytime in
+case you severely messed up (happened once to me)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sharing-my-configuration">Sharing my Configuration<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#sharing-my-configuration" class="hash-link" aria-label="Direct link to Sharing my Configuration" title="Direct link to Sharing my Configuration">​</a></h2>
+<p>Here is the full config if you are interested. I will explain it line by line
+below.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[ids]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">*</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[main]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Maps capslock to escape when pressed and control when held.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">capslock = overload(control, esc)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Maps z to a custom layer, but just 'z' when pressed.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">z = overload(z, z)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Shift layer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[shift:S]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## shift+capslock is capslock</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">capslock = capslock</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Custom z layer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[z]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Escape common patterns</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">i = macro(zi)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">o = macro(zo)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Emails</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">e = macro(hi@ethanppl.com)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">g = macro(hi@ethanppl.com)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Simplify complicated shortcut keys</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">v = C-S-v</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">n = C-S-a</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">x = A-f4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">s = command(systemctl suspend)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Arrows</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">j = down</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">k = up</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">h = left</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">l = right</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Media / modifier</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">m = oneshot(media)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[media]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">j = previoussong</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">k = playpause</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">l = nextsong</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">a = macro({ enter 10ms "Aut 10ms hor 10ms iza 10ms tio 10ms n": space "Bea 10ms rer space C-v)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="main-layer">Main layer<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#main-layer" class="hash-link" aria-label="Direct link to Main layer" title="Direct link to Main layer">​</a></h3>
+<p>Let's go through it line by line.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">capslock = overload(control, esc)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>This is the most important feature that I need, as introduced in the beginning.
+According to the man page, <code>overload(&lt;layer&gt;, &lt;action&gt;)</code> "activates the layer on
+hold while executes the action on tap". This line means <code>CapsLock</code> will act like
+<code>Ctrl</code> when used with other keys. But when I tap it only, it works as <code>Esc</code>.
+This makes key combo like <code>Ctrl+C</code> way easier than before, where the <code>Ctrl</code> key
+is in the bottom left. It also makes <code>Esc</code> easier, which is used a lot in Vim.
+This single line is the biggest reason why I picked <code>keyd</code>.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">z = overload(z, z)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>This might seem weird when you first look at it, but think about the key <code>z</code> as
+its own layer (remember, layer is like the <code>Shift</code> key). So when <code>z</code> is hold, it
+activates a <code>z</code> layer, like holding the <code>Shift</code> key activate the shift layer,
+but it acts as <code>z</code> when tap alone. This gives me another modifier key (e.g.
+<code>Ctrl</code>, <code>Alt</code>, <code>Shift</code>), without overriding what the default keyboard shortcuts
+that come with software programs. But before we go into this special <code>z</code> layer,
+we need to fix one thing first.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shift-layer">Shift layer<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#shift-layer" class="hash-link" aria-label="Direct link to Shift layer" title="Direct link to Shift layer">​</a></h3>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[shift:S]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">capslock = capslock</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>We don't have a <code>CapsLock</code> key after we remap it. What this two lines do is
+that, in the shift layer, map <code>CapsLock</code> to work as <code>CapsLock</code>. So to summarize,
+right now holding <code>CapsLock</code> is <code>Ctrl</code>, tapping <code>CapsLock</code> once is <code>Esc</code>, and
+doing <code>Shift+CapsLock</code> is <code>CapsLock</code>.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-z-layer">The <code>z</code> layer<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#the-z-layer" class="hash-link" aria-label="Direct link to the-z-layer" title="Direct link to the-z-layer">​</a></h3>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">i = macro(zi)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">o = macro(zo)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>First thing is since I did this custom <code>z</code> layer with AutoHotkey in Windows, I
+realized the character <code>i</code> and <code>o</code> commonly follows the <code>z</code> key (e.g. amazing
+and amazon). To avoid delay in typing or keys being ignored because I typed <code>i</code>
+before releasing <code>z</code>. I mapped press and hold <code>z</code> then <code>i</code> (<code>z+i</code>) to output
+<code>zi</code> and <code>z+o</code> to output <code>zo</code> here.</p>
+<p>I use <code>+</code> sign to mean press and hold the first key and type the second key. But
+<code>keyd</code> use <code>+</code> sign to mean chording, which means two keys to be pressed at the
+same time. I didn't use chording in my config and most of the documentation for
+keyboard shortcuts often use <code>+</code> sign like <code>Ctrl+c</code>, so I hope it's easy to
+understand.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">e = macro(hi@ethanppl.com)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">g = macro(hi@ethanppl.com)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Next, I mapped <code>z+e</code> and <code>z+g</code> to two emails that I used the most for
+communication and sign in. You will be amazed how many times you type your email
+each day. And how much better you don't need to type <code>@</code> anymore.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">v = C-S-v</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">n = C-S-a</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">x = A-f4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">s = command(systemctl suspend)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Here I simplified some commonly used shortcuts with the <code>z</code> layer. In <code>keyd</code>,
+capitalized <code>C</code>, <code>S</code> and <code>A</code> means <code>Ctrl</code>, <code>Shift</code> and <code>Alt</code> key respectively.
+And the hyphen <code>-</code> means press and hold. For example, <code>z+v</code> is an alias of
+<code>Ctrl+Shift+V</code> which is often used as paste text only or the markdown preview in
+VSCode. <code>z+n</code> is an alias of <code>Ctrl+Shift+a</code> which shows information of all tabs
+in Chrome. <code>z+x</code> is an alias of <code>Alt-F4</code> which closes a window. And <code>z+s</code> run
+the <code>systemctl suspend</code> command, which will suspend the laptop. I find this
+helpful, and somehow I trust it to suspend my laptop successfully more than just
+closing the lid of my laptop.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">j = down</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">k = up</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">h = left</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">l = right</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Here I mapped <code>j</code>, <code>k</code>, <code>h</code>, <code>l</code> to be arrow keys. For example, holding <code>z+l</code>
+will produce the right arrow key. The reason for these mappings (e.g. why <code>j</code> is
+down) are based on Vim motions. These are helpful because arrows are usually
+unreachable unless I move my palm away from my keyboard. Doing <code>z+l</code> allows me
+to do things like autocomplete in terminal without moving my palm.</p>
+<p>You might also notice that I try to pair keys that are comfortable to reach when
+holding <code>z</code> down, like I would avoid mapping anything to <code>z+a</code> that is just
+complicated and unnatural to type.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-zm-layer-a-layer-on-top-of-a-layer">The <code>z+m</code> layer, a layer on top of a layer<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#the-zm-layer-a-layer-on-top-of-a-layer" class="hash-link" aria-label="Direct link to the-zm-layer-a-layer-on-top-of-a-layer" title="Direct link to the-zm-layer-a-layer-on-top-of-a-layer">​</a></h3>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">m = oneshot(media)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Still in the <code>z</code> layer, I defined the <code>m</code> key to activate the <code>media</code> layer. It
+activates this layer as <code>oneshot</code>. The man page defined <code>oneshot</code> as "If tapped,
+activate the supplied layer for the duration of the next key press". It means
+the layer is activated once tapped, and it will be toggled off only after
+another key is pressed. This means the <code>media</code> layer is activated once we tap
+<code>z+m</code>, and we don't have to hold it for it to be active (unlike the <code>shift</code> or
+<code>z</code> layer).</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[media]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">j = previoussong</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">k = playpause</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">l = nextsong</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>I discovered these keys when browsing through the <code>keyd list-keys</code> command. And
+Ubuntu support these keys. How this works is once I pressed <code>z+m</code>, then tap <code>l</code>,
+it will emit a <code>nextsong</code> key press. What this allows me to do is whichever
+active window I am in, I can use <code>z+m</code>, then <code>j</code>, <code>k</code>, or <code>l</code> to go back, pause,
+or skip a song in Spotify, which I think is pretty amazing.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">a = macro({ enter 10ms "Aut 10ms hor 10ms iza 10ms tio 10ms n": space "Bea 10ms rer space C-v)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>One last line which doesn't relate to media actually, but I put it in any way.
+It is used to help me type the authorization header in GraphQL playground. What
+I have to do is copy the token that I want to use, then type <code>z+m</code> and <code>a</code>, it
+will help me generate the whole</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">{</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  "Authorization": "Bearer &lt;token_copied_here&gt;"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>It is taking advantage of the GraphQL playground I used that will help me close
+the <code>{</code> curly braces. With some trial and error I realize I cannot make <code>keyd</code>
+to type all keys at once, so I leave some delay in between and that works
+better. Having it run <code>Ctrl+V</code> to paste also helps a lot. I find this saves me
+quite some time each day.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="other-thoughts">Other thoughts<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#other-thoughts" class="hash-link" aria-label="Direct link to Other thoughts" title="Direct link to Other thoughts">​</a></h2>
+<p>There are many other features in <code>keyd</code> that is up to you to explore. I have
+added different configs in and out over the year until I settle down to this set
+of commands. For example, initially I also configured a shortcut to type
+<code>console.log</code> and <code>IO.inspect</code> for TypeScript and Elixir, other than the
+authorization header shortcut, but I found out I rarely used them and I removed
+them.</p>
+<p>I also tried <code>oneshot(shift)</code> which is recommended in the <code>keyd</code> README. But it
+didn't work for me. I find out I often tap <code>Shift</code> but changed my mind
+afterwards, which makes me accidentally typed characters in uppercase. I also
+find out <code>oneshot(shift)</code> doesn't work well with Shift and drag to select in
+bulk with mouse because it doesn't understand there is a mouse click and
+deactivate the shift layer after I realize the <code>Shift</code> key.</p>
+<p>Another thing I found is the <code>command()</code> call doesn't always work. I once
+installed <code>copyq</code> to get clipboard history and I configured <code>z+c</code> to be
+<code>command(copyq show)</code>, but it never worked. It's not a dealbreaker and I didn't
+spend time to debug why.</p>
+<p>One thing you might already notice is there is no more hotstrings, which I had
+in <a href="https://github.com/ethanppl/ahk" target="_blank" rel="noopener noreferrer">my AutoHotkey configuration</a>. I can no
+longer type <code>≠</code>, <code>→</code>, <code>←</code> and other special characters that easily. I realize
+configuration like <code>l = ←</code> doesn't work. After reading the man page, I believe I
+can make it works by setting up Unicode support, which have some other external
+configuration required, and I have not spent the time investigating.</p>
+<p>There is also no more mouse control. There is no way to move my mouse with
+<code>keyd</code> because all <code>keyd</code> does is to remap keys. I know there are other daemons
+in Linux that are designed for that, but I have not tried. I remember I found
+one before, but it only works for X11.</p>
+<p>There are also some minor problems that I wish to solve in the future. For
+example, <code>Ctrl+&lt;arrows&gt;</code> is a common key combination that I do, but I can't
+easily do that with <code>CapsLock+z+&lt;hjkl&gt;</code> because the relative position of
+<code>CapsLock</code> and <code>z</code> is too close.</p>
+<p>I would like to try mapping specific shortcuts to specific applications too. But
+most of the time I find the default configs coming with the app works good
+enough. Also, I did not configure any keys to launch an application because I
+find <code>meta+&lt;num&gt;</code> good enough to open the windows that are pinned to the task
+bar. For example, <code>win+2</code> always open my browser and <code>win+3</code> open VSCode.</p>
+<p>That is how my configuration in <code>keyd</code> works and some of my reasoning behind it.
+I hope you like this explanation, and it inspires you to remap your keyboard
+too. It genuinely improved my life.</p>
+<p><em>You might be interested in <a href="https://wiki.ethanppl.com/computers/keyboard">this page about keyboards</a> in
+my Wiki too.</em></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="useful-links">Useful links<a href="https://wiki.ethanppl.com/blog/2024/09/08/keyd#useful-links" class="hash-link" aria-label="Direct link to Useful links" title="Direct link to Useful links">​</a></h2>
+<ul>
+<li><a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer"><code>keyd</code> repository</a></li>
+<li><a href="https://github.com/rvaiya/keyd/tree/master/examples" target="_blank" rel="noopener noreferrer"><code>keyd</code> examples</a> by the
+creator</li>
+<li>If you are stuck, you might find a solution by searching the
+<a href="https://github.com/rvaiya/keyd/issues" target="_blank" rel="noopener noreferrer">issues in <code>keyd</code></a></li>
+</ul>]]></content:encoded>
+            <category>Ubuntu</category>
+            <category>Tips &amp; Configs</category>
+        </item>
         <item>
             <title><![CDATA[Don't say it's a weird bug, because it makes you look stupid]]></title>
             <link>https://wiki.ethanppl.com/blog/2024/06/19/weird-issue</link>
