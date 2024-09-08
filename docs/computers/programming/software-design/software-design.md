@@ -118,6 +118,10 @@ Related pages:
     query parsing
   - Performance issue: n+1, authorising with n+1, dataloaders boilerplate
   - Coupling business logic into the API, increasing complexity of API tests
+- [OAuth from First Principles | Stack Auth](https://stack-auth.com/blog/oauth-from-first-principles)
+  - Access token to avoid disclosing the full credentials
+  - Registered redirect URI to avoid impersonation
+  - State to avoid CSRF, code and client secret to avoid eavesdropping
 
 Emails
 
