@@ -30,6 +30,10 @@ more and add more links in the future.
 - [Professional Programming | GitHub @charlax](https://github.com/charlax/professional-programming)
   - Learning resources for curious software engineers by topics
   - Honestly the dream of this Wiki is to be like this list
+- [The Grug Brained Developer](https://grugbrain.dev/)
+  - The tone is what it is, but it's a pragmatic opinion on different aspect of
+    programming, worth re-reading
+  - On testing, agile, saying no, tooling, types, logging, etc.
 
 ## Sites
 
