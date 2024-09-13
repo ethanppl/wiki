@@ -25,8 +25,9 @@ Git commands.
 - [Delete a collection of branches with grep](https://stackoverflow.com/questions/3670355/can-you-delete-multiple-branches-in-one-command-with-git)
   - `` git branch -d `git branch | grep <pattern>` ``
 - [Ignore a file without `.gitignore`](https://luisdalmolin.dev/blog/ignoring-files-in-git-without-gitignore/)
-  - Use `.git/info/exclude` and maybe need
-    `git update-index —assume-unchanged path/to/file.ext`
+  - Use `.git/info/exclude`
+  - Maybe need `git update-index --assume-unchanged path/to/file.ext`
+  - Use `git update-index --no-assume-unchanged path/to/file.ext` to undo
 
 ## Links
 
