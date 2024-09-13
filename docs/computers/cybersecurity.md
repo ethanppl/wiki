@@ -96,3 +96,6 @@ completely different mindset to approach problems, but it's fun.
   - [I'm the hacker that brought down North Korea's Internet for over a week. AMA | Reddit r/IAma](https://www.reddit.com/r/IAmA/comments/1divlp3/im_the_hacker_that_brought_down_north_koreas/)
   - Finding out two gateway routers of North Korea's internet, exhaust its
     bandwidth
+- [Hacking Misconfigured S3 Buckets](https://blog.intigriti.com/hacking-tools/hacking-misconfigured-aws-s3-buckets-a-complete-guide)
+  - Finding buckets, testing permissions, missing file type restrictions may
+    lead to XSS
