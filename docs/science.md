@@ -16,6 +16,8 @@ Math
 
 - [Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/) — the
   methods of proving mathematical theorems
+- [Discrete Mathematics | An Open Introduction](https://discrete.openmathbooks.org/dmoi4.html)
+  — free and available online
 
 Mixed
 
