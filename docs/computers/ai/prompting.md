@@ -12,6 +12,9 @@ Effectively prompt AI models to utilize their power.
   - Write clear instructions, provide reference/context
   - Break down tasks, use chain of thought, inner monologue
   - Use external tools and conduct systematic test
+- [Anthropic's Prompt Engineering Interactive Tutorial](https://github.com/anthropics/courses/tree/master/prompt_engineering_interactive_tutorial)
+  - Contains 9 chapters with exercises prompting Claude 3 Haiku in Jupyter
+    notebook
 
 ## Links
 
