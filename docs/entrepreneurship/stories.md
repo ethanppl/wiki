@@ -63,3 +63,9 @@ Related
     automations and boundaries are needed
   - Lessons: don't let it burn you out, B2C is hard, be nice to people and
     assume good intention
+- [Why GitHub Actually Won](https://blog.gitbutler.com/why-github-actually-won/)
+  - GitHub starts at the right time, where contributing to open source is
+    difficult
+  - GitHub grows with Git and the Ruby community together
+  - GitHub has taste, it is built for developer, based on user namespace and a
+    pull based model
