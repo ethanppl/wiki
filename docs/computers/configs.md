@@ -24,6 +24,12 @@ Related
   - [StackExchange](https://unix.stackexchange.com/questions/348913/copy-selection-to-a-clipboard-in-tmux),
     [StackOverflow](https://stackoverflow.com/questions/48129640/how-can-i-copy-text-from-a-tmux-window-to-the-system-clipboard),
     [Clipboard | Tmux Wiki](https://github.com/tmux/tmux/wiki/Clipboard)
+- [PulseAudio/Examples | ArchWiki](https://wiki.archlinux.org/title/PulseAudio/Examples)
+  - Problem I faced: plugin mic also changed the output device from earphones to
+    mic output
+  - Solution: select an input only profile for the mic card
+  - `set-card-profile <card-name> <profile-name>`
+    ([reference](https://wiki.archlinux.org/title/PulseAudio/Examples#Set_the_default_output_sink_profile))
 
 ### Windows
 
