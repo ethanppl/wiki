@@ -132,3 +132,10 @@ Improve one's cognitive capability.
     It can be rock-climbing, driving, playing video games, studying, etc.
   - Allowing the conscious process of evaluating the stupid thoughts is already
     better than reflexively rejecting
+- [How to succeed at MrBeast Production](https://drive.google.com/file/d/1YaG9xpu-WQKBPUi8yQ4HaDYQLUSa7Y3J/view)
+  - Whether you like MrBeast videos or not, I think worth reading
+  - If you want quick summary, check
+    [Simon Willison post](https://simonwillison.net/2024/Sep/15/how-to-succeed-in-mrbeast-production/)
+    ([HN](https://news.ycombinator.com/item?id=41549649))
+  - Bits about making viral videos, bits about working effectively, ownership,
+    communication, creativity, etc.
