@@ -205,3 +205,5 @@ Working as a Software Engineer:
   - A collection of 10+ good articles on programming, highly recommend
   - All of them worth to be listed in this wiki
   - From code structure, system design, hiring, engineering mindset, etc.
+- [Goodhart's Law in Software Engineering](https://buttondown.com/hillelwayne/archive/goodharts-law-in-software-engineering/)
+  > When a measure becomes a target, it ceases to be a good measure.
