@@ -7,6 +7,10 @@ Design characters
 - [Fonts Knowledge | Google Fonts](https://fonts.google.com/knowledge)
   - Variable font, accessibility and readability, choosing font type, etc.
 
+## Sites
+
+- [Variable Fonts](https://v-fonts.com/)
+
 ## Links
 
 - [A rant on web font licenses](https://manuelmoreale.com/a-rant-on-web-font-licenses)
