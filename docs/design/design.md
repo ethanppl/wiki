@@ -99,3 +99,5 @@ Guides
     etc.
 - [Toasts are Bad UX](https://maxschmitt.me/posts/toasts-bad-ux)
   - Because it disappears, unknown delay time, but still better than no feedback
+- [How to improve your product and design taste](https://docs.google.com/document/d/1XAsKwVGdJ-Ry3T4fpY8f_IeHdQnmnL3A9FpiB11Z3a8)
+  - What you read, what product you use, what people you are around with
