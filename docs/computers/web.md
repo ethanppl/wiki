@@ -10,6 +10,23 @@ The web.
   - Protect the victim and go after the criminals, not cut off all speech
 - [Internet Artifacts | neal fun](https://neal.fun/internet-artifacts/)
   - From the ARPANET in 1977 to the Internet communicator in 2007
+- [Splitting the Web | Ploum](https://ploum.net/2023-08-01-splitting-the-web.html)
+  ([HN](https://news.ycombinator.com/item?id=36955146))
+  - Maybe a little bit extreme, the Internet is always split in some way, but
+    it's an interesting topic to look into
+- [The Man Who Killed Google Search](https://www.wheresyoured.at/the-men-who-killed-google/)
+  - When head of search is replaced by the head of Ads
+  - When a product is made to extract value from the users rather than providing
+    value to the users
+  - When a software product is managed by business consultancy that eyes on
+    short term gains rather than product designers and software engineers that
+    built it
+- [Forbes Marketplace: The Parasite SEO Company Trying to Devour Its Host](https://larslofgren.com/forbes-marketplace/)
+  ([HN](https://news.ycombinator.com/item?id=41590466))
+  - Ever wonder why Forbes appear in any search results?
+  - Abusing the host site reputation by running SEO content that has little
+    relation with the host
+  - Deep dive into who controls Forbes Marketplace and their earnings
 
 Web Environment Integrity (WEI)
 
@@ -23,11 +40,3 @@ Web Environment Integrity (WEI)
 - [Google v.s. the open web](https://interpeer.io/blog/2023/07/google-vs-the-open-web/)
   - It's not just targeting bots, it's also advertisement
   - Reactions to the policy and rebuttals from the author
-- [Splitting the Web | Ploum](https://ploum.net/2023-08-01-splitting-the-web.html)
-  ([HN](https://news.ycombinator.com/item?id=36955146))
-  - Maybe a little bit extreme, the Internet is always split in some way, but
-    it's an interesting topic to look into
-- [Engineering for Slow Internet](https://brr.fyi/posts/engineering-for-slow-internet)
-  - Do not hardcode timeout, prefer incremental transfer
-  - Allow users to bring their own downloader, provide URL, allow pause and
-    resume, show progress, etc.
