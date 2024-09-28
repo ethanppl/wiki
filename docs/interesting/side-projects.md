@@ -38,3 +38,4 @@ Fun projects collection
   tested daily
 - [Open and shut](https://github.com/veggiedefender/open-and-shut) - type with
   Morse code using laptop lid
+- [Time Flies](https://time-flies.koenvangilst.nl/)
