@@ -23,12 +23,15 @@ Fun, pet projects
   - How to solve sudoku: skip invalid, minimum remaining value, arc consistency
   - How to generate soduku requires knowing how to solve sudoku to rate the
     difficulty
+- [One Million Checkboxes](https://onemillioncheckboxes.com/)
+  - [Scaling one million checkboxes to 650 checks](https://eieio.games/essays/scaling-one-million-checkboxes/)
+  - [The secret inside one million checkboxes](https://eieio.games/essays/the-secret-in-one-million-checkboxes/)
+  - [Data and code from one million checkboxes](https://eieio.games/essays/one-million-checkboxes-data-and-code/)
 
 Fun projects collection
 
 - [vimsudoku](https://vimsudoku.com/)
 - [Headphones Morse code translator](https://github.com/EtherDream/headphone-morse-transmitter)
-- [One Million Checkboxes](https://onemillioncheckboxes.com/)
 - [Homemade automated solar concentrator](https://github.com/remipch/solar_concentrator)
   ([HN](https://news.ycombinator.com/item?id=41389176))
 - [Free Public APIs](https://www.freepublicapis.com/tags/popular) - availability
