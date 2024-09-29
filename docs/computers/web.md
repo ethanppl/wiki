@@ -27,6 +27,8 @@ The web.
   - Abusing the host site reputation by running SEO content that has little
     relation with the host
   - Deep dive into who controls Forbes Marketplace and their earnings
+  - [Same for CNN and USA Today](https://larslofgren.com/cnn-usa-today-forbes-marketplace/)
+    ([HN](https://news.ycombinator.com/item?id=41670210))
 
 Web Environment Integrity (WEI)
 
