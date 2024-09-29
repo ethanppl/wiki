@@ -41,3 +41,9 @@ Why write?
   - Explore, articulate, reflect and reveal gaps in knowledge consistently
   - The Feynman Technique: research → explain → fill in holes → simplify and
     make analogies → explain …
+- [Why I still blog after 15 years](https://www.jonashietala.se/blog/2024/09/25/why_i_still_blog_after_15_years/)
+  ([HN](https://news.ycombinator.com/item?id=41646531))
+  - To stay focus, to document and do reviews, to improve writing
+  - Evolution of tech stack of the blog and content of the blog
+  - More importantly, motives aren't external:
+    > I keep this blog for me to write, not necessarily for others to read.
