@@ -52,3 +52,9 @@ Developing and maintaining open source software.
   - Consumers need to stop demanding OSS maintainers
 - [How contributing to open source helped you | lobste.rs](https://lobste.rs/s/4lplbe/how_contributing_open_source_helped_you)
   - To be a better developer or landed you a job
+- [The messy WordPress drama, explained](https://www.theverge.com/2024/9/27/24256361/wordpress-wp-engine-drama-explained-matt-mullenweg)
+  - WP Engine v.s. WordPress.com v.s. WordPress.org
+  - Trademarks, licenses, open source, is there an obligation to contribute
+    back?
+- [Being raised by the Internet](https://jimmyhmiller.github.io/raised)
+  - Partially why open computing is important
