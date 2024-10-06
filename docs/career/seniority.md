@@ -95,3 +95,7 @@ Moving towards seniority/maturity in work.
   - Pacing, the leader pace and the member pace
   - Be honesty and transparent, constant measurement
   - Set goals, make incremental changes and carefully name the repercussions
+- [What Your Job Ad Says About You](https://www.talentstuff.com/blog/what-your-job-ad-says-about-you)
+  - Competitive salary and years of experience means nothing
+  - Instead of listing lengthy requirements, put what the candidate is expected
+    to do in the first year
