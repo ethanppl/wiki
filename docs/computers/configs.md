@@ -30,6 +30,8 @@ Related
   - Solution: select an input only profile for the mic card
   - `set-card-profile <card-name> <profile-name>`
     ([reference](https://wiki.archlinux.org/title/PulseAudio/Examples#Set_the_default_output_sink_profile))
+- [A Guide to Customizing Your tmux conf](https://hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/)
+  - Changing the prefix key, split commands, pane navigation, etc.
 
 ### Windows
 
