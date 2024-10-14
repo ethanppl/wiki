@@ -102,3 +102,7 @@ completely different mindset to approach problems, but it's fun.
 - [Using YouTube to steal your files](https://lyra.horse/blog/2024/09/using-youtube-to-steal-your-files)
   ([HN](https://news.ycombinator.com/item?id=41608949))
   - Using embedded YouTube links, multiple redirects and clickjacking
+- YouTube:
+  [Exposing the Threat in Our Phone System | Veritasium](https://youtu.be/wVyu7NB7W6Y)
+  - Tracking location, intercepting calls and messages through vulnerabilities
+    in SS7, a protocol use in 2G and 3G
