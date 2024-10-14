@@ -92,3 +92,5 @@ Courses
 - [Building the next generation of AI infrastructure at home | IFP](https://ifp.org/compute-in-america-building-the-next-generation-of-ai-infrastructure-at-home/)
   - [How to Build an AI Data Center](https://ifp.org/compute-in-america-building-the-next-generation-of-ai-infrastructure-at-home/)
     - Cost, power, computing devices, network, cooling, reliability
+- [Summary of Ilya Sutskevers AI Reading List](https://tensorlabbet.com/2024/09/24/ai-reading-list/)
+  - A list of short summaries of the 30 papers reading list
