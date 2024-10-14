@@ -99,3 +99,6 @@ completely different mindset to approach problems, but it's fun.
 - [Hacking Misconfigured S3 Buckets](https://blog.intigriti.com/hacking-tools/hacking-misconfigured-aws-s3-buckets-a-complete-guide)
   - Finding buckets, testing permissions, missing file type restrictions may
     lead to XSS
+- [Using YouTube to steal your files](https://lyra.horse/blog/2024/09/using-youtube-to-steal-your-files)
+  ([HN](https://news.ycombinator.com/item?id=41608949))
+  - Using embedded YouTube links, multiple redirects and clickjacking
