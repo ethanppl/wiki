@@ -29,6 +29,9 @@ The web.
   - Deep dive into who controls Forbes Marketplace and their earnings
   - [Same for CNN and USA Today](https://larslofgren.com/cnn-usa-today-forbes-marketplace/)
     ([HN](https://news.ycombinator.com/item?id=41670210))
+- [Google Chrome is switching to Manifest V3, but what does that mean for ad blockers?](https://www.xda-developers.com/google-chrome-manifest-v3-ad-blockers/)
+  - From `webRequest` API to the `declarativeNetRequest` API, from uBlock Origin
+    to uBlock Origin Lite
 
 Web Environment Integrity (WEI)
 
