@@ -58,3 +58,6 @@ Developing and maintaining open source software.
     back?
 - [Being raised by the Internet](https://jimmyhmiller.github.io/raised)
   - Partially why open computing is important
+- [Open source business model struggles at WordPress](https://blog.pragmaticengineer.com/wordpress-struggles/)
+  - The problem of "freeriding" on opens source, similar problem like Redis →
+    Valkey
