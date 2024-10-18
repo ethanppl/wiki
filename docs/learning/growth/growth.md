@@ -139,3 +139,6 @@ Improve one's cognitive capability.
     ([HN](https://news.ycombinator.com/item?id=41549649))
   - Bits about making viral videos, bits about working effectively, ownership,
     communication, creativity, etc.
+- [The quiet art of attention](https://billwear.github.io/art-of-attention.html)
+  - One's mind is the only true freedom, to gently observe, to gently respond,
+    to act from intent instead of reflex
