@@ -4,8 +4,8 @@ Working from all over the world in flexible hours.
 
 Related:
 
-- [Career](/career)
-- [Entrepreneurship](/entrepreneurship)
+- [Career](/career/career)
+- [Entrepreneurship](/entrepreneurship/entrepreneurship)
 
 ## Resources
 
