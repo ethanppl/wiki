@@ -4,8 +4,8 @@ How human behaves.
 
 Related:
 
-- [Learning](./learning/learning.md) — how human learn and what does knowledge
-  mean
+- [Learning](./learning/01-learning.md) — how human learn and what does
+  knowledge mean
 
 ## Resources
 

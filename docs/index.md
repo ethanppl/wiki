@@ -60,17 +60,17 @@ Find a topic on the sidebar that interests you, probably a topic you know or a
 topic that you are recently paying attention to. If you have no idea where to
 start, I suggest checking out these pages and their children pages:
 
-- [Learning](./learning) page: I believe learning how to learn is the most
-  important skill to have
-- [Growth](./learning/growth/growth.md) page: Seeking growth, improving one's
+- [Learning](./learning/01-learning.md) page: I believe learning how to learn is
+  the most important skill to have
+- [Growth](./learning/growth/01-growth.md) page: Seeking growth, improving one's
   cognitive capability
-- [Computers](./computers) page: This page contains the largest tree in this
-  wiki, simply because that's my interest
+- [Computers](./computers/01-computers.md) page: This page contains the largest
+  tree in this wiki, simply because that's my interest
 
 If you want some random links, random rabbit holes:
 
-- [Interesting](./interesting/incidents.md) page: things I don't know how to
-  categorize but I find them interesting
+- [Interesting](./interesting/01-interesting.md) page: things I don't know how
+  to categorize, but I find them interesting
 - [Write-ups](./interesting/write-ups.md) page: people write down what they
   figured out and the journey along the way
 - [Astronomy](./astronomy.md) page: space is interesting

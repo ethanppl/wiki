@@ -25,8 +25,8 @@ in exchange for a potentially bigger reward. Bigger stick. Bigger carrot.
 
 Related pages:
 
-- [Career](/career/career.md) — as an entrepreneur, help others build a good
-  career and shape a better working environment.
+- [Career](/career/career) — as an entrepreneur, help others build a good career
+  and shape a better working environment.
 - [Remote Work](/remote/remote-work)
 
 ## Resources
