@@ -35,6 +35,10 @@ I try to split each page into three main categories:
 - **Links**: Link to any pages/videos/articles/news/posts that I think are
   related to the topic
 
+I might also add some notes on top to write down the initial "hook" that got me
+interested in the topic. Often times it's a simple picture, a YouTube video, an
+article, or just a concept that got me interested.
+
 I also save the links I put here to the
 [Internet Archive](https://archive.org/). So if you find a link is broken, try
 searching for it in the Internet Archive.
@@ -54,7 +58,7 @@ searching for it in the Internet Archive.
 
 Find a topic on the sidebar that interests you, probably a topic you know or a
 topic that you are recently paying attention to. If you have no idea where to
-start, I suggest checking out these pages:
+start, I suggest checking out these pages and their children pages:
 
 - [Learning](./learning) page: I believe learning how to learn is the most
   important skill to have
@@ -62,3 +66,12 @@ start, I suggest checking out these pages:
   cognitive capability
 - [Computers](./computers) page: This page contains the largest tree in this
   wiki, simply because that's my interest
+
+If you want some random links, random rabbit holes:
+
+- [Interesting](./interesting/incidents.md) page: things I don't know how to
+  categorize but I find them interesting
+- [Write-ups](./interesting/write-ups.md) page: people write down what they
+  figured out and the journey along the way
+- [Astronomy](./astronomy.md) page: space is interesting
+- [Sleep](./wellbeing/sleep.md) page: sleep is important

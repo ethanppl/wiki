@@ -2,6 +2,13 @@
 
 About working in a job.
 
+To some, the concept of career is controversial. It's also awkward how people
+identify themselves with their job title. As if work and career is the most
+important thing as an adult, like which subject a kid is studying in school. On
+the other hand, some might suggest the biggest growth and the biggest aspect of
+life for an adult is work and career development. Sometimes not just for the
+money, but a way of life-long learning and education.
+
 Related pages:
 
 - [Remote Work](/remote/remote-work)

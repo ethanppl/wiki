@@ -2,10 +2,11 @@
 
 Instructing computers to work for humans.
 
-I have quite some experience in C, C++, Python, JavaScript/TypeScript, Java,
-Kotlin, Elixir, Solidity, and Gleam. The following guide might not be as
-complete or beginner-friendly as I would like it to be, perhaps I will write
-more and add more links in the future.
+Sometimes, it's also not about a specific tool, programming language or
+technical design, it's to build useful product that solve problems. Solve useful
+problems, not solving problems that you think you can solve. The hot new
+framework or cool clean code architecture doesn't matter if the product is not
+useful.
 
 ## Resources
 

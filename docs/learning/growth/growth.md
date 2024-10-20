@@ -2,6 +2,12 @@
 
 Improve one's cognitive capability.
 
+Sometimes it's about the attitude. It's a mindset to cultivate. Articles often
+describe the capabilities or common practices for one to grow, but more
+importantly is the mindset behind that enables those practices to emerge
+naturally. Think of growth as a habit of tinkering and questioning. The ability
+to focus, to think and let the mind wonder about anything.
+
 ## Resources
 
 - [How to Become a Hacker | Eric Steven Raymond](http://www.catb.org/~esr/faqs/hacker-howto.html)

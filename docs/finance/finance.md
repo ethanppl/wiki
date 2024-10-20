@@ -2,13 +2,17 @@
 
 Manage money and assets.
 
-Quick notes for things I want to add:
+The very basic is to understand the
+[time value of money](https://en.wikipedia.org/wiki/Time_value_of_money). That
+is the single most important concept and why finance exist. Once it's clear why
+interest exist and why assets appreciate and depreciate relatively, then the
+textbook way of finance study these:
 
 - Money market, bonds, and stocks. Risk, return, volatility, yield, etc.
 - Diversification, risk-free vs risky assets, Markowitz portfolio, efficiency
   frontier
-- CAPM, single-index model, multi-factor model, arbitrage pricing theory,
-  Fama-french model, discounted cash flow
+- CAPM, single-index & multi-factor model, arbitrage pricing theory, Fama-french
+  model, discounted cash flow
 - Time-series: AR, MA, ARIMA, Vasicek model, ARCH, GARCH
 - Derivatives: forwards, futures, swaps, options on financial assets,
   commodities, exchange rates, interest rates

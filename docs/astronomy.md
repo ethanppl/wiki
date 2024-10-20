@@ -2,6 +2,42 @@
 
 Space.
 
+Why exploring space when we have so many problems on land (e.g.
+[Is NASA a waste of money?](https://youtu.be/lARpY0nIQx0))? What if our
+ancestors asked why farming when we struggle to hunt? Why sailing when we have
+some many problems on land? Why making planes when ship still sinks? Because
+exploring new grounds often bring inspiration to existing problems.
+[A number of inventions like phone cameras wouldn't exist without space exploration programs](https://www.jpl.nasa.gov/infographics/20-inventions-we-wouldnt-have-without-space-travel/).
+Majority of funding in space programs also goes to the people behind the
+missions, some of the most skilled people in the world. They are not just wasted
+and burnt.
+
+For me, another important thing is just to figure out who we are, where we from,
+where are we, and where will we be?
+
+- [Hubble Deep Field](https://en.wikipedia.org/wiki/Hubble_Deep_Field): A 10
+  days exposure of the darkest patch of the sky reveal 3000 previously unknown
+  young galaxies. Each galaxy has hundreds of billions of stars. While we, are
+  living in the solar system where the sun is just one of the many stars in our
+  Milky Way galaxy.
+- [Pale Blue Dot](https://en.wikipedia.org/wiki/Pale_Blue_Dot): Voyager 1
+  turning the camera around and taking a picture of Earth before leaving the
+  Solar System. The earth is just a pixel in the vast cosmos.
+
+  > From this distant vantage point, the Earth might not seem of any particular
+  > interest. But for us, it's different. Consider again that dot. That's here.
+  > That's home. That's us. On it everyone you love, everyone you know, everyone
+  > you ever heard of, every human being who ever was, lived out their lives.
+  > The aggregate of our joy and suffering, thousands of confident religions,
+  > ideologies, and economic doctrines, every hunter and forager, every hero and
+  > coward, every creator and destroyer of civilization, every king and peasant,
+  > every young couple in love, every mother and father, hopeful child, inventor
+  > and explorer, every teacher of morals, every corrupt politician, every
+  > "superstar," every "supreme leader," every saint and sinner in the history
+  > of our species lived there – on a mote of dust suspended in a sunbeam.
+  >
+  > Carl Sagan
+
 Related pages:
 
 - [Engineering / Rocket](engineering/rocket)

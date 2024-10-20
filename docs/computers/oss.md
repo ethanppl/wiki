@@ -2,6 +2,11 @@
 
 Developing and maintaining open source software.
 
+Open source is great and important in making computers general purpose.
+Computers are useful because you can command it to do whatever you can. The
+ability to modify the source code is important in supporting that. But
+maintaining open source is challenging.
+
 ## Links
 
 - [Professional Maintainers: A Wake-up Call | Filippo](https://words.filippo.io/professional-maintainers/)

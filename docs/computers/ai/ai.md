@@ -2,6 +2,9 @@
 
 Anything about computers learning and "thinking".
 
+Learning AI provides us a way to learn about ourselves, how does human
+consciousness and intelligence work?
+
 ## Resources
 
 Using AI
@@ -94,3 +97,7 @@ Courses
     - Cost, power, computing devices, network, cooling, reliability
 - [Summary of Ilya Sutskevers AI Reading List](https://tensorlabbet.com/2024/09/24/ai-reading-list/)
   - A list of short summaries of the 30 papers reading list
+- [The society of mind | Marvin Minsky](http://aurellem.org/society-of-mind/)
+  - A book proposing a model where intelligence is like a society of agents
+  - A way to model artificial intelligence, and maybe a way to model how human
+    mind works

@@ -2,6 +2,22 @@
 
 Why write?
 
+Because writing is a helpful form of communication:
+
+- Journal: organizing thoughts, summarizing feelings, planning for next
+- Blog: transferring knowledge, explaining is the best way to learn
+- Work setting: just write it down for the future, to align everyone
+
+Be clear and concise.
+
+## Resources
+
+- [Google Developers Technical Writing](https://developers.google.com/tech-writing/overview)
+  - [Part 1](https://developers.google.com/tech-writing/one): word choice,
+    active voice, list, tables, etc.
+  - [Part 2](https://developers.google.com/tech-writing/two): more on the
+    tactics like draft, self-editing, organizing, illustrating, etc.
+
 ## Links
 
 - [Write It Down | Deb Liu](https://debliu.substack.com/p/write-it-down)

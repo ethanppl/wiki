@@ -2,6 +2,11 @@
 
 How human behaves.
 
+Related:
+
+- [Learning](./learning/learning.md) — how human learn and what does knowledge
+  mean
+
 ## Resources
 
 - [Cognitive Bias | The Decision Lab](https://thedecisionlab.com/biases) — A

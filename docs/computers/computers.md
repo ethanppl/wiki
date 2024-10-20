@@ -1,6 +1,6 @@
 # Computers
 
-Anything about computers.
+Tricking electrons to work for us.
 
 ## Resources
 

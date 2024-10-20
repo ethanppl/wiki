@@ -2,6 +2,27 @@
 
 Running a business.
 
+Entrepreneurship is interesting because it is probably the fastest way (fast ≠
+easy) to accumulate wealth in capitalism. But capitalism does not care you want
+to accumulate wealth because capitalism is just exchange of goods. It is about
+selling the right thing at the right time to the right buyer. It's seeing a need
+or a problem in the market that is painful enough once you solved it people are
+willing to exchange with you asset they have, most likely in the form of money.
+
+Some like me might find entrepreneurship, capitalism, sales, marketing, etc.
+sound evil, sound like bluffing or deceiving. One way that is helpful to think
+about it is, it is all about exchanging value. For example, the marginal utility
+of an extra cup of coffee is low for a coffee shop owner, while the marginal
+utility of a few dollars relative to the coffee is low for the buyer, and it is
+a win-win situation where capitalism enables exchange of the two. The process of
+entrepreneurship and sales is to provide that solution to people, and find
+people that can benefit from the win-win situation. People that are aware and
+afraid of being deceiving are the one that won't sell snake oil, so don't worry.
+
+And to look from the perspective of economics, entrepreneurs are the
+risk-takers. Compare to the labors, entrepreneurs take the risk of the business,
+in exchange for a potentially bigger reward. Bigger stick. Bigger carrot.
+
 Related pages:
 
 - [Career](/career/career.md) — as an entrepreneur, help others build a good
