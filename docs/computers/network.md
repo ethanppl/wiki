@@ -69,6 +69,12 @@ Communications between computers.
   - Things that are improved and things that are worse while we have more
     abstractions. Tailscale vision to redesign the Internet because it is now
     centralized in cloud providers hand
+- [IPv6 Transition](https://www.potaroo.net/ispcol/2024-10/ipv6-transition.html)
+  - A long read about history and current transition from v4 to v6
+  - There is no urge to fully transition to v6, the dual-stack setup will exist
+    for decades
+  - Because IPv6 is not critical and no monetary incentive to a large set of end
+    users service delivery
 
 Ethernet
 
