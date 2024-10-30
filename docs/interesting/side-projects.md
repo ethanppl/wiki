@@ -27,6 +27,9 @@ Fun, pet projects
   - [Scaling one million checkboxes to 650 checks](https://eieio.games/essays/scaling-one-million-checkboxes/)
   - [The secret inside one million checkboxes](https://eieio.games/essays/the-secret-in-one-million-checkboxes/)
   - [Data and code from one million checkboxes](https://eieio.games/essays/one-million-checkboxes-data-and-code/)
+- [Sudoku in python packaging](https://simonwillison.net/2024/Oct/21/sudoku-in-python-packaging/)
+  - Solving Sudoku using the Python package resolver, using the dependencies
+    resolver and treating cell number as version number
 
 Fun projects collection
 
