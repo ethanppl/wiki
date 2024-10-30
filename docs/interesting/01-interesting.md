@@ -85,6 +85,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - How to break the game? What happens if we do the second link, or a random
     link?
 - [The Art of Andrew Wulf](https://digcon.art/) — cool generative art
+- YouTube:
+  [Changing a light bulb at the top of Salisbury Cathedral's Spire](https://youtu.be/kzi_M1dzxYQ)
 
 April Fools
 
