@@ -30,6 +30,13 @@ Related pages:
     up is the most valuable skill to learn. Start learning it early.
   - At last, never be afraid to be a small fish in a big pond, go where the
     actions are happening
+- [80000 hours career guide](https://80000hours.org/start-here/)
+  - How to make good use of the 80000 hours in your career to do good
+  - What makes the biggest impact and what is the most important problem to work
+    on
+  - [What are the most precessing world problems](https://80000hours.org/problem-profiles/)
+  - [The most useful skills for making a difference](https://80000hours.org/skills/)
+  - [The highest-impact career paths](https://80000hours.org/career-reviews/)
 
 ## Sites
 
