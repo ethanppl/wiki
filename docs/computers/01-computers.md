@@ -4,6 +4,8 @@ Tricking electrons to work for us.
 
 ## Resources
 
+- [The Secret Life of Programs](https://www.kea.nu/files/textbooks/humblelearn2code/secretlifeofprograms.pdf)
+  - A free book that explains how computers work starting from bits
 - [Code: The Hidden Language of Computer Hardware and Software](https://www.codehiddenlanguage.com/)
   - A book that explains how computers work from the ground up
 - [NAND to Tetris Course](https://www.nand2tetris.org/course)
