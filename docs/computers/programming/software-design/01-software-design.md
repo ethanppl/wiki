@@ -6,7 +6,7 @@ Related pages:
 
 - [Computers / Cybersecurity](/computers/cybersecurity)
 - [Computers / Database](/computers/database)
-- [Computers / Network](/computers/network)
+- [Computers / Network](/computers/network/network)
 
 ## Notes
 
