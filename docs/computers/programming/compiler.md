@@ -18,3 +18,5 @@ Translates code.
     semantics of programs
   - Intermediate representations, data flow, optimizations, parallelization,
     just-in-time compilation, garbage collection
+- [Crafting Interpreters](https://craftinginterpreters.com/)
+  - Implement a full-features scripting language
