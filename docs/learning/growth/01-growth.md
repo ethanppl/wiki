@@ -148,3 +148,12 @@ to focus, to think and let the mind wonder about anything.
 - [The quiet art of attention](https://billwear.github.io/art-of-attention.html)
   - One's mind is the only true freedom, to gently observe, to gently respond,
     to act from intent instead of reflex
+- YouTube:
+  [Are Smart People Ruining Democracy | Dan Kahan | Ted](https://youtu.be/1KFtQV7SiII)
+  - How motivated cognition affects people with higher numeracy/ordinary science
+    intelligence/open-minded thinking score
+  - Motivated cognition: selectively credit/discredit evidences based on
+    political views
+  - Understand this affects everyone and be scientifically curious
+  - Explained by Veritasium:
+    [On these questions, smarter people do worse](https://youtu.be/zB_OApdxcno)
