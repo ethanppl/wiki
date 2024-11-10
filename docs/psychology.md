@@ -38,6 +38,7 @@ Related:
   - Be clear: simple strategy, easy to cooperate, establish pattern of trust
   - Strategies evolves, and they can change the environment they play in because
     the game is not zero-sum
+  - [The evolution of trust | Nicky Case](https://ncase.me/trust/)
 - YouTube:
   [37 - Why is this number everywhere? Veritasium](https://youtu.be/d6iQrh2TK98)
   - Asking people to pick random number is easy to land on 3, 7, 37, 73
