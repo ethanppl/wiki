@@ -91,3 +91,9 @@
   - Using accelerometer data, convert it to vibration frequency, train a model
     to determine whether it's a train ride or not, mix data with train schedule,
     last known GPS and time since then to estimate location
+- [How we built the black friday cyber monday 2023 Globe | Shopify](https://shopify.engineering/how-we-built-shopifys-bfcm-2023-globe)
+  - A 3D animation of sparkling arcs, fireworks, glowing cities, small planes,
+    camera animations, etc.
+  - Optimizing the rendering by instancing, grouping curves with the same
+    materials and geometry to the same GPU call, while each has unique positions
+    and rotations
