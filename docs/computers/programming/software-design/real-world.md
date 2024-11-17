@@ -87,3 +87,7 @@
   - Using web assembly implementation of SQLite
   - Each tab has read worker while write access is forwarded to the same worker,
     the worker of the active tab
+- [No GPS required: our app can now locate underground trains | Transit](https://blog.transitapp.com/go-underground/)
+  - Using accelerometer data, convert it to vibration frequency, train a model
+    to determine whether it's a train ride or not, mix data with train schedule,
+    last known GPS and time since then to estimate location
