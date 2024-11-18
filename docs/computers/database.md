@@ -109,6 +109,12 @@ Postgres
 - [How postgres stores data on disk](https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/)
   - Heap, segment, page, tuple
   - Using the `pageinspect` extension to see how data are stored
+- [What I Wish Someone Told Me About Postgres](https://challahscript.com/what_i_wish_someone_told_me_about_postgres)
+  ([HN](https://news.ycombinator.com/item?id=42111896))
+  - Normalization and general advices
+  - Making `psql` useful: use pager, auto-completion, backslash shortcuts, copy
+    to CSVs
+  - Common issues in indexes, locks, transactions, and JSONB
 
 SQL
 
