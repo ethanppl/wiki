@@ -113,6 +113,12 @@ science/programming.
 - [Fixing a Bug in Google Chrome as a First-Time Contributor](https://cprimozic.net/blog/fixing-a-bug-in-google-chrome/)
   - An interesting read of the process of debugging, fixing, submitting a change
     list, writing tests and releasing
+- [Legacy Shmegacy](https://davidreiscto.substack.com/p/legacy-shmegacy)
+  > Interestingly, in most cases the legacy label is about the people who assign
+  > it, not the code it labels
+  - Don't write crappy code and don't adapt new tech for no real benefit
+  - Face it, learn it, and "delegacify". Be a problem solver not a problem
+    creator
 
 Cognitive Load:
 
