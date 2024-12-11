@@ -239,6 +239,10 @@ Related pages:
   - Language: framing the offer to what appealing
   - Delivery: zoom setup, tone, body language
   - Story hacking: fit the offer into customer's story
+- [Lessons from my First Exit](https://mtlynch.io/lessons-from-my-first-exit/)
+  - Long read of a story of the sale of TinyPilot, bootstrapped, founder ran, 4
+    years hardware company
+  - What went well, what didn't and what surprises
 
 Ideas:
 
