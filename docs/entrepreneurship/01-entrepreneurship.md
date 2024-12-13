@@ -243,6 +243,12 @@ Related pages:
   - Long read of a story of the sale of TinyPilot, bootstrapped, founder ran, 4
     years hardware company
   - What went well, what didn't and what surprises
+- [The cold email handbook | Matt Redler](https://www.za-zu.com/blog/playbook)
+  - Why cold email works
+  - Infrastructure required: multiple domains, redirecting, SPF, DMARC, DKIM,
+    warm up inboxes, etc.
+  - Writing the email: who to send and what to write, more examples and tools in
+    the guide
 
 Ideas:
 
