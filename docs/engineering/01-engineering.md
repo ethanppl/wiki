@@ -106,6 +106,12 @@ Websites:
   - From the perspective of a red team, how to use this knowledge to cover
     identities
   - Long but very interesting, exciting and energizing vibe
+- YouTube:
+  [Why are cooling towers shaped like that? | Practical Engineering](https://youtu.be/tmbZVmXyOXM)
+  - Evaporation and convection to cool down water with dry air flowing from
+    bottom to the top
+  - The shape is primarily for better structural strength
+  - Various considerations in to use or not use cooling towers in real life
 
 Concrete / Cement
 
