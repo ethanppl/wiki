@@ -5,7 +5,7 @@ Design/architect software applications/systems.
 Related pages:
 
 - [Computers / Cybersecurity](/computers/cybersecurity)
-- [Computers / Database](/computers/database)
+- [Computers / Database](/computers/database/database)
 - [Computers / Network](/computers/network/network)
 
 ## Notes

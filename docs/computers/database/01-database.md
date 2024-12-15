@@ -1,6 +1,6 @@
 # Database
 
-Store and query data. I will add more later.
+Store and query data.
 
 ## Resources
 
