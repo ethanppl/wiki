@@ -99,3 +99,12 @@ Moving towards seniority/maturity in work.
   - Competitive salary and years of experience means nothing
   - Instead of listing lengthy requirements, put what the candidate is expected
     to do in the first year
+- [Mistakes as a new manager](https://terriblesoftware.org/2024/12/04/the-6-mistakes-youre-going-to-make-as-a-new-manager/)
+  ([HN](https://news.ycombinator.com/item?id=42341506))
+  - Delegation: learn to delegate work and empower the team
+  - Dopamine: changes from shipping to giving feedback, reports, etc.
+  - Quality v.s. quantity: learn to build high quality team not a bigger team
+  - Engagement: too much means micromanaging, too little means disengaging
+  - Perception: how to show your work as a manager, clarity and visibility of
+    effort
+  - Success metric: Is the team shipping? Is the team happy?
