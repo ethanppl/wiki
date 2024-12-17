@@ -249,6 +249,11 @@ Related pages:
     warm up inboxes, etc.
   - Writing the email: who to send and what to write, more examples and tools in
     the guide
+- [Evaluating ideas | Reddit](https://old.reddit.com/r/Entrepreneur/comments/p0d1q9/there_are_only_4_fundamental_ways_to_make_money/h868ba8/)
+  - Channel/distribution > problem > solution > business
+  - What people can be reached > Is there a painful problem > Is there a better
+    solution > Is there a business out of the solution
+    > Don't sell what you can make, make what you can sell
 
 Ideas:
 
