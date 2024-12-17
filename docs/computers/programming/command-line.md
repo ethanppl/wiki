@@ -51,3 +51,6 @@ Text-based interface.
     - `rlwrap python` to wrap a program with readline support
 - [Terminal Colours are Tricky | Julia Evans](https://jvns.ca/blog/2024/10/01/terminal-colours/)
   - 16 ANSI colours, configuring colours, problem of colours in vim, etc.
+- ["Rules" that terminal programs follow | Julia Evans](https://jvns.ca/blog/2024/11/26/terminal-rules/)
+  ([HN](https://news.ycombinator.com/item?id=42401011))
+  - Ctrl-C, Ctrl-D, Ctrl-W, 16 ANSI colors, `-` for stdin/stdout
