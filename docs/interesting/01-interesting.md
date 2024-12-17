@@ -87,6 +87,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [The Art of Andrew Wulf](https://digcon.art/) — cool generative art
 - YouTube:
   [Changing a light bulb at the top of Salisbury Cathedral's Spire](https://youtu.be/kzi_M1dzxYQ)
+- YouTube:
+  [Smaller Than Pixel Art: Sub-Pixel Art | Japhy Riddle](https://youtu.be/SlS3FOmKUbE)
+  — nice music and storytelling too
 
 April Fools
 
