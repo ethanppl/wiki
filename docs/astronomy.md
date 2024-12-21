@@ -133,6 +133,9 @@ YouTube:
   - Also talked by Destin before on YouTube:
     [I was SCARED to say this to NASA...](https://youtu.be/OoJsPvmFixU)
 - [A guide to attending a space launch in person](https://countdowntoignition.com/guide-to-attending-launch)
+- [Moon | Bartosz Ciechanowski](https://ciechanow.ski/moon/)
+  ([HN](https://news.ycombinator.com/item?id=42443229))
+  - Detailed, interactive explanation to moon orbit and many other properties
 
 ISS
 
