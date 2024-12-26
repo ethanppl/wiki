@@ -97,3 +97,9 @@
   - Optimizing the rendering by instancing, grouping curves with the same
     materials and geometry to the same GPU call, while each has unique positions
     and rotations
+- [How bloom filters made SQLite 10x faster](https://avi.im/blag/2024/sqlite-past-present-future/)
+  ([HN](https://news.ycombinator.com/item?id=42486610))
+  - SQLite used a nested loop join
+  - Optimizing query plan, using hash join, or other query algorithm is resource
+    intensive
+  - Instead, use a bloom filter to determine if the nested loop is needed
