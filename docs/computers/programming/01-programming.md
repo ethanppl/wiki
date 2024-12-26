@@ -41,6 +41,7 @@ useful.
 - [Learn X in Y Minutes](https://learnxinyminutes.com/) — quick summary of
   programming languages
 - [Some programming blogs to consider reading | danluu.com](https://danluu.com/programming-blogs/)
+- [notes | GitHub @8483](https://github.com/8483/notes)
 
 YouTube Channels:
 
