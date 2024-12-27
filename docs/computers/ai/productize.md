@@ -47,3 +47,8 @@ AI as a product.
     monitoring
 - [Secrets of the ChatGPT Linux system](https://incoherency.co.uk/blog/stories/chatgpt-linux.html)
   - On poking the sandboxed environment where ChatGPT run code
+- [How to make LLMs shut up](https://www.greptile.com/blog/make-llms-shut-up)
+  ([HN](https://news.ycombinator.com/item?id=42451968))
+  - Prompting and external judge does not work
+  - Clustering worked: use user rating to form cluster with embeddings to
+    determine if the comment is useful or not
