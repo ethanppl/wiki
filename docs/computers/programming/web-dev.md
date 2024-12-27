@@ -98,6 +98,9 @@ Developing user interfaces of web pages.
 - [Notes on implementing dark mode](https://brandur.org/fragments/dark-mode-notes)
   - `prefers-color-scheme`, tri-state of themes, theme flicker, theme changes
     from OS/tabs
+- [Server-Sent Events (SSE) are underrated](https://igorstechnoclub.com/server-sent-events-sse-are-underrated/)
+  - Unidirectional update pushed from the server, `mimetype=text/event-stream`
+  - Some constraints, considerations and best practices in the article
 
 CSS games
 
