@@ -71,3 +71,7 @@ The social impact of AI.
       better applications
   - Meta is an application company, and they are betting on the 2nd scenario
   - OpenAI is building iOS and Meta is trying to build Android
+- [How Hallucinatory A.I. Helps Science Dream Up Big Breakthroughs](https://www.nytimes.com/2024/12/23/science/ai-hallucinations-science.html?unlocked_article_code=1.j04.-_tE.s_GbP4D9PU2A)
+  - The slight variations, random probability distribution behind the scenes,
+    helped scientists track cancer, design drugs and proteins, uncover factors
+    in weather phenomena, etc.
