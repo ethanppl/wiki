@@ -122,6 +122,12 @@ Related pages:
   - Access token to avoid disclosing the full credentials
   - Registered redirect URI to avoid impersonation
   - State to avoid CSRF, code and client secret to avoid eavesdropping
+- [Bloom filters](https://samwho.dev/bloom-filters/)
+  - Bloom filter will sometimes give false positive but never false negative
+  - Store the mod of the hash of the data, to be used as an add only cache with
+    little memory required
+  - With interactive graphics on optimizing the number of bits and the number of
+    hashes to use
 
 Emails
 
