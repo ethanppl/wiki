@@ -2,11 +2,317 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wiki.ethanppl.com/blog</id>
     <title>Ethan's Wiki Blog</title>
-    <updated>2024-09-08T00:00:00.000Z</updated>
+    <updated>2024-12-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wiki.ethanppl.com/blog"/>
     <subtitle>Ethan's Wiki Blog</subtitle>
     <icon>https://wiki.ethanppl.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[How does multifactor authentication (MFA) work?]]></title>
+        <id>https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp</id>
+        <link href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp"/>
+        <updated>2024-12-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What is that 6 digits number in the authenticator app? Why those numbers change]]></summary>
+        <content type="html"><![CDATA[<p>What is that 6 digits number in the authenticator app? Why those numbers change
+every 30 seconds? How are they generated? How does the server know that this is
+the correct number? How does it work offline?</p>
+<p>Also, why do we need to scan a QR code when setting it up? What does the QR code
+contains? How secure is the whole system? What are the limitations? What to
+consider if implementing a server to support this authentication method?</p>
+<p>We will start with a some simple intuitive explanation and slowly go into the
+technical details and algorithms. Hopefully you can answer all the above
+questions after reading this. This is not a high level explanation of why it's
+good to have MFA, or how to deploy it, there are
+<a href="https://www.microsoft.com/en-us/security/blog/2020/01/15/how-to-implement-multi-factor-authentication/" target="_blank" rel="noopener noreferrer">plenty</a>
+<a href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/implementing-multi-factor-authentication" target="_blank" rel="noopener noreferrer">of</a>
+<a href="https://www.okta.com/resources/whitepaper/8-steps-for-effectively-deploying-mfa/" target="_blank" rel="noopener noreferrer">resources</a>
+<a href="https://auth0.com/blog/multifactor-authentication-mfa/" target="_blank" rel="noopener noreferrer">explaining</a> that
+already. This article focus on the details of the technology under the hood.</p>
+<p>If you are ready, let's get started. First, we need to understand what is a
+factor means in multifactor authentication.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-a-factor">What is a "factor"?<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#what-is-a-factor" class="hash-link" aria-label="Direct link to What is a &quot;factor&quot;?" title="Direct link to What is a &quot;factor&quot;?">​</a></h2>
+<p>A factor is like a key for a different kind of locks. Imagine a door has only 1
+lock, then everyone who has the key to that lock can open the door. Multifactor
+is like having multiple locks on the doors that require different keys. Even if
+you lost 1 key accidentally, the door is still locked.</p>
+<p>In digital systems, usually the lock is the username and password. If this is
+the only factor, if someone can steal or guess your password, then your account
+is compromised. If there is an extra factor, usually in a different format, like
+authenticator app or a separate physical security key, then your account will be
+secure even if your password is leaked.</p>
+<p>In <a href="https://arxiv.org/abs/2305.00945" target="_blank" rel="noopener noreferrer">a study conducted by Microsoft in 2023</a>,
+MFA reduces the risk of being compromised by 99.22%! Also, dedicated
+authenticator app like Microsoft Authenticator outperform SMS-based
+authentication.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="time-based-one-time-password-totp">Time-based one-time password (TOTP)<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#time-based-one-time-password-totp" class="hash-link" aria-label="Direct link to Time-based one-time password (TOTP)" title="Direct link to Time-based one-time password (TOTP)">​</a></h2>
+<p>This article will focus on explaining these authenticator apps, the one you see
+6 digits number changing every 30 seconds. It is called time-based one-time
+password, TOTP in short. We will know how does the TOTP algorithm generate that
+6 digits number, why does it change every 30 seconds, how does the server know
+the same 6 digits number even if the authenticator app is offline.</p>
+<p><img decoding="async" loading="lazy" alt="A typical authenticator app" src="https://wiki.ethanppl.com/assets/images/mfa-totp-app-92d78cd6ea842942be4153d5f887cdf4.webp" width="706" height="324" class="img_ev3q"></p>
+<p>The formal document that defines how TOTP should work is defined in
+<a href="https://datatracker.ietf.org/doc/html/rfc6238" target="_blank" rel="noopener noreferrer">RFC 6238</a>. TOTP is a way to
+generates a user-friendly value based on the current time, called the one time
+password (OTP), to authenticate the user. The one time password is used once
+only and cannot be reused. But before we go deep into the terminologies and how
+all these work, let's look at a simpler, imaginative scenario to understand the
+idea behind TOTP. Let's imagine we need to secure a phone call.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="explain-like-i-am-five">Explain like I am five<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#explain-like-i-am-five" class="hash-link" aria-label="Direct link to Explain like I am five" title="Direct link to Explain like I am five">​</a></h2>
+<p>Imagine Alice and Bob phone call each other to share updates and secrets, but
+they are often scared that the phone is not picked up by one of them but
+Mallory, so they both come up with a secret phrase, "chipmunk" and "chinchilla".
+Every time before the phone call starts, Alice and Bob need to tell their secret
+phrase. Only if both sides are correct, they start talking. It works well until
+one time Bob realize Mallory is listening from behind and hear the secret phrase
+"chinchilla", what can they do?</p>
+<p><img decoding="async" loading="lazy" alt="Phone call with secret phrase" src="https://wiki.ethanppl.com/assets/images/phone-5801a5ec8d9102fa14ee7f9993bdd901.webp" width="850" height="346" class="img_ev3q"></p>
+<p>Turns out, there is a special species of magic parrot. The magic parrots are
+always twin. At any given time, you can ask the magic parrot to say a random
+word. The two magic parrots will say the same word even if they are physical
+separated far away.</p>
+<p><img decoding="async" loading="lazy" alt="Phone call secured by magic parrot twins" src="https://wiki.ethanppl.com/assets/images/phone-with-parrot-6503e7561bf57e58f830772debda7e7c.webp" width="1282" height="532" class="img_ev3q"></p>
+<p>Now, as long as Alice and Bob keep their magic parrot secure to them, they are
+safe. Even if Mallory knows the secret phrase "chipmunk" or "chinchilla", she
+cannot impersonate Alice and Bob because she doesn't have that specific magic
+parrot. She cannot reuse "goose" either because this word is randomly generated
+by the magic parrot and used once only.</p>
+<p>If you understand why the magic parrot makes it more secure, then you know why
+TOTP makes authentication systems more secure. The magic parrot is the second
+factor. In TOTP, "chipmunk" or "chinchilla", is your username and password. And
+"goose" is the TOTP, the generated one-time password. The magic parrot is the
+TOTP algorithm. It can generate a random value at any given time.</p>
+<p>In the real world, there is no magic parrot twins that work like this, but we
+can create something digitally that works in the same way.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="totp-in-detail">TOTP in detail<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#totp-in-detail" class="hash-link" aria-label="Direct link to TOTP in detail" title="Direct link to TOTP in detail">​</a></h2>
+<p>This is the typical flow of an authentication with TOTP.</p>
+<p><img decoding="async" loading="lazy" alt="The typical flow of TOTP authentication" src="https://wiki.ethanppl.com/assets/images/totp-sequence-f963aee0e7459a8de39f8cfe67a239a1.webp" width="1262" height="766" class="img_ev3q"></p>
+<ol>
+<li>The user first login with username and password, or any other authentication
+methods like
+<a href="https://en.wikipedia.org/wiki/Single_sign-on" target="_blank" rel="noopener noreferrer">single signed-on (SSO)</a></li>
+<li>The server verifies the identity and confirm that the user has enabled
+multifactor authentication, so the server requests the user to provide the
+TOTP</li>
+<li>The user get the TOTP from where it is stored, e.g. authenticator app or
+password managers, and submits it</li>
+<li>The server also generates the TOTP from its end and compare the two is the
+same</li>
+</ol>
+<p>We are going to focus on step 3 and 4, particularly how the user and the server
+are able to generate the TOTP without communicating at that point.</p>
+<p>To understand how TOTP is generated and why it is secure, we need to know three
+basic ingredients. A hash function, the Unix timestamp and a shared secret
+between the server and the user.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hash-functions">Hash functions<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#hash-functions" class="hash-link" aria-label="Direct link to Hash functions" title="Direct link to Hash functions">​</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Hash_function" target="_blank" rel="noopener noreferrer">Hash functions</a> in short are any
+one-way function that can map any data into another fixed size value. It has a
+few key properties that you need to keep in mind:</p>
+<ol>
+<li>Given the same data, it will always generate the same hash</li>
+<li>Given a different set of data, it will always generate a different hash</li>
+<li>When given a hash, it’s impossible to guess or know what is the data that
+generated this hash</li>
+</ol>
+<p>Based on the first two properties, hash functions should never collide. The
+number of bits in a hash is large, usually 256 or above. At that scale, a
+collision is extremely unlikely. If you don't believe this work you may watch
+<a href="https://youtu.be/S9JGmA5_unY" target="_blank" rel="noopener noreferrer">this video from 3blue1brown on how secure is 256 bits</a>
+or read about the
+<a href="https://en.wikipedia.org/wiki/Birthday_problem" target="_blank" rel="noopener noreferrer">birthday problem</a>.</p>
+<p>Hash functions should also be one-way. One intuitive way to understand one-way
+function is multiplication and factoring. Multiplying two numbers together is
+kind of like "one-way". It is relatively easy to calculate 89 × 67 = 5963, I
+believe you can do it with a pen and paper in a minute. But if only 5963 is
+given, and you were asked to find out which two numbers multiply to 5963, it's
+way harder. Hope this can convince you there are such one-way, irreversible
+mathematical operations exist. They aren't absolutely impossible to reverse,
+just way harder.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="unix-time">Unix time<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#unix-time" class="hash-link" aria-label="Direct link to Unix time" title="Direct link to Unix time">​</a></h3>
+<p>The second basics we need to understand is there is a globally universal
+timestamp. Even though your computer might be disconnected from the internet, as
+long as it has battery and the clock is correct, all computers should share the
+same timestamp.</p>
+<p>In computers, there is a standard way to define the time, which is the
+<a href="https://en.wikipedia.org/wiki/Unix_time" target="_blank" rel="noopener noreferrer">Unix time</a>. That is the number of
+seconds since 00:00:00 UTC on 1 January 1970. There are some quirks and
+exceptions (e.g. leap seconds), but all computers should be able to calculate
+the same Unix time at any given moment.</p>
+<p>The timestamp is the important let the server and user generates the TOTP code
+separately without communication to each other.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shared-secret">Shared secret<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#shared-secret" class="hash-link" aria-label="Direct link to Shared secret" title="Direct link to Shared secret">​</a></h3>
+<p>The last but not least is there is a shared secret only know by the server and
+the user. When you use the authenticator app to scan a QR code to register the
+multifactor authentication, that is when the shared secret is exchanged.</p>
+<p>The shared secret should not be revealed after the initial exchange. The shared
+secret should be random, unique for each user, and has a high
+<a href="https://en.wikipedia.org/wiki/Entropy_(information_theory)" target="_blank" rel="noopener noreferrer">entropy</a> that
+it's not possible to be guessed or brute forced.</p>
+<p>In the authenticator app example, the authenticator app gets the shared secret
+from the QR code and stores it, which usually is just random bytes of human
+unreadable data. The server also stores a copy of the secret uniquely linked to
+this user.</p>
+<p>Now we go to the actual algorithm.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="totp-algorithm">TOTP algorithm<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#totp-algorithm" class="hash-link" aria-label="Direct link to TOTP algorithm" title="Direct link to TOTP algorithm">​</a></h3>
+<p>The TOTP algorithm works like this:</p>
+<ol>
+<li>Using a hash functions to hash the shared secret recursively</li>
+<li>Using the current timestamp to determine how many times to hash</li>
+<li>Calculate the modulus of the hash based on the size of the TOTP, this gives a
+human-readable 6 digits number</li>
+</ol>
+<p>You can read more of the detail algorithm in
+<a href="https://datatracker.ietf.org/doc/html/rfc6238#section-4" target="_blank" rel="noopener noreferrer">section 4</a> of the RFC,
+which is based on top of the HMAC-based One-Time Password (HOTP) algorithm
+defined in <a href="https://datatracker.ietf.org/doc/html/rfc4226" target="_blank" rel="noopener noreferrer">RFC 4226</a>.</p>
+<p>The hash function used as specified in the RFC 6238 should be
+<a href="https://en.wikipedia.org/wiki/Secure_Hash_Algorithms" target="_blank" rel="noopener noreferrer">SHA-256 or SHA-512</a>. This
+is also agreed and stored in the authenticator app when scanning the QR code.
+Because hash functions generate different value given different input, without
+knowing the shared secret, it is impossible to generate the same number. This is
+the reason why at any given time, there is only 1 valid number for this user,
+and the server is able to verify that. Also, because hash functions are one-way,
+even if the TOTP code is exposed, it is not possible to guess the shared secret
+unless brute force.</p>
+<p>In this algorithm, the timestamp used is not the exact Unix time, otherwise the
+6 digits number will change every second. It will be impractical to ask a user
+to enter 6 digits and submit within a second. The longer the time before
+changing the number, the better the usability for the users, because it's less
+likely the number changed midway when the user is inputting it. But the longer
+it is, the less secure it is, because there is a larger window that the TOTP is
+exposed. It's always a trade-off. The RFC 6238 recommends a time step of 30
+seconds, which means the number only change every 30 seconds. If you open your
+authenticator app now, and reference a clock, you should see the number
+refreshes at the 00 or 30 seconds mark in a minute, unless it is not using 30
+seconds as the time step.</p>
+<p>As you can see, even if the authenticator app is offline and there is no
+communication between your phone and the server, both of them can generate the
+same 6 digits number.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="resynchronization">Resynchronization<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#resynchronization" class="hash-link" aria-label="Direct link to Resynchronization" title="Direct link to Resynchronization">​</a></h3>
+<p>It is possible that there are delays in the network connection, or the clock on
+the user device is delayed, or the user input the number too slow. As such, the
+RFC recommends the validation server support resynchronization. For example, the
+current and the last 2 TOTP generated are all valid. The number of steps
+backward to consider valid is again a trade-off between usability and security.
+The server may optionally record the drift that the user clock has and adjust
+for that in future validations.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="security-considerations">Security Considerations<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#security-considerations" class="hash-link" aria-label="Direct link to Security Considerations" title="Direct link to Security Considerations">​</a></h2>
+<p>There are various best practices for TOTP to be secure.</p>
+<p>First, the user must keep their TOTP secret a secret. It is assumed that the
+secret is securely stored in authenticator app or password manager. That should
+not be accessible over the internet. Therefore,
+<a href="https://news.ycombinator.com/item?id=35708869" target="_blank" rel="noopener noreferrer">it is controversial</a> when Google
+Authenticator supports syncing and backing up secrets to Google.</p>
+<p>All communications between the user and the server should be done over a secure
+channel, e.g. HTTPS. It is true that revealing the TOTP will not leak the shared
+secret, but it's best to not leak it at all. The initialization phase must be
+communicated over secure channel. If the initial setup QR code is leaked, the
+attacker has access to the shared secret and the attacker can always generate
+the TOTP.</p>
+<p>The TOTP code should also be used once only, as specified in the name, one-time
+password. For example, if the user login to the account using a TOTP code, that
+code should not be valid any more. This is to prevent an attacker that has
+access to the newly sent TOTP code from reusing that code to gain access. The
+user must wait for 30 seconds for the next code to be generated to log in.</p>
+<p>Given all these practices, the best possible attack against this system should
+just be brute forcing to guess the shared secret. And as mentioned, the shared
+secret should be long enough that it's not possible to guess and brute force in
+reasonable timeframe.</p>
+<p>TOTP is still vulnerable to phishing attacks. Say the user is logging into a
+fake authentication website, or willing transferring the generated TOTP to
+attackers. Attackers can then proxy or input the TOTP code in real time to gain
+access to the system.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="implementation-details">Implementation Details<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#implementation-details" class="hash-link" aria-label="Direct link to Implementation Details" title="Direct link to Implementation Details">​</a></h2>
+<p>There are two things to set up for the server. Initializing the TOTP and
+authentication the TOTP.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="setting-up-totp">Setting up TOTP<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#setting-up-totp" class="hash-link" aria-label="Direct link to Setting up TOTP" title="Direct link to Setting up TOTP">​</a></h3>
+<p>When a user set up TOTP, the server usually provides a QR code. It is the
+easiest way and foolproof way to exchange the shared secret. The user can use a
+separate device to get the secret without the need to copy and paste. Most
+phones have a camera nowadays, and password manager browser extensions (e.g.
+<a href="https://support.1password.com/one-time-passwords/" target="_blank" rel="noopener noreferrer">1Password</a>) can scan QR
+codes as well. QR codes have error correction by default and since users do not
+need to type in the unreadable secret, making it less likely to make mistakes.</p>
+<p>The QR code is usually a URL in the format of</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">otpauth://totp/&lt;issuer&gt;:&lt;account&gt;?secret=&lt;RandomBytesOfData&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li><code>otpauth</code> is the scheme</li>
+<li><code>totp</code> is the type of OTP that we are using</li>
+<li>The issuer is usually the organization, e.g. Google, Microsoft</li>
+<li>The account is usually your username or email</li>
+<li>The secret must be present in the parameters, usually a long string</li>
+<li>There are optional parameters like <code>algorithm</code> for the hash function used,
+<code>period</code> which defaults to 30 as mentioned above, and <code>digits</code> for the number
+of digits in the OTP code, which is usually 6</li>
+<li>You can read more about the URL format of TOTP in
+<a href="https://docs.yubico.com/yesdk/users-manual/application-oath/uri-string-format.html" target="_blank" rel="noopener noreferrer">this page</a></li>
+</ul>
+<p>Before the user account has MFA enabled, the server should ask for a TOTP code
+to verify that the user correctly saved the shared secret. Only if that code is
+valid, MFA is successfully enabled. The server needs to handle the state where
+the shared secret is generated and stored, but the MFA is not enabled yet.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="recovery-codes">Recovery Codes<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#recovery-codes" class="hash-link" aria-label="Direct link to Recovery Codes" title="Direct link to Recovery Codes">​</a></h3>
+<p>In practical use, it is possible that users lose access to their phone or
+wherever the TOTP codes are generated. It is a challenging aspect because the
+easier it is for a user to recover the account after failed to log in with MFA
+means the easier it is for attacker to use the same method to compromise the
+account.</p>
+<p>One way to recover the account is the server provides some single-use recovery
+codes, usually some longer random strings. They are usually shown to the user
+once after the MFA is first successfully enabled. Each recovery codes should
+only be used once only, same as how TOTP codes can only be used once to prevent
+replay by an attacker.</p>
+<p>During authentication, the system should allow the user to input recovery codes
+and if matches, the user is logged in but that recovery code is invalidated. The
+users are responsible for keeping the recovery codes secure and use it only when
+TOTP codes are not available.</p>
+<p>Alternative recovery methods includes</p>
+<ul>
+<li>Mailing a one-use recovery codes to the user</li>
+<li>Require the user to contacting the support team to verify the identity before
+resetting the MFA</li>
+<li>Require users to set up multiple MFA to limit the likelihood of losing access
+to all methods at once</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="authenticating-totp">Authenticating TOTP<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#authenticating-totp" class="hash-link" aria-label="Direct link to Authenticating TOTP" title="Direct link to Authenticating TOTP">​</a></h3>
+<p>Before supporting MFA, the login endpoint of the server will either return login
+success or login failed. With TOTP supported, the server has a third response,
+indicating the credentials are valid but a TOTP code is required because MFA is
+enabled.</p>
+<p>In this response, the server should also return a unique token, (e.g. a JWT
+token) to the frontend. This token will expire in a short period of time, like 5
+minutes. It has to be submitted to a separate TOTP validation endpoint together
+to signal that this particular user already passed the username &amp; password
+validation in a previous step. The server use this token to determine which user
+is trying to log in and which TOTP shared secret to use to validate the TOTP
+code submitted. Without this step, a user can just log in with a TOTP code in
+the TOTP endpoint without even having the password validation step, which means
+the system is back to single factor authentication. Another option is the
+frontend stores the previously inputted username and password, and submit that
+to the server alongside the TOTP code.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="libraries-and-third-party-service">Libraries and third party service<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#libraries-and-third-party-service" class="hash-link" aria-label="Direct link to Libraries and third party service" title="Direct link to Libraries and third party service">​</a></h3>
+<p>Knowing how the algorithm works behind the scenes is great, but you should never
+implement the algorithms yourself. Use a library instead. For example,
+<a href="https://www.npmjs.com/package/otpauth" target="_blank" rel="noopener noreferrer"><code>otpauth</code></a> in the NPM registry for Node,
+Deno, Bun runtime in JavaScript.</p>
+<p>There are also third party services that provide authentication or MFA as a
+service. It is good for applications that do not have resources to implement
+their own authentication system, but also require careful consideration for the
+security, integrity and availability of the third party service.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="useful-links">Useful links<a href="https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp#useful-links" class="hash-link" aria-label="Direct link to Useful links" title="Direct link to Useful links">​</a></h2>
+<ul>
+<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html" target="_blank" rel="noopener noreferrer">OWASP Multifactor Authentication Cheat Sheet</a></li>
+<li><a href="https://datatracker.ietf.org/doc/html/rfc6238" target="_blank" rel="noopener noreferrer">RFC 6238 TOTP: Time-Based One-Time Password Algorithm</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multi-factor_authentication" target="_blank" rel="noopener noreferrer">Wikipedia: Multi-factor Authentication</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Time-based_one-time_password" target="_blank" rel="noopener noreferrer">Wikipedia: Time-based One-time Password</a></li>
+</ul>]]></content>
+        <author>
+            <name>Ethan Pang</name>
+            <uri>https://github.com/ethanppl</uri>
+        </author>
+        <category label="Auth" term="Auth"/>
+        <category label="Computers" term="Computers"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I use keyd to remap my keyboard in Ubuntu 22.04 with Wayland]]></title>
         <id>https://wiki.ethanppl.com/blog/2024/09/08/keyd</id>
@@ -238,6 +544,7 @@ creator</li>
         </author>
         <category label="Ubuntu" term="Ubuntu"/>
         <category label="Tips & Configs" term="Tips & Configs"/>
+        <category label="Computers" term="Computers"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Don't say it's a weird bug, because it makes you look stupid]]></title>
@@ -704,6 +1011,6 @@ Ans: yes</li>
         </author>
         <category label="Dual Boot" term="Dual Boot"/>
         <category label="Ubuntu" term="Ubuntu"/>
-        <category label="Windows" term="Windows"/>
+        <category label="Computers" term="Computers"/>
     </entry>
 </feed>
