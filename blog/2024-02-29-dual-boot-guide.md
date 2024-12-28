@@ -4,7 +4,7 @@ tags:
   [
     { label: "Dual Boot", permalink: "dual-boot" },
     { label: "Ubuntu", permalink: "ubuntu" },
-    { label: "Windows", permalink: "windows" },
+    { label: "Computers", permalink: "computers" },
   ]
 toc_min_heading_level: 2
 toc_max_heading_level: 3
