@@ -75,3 +75,9 @@ The social impact of AI.
   - The slight variations, random probability distribution behind the scenes,
     helped scientists track cancer, design drugs and proteins, uncover factors
     in weather phenomena, etc.
+- [My colleague Julius](https://ploum.net/2024-12-23-julius-en.html)
+  ([HN](https://news.ycombinator.com/item?id=42494090))
+  - A good read, about Julius, a guy who managed to succeed through his way with
+    words
+  - Management likes Julius, but knowledgeable people see his word make no sense
+  - But AI is the same as Julius, Julius is everywhere now
