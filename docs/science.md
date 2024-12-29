@@ -85,6 +85,13 @@ Numbers, riddles, conjectures
 - [The Riddle That Seems Impossible Even If You Know The Answer | Veritasium](https://youtu.be/iSNsgj1OCLA)
   - 100 Prisoners Riddle
     ([Wikipedia](https://en.wikipedia.org/wiki/100_prisoners_problem))
+- YouTube:
+  [The "just one more" paradox | Marchin Anforowicz](https://youtu.be/_FuuYSM7yOo)
+  - Explains the Kelly Criterion
+  - Given the same expected value, different percentage of wealth to bet on
+    affect the return
+  - Betting a high percentage is often a bad idea, because of the compounding
+    effect in the long run
 
 Curves
 
