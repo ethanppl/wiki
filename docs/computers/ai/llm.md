@@ -80,3 +80,8 @@
   - Some comparison of training in startup v.s. training with Google infra
 - [LLM Generality is a Timeline Crux | LessWrong](https://www.lesswrong.com/posts/k38sJNLk7YbJA72ST/llm-generality-is-a-timeline-crux)
   - Limitation exists, scaling, scaffolding and tooling can't fully overcome
+- [Narrative jailbreaking](https://interconnected.org/home/2024/12/23/jailbreaking)
+  - Not the "Ignore previous instructions", but slowly nudge the narrative of
+    the LLM because they are just next token generators, and they try to be
+    internally consistent
+  - The distinction between the assistant and user role sometimes is weak
