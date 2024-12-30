@@ -14,6 +14,10 @@ Communications between computers.
 - [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet0/html/split/)
   - Basic network concepts with some projects done in Python
 
+## Sites
+
+- [The ISP Column | Geoff Huston](https://www.potaroo.net/ispcol/index.html)
+
 ## Links
 
 - [See this page fetch itself, byte by byte, over TLS](https://subtls.pages.dev/)
