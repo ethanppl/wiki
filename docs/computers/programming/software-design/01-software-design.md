@@ -128,6 +128,14 @@ Related pages:
     little memory required
   - With interactive graphics on optimizing the number of bits and the number of
     hashes to use
+- [Mistakes engineers make in large established codebases](https://www.seangoedecke.com/large-established-codebases/)
+  - The most common mistake is inconsistency, new code that is not consistent
+    with the existing systems
+  - Inconsistency creates surprises, makes future improvements harder
+  - Understand the use cases and user behavior, avoid new dependencies, extra
+    careful with removing code, etc.
+  - Do not split up large codebase without understanding and shipping code with
+    it
 
 Emails
 
