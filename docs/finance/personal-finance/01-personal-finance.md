@@ -57,3 +57,7 @@ Just my two cents:
   - Ask the why, what (how much) and how (how to get there)
   - Reading list: The Millionaire Fastlane, Million Dollar Weekend, $100M
     Offers, Dotcom secrets
+- [When is insurance worth it](https://www.lesswrong.com/posts/wf4jkt4vRH7kC2jCy/when-is-insurance-worth-it)
+  - Other than the probability of loss and the premium cost, it also depends on
+    your wealth
+  - Calculate based on the Kelly Criterion
