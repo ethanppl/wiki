@@ -78,7 +78,13 @@ const config = {
           src: "img/logo.png",
         },
         items: [
+          {to: '/', label: 'Home', position: 'left', activeBaseRegex: '^/$'},
           {to: 'blog', label: 'Blogs', position: 'left'},
+          {
+            href: "https://ethanppl.com/",
+            label: "About me",
+            position: "right",
+          },
           {
             href: "https://github.com/ethanppl/wiki",
             label: "GitHub",
