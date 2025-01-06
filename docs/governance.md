@@ -7,6 +7,13 @@ Government policies.
 - YouTube:
   [Why US elections only give you two choices | Vox](https://youtu.be/bqWwV3xk9Qk)
   - Winner takes all v.s. proportional representative
+- [The Online Sports Gambling Experiment Has Failed | LessWrong](https://www.lesswrong.com/posts/tHiB8jLocbPLagYDZ/the-online-sports-gambling-experiment-has-failed)
+  - More bankruptcies, reduced savings, and increased domestic violence
+  - The advertisement and product offer is encouraging addiction
+  - Gambling on smartphones is far too easy, when people fail to understand the
+    product being offered
+  - We should impose restrictive rules to discourage gambling while relax
+    limitations on productive actions
 
 ## Hong Kong
 
