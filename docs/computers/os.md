@@ -14,6 +14,9 @@ A program that runs programs.
 - [Putting the "You" in CPU | CPU Land](https://cpu.land/)
   - What happens after you run a program?
   - Basic modes, multitasking, exec, ELF, paging, fork, etc.
+- [Operating System in 1,000 lines](https://operating-system-in-1000-lines.vercel.app/en/)
+  ([HN](https://news.ycombinator.com/item?id=42631873))
+  - Writing an operating system in c within 1000 lines
 
 ## Links
 
