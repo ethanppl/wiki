@@ -63,3 +63,13 @@ Cool Examples
 - [My Room In 3D | Bruno Simon](https://github.com/brunosimon/my-room-in-3d/tree/main)
 - Maxime Heckel R3F — [Refraction](https://r3f.maximeheckel.com/refraction),
   [Portal](https://r3f.maximeheckel.com/portal)
+
+Animations
+
+- [Random animations | bleuje.com](https://bleuje.com/randomanimations/)
+  ([HN](https://news.ycombinator.com/item?id=39025631))
+  - Cool animations, not rendered in real-time
+  - [Code that generate the animations](https://github.com/Bleuje/processing-animations-code/tree/main)
+  - [Tutorial](https://bleuje.com/tutorials/)
+- [Easylang](https://tiki.li/apps/)
+  - Programming language with built-in support generating animations
