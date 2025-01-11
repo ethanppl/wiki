@@ -63,3 +63,9 @@ Be clear and concise.
   - Evolution of tech stack of the blog and content of the blog
   - More importantly, motives aren't external:
     > I keep this blog for me to write, not necessarily for others to read.
+- [You Too Can Write a Book](https://parentheticallyspeaking.org/articles/write-a-book/)
+  - A bunch of notes is already close to a book, you can write a book
+  - Share the knowledge, your view, your take, improve on build on top of
+    existing materials
+  - Mechanics of publishing: make it free, with print on demand service and many
+    tips
