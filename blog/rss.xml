@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[How does multifactor authentication (MFA) work?]]></title>
+            <title><![CDATA[How does the 6 digits number in multifactor authentication works?]]></title>
             <link>https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp</link>
             <guid>https://wiki.ethanppl.com/blog/2024/12/28/mfa-totp</guid>
             <pubDate>Sat, 28 Dec 2024 00:00:00 GMT</pubDate>
@@ -511,8 +511,9 @@ can make it works by setting up Unicode support, which have some other external
 configuration required, and I have not spent the time investigating.</p>
 <p>There is also no more mouse control. There is no way to move my mouse with
 <code>keyd</code> because all <code>keyd</code> does is to remap keys. I know there are other daemons
-in Linux that are designed for that, but I have not tried. I remember I found
-one before, but it only works for X11.</p>
+in Linux that are designed for that, but I have not tried. There are
+<a href="https://github.com/rvaiya/warpd" target="_blank" rel="noopener noreferrer"><code>warpd</code></a> for X11, macOS, or Sway only, but not
+Wayland in gnome.</p>
 <p>There are also some minor problems that I wish to solve in the future. For
 example, <code>Ctrl+&lt;arrows&gt;</code> is a common key combination that I do, but I can't
 easily do that with <code>CapsLock+z+&lt;hjkl&gt;</code> because the relative position of
