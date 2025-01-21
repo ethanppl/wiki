@@ -69,3 +69,8 @@ Related
   - GitHub grows with Git and the Ruby community together
   - GitHub has taste, it is built for developer, based on user namespace and a
     pull based model
+- [I am (not) a Failure: Lessons Learned From Six (and a half) Failed Startup Attempts](https://blog.rongarret.info/2025/01/i-am-not-failure-lessons-learned-from.html)
+  - Six failed attempts on startup plus more, stories and lesson for each
+  - E.g. find good partners, banking industry is reluctant to change, working on
+    infra and standards are hard, a brilliant idea still need a brilliant
+    execution to bring it to life
