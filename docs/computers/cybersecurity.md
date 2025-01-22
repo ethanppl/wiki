@@ -106,3 +106,9 @@ completely different mindset to approach problems, but it's fun.
   [Exposing the Threat in Our Phone System | Veritasium](https://youtu.be/wVyu7NB7W6Y)
   - Tracking location, intercepting calls and messages through vulnerabilities
     in SS7, a protocol use in 2G and 3G
+- [Unique 0-click deanonymization attack targeting Signal, Discord and hundreds of platform](https://gist.github.com/hackermondev/45a3cdfa52246f1d1201c1e8cdef6117)
+  ([HN](https://news.ycombinator.com/item?id=42780816))
+  - Send unique attachment or emojis that will be auto-downloaded in push
+    notifications
+  - Traverse cloudflare CDN servers to see where it's cached to geolocate the
+    target approximately
