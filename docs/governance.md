@@ -48,7 +48,6 @@ Government policies.
 - [評2024財政預算案 | 曾俊華](https://www.facebook.com/story.php/?id=100044538001801&story_fbid=927516162076309)
   - 結構性財政赤字
 - [施政報告可否改名叫「簡樸報告」？ | 本土研究社](https://www.facebook.com/localresearch/posts/pfbid02v8GBG3RyCTyVFq3Pkm6uZRZyfnLVPi9jFLh41LcKUcB6GRrmRXhbTt3HdP8eqE7Cl)
-  <!-- prettier-ignore -->
   - 公共財政無底深潭 土地房屋政策傾斜發展商 眾多措施加劇房屋問題 管治水平每況越下
 - [Hong Kong struggles to improve conditions in tiny, crowded homes | Reuters](https://www.reuters.com/investigates/special-report/hongkong-property/)
   — a photo essay
