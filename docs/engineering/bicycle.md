@@ -26,3 +26,8 @@ The science and engineering of bicycles.
     other side and leaning back
 - YouTube:
   [World's smallest bike | Stuff Made Here](https://youtu.be/YqywL9PkM2s)
+- YouTube:
+  [Why Dutch Bikes are Better | Not Just Bikes](https://youtu.be/aESqrP3hfi8)
+  - Daily use features: upright riding, no crossbar, coat guard and chain guard
+  - Built-in frame lock, fenders, kickstands, racks, in-hub gearing, coaster
+    brakes and dynamos for lights

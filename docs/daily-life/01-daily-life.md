@@ -46,3 +46,11 @@ Possible solutions to daily life problems.
   (1:28:04)
   - 3 categories by different height map to each 3 tiers of chairs by price
   - [Spreadsheet](https://docs.google.com/spreadsheets/d/1vSmatzpY0i8Iv-qJ1e2HhKq8OWNtCRdF2EdSF5uHk-o/edit#gid=1070173305)
+- YouTube:
+  [Why City Design is Important (and why I hate Houston) | Not Just Bikes](https://youtu.be/uxykI30fS54)
+  (17:02)
+  - Also check
+    [Stroads are Ugly, Expensive, and Dangerous (and they're everywhere)](https://youtu.be/ORzNZUeUHAM)
+    (18:13)
+  - A very nice video on how a car centric urban design is harmful to humans and
+    the society

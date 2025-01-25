@@ -37,3 +37,6 @@ Personal Growth in Career
   - Explain the big picture: what section of the business have you been focusing
     on, especially on fuzzy stuff like improving the quality of something, e.g.
     "improving the developer experience"
+- [This is not your last job](https://v5.chriskrycho.com/journal/this-is-not-your-last-job/)
+  - Not just growth within the company but also personal growth and learnings
+  - Stay in touch with the market, learn new technologies

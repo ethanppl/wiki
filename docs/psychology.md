@@ -45,3 +45,6 @@ Related:
   - Being odd, prime, with 3 and 7 makes it "more random"
   - Blue-seven phenomenon, across all culture humans are not good as making
     random choice
+- [Stimulation clicker | neal.fun](https://neal.fun/stimulation-clicker/)
+  ([HN](https://news.ycombinator.com/item?id=42611536))
+  - Cool reflection on addiction

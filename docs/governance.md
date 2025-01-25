@@ -7,6 +7,13 @@ Government policies.
 - YouTube:
   [Why US elections only give you two choices | Vox](https://youtu.be/bqWwV3xk9Qk)
   - Winner takes all v.s. proportional representative
+- [The Online Sports Gambling Experiment Has Failed | LessWrong](https://www.lesswrong.com/posts/tHiB8jLocbPLagYDZ/the-online-sports-gambling-experiment-has-failed)
+  - More bankruptcies, reduced savings, and increased domestic violence
+  - The advertisement and product offer is encouraging addiction
+  - Gambling on smartphones is far too easy, when people fail to understand the
+    product being offered
+  - We should impose restrictive rules to discourage gambling while relax
+    limitations on productive actions
 
 ## Hong Kong
 
@@ -42,3 +49,5 @@ Government policies.
   - 結構性財政赤字
 - [施政報告可否改名叫「簡樸報告」？ | 本土研究社](https://www.facebook.com/localresearch/posts/pfbid02v8GBG3RyCTyVFq3Pkm6uZRZyfnLVPi9jFLh41LcKUcB6GRrmRXhbTt3HdP8eqE7Cl)
   - 公共財政無底深潭 土地房屋政策傾斜發展商 眾多措施加劇房屋問題 管治水平每況越下
+- [Hong Kong struggles to improve conditions in tiny, crowded homes | Reuters](https://www.reuters.com/investigates/special-report/hongkong-property/)
+  — a photo essay

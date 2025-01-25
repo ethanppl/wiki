@@ -103,3 +103,8 @@
   - Optimizing query plan, using hash join, or other query algorithm is resource
     intensive
   - Instead, use a bloom filter to determine if the nested loop is needed
+- [Why some UK government online services are only available between 7am and 8pm](https://dafyddvaughan.uk/blog/2025/why-some-dvla-digital-services-dont-work-at-night/)
+  - Legacy systems (mainframe computers) that requires an overnight processing
+    window
+  - Prioritizing full rewrite v.s. work with some sacrifices but delivery some
+    value early on
