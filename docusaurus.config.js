@@ -41,7 +41,7 @@ const config = {
       async: true,
       defer: true,
       "data-domain": "wiki.ethanppl.com",
-    }
+    },
   ],
 
   presets: [
@@ -53,8 +53,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
         },
-        blog: {
-        },
+        blog: {},
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -78,8 +77,8 @@ const config = {
           src: "img/logo.png",
         },
         items: [
-          {to: '/', label: 'Home', position: 'left', activeBaseRegex: '^/$'},
-          {to: 'blog', label: 'Blogs', position: 'left'},
+          { to: "/", label: "Home", position: "left", activeBaseRegex: "^/$" },
+          { to: "blog", label: "Blogs", position: "left" },
           {
             href: "https://ethanppl.com/",
             label: "About me",
