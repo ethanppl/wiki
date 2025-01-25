@@ -90,6 +90,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - YouTube:
   [Smaller Than Pixel Art: Sub-Pixel Art | Japhy Riddle](https://youtu.be/SlS3FOmKUbE)
   — nice music and storytelling too
+- [What are these dots on tin can lids](https://old.reddit.com/r/whatisthisthing/comments/1i5ztq4/what_are_these_dots_on_tin_can_lids_and_the/m8a7m8m/)
+  ([HN](https://news.ycombinator.com/item?id=42788455))
 
 April Fools
 
