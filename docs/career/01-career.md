@@ -172,3 +172,6 @@ CV maker
   ([HN](https://news.ycombinator.com/item?id=41278907))
   - L3 to L6, what worked, what didn't, what's changed, factors that make Google
     less attractive over time
+- [A layoff fundamentally changed how I perceive work](https://mertbulan.com/2025/01/26/once-you-are-laid-off-you-will-never-be-the-same-again/)
+  ([HN](https://news.ycombinator.com/item?id=42838700))
+  - A bit cynical, read HN as well, a bit more balanced
