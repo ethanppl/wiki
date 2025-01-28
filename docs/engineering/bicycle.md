@@ -31,3 +31,7 @@ The science and engineering of bicycles.
   - Daily use features: upright riding, no crossbar, coat guard and chain guard
   - Built-in frame lock, fenders, kickstands, racks, in-hub gearing, coaster
     brakes and dynamos for lights
+- YouTube:
+  [Turn any bicycle electric | Dhruv Vidyut](https://youtu.be/SFsnS0Yb1Bs)
+  ([site](https://dhruvvidyut.co.in/),
+  [HN](https://news.ycombinator.com/item?id=42804434))
