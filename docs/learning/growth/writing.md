@@ -69,3 +69,9 @@ Be clear and concise.
     existing materials
   - Mechanics of publishing: make it free, with print on demand service and many
     tips
+- [antirez (Salvatore Sanfilippo) on Technical Blogging](https://writethatblog.substack.com/p/antirez-on-technical-blogging)
+  - Creator of Redis on why blogging is good for developer
+  - Communication is important for software projects, and blogging is one way to
+    practice it
+  - Be honest, information dense and entertaining, write whatever that interest
+    you rather than specific topic
