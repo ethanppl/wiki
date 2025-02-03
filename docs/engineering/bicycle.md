@@ -35,3 +35,7 @@ The science and engineering of bicycles.
   [Turn any bicycle electric | Dhruv Vidyut](https://youtu.be/SFsnS0Yb1Bs)
   ([site](https://dhruvvidyut.co.in/),
   [HN](https://news.ycombinator.com/item?id=42804434))
+- YouTube:
+  [I built an Omni-Directional Ball-wheeled Bike | James Bruton](https://youtu.be/ZVFB2g25OkM)
+- YouTube: [Berm Peak](https://www.youtube.com/@SethsBikeHacks/videos), videos
+  about bikes
