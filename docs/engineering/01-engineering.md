@@ -34,6 +34,8 @@ DIY projects:
 
 - [Stuff made here](https://www.youtube.com/@StuffMadeHere/videos)
 - [DIY Perks](https://www.youtube.com/@DIYPerks/videos)
+- [Ivan Miranda](https://www.youtube.com/@ivanmirandawastaken/videos)
+- [James Bruton](https://www.youtube.com/@jamesbruton/videos)
 
 Websites:
 
