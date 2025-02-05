@@ -92,6 +92,13 @@ Things that are interesting or for fun. Not sure where to put these yet.
   — nice music and storytelling too
 - [What are these dots on tin can lids](https://old.reddit.com/r/whatisthisthing/comments/1i5ztq4/what_are_these_dots_on_tin_can_lids_and_the/m8a7m8m/)
   ([HN](https://news.ycombinator.com/item?id=42788455))
+- [On medieval cats](https://going-medieval.com/2023/05/16/on-cats/)
+  ([HN](https://news.ycombinator.com/item?id=38211383))
+  - There is no massacre of cats in the middle age
+  - Misinformation spreading on tiktok with so many likes
+  - Wikipedia:
+    [List of common misconceptions about the Middle Ages](https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_the_Middle_Ages),
+    [List of common misconceptions](https://en.wikipedia.org/wiki/List_of_common_misconceptions)
 
 April Fools
 
