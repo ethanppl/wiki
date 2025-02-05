@@ -40,7 +40,7 @@ where are we, and where will we be?
 
 Related pages:
 
-- [Engineering / Rocket](engineering/rocket)
+- [Engineering / Rocket](/engineering/rocket)
 
 ## Resources
 
