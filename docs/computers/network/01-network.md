@@ -13,6 +13,8 @@ Communications between computers.
   - Contains videos, PowerPoints and Wireshark labs
 - [Beej's Guide to Network Concepts](https://beej.us/guide/bgnet0/html/split/)
   - Basic network concepts with some projects done in Python
+  - And [Beej's Guide to Network Programming](https://beej.us/guide/bgnet/), in
+    c
 
 ## Sites
 
