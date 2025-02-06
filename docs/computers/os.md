@@ -28,3 +28,5 @@ A program that runs programs.
   ([HN](https://news.ycombinator.com/item?id=39967709))
   - What happens when you compile and run a hello world program in C, down to
     the assembly level, standard library, syscall and then kernel
+- [Beej's Guide to Interprocess Communication](https://beej.us/guide/bgipc/)
+  - Fork, pipe, locks, semaphore, shared memory, unix sockets
