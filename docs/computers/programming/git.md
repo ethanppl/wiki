@@ -4,6 +4,7 @@ Git commands.
 
 ## Sites
 
+- [Beej's Guide to Git](https://beej.us/guide/bggit/), indepth guide
 - [oh shit, git](https://ohshitgit.com/) or
   [dang it, git](https://dangitgit.com/), when you think you messed up
 - [Git Tips and Tricks](https://blog.gitbutler.com/git-tips-and-tricks/)
