@@ -112,3 +112,7 @@ completely different mindset to approach problems, but it's fun.
     notifications
   - Traverse cloudflare CDN servers to see where it's cached to geolocate the
     target approximately
+- [A Brief History of Code Signing at Mozilla](https://hearsum.ca/posts/history-of-code-signing-at-mozilla/)
+  - How Mozilla Firefox release files are signed over 20 years
+  - From a remote machine with the signature in a USB to Autograph (Mozilla's
+    digital signature service)
