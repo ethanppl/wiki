@@ -39,7 +39,7 @@ Git commands.
 - [The Git object model](http://shafiul.github.io/gitbook/1_the_git_object_model.html)
   - From a blob object, to a tree object, to a commit object and how they all
     fit together in a Git repo
-- [Where do you files live in a Git repository? Julia Evans](https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/)
+- [Where do your files live in a Git repository | Julia Evans](https://jvns.ca/blog/2023/09/14/in-a-git-repository--where-do-your-files-live-/)
   - Tracing and finding any version of a specific file in the `.git` directory
   - Content addressed storage: the name of the file is the hash of the content,
     same content doesn't take extra space
