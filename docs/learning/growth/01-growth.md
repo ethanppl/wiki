@@ -34,6 +34,14 @@ to focus, to think and let the mind wonder about anything.
   ([HN](https://news.ycombinator.com/item?id=36659166))
   - A short article on bad habits incrementally accumulate over time
   - Avoiding the bad ones is as important as cultivating the good one
+- YouTube:
+  [Steve Jobs' 2005 Stanford Commencement Address | Stanford](https://youtu.be/UF8uR6Z6KLc)
+  - Never know how the dots connect looking forward (his typography and
+    calligraphy classes)
+  - The struggle when Steve Jobs is fired from Apple: Find what you love to do,
+    keep looking, don't settle
+  - Time is limited, we all will die. Have the courage to follow your heart and
+    intuition
 
 ## Sites
 
