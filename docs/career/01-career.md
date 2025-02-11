@@ -12,11 +12,10 @@ money, but a way of life-long learning and education.
 Related pages:
 
 - [Remote Work](/remote/remote-work)
+- [Growth](/learning/growth/growth): not just work, but personal growth
 
 ## Resources
 
-- [YC Ultimate Startup Job Guide](https://www.ycombinator.com/library/Ei-yc-ultimate-startup-job-guide)
-  - Understanding startup, picking startup, resume, interview, compensation
 - [Pmarca Guide to Career Planning](https://pmarchive.com/guide_to_career_planning_part0.html)
   - Towards a tech career aiming for a significant impact on the industry
   - View the career as a portfolio of skills and roles, and examine whether the
@@ -37,14 +36,28 @@ Related pages:
   - [What are the most precessing world problems](https://80000hours.org/problem-profiles/)
   - [The most useful skills for making a difference](https://80000hours.org/skills/)
   - [The highest-impact career paths](https://80000hours.org/career-reviews/)
+- [YC Ultimate Startup Job Guide](https://www.ycombinator.com/library/Ei-yc-ultimate-startup-job-guide)
+  - Understanding startup, picking startup, resume, interview, compensation
 
 ## Sites
+
+Job Board
+
+- [Work at a Startup](https://www.workatastartup.com/) — YC startups
+- [80000 hours job board](https://jobs.80000hours.org/)
+- [Index of jobs from Hacker News' "Who is Hiring?" posts](https://hnhiring.com/)
 
 CV maker
 
 - [Flow CV](https://app.flowcv.com/dashboard) — nice UI
 - [rendercv | GitHub @sinaatalay](https://github.com/sinaatalay/rendercv) —
   Render PDF CV from YAML
+
+Salary
+
+- [levels.fyi](https://www.levels.fyi/) — tech focus
+- [Glassdoor](https://www.glassdoor.com.hk/Salaries/index.htm) — relatively
+  complete, but I hate it requires an account
 
 ## Links
 
