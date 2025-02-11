@@ -75,3 +75,8 @@ Be clear and concise.
     practice it
   - Be honest, information dense and entertaining, write whatever that interest
     you rather than specific topic
+- [Why Blog if Nobody Reads It?](https://andysblog.uk/why-blog-if-nobody-reads-it/)
+  ([HN](https://news.ycombinator.com/item?id=42992159))
+  - Blogging forces clarity, structure thoughts and sharpen perspective
+  - It's for yourself. You did it because you saw something that needs to be
+    written down, presented and shared
