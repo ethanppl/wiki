@@ -15,7 +15,7 @@
 
 
 <script src="https://plausible.ethanppl.com/js/script.js" async defer="defer" data-domain="wiki.ethanppl.com"></script><link rel="stylesheet" href="/assets/css/styles.b925dc51.css">
-<script src="/assets/js/runtime~main.8fb0e187.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.40f01939.js" defer="defer"></script>
 <script src="/assets/js/main.7b2142a8.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -42,15 +42,8 @@ accounts/emails/passwords</li>
 <li><a href="https://en.wikipedia.org/wiki/List_of_file_signatures" target="_blank" rel="noopener noreferrer">List of file signatures | Wikipedia</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="links">Links<a href="#links" class="hash-link" aria-label="Direct link to Links" title="Direct link to Links">​</a></h2>
+<p>Guides/tutorials/opinions</p>
 <ul>
-<li><a href="https://micahflee.com/2023/04/capturing-the-flag-with-gpt-4/" target="_blank" rel="noopener noreferrer">Capturing the flag with GPT-4</a>
-(<a href="https://news.ycombinator.com/item?id=35683265" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
-<ul>
-<li>Three challenges: Sharmir&#x27;s secret sharing scheme, writing Perl script to
-decode Perl storable files and a series of shell hurdles (Linux command line
-tricks)</li>
-</ul>
-</li>
 <li><a href="https://arstechnica.com/features/2023/05/is-cybersecurity-an-unsolvable-problem/" target="_blank" rel="noopener noreferrer">Is Cybersecurity an Unsolvable Problem?</a>
 <ul>
 <li>A chat with philosopher Scott Shapiro about his book: Fancy Bear Goes
@@ -59,6 +52,47 @@ Phishing</li>
 of the duality of symbols. The same set of symbols (bits) is used to
 represent both instructions and data, which makes general computing devices
 possible, yet it also makes hacking possible</li>
+</ul>
+</li>
+<li><a href="https://www.sjoerdlangkemper.nl/2023/08/16/session-timeout/" target="_blank" rel="noopener noreferrer">Short session expiration does not help security</a>
+(<a href="https://news.ycombinator.com/item?id=37173339" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
+<ul>
+<li>It could not prevent problems caused by XSS, leaked logs, shared computers,
+etc.</li>
+<li>Requiring frequent re-authentication has risks as well</li>
+<li>Facebook, Google, Amazon and GitHub have sessions that last forever as well</li>
+</ul>
+</li>
+<li><a href="https://retool.com/blog/mfa-isnt-mfa/" target="_blank" rel="noopener noreferrer">When MFA isn&#x27;t actually MFA | Retool</a>
+(<a href="https://news.ycombinator.com/item?id=37500895" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
+<ul>
+<li>Google&#x27;s update to backup MFA secrets to cloud means MFA becomes a
+single-factor-authentication</li>
+<li>Getting access to the Google account once is enough to control all OTPs
+stored in Google Authenticator</li>
+</ul>
+</li>
+<li><a href="https://www.macchaffee.com/blog/2023/wafs/" target="_blank" rel="noopener noreferrer">Stop deploying web application firewalls</a>
+<ul>
+<li>WAFs are slow, ineffective, unsafe and noisy</li>
+<li>Instead, isolate application, immutable system, static analysis in CI, and
+capability-based security</li>
+</ul>
+</li>
+<li><a href="https://vadimkravcenko.com/shorts/security-at-startup/" target="_blank" rel="noopener noreferrer">Security at Startup</a>
+<ul>
+<li>Different levels of security configuration for different phases of startup</li>
+</ul>
+</li>
+</ul>
+<p>Write-ups</p>
+<ul>
+<li><a href="https://micahflee.com/2023/04/capturing-the-flag-with-gpt-4/" target="_blank" rel="noopener noreferrer">Capturing the flag with GPT-4</a>
+(<a href="https://news.ycombinator.com/item?id=35683265" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
+<ul>
+<li>Three challenges: Sharmir&#x27;s secret sharing scheme, writing Perl script to
+decode Perl storable files and a series of shell hurdles (Linux command line
+tricks)</li>
 </ul>
 </li>
 <li><a href="https://www.theregister.com/2023/06/09/cold_boot_ram_theft/" target="_blank" rel="noopener noreferrer">Cold boot ram theft</a>
@@ -79,15 +113,6 @@ Sharing protocol to replace a passphrase</li>
 RTFM&quot;.</li>
 </ul>
 </li>
-<li><a href="https://www.sjoerdlangkemper.nl/2023/08/16/session-timeout/" target="_blank" rel="noopener noreferrer">Short session expiration does not help security</a>
-(<a href="https://news.ycombinator.com/item?id=37173339" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
-<ul>
-<li>It could not prevent problems caused by XSS, leaked logs, shared computers,
-etc.</li>
-<li>Requiring frequent re-authentication has risks as well</li>
-<li>Facebook, Google, Amazon and GitHub have sessions that last forever as well</li>
-</ul>
-</li>
 <li><a href="https://devblogs.microsoft.com/oldnewthing/20230911-00/?p=108749" target="_blank" rel="noopener noreferrer">Any sufficiently advanced uninstaller is indistinguishable from malware</a>
 (<a href="https://news.ycombinator.com/item?id=37491862" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
 <ul>
@@ -95,15 +120,6 @@ etc.</li>
 from malware</li>
 <li>There is a <code>js</code> file example of how to delete itself and other files, leave
 no race, without code injection</li>
-</ul>
-</li>
-<li><a href="https://retool.com/blog/mfa-isnt-mfa/" target="_blank" rel="noopener noreferrer">When MFA isn&#x27;t actually MFA | Retool</a>
-(<a href="https://news.ycombinator.com/item?id=37500895" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
-<ul>
-<li>Google&#x27;s update to backup MFA secrets to cloud means MFA becomes a
-single-factor-authentication</li>
-<li>Getting access to the Google account once is enough to control all OTPs
-stored in Google Authenticator</li>
 </ul>
 </li>
 <li><a href="https://www.abc.net.au/news/2023-09-23/cybersecurity-troy-hunt-have-i-been-pwned-fighting-data-breaches/102803748" target="_blank" rel="noopener noreferrer">A strange sign of times</a>
@@ -122,18 +138,6 @@ multiple streams, increasing throughput</li>
 connection can then have infinite amount of requests, as cancelling previous
 requests means it never exceeds the max concurrent connection but always
 keep the connection open</li>
-</ul>
-</li>
-<li><a href="https://www.macchaffee.com/blog/2023/wafs/" target="_blank" rel="noopener noreferrer">Stop deploying web application firewalls</a>
-<ul>
-<li>WAFs are slow, ineffective, unsafe and noisy</li>
-<li>Instead, isolate application, immutable system, static analysis in CI, and
-capability-based security</li>
-</ul>
-</li>
-<li><a href="https://vadimkravcenko.com/shorts/security-at-startup/" target="_blank" rel="noopener noreferrer">Security at Startup</a>
-<ul>
-<li>Different levels of security configuration for different phases of startup</li>
 </ul>
 </li>
 <li><a href="https://fingerprint.com/blog/audio-fingerprinting/" target="_blank" rel="noopener noreferrer">Audio fingerprinting</a>
@@ -198,6 +202,14 @@ target approximately</li>
 <li>How Mozilla Firefox release files are signed over 20 years</li>
 <li>From a remote machine with the signature in a USB to Autograph (Mozilla&#x27;s
 digital signature service)</li>
+</ul>
+</li>
+<li><a href="https://brutecat.com/articles/leaking-youtube-emails" target="_blank" rel="noopener noreferrer">Leaking the email of any YouTube user</a>
+(<a href="https://news.ycombinator.com/item?id=43024221" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
+<ul>
+<li>Cool write-up of a bug where you can get the email of any YouTube user</li>
+<li>YouTube leak a Google account identifier, an old Google service API takes ID
+as input and return the email of the ID</li>
 </ul>
 </li>
 </ul></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/computers/configs"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Tips/Tricks/Configs</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/computers/database/database"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Database</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#sites" class="table-of-contents__link toc-highlight">Sites</a></li><li><a href="#links" class="table-of-contents__link toc-highlight">Links</a></li></ul></div></div></div></div></main></div></div></div></div>
