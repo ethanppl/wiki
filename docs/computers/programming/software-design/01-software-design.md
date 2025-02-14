@@ -136,6 +136,10 @@ Related pages:
     careful with removing code, etc.
   - Do not split up large codebase without understanding and shipping code with
     it
+- [Boring tech is mature, not old](https://rubenerd.com/boring-tech-is-mature-not-old/)
+  ([HN](https://news.ycombinator.com/item?id=43012862))
+  - Boring tech is well understood, perform in predictable and reliable way,
+    with no surprised
 
 Emails
 
