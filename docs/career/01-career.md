@@ -188,3 +188,10 @@ Salary
 - [A layoff fundamentally changed how I perceive work](https://mertbulan.com/2025/01/26/once-you-are-laid-off-you-will-never-be-the-same-again/)
   ([HN](https://news.ycombinator.com/item?id=42838700))
   - A bit cynical, read HN as well, a bit more balanced
+- [From web developer to database developer in 10 years](https://notes.eatonphil.com/2025-02-15-from-web-developer-to-database-developer-in-10-years.html)
+  - 7 years in web dev but building side-projects on demystifying the web server
+    black box
+  - Startups and side projects drive interest into poking at the database black
+    box
+  - Write blogs, host community and learn, joining a company that is one of the
+    biggest contributor to Postgres
