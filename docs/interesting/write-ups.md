@@ -53,3 +53,10 @@ A collection of stories that people share about their investigations.
   - Finding out why `xterm` in WSL is slower than in Fedora
   - Slow window effects, potential slow profile features, tuning with
     `hyperfine`
+- [Debugging An Undebuggable App](https://bryce.co/undebuggable/)
+  ([HN](https://news.ycombinator.com/item?id=43081713))
+  - [YouTube video](https://youtu.be/ih6gWZDuNME)
+  - The iOS app blocks debugger, exits if inject code and crashes the whole
+    phone if running on jailbroken device
+  - Interesting on how syscall is used to disable debugger, crash the phone,
+    etc.
