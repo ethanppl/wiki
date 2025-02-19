@@ -184,6 +184,11 @@ Queues
 - [Queueing | Encore](https://encore.dev/blog/queueing)
   - Interactively visualizing queueing strategies: FIFO, LIFO, priority queue,
     active queue management
+- [Kafka at the low end: how bad can it get?](https://broot.ca/kafka-at-the-low-end.html)
+  ([HN](https://news.ycombinator.com/item?id=43095070))
+  - At low volume, the job allocation between workers can be extremely unfair
+  - More problematic when the number of partitions and producers are high
+  - Kafka is not a good job queue, at least until queues for Kafka arrives
 
 Algo
 
