@@ -74,3 +74,10 @@ Related
   - E.g. find good partners, banking industry is reluctant to change, working on
     infra and standards are hard, a brilliant idea still need a brilliant
     execution to bring it to life
+- [How I Built a Company to Save My Open Source Project](https://timefold.ai/blog/how-i-built-an-ai-company-to-save-my-open-source-project)
+  ([HN](https://news.ycombinator.com/item?id=42999454))
+  - A long story of building timefold.ai
+  - It starts from a hobby project to a day job, to being acquired, then
+    breakdown
+  - Leap to form a team, secure funding, product market fit and go to market
+    strategy
