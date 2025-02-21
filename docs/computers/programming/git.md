@@ -83,3 +83,7 @@ Git commands.
   - Fun one, git error messages is sometimes confusing, and we are just used to
     being confused
   - E.g. I also automatically replace 'ref' with 'branch' in error message
+- [What are the differences between double-dot ".." and triple-dot "..." in Git diff commit ranges?](https://stackoverflow.com/questions/7251477/what-are-the-differences-between-double-dot-and-triple-dot-in-git-dif)
+  - Two dots: diff between the tip, equivalent to no dots
+  - Three dots: diff with the merge base, PR diff is 3 dots
+    (`git diff main...feat`)
