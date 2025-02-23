@@ -195,3 +195,19 @@ Salary
     box
   - Write blogs, host community and learn, joining a company that is one of the
     biggest contributor to Postgres
+- [The Ideal Candidate Will Be Punched In the Stomach](https://www.scottsmitelli.com/articles/ideal-candidate/)
+  ([HN](https://news.ycombinator.com/item?id=43089150))
+  - What is work for? A long fictional story reflection of modern work
+  - A well paid "job", where the only job is to get punched every day, is that
+    OK?
+  - That feeling of boredom, dissatisfaction and lack of interest over time
+    > The way you felt at this most recent job, it wasn’t all that different
+    > from the way you felt at previous places. That sense of not knowing what
+    > value your work provided, the inkling that maybe you were getting paid a
+    > lot of money to do nothing of any real consequence, while at the same time
+    > feeling a very real stress and anxiety that the whole thing was just a
+    > hair’s breadth away from collapsing and taking you down with it, all while
+    > quietly suffering abuse under people who would happily climb over your
+    > still-warm corpse to get slightly closer to their own selfish goals. The
+    > stomach cramps at this job were novel, yes, but these emotions have been
+    > there ever since you started in the industry.
