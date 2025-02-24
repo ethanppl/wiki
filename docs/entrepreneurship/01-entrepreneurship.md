@@ -254,6 +254,13 @@ Related pages:
   - What people can be reached > Is there a painful problem > Is there a better
     solution > Is there a business out of the solution
     > Don't sell what you can make, make what you can sell
+- [3 Financial Plans You Need](https://www.saastr.com/the-3-financial-plans-you-need-for-next-year-c-90-c-60-and-c-10/)
+  - C-60: 60% confidence, the base plan, growth and burn stays the same, the
+    target to hit
+  - C-10: 10% confidence, the stretch goal, assume 10-20% more revenue, the
+    place for bonuses and celebrations
+  - C-90: 90% confidence, worse case scenario, assume 20% less revenue while
+    burn stays the same, make sure there is a 16+ month runway
 
 Ideas:
 
