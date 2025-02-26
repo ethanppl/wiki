@@ -87,3 +87,6 @@ Git commands.
   - Two dots: diff between the tip, equivalent to no dots
   - Three dots: diff with the merge base, PR diff is 3 dots
     (`git diff main...feat`)
+- [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git/)
+  - Some of the configs that git core devs cannot live without
+  - Like merge conflict style, diff algorithms, branch sort, etc.
