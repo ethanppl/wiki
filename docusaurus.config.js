@@ -83,6 +83,11 @@ const config = {
           { to: "/", label: "Home", position: "left", activeBaseRegex: "^/$" },
           { to: "blog", label: "Blogs", position: "left" },
           {
+            href: "subscribe",
+            label: "Subscribe",
+            position: "left",
+          },
+          {
             href: "https://ethanppl.com/",
             label: "About me",
             position: "right",
@@ -108,6 +113,32 @@ const config = {
       metadata: [
         { name: "keywords", content: "wiki, guides, resources, collections" },
       ],
+      footer: {
+        style: "dark",
+        copyright: `Copyright © ${new Date().getFullYear()} Ethan Pang.`,
+        links: [
+          {
+            label: "About",
+            href: "/",
+          },
+          {
+            label: "Blogs",
+            href: "/blog",
+          },
+          {
+            label: "Subscribe for free",
+            href: "/subscribe",
+          },
+          {
+            label: "About me",
+            href: "https://ethanppl.com/",
+          },
+          {
+            label: "Report an issue",
+            href: "https://github.com/ethanppl/wiki/issues/new",
+          },
+        ],
+      },
     }),
   themes: [
     [

@@ -43,7 +43,7 @@ I also save the links I put here to the
 [Internet Archive](https://archive.org/). So if you find a link is broken, try
 searching for it in the Internet Archive.
 
-# Something to bare in mind when reading
+# Something to bear in mind when reading
 
 - Not all sources/blogs/articles are credible or unbiased, anyone can publish
   anything on the Internet
@@ -75,3 +75,9 @@ If you want some random links, random rabbit holes:
   figured out and the journey along the way
 - [Astronomy](./astronomy.md) page: space is interesting
 - [Sleep](./wellbeing/sleep.md) page: sleep is important
+
+# Subscribe for updates
+
+I publish weekly updates about this site on
+[Wiki Pulse](https://ethanppl.substack.com/), a newsletter you can subscribe for
+free. Read more [here](/subscribe).

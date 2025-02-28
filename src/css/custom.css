@@ -32,3 +32,20 @@
 a {
   font-weight: 600;
 }
+
+.subscribe-button {
+  width: 10rem;
+  height: 2.25rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 1px solid var(--ifm-color-primary-darkest);
+  border-radius: 0.5rem;
+  background: var(--ifm-color-primary);
+  cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)
+}
+
+.subscribe-button:hover {
+  background: var(--ifm-color-primary-darker);
+}
