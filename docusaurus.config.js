@@ -82,11 +82,7 @@ const config = {
         items: [
           { to: "/", label: "Home", position: "left", activeBaseRegex: "^/$" },
           { to: "blog", label: "Blogs", position: "left" },
-          {
-            href: "subscribe",
-            label: "Subscribe",
-            position: "left",
-          },
+          { to: "subscribe", label: "Subscribe", position: "left" },
           {
             href: "https://ethanppl.com/",
             label: "About me",
