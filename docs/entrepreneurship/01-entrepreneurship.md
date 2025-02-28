@@ -261,6 +261,15 @@ Related pages:
     place for bonuses and celebrations
   - C-90: 90% confidence, worse case scenario, assume 20% less revenue while
     burn stays the same, make sure there is a 16+ month runway
+- [The profitable startup | Linear](https://linear.app/blog/the-profitable-startup)
+  - Profitability is to survive without investors, ability to focus on vision
+    and mission
+  - Hire slowly and intentionally, keep small and focus team, measure revenue
+    per employee
+  - One article linked in the blog:
+    [Ramen Profitability | Paul Graham](https://paulgraham.com/ramenprofitable.html).
+    A startup doesn't have to be making money in the way it ultimately will, but
+    it should be making some money that is enough to buy ramen
 
 Ideas:
 
