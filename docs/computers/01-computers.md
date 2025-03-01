@@ -64,6 +64,14 @@ News/forums/communities:
   - Includes brief explanation of breakthrough over the past 50 years from n^3
     to ~n^2.3715
 - [What Computers Cannot Do: The Consequences of Turing-Completeness](https://yzena.com/2024/03/what-computers-cannot-do-the-consequences-of-turing-completeness/)
+- [CS 191 "Classics of Computer Science" | Harvard](https://canvas.harvard.edu/courses/34992/assignments/syllabus)
+  > This course examines papers every computer scientist should have read, from
+  > the 1930s to the present. It is meant to be a synthesizing experience for
+  > advanced students in computer science: a way for them to see the field as a
+  > whole, not through a survey, but by reliving the experience of its creation.
+  > The idea is to create a unified view of the field of computer science, for
+  > students who already know something about it, by replaying its entire
+  > evolution at an accelerated frame rate.
 
 Time
 
