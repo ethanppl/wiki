@@ -126,3 +126,15 @@ Write-ups
   - Cool write-up of a bug where you can get the email of any YouTube user
   - YouTube leak a Google account identifier, an old Google service API takes ID
     as input and return the email of the ID
+- [how to gain code execution on millions of people and hundreds of popular apps](https://kibty.town/blog/todesktop/)
+  ([HN](https://news.ycombinator.com/item?id=43210858))
+  - [ToDesktop vulnerability report](https://www.todesktop.com/blog/posts/security-incident-at-todesktop)
+  - A build tool ToDesktop build app in container and publish release
+  - The build pipeline is not isolated, while the key signing is done by
+    ToDesktop within that build container, leaking the key that is applicable to
+    push auto updates for all apps, meaning remote code execution on every
+    computer installed those apps
+  - The vulnerability technically allows releasing update to apps like Cursor,
+    Linear and Notion
+  - Also some advice and discussion in the HN thread from ToDesktop founder and
+    Electron maintainer (Felix Riseberg)
