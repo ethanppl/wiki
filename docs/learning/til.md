@@ -7,8 +7,7 @@ Learning in Public. Some today I learned (TIL) pages, or digital gardens
 - [Simon Willison: TIL](https://til.simonwillison.net/)
 - [Reddit: Today I Learned](https://www.reddit.com/r/todayilearned/)
 - Nikita Voloboev's [Wiki](https://wiki.nikiv.dev/) (sadly some are behind a
-  paywall now, luckily can still see them in
-  [the GitHub repo](https://github.com/nikitavoloboev/knowledge/tree/main/docs))
+  paywall now)
 - [Learn Anything](https://learn-anything.xyz/)
   ([GitHub](https://github.com/learn-anything/learn-anything))
 - [Second Brain | ssp.sh](https://www.ssp.sh/brain/)
