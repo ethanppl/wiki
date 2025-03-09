@@ -54,3 +54,6 @@ Text-based interface.
 - ["Rules" that terminal programs follow | Julia Evans](https://jvns.ca/blog/2024/11/26/terminal-rules/)
   ([HN](https://news.ycombinator.com/item?id=42401011))
   - Ctrl-C, Ctrl-D, Ctrl-W, 16 ANSI colors, `-` for stdin/stdout
+- [What does "2>&1" mean?](https://stackoverflow.com/questions/818255/what-does-21-mean)
+  - `2` refers to file descriptor 1 (`stdout`) and 2 (`stderr`) redirect (`>`)
+    to `&1` file descriptor 1 (`stdout`)
