@@ -43,3 +43,4 @@ Fun projects collection
   Morse code using laptop lid
 - [Time Flies](https://time-flies.koenvangilst.nl/)
 - [NYC subway in 40 minutes](https://subwaysheds.com/)
+- [368 Chickens](https://368chickens.com/)
