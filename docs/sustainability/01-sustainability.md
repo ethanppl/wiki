@@ -34,3 +34,12 @@ A balance.
   (16:46)
   - The gearbox and inverter system that controls the frequency of the output to
     align with the frequency of the grid because wind is unstable
+- YouTube:
+  [How much progress have we made on climate change? | Simon Clark](https://youtu.be/h1jOqyjcO4g)
+  (19:51)
+  - Progress are made, lowering emission in energy production, heat generation,
+    transportation, steel and cement production. Slowing down deforestation and
+    more.
+  - Optimism on the progress made based on facts and data over decades
+  - Video filmed with physical, miniature model of the Earth, high quality
+    production
