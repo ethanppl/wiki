@@ -108,3 +108,12 @@ Moving towards seniority/maturity in work.
   - Perception: how to show your work as a manager, clarity and visibility of
     effort
   - Success metric: Is the team shipping? Is the team happy?
+- [How I've run major projects](https://www.benkuhn.net/pjm/)
+  - Focus and set the project as the top priority
+  - Maintain a detailed plan to success, observe and keep iterate quickly on the
+    plan
+  - Over-communicate, both 1-1 and broadcast updates to get everyone aware of
+    what's happening around
+  - Break off subproject and delegate to others to manage a goal
+  - Project managers are laser focus and highly organized person, expect their
+    IC ability to take a hit
