@@ -13,6 +13,8 @@ Related pages:
 
 - [Remote Work](/remote/remote-work)
 - [Growth](/learning/growth/growth): not just work, but personal growth
+- If you think work is for money only, read
+  [the trap of money](/finance/finance#the-trap-of-money)
 
 ## Resources
 

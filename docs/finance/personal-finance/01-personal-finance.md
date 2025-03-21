@@ -12,6 +12,11 @@ Just my two cents:
 - One might be able to get rich quickly (~10 years) but not get rich easily
 - Bear manageable risk, sleep well, and invest in yourself
 
+Related
+
+- While you are thinking of how to earn more, preserve wealth, read
+  [the trap of money](/finance/finance#the-trap-of-money) as well
+
 ## Resources
 
 - [A beginner's guide to investing | GitHub @investindex](https://github.com/investindex/Intro)

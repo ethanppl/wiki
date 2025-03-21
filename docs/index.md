@@ -66,6 +66,9 @@ start, I suggest checking out these pages and their children pages:
   cognitive capability
 - [Computers](./computers/01-computers.md) page: This page contains the largest
   tree in this wiki, simply because that's my interest
+- [Finance](./finance/01-finance.md) and
+  [Personal Finance](./finance/personal-finance/01-personal-finance.md) page:
+  Especially [the trap of money](./finance/01-finance.md#the-trap-of-money)
 
 If you want some random links, random rabbit holes:
 
