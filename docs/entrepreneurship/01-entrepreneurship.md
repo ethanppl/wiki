@@ -270,6 +270,11 @@ Related pages:
     [Ramen Profitability | Paul Graham](https://paulgraham.com/ramenprofitable.html).
     A startup doesn't have to be making money in the way it ultimately will, but
     it should be making some money that is enough to buy ramen
+- [50 things we've learned about building products | PostHog](https://newsletter.posthog.com/p/50-things-weve-learned-about-building)
+  ([HN](https://news.ycombinator.com/item?id=43267095))
+  - A list of lessons which link to more articles
+  - Building great, small, efficient, transparent teams with ownership and trust
+  - Ship fast, release quick, get real world feedback and validation
 
 Ideas:
 
