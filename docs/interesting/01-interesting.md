@@ -99,6 +99,10 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - Wikipedia:
     [List of common misconceptions about the Middle Ages](https://en.wikipedia.org/wiki/List_of_common_misconceptions_about_the_Middle_Ages),
     [List of common misconceptions](https://en.wikipedia.org/wiki/List_of_common_misconceptions)
+- [Spurious Correlation](https://www.tylervigen.com/spurious-correlations)
+  - "Unrelated" correlation, with GenAI's made-up explanation, scatter plot and
+    GenAI image
+  - [Wind power generate in Taiwan correlates with Google searches for 'i am tired'](https://www.tylervigen.com/spurious/correlation/1775_wind-power-generated-in-taiwan_correlates-with_google-searches-for-i-am-tired)
 
 April Fools
 
