@@ -31,3 +31,11 @@ Games:
 - [Game of Life | omio.io](https://oimo.io/works/life/)
   ([HN](https://news.ycombinator.com/item?id=39799755))
   - Game of Life, simulating itself, infinitely zoomable
+
+Articles
+
+- [Contents What Can We Learn about Engineering and Innovation from Half a Century of the Game of Life Cellular Automaton?](https://writings.stephenwolfram.com/2025/03/what-can-we-learn-about-engineering-and-innovation-from-half-a-century-of-the-game-of-life-cellular-automaton/)
+  - What's been made in game of life, oscillators, gliders, guns, etc.
+  - Talks about computation irreducibility, like the nature of the game is
+    unpredictable, but there is an idea to achieve some predictable and
+    understandable outcomes from the unruly and unpredictable nature
