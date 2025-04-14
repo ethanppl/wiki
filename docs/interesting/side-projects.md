@@ -30,6 +30,10 @@ Fun, pet projects
 - [Sudoku in python packaging](https://simonwillison.net/2024/Oct/21/sudoku-in-python-packaging/)
   - Solving Sudoku using the Python package resolver, using the dependencies
     resolver and treating cell number as version number
+- [The blissful zen of a good side project](https://joshcollinsworth.com/blog/the-blissful-zen-of-a-good-side-project)
+  - A small motivation to start the first step
+  - Sometimes fear of failure, burnout, lack of interest can slow down creation
+  - But humans seems to exist to create, to bring new things to existence
 
 Fun projects collection
 
