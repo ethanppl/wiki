@@ -33,3 +33,8 @@ Privacy is not the same as anonymity or security.
   - Different techniques to obfuscate how an email address is displayed on a
     website, to prevent bots spamming it
   - Different techniques for `mailto` link vs plaintext email address
+- [Why I Support Privacy | Vitalik](https://vitalik.eth.limo/general/2025/04/14/privacy.html)
+  - Argument for privacy, by the co-founder of Etherium
+  - Why government backdoor is unreliable
+  - Privacy provides order, like secret ballot, to prevent coercion
+  - And more on how privacy related to society, AI, transparency, etc.
