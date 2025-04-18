@@ -2,6 +2,19 @@
 
 Text-based interface.
 
+## Notes
+
+Commonly forgot tricks
+
+- `>` for override, `>>` for append
+- `echo $PATH | tr ':' '\n'`
+  - Echo all path per line
+
+Network related
+
+- `curl -d '{"key":"value"}' https://domain.com/path/to/file`
+  - POST request
+
 ## Resources
 
 - [The Linux Command Line for Beginners | Ubuntu](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview)
