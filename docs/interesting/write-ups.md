@@ -60,3 +60,11 @@ A collection of stories that people share about their investigations.
     phone if running on jailbroken device
   - Interesting on how syscall is used to disable debugger, crash the phone,
     etc.
+- [How to Bike Across the Country](https://www.brooks.team/posts/how-to-bike-across-the-country/)
+  ([HN](https://news.ycombinator.com/item?id=43681936))
+  - Bike across America from San Francisco, California to the eastern coast of
+    Virginia
+  - The preparation, route, fitness, food, and gear required
+  - Details on safety, the joy along the way, resources, tips and notes
+    > If a dog starts running at you, it probably wants to bite you more than it
+    > wants to play with you.
