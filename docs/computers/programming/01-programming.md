@@ -215,3 +215,8 @@ Working as a Software Engineer:
   - From code structure, system design, hiring, engineering mindset, etc.
 - [Goodhart's Law in Software Engineering](https://buttondown.com/hillelwayne/archive/goodharts-law-in-software-engineering/)
   > When a measure becomes a target, it ceases to be a good measure.
+- [The Best Programmers I Know](https://endler.dev/2025/best-programmers/)
+  - Many points but can be categorized to keep learning, drill down to error
+    messages and documentations
+  - Know the tools, help others, write and build reputation
+  - Be patience, be honest, don't guess and keep things simple
