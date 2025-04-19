@@ -70,6 +70,12 @@ How to live a happier, healthier, and more productive life.
   - Write update every month, see progress
   - Do nothing two-step transition: Reddit to focused work is hard, Reddit to do
     nothing for a few minutes before focused work
+- [Cozy video games can quell stress and anxiety | Reuters Graphics](https://www.reuters.com/graphics/VIDEO-GAMES/MENTAL-HEALTH/akpeewkqgpr/)
+  ([HN](https://news.ycombinator.com/item?id=43733097))
+  - Relaxing nature, play at your own pace, typically constructive rather than
+    destructive
+  - Self care, lending a helping hand, talk to others
+  - Increase mental health, life satisfaction, reduce stress, manage ADHD
 
 Eyes
 
