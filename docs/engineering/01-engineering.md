@@ -114,6 +114,14 @@ Websites:
     bottom to the top
   - The shape is primarily for better structural strength
   - Various considerations in to use or not use cooling towers in real life
+- [Technical & Theoretical Aspects of RC Yacht Racing](https://www.onemetre.net/Design/Design.htm)
+  ([HN](https://news.ycombinator.com/item?id=43698522))
+  - Approximately 300 pages of technical materials, formulas, spreadsheets, etc.
+  - No absolute beginners introductions but should be appealing to someone who
+    knows the basics
+  - Technical explanation starting from aerofoils, to fins, sails and hull
+    design
+  - Focus on RC Yacht Racing but the math and formula should scale up
 
 Concrete / Cement
 
