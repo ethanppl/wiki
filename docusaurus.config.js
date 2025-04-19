@@ -56,7 +56,10 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
         },
-        blog: {},
+        blog: {
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All Posts',
+        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -71,8 +74,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/logo.jpg",
       navbar: {
         title: "Ethan's Wiki",
         logo: {
@@ -107,6 +109,7 @@ const config = {
         },
       },
       metadata: [
+        { name: "author", content: "Ethan Pang" },
         { name: "keywords", content: "wiki, guides, resources, collections" },
       ],
       footer: {

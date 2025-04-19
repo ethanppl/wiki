@@ -1,5 +1,10 @@
 ---
 sidebar_position: 1
+title: What is Ethan's Wiki
+description:
+  What is this Wiki? Start reading about computers, personal growth, science of
+  learning, finance, astronomy, and other interesting articles and stories
+keywords: [Wiki, digital garden, personal blog]
 ---
 
 # What is this Wiki?
@@ -20,7 +25,7 @@ guides that help me get started on a topic would be helpful to others as well.
 For the topics that I have more experience in, I might slowly backfill the
 resources I found useful.
 
-# How is each page organized?
+## How is each page organized?
 
 Honestly, I don't know how to divide human vast knowledge into categories. I
 tried to keep each page focused. A page will be split into multiple pages if
@@ -43,7 +48,7 @@ I also save the links I put here to the
 [Internet Archive](https://archive.org/). So if you find a link is broken, try
 searching for it in the Internet Archive.
 
-# Something to bear in mind when reading
+## Something to bear in mind when reading
 
 - Not all sources/blogs/articles are credible or unbiased, anyone can publish
   anything on the Internet
@@ -54,7 +59,7 @@ searching for it in the Internet Archive.
 - Especially reading reviews and discussion forums, who is the author and why
   should I care about their opinion?
 
-# Where to start?
+## Where to start?
 
 Find a topic on the sidebar that interests you, probably a topic you know or a
 topic that you are recently paying attention to. If you have no idea where to
@@ -79,7 +84,7 @@ If you want some random links, random rabbit holes:
 - [Astronomy](./astronomy.md) page: space is interesting
 - [Sleep](./wellbeing/sleep.md) page: sleep is important
 
-# Subscribe for updates
+## Subscribe for updates
 
 I publish weekly updates about this site on
 [Wiki Pulse](https://ethanppl.substack.com/), a newsletter you can subscribe for
