@@ -76,6 +76,17 @@ How to live a happier, healthier, and more productive life.
     destructive
   - Self care, lending a helping hand, talk to others
   - Increase mental health, life satisfaction, reduce stress, manage ADHD
+- YouTube:
+  [I hate my phone so I got rid of it | Eddy Burback](https://youtu.be/nnsyGSTKlw0)
+  - Sounds clickbait, but it's not
+  - It is a really well documented story of not using a phone for 30 days
+  - It is not all pros, there are cons. It is about changing the relationship
+    with it
+  - Stop the mindless consumption of information that we soon don't even
+    remember
+  - One provoking point is, to some degree, we all probably know what will be
+    the outcome of getting less addicted to our phone, it's just we never get
+    started
 
 Eyes
 
