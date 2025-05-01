@@ -215,6 +215,6 @@ Salary
     > there ever since you started in the industry.
 - [Why Work in F1 | Dan Fallows](https://danfallows.substack.com/p/why-work-in-f1)
   - For the purpose, racing, some perks and top level get paid well
-  - But one excitement can be stress for others, pressure is high, no
-    completion, low starting salary, not glamorous as popular believes
-  - Choose a job because of the job not the business, the day-to-day work
+  - But stress and pressure can be high, no competition, low starting salary,
+    not as glamorous actually
+  - Choose a job because of the job, the day-to-day-work, not the business
