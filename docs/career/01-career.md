@@ -213,3 +213,8 @@ Salary
     > still-warm corpse to get slightly closer to their own selfish goals. The
     > stomach cramps at this job were novel, yes, but these emotions have been
     > there ever since you started in the industry.
+- [Why Work in F1 | Dan Fallows](https://danfallows.substack.com/p/why-work-in-f1)
+  - For the purpose, racing, some perks and top level get paid well
+  - But one excitement can be stress for others, pressure is high, no
+    completion, low starting salary, not glamorous as popular believes
+  - Choose a job because of the job not the business, the day-to-day work
