@@ -117,3 +117,12 @@ Moving towards seniority/maturity in work.
   - Break off subproject and delegate to others to manage a goal
   - Project managers are laser focus and highly organized person, expect their
     IC ability to take a hit
+- [Compensation as a Reflection of Values | Oxide](https://oxide.computer/blog/compensation-as-a-reflection-of-values)
+  (2021)
+  - Also,
+    [Oxide's Compensation Mode: How is it Going?](https://oxide.computer/blog/oxides-compensation-model-how-is-it-going)
+    (2025)
+  - Oxide pay almost everyone equal amount of salary, from founder to all
+    employees, except some sales roles
+  - Explained why they do this, how that reflect the values and benefit the
+    company

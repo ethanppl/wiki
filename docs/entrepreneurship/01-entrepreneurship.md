@@ -27,6 +27,8 @@ Related pages:
 
 - [Career](/career/career) — as an entrepreneur, help others build a good career
   and shape a better working environment.
+- See [Seniority/Managerial](/career/seniority#managerial-role) for team &
+  company management
 - [Remote Work](/remote/remote-work)
 - Read [the trap of money](/finance/finance#the-trap-of-money) as well, if you
   think business is all about money
