@@ -279,6 +279,9 @@ Related pages:
   - A list of lessons which link to more articles
   - Building great, small, efficient, transparent teams with ownership and trust
   - Ship fast, release quick, get real world feedback and validation
+- [Ask HN: How are you acquiring your first hundred users?](https://news.ycombinator.com/item?id=43970837)
+  - Build good product, price differentiation, more modern/accessible/affordable
+  - Reach out to personal network or carefully selected niche of network
 
 Ideas:
 
