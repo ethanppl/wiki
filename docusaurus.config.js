@@ -25,6 +25,8 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
+  onBrokenAnchors: "throw",
+  onDuplicateRoutes: "throw",
 
   // Fix duplicated URL because of trailing slash
   trailingSlash: false,
