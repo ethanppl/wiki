@@ -1,6 +1,13 @@
 # Self-hosting
 
-A private web server
+A private web server.
+
+[I wrote a blog on how I self-hosted one of my web server](/blog/2025/05/25/self-host).
+It includes my notes and thought process from purchasing a domain, renting a
+server on [Hetzner](https://hetzner.cloud/?ref=YMRI7xo3b2af), building docker
+images, running database and web server, configuring DNS, firewall and Nginx,
+and use of monitoring tools like
+[Netdata](https://netdata.cello.so/m3g8ZJvzrI9).
 
 ## Resources
 
