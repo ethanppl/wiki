@@ -4,10 +4,763 @@
         <title>Ethan's Wiki Blog</title>
         <link>https://wiki.ethanppl.com/blog</link>
         <description>Ethan's Wiki Blog</description>
-        <lastBuildDate>Sun, 23 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[My $4/month self-hosted web server setup]]></title>
+            <link>https://wiki.ethanppl.com/blog/2025/05/25/self-host</link>
+            <guid>https://wiki.ethanppl.com/blog/2025/05/25/self-host</guid>
+            <pubDate>Sun, 25 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[This blog documented my setup for self-hosting a web server. Hopefully this is]]></description>
+            <content:encoded><![CDATA[<p>This blog documented my setup for self-hosting a web server. Hopefully this is
+helpful for others to get started with hosting your web server. I was intimated
+by all the potential cost and complexity before, but after all, it was not that
+complicated.</p>
+<p>It starts from renting a virtual machine and setting the machine up, to running
+my web servers in containers, setting DNS records, running Nginx and monitoring
+tools. All cost me on average less than $4 a month. Including the cost of
+renting my own domain, it is still less than $5 per month on average.</p>
+<p>It gave me a lot of fun to tinker with. I would like to share the thought
+process and learnings.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="overview">Overview<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#overview" class="hash-link" aria-label="Direct link to Overview" title="Direct link to Overview">​</a></h2>
+<p>Last year, I created <a href="https://playground.ethanppl.com/" target="_blank" rel="noopener noreferrer">my playground</a>. It is a
+web server that power real time, turn-based multiplayer game. The major
+difference it has with all the tools I built before was it needs a server.
+Unlike this Wiki, the content and service it provides are not static. It cannot
+be hosted as a static site on GitHub Pages for free. To synchronize and power
+real time multiplayer, I need a server on the Internet that is always up that
+clients can connect to.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-i-chose-self-hosting">Why I chose self-hosting<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#why-i-chose-self-hosting" class="hash-link" aria-label="Direct link to Why I chose self-hosting" title="Direct link to Why I chose self-hosting">​</a></h3>
+<p>There are multiple ways to do this. With
+<a href="https://en.wikipedia.org/wiki/Platform_as_a_service" target="_blank" rel="noopener noreferrer">platform as a service</a> or
+similar cloud services model, I could just use the right platform to host. It
+should be easier to set up and configure, with less overhead and initial cost.
+However, because it is just a hobby project, the stakes are low. I think it is
+worth to figure out how to self-host.</p>
+<p>Self-hosting allows me to tinker with networking, containers, server management,
+and more. By having a machine running, it also opens the possibility to host
+more than 1 web services on it. I started with hosting
+<a href="https://playground.ethanppl.com/" target="_blank" rel="noopener noreferrer">the playground server</a>, soon added my own
+<a href="https://plausible.io/" target="_blank" rel="noopener noreferrer">plausible analytics server</a>, an error tracking server
+called <a href="https://glitchtip.com/" target="_blank" rel="noopener noreferrer">glitchtip</a>, and more.</p>
+<p>The server with just 2 vCPUs and 4GB of RAM is able to power a lot of services.
+The server itself cost less than $4 a month. Considering, Plausible cloud
+service cost $9 a month, and most cloud providers' web services with much tinier
+machine still cost a few dollars a month. Self-hosting is a great deal.</p>
+<p>This guide includes my notes and thought process while researching and setting
+up things. It started from purchasing my own domain. Then, researching and
+deciding to rent a virtual machine from Hetzner, configure it and setting it up.
+Running my web server in a container in the VM. All the configurations required
+to route traffic to the web server and finally monitoring tools for the server.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="architecture-overview">Architecture Overview<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#architecture-overview" class="hash-link" aria-label="Direct link to Architecture Overview" title="Direct link to Architecture Overview">​</a></h3>
+<p>Before I go over the setup step by step, it would be great to go over the major
+components in the setup and some terminologies so that we are aligned.</p>
+<p><img decoding="async" loading="lazy" alt="architecture" src="https://wiki.ethanppl.com/assets/images/architecture-546e0402b35561fc00c2c6692f84a92f.png" width="1415" height="485" class="img_ev3q"></p>
+<p>When user request for <code>playground.ethanppl.com</code>, what happens is your computer
+need to know where that is hosted. It sends a domain name system (DNS) query to
+DNS servers to ask for the IP address for the <code>playground.ethanppl.com</code> domain.
+Once it gets the IP address, it sends a request to this IP address at port 80 to
+get the web page. This guide will go through how to configure and set up your
+domain and DNS. For more about how the Internet work I suggest checking out
+<a href="https://explained-from-first-principles.com/internet/" target="_blank" rel="noopener noreferrer">The Internet, Explained from First Principle</a>
+or other resources in the <a href="https://wiki.ethanppl.com/computers/network/network">Computer Network Page</a> in
+this Wiki.</p>
+<p>From here, the definition of the "server" can get a bit confusing. There are
+multiple web servers supporting multiple services that can be run on the same
+server machine. It is like your computer can run different apps, process,
+servers on the same machine. We can run multiple web servers on the same
+machine.</p>
+<p>Requests coming from the Internet reach our IP address. The computer listening
+to these requests is the <em>server</em>. I hosted this server on
+<a href="https://www.hetzner.com/cloud/" target="_blank" rel="noopener noreferrer">Hetzner</a>, a cloud provider providing cheap
+virtual machines and the IP addresses. This virtual private server (VPS) is like
+a normal computer that is accessible from the Internet. In this guide, I will
+refer to this server as the virtual machine (VM), the server machine, or just
+the Hetzner VPS. I will explain why I chose Hetzner and how to set it up below.</p>
+<p>Within the server machine, all incoming requests go through
+<em><a href="https://nginx.org/en/" target="_blank" rel="noopener noreferrer">nginx</a></em>, a reverse proxy running natively on the
+virtual machine. A
+<a href="https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/" target="_blank" rel="noopener noreferrer">reverse proxy</a>
+is like a server sitting in front of our real server, relaying messages between
+the clients and the server. Nginx looks at what servers you are requesting, in
+this case <code>playground.ethanppl.com</code>, and route this to the corresponding service
+that are handling these requests. Say another request is going to
+<code>plausible.ethanppl.com</code>, nginx will route this to a separate service. Nginx is
+the magic that allow us to run multiple web services on the same server machine.
+It is also responsible for supporting HTTP2, HTTP3 and HTTPS. All explained
+below.</p>
+<p>All the web services on the server are running in
+<em><a href="https://www.docker.com/resources/what-container/" target="_blank" rel="noopener noreferrer">containers</a></em>. It provides an
+isolated way to run these services without them intervening each other. The
+containers are the actual "web servers" that are providing the service. I will
+also explain how I ran the database that the playground web server use in a
+container, and how to set up docker volumes and network for this local database.</p>
+<p>It is OK if all the terminologies sounds a lot. I will explain in details below.
+All you need to be aware of right now is the difference between the server
+machine and the web servers. I will first talk about the server machine hosted
+on Hetzner, then how to run containers in the server machine, and lastly
+configure Nginx and wiring things up.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>This blog turns out to be longer than I initially thought. However, I do not
+want this to be intimidating for people who want to try self-hosting. Instead, I
+would like to write down all my thought process and things I learned along the
+way to help anyone hesitate to start. This document is structured as if you were
+following along self-hosting your own Playground server. I wish this document is
+something I could read beforehand, telling me self-hosting is not that hard and
+not that expensive!</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="register-a-domain">Register a Domain<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#register-a-domain" class="hash-link" aria-label="Direct link to Register a Domain" title="Direct link to Register a Domain">​</a></h2>
+<p>When I decided to self-host my server, the first thing I did is to purchase my
+own <code>ethanppl.com</code> domain. If you have a domain, you can skip forward.</p>
+<p>Registering a domain technically is not related to self-hosting. It is not
+required to run a server. It is possible to directly connect to the server over
+the Internet with IP address and port number. However, having a hostname is
+easier to visit, share, or get a certificate for HTTPS.</p>
+<p>There are many domain registrars. I got mine from
+<a href="https://www.cloudflare.com/en-gb/products/registrar/" target="_blank" rel="noopener noreferrer">Cloudflare</a>. It is cheap
+and easy to set up. I got my domain for 2 years with less than 20 USD.
+Cloudflare provides free whois protection, DNSSEC, email routing, etc. by
+default. I have heard that <a href="https://www.namecheap.com/" target="_blank" rel="noopener noreferrer">Namecheap</a> and
+<a href="https://porkbun.com/" target="_blank" rel="noopener noreferrer">Porkbun</a> both works well with the developer community.
+You can read
+<a href="https://blog.pragmaticengineer.com/domain-registrars-which-developers-recommend/" target="_blank" rel="noopener noreferrer">this article from the Pragmatic Engineer</a>
+for more.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="renting-a-hetzner-vps">Renting a Hetzner VPS<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#renting-a-hetzner-vps" class="hash-link" aria-label="Direct link to Renting a Hetzner VPS" title="Direct link to Renting a Hetzner VPS">​</a></h2>
+<p>To self-host, you need a server. The server is just a computer that runs 24
+hours and connected to the Internet.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="where-to-host">Where to host<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#where-to-host" class="hash-link" aria-label="Direct link to Where to host" title="Direct link to Where to host">​</a></h3>
+<p>You could use a machine you have or use a cloud provider. The difference is
+whether you manage the physical metal machine, networking, electricity and
+operating system, or pay a cloud provider to handle that. I considered hosting
+with a machine at home, but I chose to rent a VM from a cloud provider in the
+end.</p>
+<p>I have an old laptop sitting next to me unused, or I could buy a
+<a href="https://www.raspberrypi.org/" target="_blank" rel="noopener noreferrer">Raspberry Pi</a>. The benefit is there will be no
+ongoing cloud subscription fee to rent a VM. For a cheaper price, I get better
+performance. It allows me to learn more, figure out more details and
+understanding more on bare metal operating systems and servers. The latency for
+me to connect to the service I host is also extremely low as it sits next to me.</p>
+<p>One of the bigger hurdles to use a machine at home is to ensure a stable IP
+address for this machine to be reachable over the Internet. But for most home
+address, the IP address might be dynamic, or go through
+<a href="https://en.wikipedia.org/wiki/Network_address_translation" target="_blank" rel="noopener noreferrer">network address translation</a>
+which makes it impossible to have a stable IP address. One possible solution is
+<a href="https://github.com/ddclient/ddclient" target="_blank" rel="noopener noreferrer">ddclient</a>, which periodically update the
+DNS record for you with the dynamically changing IP address. It works with all
+major DNS and domain registrars including Cloudflare, Namecheap and Porkbun.</p>
+<p>Also, there are greater risk in terms of privacy and security concerns. If I
+messed up, I am not exposing a VM in a datacenter but a computer in my home
+network. It is also going to consume electricity and network bandwidth of my
+home network. In the end, considering the risk and effort required, I decided to
+rent a cloud VM.</p>
+<p>Out of all the options I can find online, the cheapest is renting a
+<a href="https://www.hetzner.com/cloud/" target="_blank" rel="noopener noreferrer">Hetzner VM</a>. I chose the cheapest model I can
+find, CX22 machine in Helsinki, Finland. It provides 2 vCPUs, 4 GB of RAM, 40 GB
+of storage and 20 TB of bandwidth per month. The server and a IPv4 address
+combined cost €3.79 each month. It is cheaper compare to all other providers
+with the same specs, and it is more than what I need. With this, there are a lot
+I can do with it.</p>
+<p>The biggest drawback for me is it is hosted in Finland, the roundtrip from Hong
+Kong to Finland takes time. I searched online on the typical latency and also
+tested it after rending, it is around 0.1 to 0.3 seconds. It is definitely
+noticeable, but not deal-breaking for me considering the price. Hetzner started
+to offer servers in Singapore, but with 2 to 3 times the price. I chose Finland
+instead.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>If you would like to try Hetzner, here is my
+<a href="https://hetzner.cloud/?ref=YMRI7xo3b2af" target="_blank" rel="noopener noreferrer">referral link for hetzner</a>. You get
+$20 credits for free on sign up, while I get $10 after you spent $10. If you
+have the same setup as me, this should get yours running 5 months for free.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="hetzner-server-setup">Hetzner Server Setup<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#hetzner-server-setup" class="hash-link" aria-label="Direct link to Hetzner Server Setup" title="Direct link to Hetzner Server Setup">​</a></h3>
+<p>Create an account in <a href="https://hetzner.cloud/?ref=YMRI7xo3b2af" target="_blank" rel="noopener noreferrer">Hetzner Cloud</a>.
+There might be a few verifications steps involved to prevent abuse. Once the
+account is active, you can rent a server.
+<a href="https://docs.hetzner.com/cloud/servers/getting-started/creating-a-server" target="_blank" rel="noopener noreferrer">Hetzner has a comprehensive guide on how to create a server</a>.</p>
+<p>I tried to keep my server specs closer to what I have on my laptop. I tried an
+Arm chip at first, but there were minor inconveniences I faced because of
+slightly different versions, API or support on various stuff. It is frustrating
+because I know the issue, but I cannot reproduce and test the fix locally. In
+the end, I went back to Amd x86 chip, same as my laptop used for development.</p>
+<p>My configuration are:</p>
+<ul>
+<li>Location: Helsinki<!-- -->
+<ul>
+<li>After considering latency and pricing, this works for me</li>
+</ul>
+</li>
+<li>Image: Ubuntu<!-- -->
+<ul>
+<li>Just because <a href="https://wiki.ethanppl.com/blog/2024/02/29/dual-boot-guide">I use Ubuntu locally</a> as well</li>
+</ul>
+</li>
+<li>Typed: Shared CPU x86 (Intel/AMD)<!-- -->
+<ul>
+<li>I am not doing intensive or sensitive stuff, shared CPU is fine</li>
+<li>I chose x86 because I am running on an x86 laptop as well</li>
+</ul>
+</li>
+<li>Networking: IPv4 and IPv6<!-- -->
+<ul>
+<li>IPv4: My network is only IPv4, saves me a lot of hassle by having a IPv4</li>
+<li>IPv6: It is free of charge so why not</li>
+</ul>
+</li>
+<li>SSH keys: Create a pair and save the keys locally.</li>
+<li>Volumes: No, I did not create one.</li>
+<li>Firewall: No, I did not create one.</li>
+<li>Backups: No, I did not enable it.</li>
+<li>Placement groups: No, irrelevant as I only have 1 server</li>
+<li>Labels: Whatever you like, I did not add any as I only have 1 server</li>
+<li>Cloud config: See below</li>
+</ul>
+<p>Cloud configuration is a set initialization configuration for newly created
+servers.
+<a href="https://community.hetzner.com/tutorials/basic-cloud-config" target="_blank" rel="noopener noreferrer">Hetzner Community has a guide for it</a>
+and I used a very similar config.</p>
+<p>The few important things it set up are:</p>
+<ul>
+<li><code>fail2ban</code>: To prevent brute force attacks on the SSH authentication</li>
+<li><code>ufw</code>: firewall to only allow required ports</li>
+<li>Harden SSH configs like deactivating password authentication</li>
+</ul>
+<p>I suggest read the Hetzner guide and the manual for these programs. It is worth
+to understand the suggested security practice. Tweak it according to what you
+would like. Remember to change the user's name to your name.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ssh-connection">SSH Connection<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#ssh-connection" class="hash-link" aria-label="Direct link to SSH Connection" title="Direct link to SSH Connection">​</a></h3>
+<p>To connect to the server, you need to
+<a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank" rel="noopener noreferrer">SSH</a> into the machine. If you do
+not know about SSH, you can think of it as connecting your computer to the
+server computer with the terminal. It is like directly accessing the terminal of
+the server over the Internet, securely.
+<a href="https://docs.hetzner.com/cloud/servers/getting-started/connecting-to-the-server" target="_blank" rel="noopener noreferrer">Hetzner documentation has a guide as well</a>.</p>
+<p>To connect to a server, you run an ssh command:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ssh -i /path/to/private_key username@&lt;ip_address&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>The <code>-i</code> option for the identity file, provide the ssh private key file</li>
+<li>The username is the name set in the cloud init configuration above</li>
+<li>The IP address is the address you rent, shown on the Hetzner dashboard</li>
+</ul>
+<p>If your cloud init config changed the port to <code>2222</code>, then</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">ssh -i /path/to/private_key -p 2222 username@&lt;ip_address&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>For the first time, you will most likely be prompted if you want to connect to
+the host. By default, confirming will save this host to <code>~/.ssh/known_hosts</code>,
+and you will not see this warning again. Once successfully ran the command, you
+should see output like this:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-40-generic x86_64)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> * Documentation:  https://help.ubuntu.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> * Management:     https://landscape.canonical.com</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> * Support:        https://ubuntu.com/pro</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"> System information as of Sat Apr 19 03:35:28 PM UTC 2025</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  System load:  0.37               Processes:             223</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Usage of /:   58.7% of 37.23GB   Users logged in:       0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Memory usage: 55%                IPv4 address for eth0: 100.100.100.100</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  Swap usage:   0%                 IPv6 address for eth0: aaaa:bbbb:cccc:dddd::1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Running the command <code>exit</code> or pressing <code>Ctrl + D</code> will close the connection.</p>
+<p>There is one additional step I did to improve the workflow. Instead of typing
+out the command and IP address out every time, you can set up an SSH config in
+<code>~/.ssh/config</code>. Here is my config for my server:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Host playground</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  HostName 100.100.100.100</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  User ethan</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  IdentityFile ~/.ssh/hetzner_personal</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>The host <code>playground</code> can be any name you choose.</li>
+<li>Hostname is the IP address of your server machine</li>
+<li>User is the login username</li>
+<li>Identity file is the file to the private key</li>
+</ul>
+<p>With this configuration saved, connecting to the server is simply running
+<code>ssh playground</code>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="running-the-web-server">Running the Web Server<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#running-the-web-server" class="hash-link" aria-label="Direct link to Running the Web Server" title="Direct link to Running the Web Server">​</a></h2>
+<p>With the server machine all set up, next is to run the playground web server and
+the database on this machine. I chose running the app and the database in docker
+for easier management. If you run it in other ways, you can skip this session,
+make the app run on the server, and skip ahead to the
+<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#configuring-dns">configuring DNS</a> section.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="why-docker">Why Docker?<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#why-docker" class="hash-link" aria-label="Direct link to Why Docker?" title="Direct link to Why Docker?">​</a></h3>
+<p>There are several ways to run a server. You may run it as a process on the
+machine directly. This should be the simplest to get started. You can even run
+the server the same way as how you are running it locally. However, it will get
+harder when managing versions of the apps and getting the runtime right. For
+example, my playground is an elixir server. If I want to update the Elixir or
+Erlang version, I need to make sure the same version is properly installed on
+the server machine as well. If I have another web server running on the same
+machine that needs another version of Elixir then I need to install some other
+virtual environment or shimming tools on the server as well. And if I ever want
+to have more than one machine running the same app, then I need to update every
+single machine to the same versions.</p>
+<p>I am probably still far from all these scaling issues, but there is nothing
+stopping me from preemptively think about scaling issues. It gets harder to
+manage when more things are involved, if there is no isolation. To solve all the
+above issues, the most common solution is running apps in
+<a href="https://www.docker.com/resources/what-container/" target="_blank" rel="noopener noreferrer">containers</a>.</p>
+<p>If you do not know what containers are, you can think of them as a box that
+provide a mini computer environment for the things running inside. And this box
+is completely isolated from other boxes or the world outside the box. The box is
+lightweight, which means it is easy to create, start, stop or destroy, with
+lower overhead compare to virtual machines. Furthermore, they are "standardized"
+like shipping containers. The same containers can be run in different
+environment (Windows, Mac, Linux, etc.) with the docker engine installed. Any
+code in any tech stack can be run within a container, just like any things can
+be shipped on any cargo vessels, as long as they fit in the standardized
+shipping containers. It solves the issue where an app need to build a native
+version for every runtime environment.</p>
+<p>The overall flow for me to deploy playground right now is not very optimized,
+but works for me. Plus, I do not deploy frequently. I will go through them in
+details below, but this is the higher level:</p>
+<ol>
+<li>Push code to GitHub and tag the commit I want to deploy</li>
+<li>Pull code from the Hetzner VPS and checkout the tag</li>
+<li>Build a new image in the VPS</li>
+<li>Stop and then remove the old container</li>
+<li>Start the new container</li>
+</ol>
+<p>There are other tools and services to allow easier deployment, like
+<a href="https://coolify.io/" target="_blank" rel="noopener noreferrer">Coolify</a>. You may find these useful if you are not
+comfortable working with docker and nginx directly, or want to make the process
+more optimize.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="pull-code">Pull Code<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#pull-code" class="hash-link" aria-label="Direct link to Pull Code" title="Direct link to Pull Code">​</a></h3>
+<p>First, I need to make sure my Hetzner VPS and my local machine have the same
+code. And the easiest way for me to copy them over is to push that code to
+GitHub, then pull the same commit from GitHub.</p>
+<p>I chose not to use a docker repository, where I would need to first push a
+docker image for the new version, and then pull that image and run it. I already
+have a code repository. I can directly build the docker image with the source
+code in the server machine. Because it is just docker build, I do not need any
+runtime and binary either. I only need to SSH into the VPS and run a script.</p>
+<p>If you are able to push code to GitHub, I think you know how to pull code from
+GitHub. The only difference, maybe, is to get familiar with the git CLI, if you
+are used to Git with a GUI. The CLI is not that complicate for basic pull and
+checkout. I have some more resources in the
+<a href="https://wiki.ethanppl.com/computers/programming/git" target="_blank" rel="noopener noreferrer">Git page of this Wiki</a>.
+<a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank" rel="noopener noreferrer">Generate a new pair of SSH keys</a>
+in the Hetzner VM and add it to your GitHub account should make every thing
+works.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="building-the-server-image">Building the Server Image<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#building-the-server-image" class="hash-link" aria-label="Direct link to Building the Server Image" title="Direct link to Building the Server Image">​</a></h3>
+<p>With Git set up, next is to install docker. Docker allow us to build the images
+and run those images in containers. There are detailed documentation on how to
+install docker, and
+<a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank" rel="noopener noreferrer">here is the one for Ubuntu</a>.
+One thing to pay attention for Linux is there are
+<a href="https://docs.docker.com/engine/install/linux-postinstall/" target="_blank" rel="noopener noreferrer">post-installation steps</a>
+to manage user roles and permissions.</p>
+<p>To run the app in a container, we need to build an image for it to run on. A
+docker image contains the code and data needed for the container to run. The
+instructions for building a docker image are specified in a
+<a href="https://docs.docker.com/reference/dockerfile/" target="_blank" rel="noopener noreferrer">docker file</a>.</p>
+<p>I will not go into the specific details of setting up the Elixir build
+environment and run time in this post, that will most likely be different from
+what you need if you are not running an Elixir app. You will need to write your
+own docker file or copy some templates for your tech stack. You can find the
+<a href="https://github.com/ethanppl/playground/blob/main/Dockerfile" target="_blank" rel="noopener noreferrer">docker file for my playground app in the GitHub repository</a>
+for reference.</p>
+<p>Docker image can be based on top of other docker images. For example,
+<a href="https://hub.docker.com/_/alpine/" target="_blank" rel="noopener noreferrer">alpine</a> is a lightweight Linux image to be
+based on. Which image to use depends on what apps you are running, there should
+be plenty of guides on how to build a docker image for the tech stack that you
+are running on. For the playground app, since we are running an Elixir app, the
+base image is based on the
+<a href="https://hub.docker.com/_/elixir" target="_blank" rel="noopener noreferrer">elixir docker image</a>.</p>
+<p>To test the docker file, you can build it locally and run the container locally
+to see if it works as expected. This is also why I set up my server environment
+closer to my local machine. It is easier to build and debug the image locally,
+while having a higher likelihood all should still work on the server machine.</p>
+<p>So, build the docker image at the root of the repository, where the <code>Dockerfile</code>
+is. I like to tag the output image (<code>-t playground</code>), so it is easier to
+reference later:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker buildx build -t playground .</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="running-the-postgres-container">Running the Postgres Container<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#running-the-postgres-container" class="hash-link" aria-label="Direct link to Running the Postgres Container" title="Direct link to Running the Postgres Container">​</a></h3>
+<p>My server depends on a Postgres database. I ran this database also inside a
+container, with docker volume and custom bridge network set up. If you do not
+need a database, you may skip this section.</p>
+<p>Again, I can run the Postgres database natively or as a docker container. I
+chose running it in a docker container for the benefit of isolation. I knew I
+will run other services on the same machine that also need separate Postgres
+databases. Having them isolated make things easier to control.</p>
+<p>Docker volumes and networking are the two important things to consider when
+running a database in a container.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="docker-volume">Docker Volume<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#docker-volume" class="hash-link" aria-label="Direct link to Docker Volume" title="Direct link to Docker Volume">​</a></h4>
+<p>First, when the database container is stopped or destroyed, we want to persist
+its data. Otherwise, it's not a database.
+<a href="https://docs.docker.com/engine/storage/volumes/" target="_blank" rel="noopener noreferrer">Docker volume</a> is a great way
+to do that. Volumes are managed by docker and the data will be preserved even
+the container is stopped or destroyed. Volume is the preferred way to store and
+retrieve data in a container.</p>
+<p>First, create a volume to be used later:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker volume create pgdata</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="docker-network">Docker Network<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#docker-network" class="hash-link" aria-label="Direct link to Docker Network" title="Direct link to Docker Network">​</a></h4>
+<p>Second, as mentioned, containers are isolated. The playground app running in a
+container by default cannot connect to the Postgres database running in another
+container. There are generally two approaches to solve this issue, expose the
+container to the host network or create a user-defined
+<a href="https://docs.docker.com/engine/network/" target="_blank" rel="noopener noreferrer">docker network</a> to connect the two
+containers.</p>
+<p>Exposing to the host network means the container will share the host's network.
+For example, if the Postgres container is exposing the 5432 port to the host
+network, inside the machine, accessing <code>localhost:5432</code> will be the docker
+container. The advantage is this is easier to set up, just add the
+<code>--network=host</code> flag, but then there is no isolation. Generally, any process
+that can access localhost will be able to access the localhost will be able to
+access the container. It is also impossible for two different Postgres
+containers to share the same localhost 5432 port.</p>
+<p>On the other hand, docker allows creating user-defined network. The default
+network driver is called
+<a href="https://docs.docker.com/engine/network/drivers/bridge/" target="_blank" rel="noopener noreferrer">bridge network</a>. In
+simple terms, defining a custom bridge network creates a bridge between the
+containers to communicate with each other. This solves what we need while
+maintaining the same isolation. Containers can also be attached and detached
+from the bridge networks on the fly.</p>
+<p>To create a network to be used later:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker network create playgroundNetwork</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="running-the-database">Running the Database<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#running-the-database" class="hash-link" aria-label="Direct link to Running the Database" title="Direct link to Running the Database">​</a></h4>
+<p>It takes one line to run the Postgres container</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker run</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --name postgres</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=POSTGRES_PASSWORD=ReplaceMe</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=POSTGRES_DB=playground_engine</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -v pgdata:/var/lib/postgresql/data</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -p 5432:5432</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -d</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  postgres</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>The <a href="https://docs.docker.com/reference/cli/docker/container/run/#name" target="_blank" rel="noopener noreferrer">name</a>
+of the container will be <code>postgres</code></li>
+<li>The two
+<a href="https://docs.docker.com/reference/cli/docker/container/run/#env" target="_blank" rel="noopener noreferrer">ENV variables</a>
+<ul>
+<li>The password for the superuser <code>postgres</code></li>
+<li>The default database name</li>
+<li><a href="https://hub.docker.com/_/postgres/" target="_blank" rel="noopener noreferrer">There are more ENV variables available to configure</a></li>
+</ul>
+</li>
+<li>Use the <code>pgdata</code> volume created earlier and mount that to the
+<code>/var/lib/postgresql/data</code> path inside the container</li>
+<li>Expose 5432 port to the network</li>
+<li><code>-d</code> to
+<a href="https://docs.docker.com/reference/cli/docker/container/run/#detach" target="_blank" rel="noopener noreferrer">detach</a>
+the container process from the terminal window, otherwise closing the terminal
+will stop the container</li>
+<li>And finally <code>postgres</code> is the name of the image, which
+<a href="https://hub.docker.com/_/postgres/" target="_blank" rel="noopener noreferrer">you can find on docker hub</a></li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="verify-the-database-is-running">Verify the Database is Running<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#verify-the-database-is-running" class="hash-link" aria-label="Direct link to Verify the Database is Running" title="Direct link to Verify the Database is Running">​</a></h4>
+<p>Once connected, we can use <code>psql</code> to verify the database is up and running.</p>
+<p>Most likely, the base Ubuntu image does not come with <code>psql</code>, so it needs to be
+installed:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install -y postgresql-client-common postgresql-client-16</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Then connecting to it:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">psql postgresql://postgres@localhost:5432/playground_engine</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>You will be prompted to input your password. Input the same password set above
+in the <code>POSTGRES_PASSWORD</code> ENV variable. If connected successfully, it means the
+database is running well.</p>
+<p>In my
+<a href="https://github.com/ethanppl/playground/blob/main/DEPLOYMENT.md" target="_blank" rel="noopener noreferrer">playground deployment notes</a>,
+you will find lines where I set up DB roles and privileges. They are just
+practices. Normally for a side project database there is no such need either. I
+mainly referenced
+<a href="https://rlopzc.com/posts/securing-your-postgresql-db-with-roles--privileges/" target="_blank" rel="noopener noreferrer">Securing your PostgreSQL DB with Roles &amp; Privileges</a>
+to build these commands for creating roles and granting privileges.</p>
+<p>With all that set, exit the <code>psql</code> session and back to the host machine, we add
+the Postgres container to the network created earlier:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker network connect playgroundNetwork postgres</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Then, inspect the network to get the IP address of the Postgres container.</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker network inspect playgroundNetwork</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>There should be something like 127.18.0.2. Save it. It will be useful later to
+connect the playground container to the database.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="running-the-server-container">Running the Server Container<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#running-the-server-container" class="hash-link" aria-label="Direct link to Running the Server Container" title="Direct link to Running the Server Container">​</a></h3>
+<p>Then, we can deploy the Playground container. There are playground specific
+commands that is used because of Elixir Phoenix framework. Your server with a
+different tech stack will most likely require different ENVs. For example,
+Phoenix framework provide a
+<a href="https://hexdocs.pm/phoenix/deployment.html" target="_blank" rel="noopener noreferrer">deployment guide</a>. You may be able
+to find similar documentation.</p>
+<p>For playground, this docker run command is used:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker run --name playground \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --network=playgroundNetwork \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=DATABASE_URL="postgresql://playground_backend:password@172.18.0.2:5432/playground_engine" \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=MIGRATION_DATABASE_URL="postgresql://playground_migrations:password@172.18.0.2:5432/playground_engine" \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=SECRET_KEY_BASE="secret" \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=PHX_HOST="playground.ethanppl.com" \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=ENV="production" \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=SENTRY_DSN="https://sentry.ethanppl.com" \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -p 4000:4000 \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -d</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  playground</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>Name this container as <code>playground</code></li>
+<li>The network is the <code>playgroundNetwork</code> created earlier</li>
+<li>Change the database role, password, IP address, and database name accordingly</li>
+<li>I have a separate role and user for schema migration, so a different
+<code>MIGRATION_DATABASE_URL</code></li>
+<li>Set the <code>SECRET_KEY_BASE</code> to a secret generated from <code>mix phx.gen.secret</code></li>
+<li>Set the <code>PHX_HOST</code> to the domain name being used</li>
+<li>Set the <code>ENV</code> to production</li>
+<li>The <code>SENTRY_DSN</code> is optional to track errors</li>
+<li>Expose port 4000</li>
+<li><code>-d</code> to detach the process</li>
+<li>Run the <code>playground</code> image</li>
+</ul>
+<p>Once ran, you should be able to confirm the container is running with</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker ps</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>You should be able to see the playground container is up and running.</p>
+<p>Check the logs in the container to confirm it can connect to the database:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker logs playground</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>If the app cannot connect to the database, double-check the IP address and port.
+As a tip, you can spin up a small container with the
+<a href="https://hub.docker.com/_/alpine/" target="_blank" rel="noopener noreferrer"><code>alpine</code> image</a>, add this small container to
+the same network with the database, and you can use
+<a href="https://docs.docker.com/reference/cli/docker/container/exec/" target="_blank" rel="noopener noreferrer"><code>docker exec</code></a> to
+debug and see if it can connect to the database in the network. If it works,
+then the database and docker network is working, it's the configuration or the
+playground server problem. If it does not, then maybe the database is not
+running, or the docker bridge network is not working.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configuring-dns">Configuring DNS<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#configuring-dns" class="hash-link" aria-label="Direct link to Configuring DNS" title="Direct link to Configuring DNS">​</a></h2>
+<p>Domain name system (DNS) allows anyone on the Internet to use
+<code>playground.ethanppl.com</code> to find the IP address of the server hosting it, and
+route request there.</p>
+<p>I used Cloudflare to purchase my <code>ethanppl.com</code> domain, so logically I use their
+DNS service. Their DNS service is free of charge.</p>
+<p>To point <code>playground.ethanppl.com</code> to the Hetzner VPS, we will need to set up an
+<code>A</code> record for the IPv4 address and an <code>AAAA</code> record for the IPv6 address. The
+name of both records is <code>playground</code>. The content is the IPv4 and IPv6 address,
+respectively. I set the proxy status to true for both, but false also works.
+Keep the time to live (TTL) as auto, which by default is 5 minutes.</p>
+<p>If proxy is enabled, Cloudflare will expose their server IP address, and
+internally route traffic to the Hetzner VPS. It automatically offers some
+optimization, caching and protection. Read more in
+<a href="https://developers.cloudflare.com/dns/proxy-status/" target="_blank" rel="noopener noreferrer">Cloudflare documentation</a>.</p>
+<p><img decoding="async" loading="lazy" alt="Cloudflare DNS" src="https://wiki.ethanppl.com/assets/images/cloudflare-dns-58058872de1e78e06b4ce83cfcf9f880.png" width="1284" height="387" class="img_ev3q"></p>
+<p>Later, we will require HTTPS for the domain. If proxy is enabled, we need to
+change the encryption mode from "Flexible" to "Full" or "Full (Strict)" in the
+SSL/TLS page. By default, Cloudflare use "Flexible" mode which send request in
+HTTP. If the server automatically redirects HTTP request to HTTPS requests, and
+Cloudflare forward that request as HTTP, creating an infinite redirect loop.
+Change the encryption mode so that Cloudflare send request as HTTPS. Read more
+about this problem in
+<a href="https://developers.cloudflare.com/ssl/troubleshooting/too-many-redirects/#flexible-encryption-mode" target="_blank" rel="noopener noreferrer">Cloudflare documentation</a>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-firewall-ufw">Configure firewall (<code>ufw</code>)<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#configure-firewall-ufw" class="hash-link" aria-label="Direct link to configure-firewall-ufw" title="Direct link to configure-firewall-ufw">​</a></h2>
+<p>With DNS set up, we can configure the server to listen to the traffic from the
+Internet.</p>
+<p>Check the firewall setting in <code>ufw</code> to make sure our app can listen to web
+server traffic.</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo ufw status</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Some of the commands that might be helpful</p>
+<ul>
+<li><code>sudo ufw show verbose</code>: show config</li>
+<li><code>sudo ufw status verbose</code>: show status</li>
+<li><code>sudo ufw enable</code>: enable ufw</li>
+<li><code>sudo ufw default deny incoming</code>: by default disallow all incoming traffic
+from the Internet to the machine</li>
+<li><code>sudo ufw default allow outgoing</code>: by default allow all outgoing traffic from
+the machine to the Internet</li>
+<li><code>sudo ufw allow OpenSSH</code>: allow SSH, <strong>this is important</strong>, otherwise will not
+be able to SSH in</li>
+<li><code>sudo ufw allow http</code>: allow HTTP</li>
+<li><code>sudo ufw allow https</code>: allow HTTPS</li>
+<li><code>sudo ufw allow in on docker0 from 192.168.1.0/24</code>: open ufw to docker for
+local network</li>
+<li><code>sudo ufw allow in on docker0 from 10.8.0.0/24</code>: open ufw to docker for local
+network</li>
+<li><code>sudo ufw allow in on docker0 from 172.20.0.0/16</code>: open ufw to docker for
+local docker subnet</li>
+<li><code>sudo ufw allow 51820/udp</code>: allow UDP on port 51820 (this is not useful for
+playground but for the wireguard server I have)</li>
+</ul>
+<p>Here is the configuration I have</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">To                         Action      From</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">--                         ------      ----</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">OpenSSH                    ALLOW       Anywhere</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">80/tcp                     ALLOW       Anywhere</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">443                        ALLOW       Anywhere</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Anywhere on docker0        ALLOW       192.168.1.0/24</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Anywhere on docker0        ALLOW       10.8.0.0/24</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Anywhere on docker0        ALLOW       172.20.0.0/16</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">51820/udp                  ALLOW       Anywhere</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">OpenSSH (v6)               ALLOW       Anywhere (v6)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">80/tcp (v6)                ALLOW       Anywhere (v6)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">443 (v6)                   ALLOW       Anywhere (v6)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">51820/udp (v6)             ALLOW       Anywhere (v6)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="configure-reverse-proxy-server-nginx">Configure reverse proxy server (<code>nginx</code>)<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#configure-reverse-proxy-server-nginx" class="hash-link" aria-label="Direct link to configure-reverse-proxy-server-nginx" title="Direct link to configure-reverse-proxy-server-nginx">​</a></h2>
+<p>Nginx is a lightweight server running on the machine. It makes it easy to host
+multiple domains on the same server. It can route the incoming traffic from the
+Internet to the right server running on the machine based on the domain name.
+For example, anyone on the internet trying to talk to <code>playground.ethanppl.com</code>
+will be routed to the docker container running at port <code>4000</code> locally.</p>
+<p>There are a lot more features supported by nginx, you may explore them on
+<a href="https://nginx.org/en/docs/" target="_blank" rel="noopener noreferrer">their documentation</a>. The first thing is to get it
+up and running.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basics">Basics<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#basics" class="hash-link" aria-label="Direct link to Basics" title="Direct link to Basics">​</a></h3>
+<p>Install nginx first.
+<a href="https://nginx.org/en/linux_packages.html#Ubuntu" target="_blank" rel="noopener noreferrer">Here is the doc for installing on Ubuntu</a>.</p>
+<p>Start the nginx server:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo systemctl start nginx</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The configurations are stored in the <code>/etc/nginx</code> directory.</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">cd /etc/nginx</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>You should find a <code>/etc/nginx/nginx.conf</code> file with some default configurations.</p>
+<p>You may add new configurations in the <code>nginx.conf</code> file directly to test. But
+for better organization, I find it better to create a separate config file for
+each server and include them in the main <code>nginx.conf</code>. For me, the default
+configuration already includes a line of <code>include /etc/nginx/conf.d/*.conf;</code> in
+the <code>http</code> block. Adding a new <code>*.conf</code> file inside the <code>/etc/nginx/conf.d</code>
+directory will work.</p>
+<p>Create a new file <code>playground.conf</code> file in <code>/etc/nginx/conf.d</code>. The file name
+does not matter, you can change it however you want.</p>
+<p>Add the following config:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">server {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   listen 80;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   # Change this</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   server_name playground.ethanppl.com;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   location / {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_pass http://localhost:4000;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_ssl_server_name on;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      # For web socket connections</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_http_version 1.1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_set_header Upgrade $http_upgrade;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_set_header Connection "Upgrade";</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Change the <code>server_name</code> directive to the domain name of your web server. The
+<code>server_name</code> directive is what nginx use to determine where to route the
+traffic. In the above configuration, anything requesting to
+<code>playground.ethanppl.com</code> will go to <code>localhost:4000</code>.</p>
+<p>If you are running the playground server, or anything requires web socket, the
+three lines for setting header and connection upgrade is required. It allows
+upgrading an HTTP connection to a WebSocket connection. Read more about it in
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Upgrade" target="_blank" rel="noopener noreferrer">MDN docs</a>
+and explanation on setting up
+<a href="https://nginx.org/en/docs/http/websocket.html" target="_blank" rel="noopener noreferrer">WebSocket proxying in nginx</a>.</p>
+<p>If your site contains requirements for other communication protocol, worth
+checking nginx documentation to see if there are specific configurations needed.
+It is also a good way to learn how protocols run behind the scenes and what are
+involved underlying the connections.</p>
+<p>Then, test that the nginx configurations are valid.</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo nginx -t</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>If all goes well, you should see the following lines being printed:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">nginx: the configuration file /etc/nginx/nginx.conf syntax is ok</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">nginx: configuration file /etc/nginx/nginx.conf test is successful</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Otherwise, follow the instructions printed to fix the configuration. It should
+tell you where are the invalid value on which directive.</p>
+<p>Once all good, reload the nginx server:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo nginx -s reload</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="https">HTTPS<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#https" class="hash-link" aria-label="Direct link to HTTPS" title="Direct link to HTTPS">​</a></h3>
+<p>HTTPS is almost compulsory nowadays. Some default browser settings would prevent
+users from accessing a site without HTTPS. I would like to share my site with
+people without them clicking "Proceed (unsafe)". Able to set up HTTPS for
+self-hosted site is a must for me.</p>
+<p>Fortunately, there are free service providing signing and issuing certificate
+for HTTPS. <a href="https://letsencrypt.org/" target="_blank" rel="noopener noreferrer">Let's Encrypt</a> is a free certificate
+authority service by a nonprofit organization. In fact, some major static site
+hosting on cloud providers like Render all uses Let's Encrypt behind the scene
+to provide their automated SSL certificates.</p>
+<p>Setting up the certificates are pretty easy.
+<a href="https://certbot.eff.org/instructions?ws=nginx&amp;os=ubuntufocal" target="_blank" rel="noopener noreferrer">Here is the guide</a>
+for using nginx on Ubuntu with Certbot. <a href="https://certbot.eff.org/" target="_blank" rel="noopener noreferrer">Certbot</a> can
+get free certificates and set the corresponding nginx configurations
+automatically.</p>
+<p>For other platforms and setup, check
+<a href="https://letsencrypt.org/getting-started/" target="_blank" rel="noopener noreferrer">Let's Encrypt Getting Started documentation</a>
+and <a href="https://certbot.eff.org/pages/help" target="_blank" rel="noopener noreferrer">Certbot help page</a>.</p>
+<p>Follow the instructions to install snap and use snap to install certbot. Run
+certbot and allow it to edit the nginx configurations directly.</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo certbot --nginx</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>It will automatically find all the domains without certificates, create a
+certificate and update the nginx configuration accordingly. Certbot provides a
+<code>certonly</code> option to let you make the nginx configurations by hand. But in my
+experience, the bot is good, and it does not mess up the nginx configurations.</p>
+<p>Test that the configurations are all good: <code>sudo nginx -t</code>. And reload the
+configurations again, <code>sudo nginx -s reload</code>.</p>
+<p>Now you should be able to connect to the site with HTTPS!</p>
+<p>If you inspect the configuration file, you will see that lines marked with
+<code># managed by Certbot</code>. It added port 443 for SSL connection, added the
+<code>ssl_certificate</code> directive and some related configurations. It also added an
+automatic redirect from HTTP to HTTPS. This is why we need to tell Cloudflare to
+send request with HTTPS when proxy through Cloudflare. Otherwise, it enters a
+redirect loop.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="http2-and-http3">HTTP2 and HTTP3<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#http2-and-http3" class="hash-link" aria-label="Direct link to HTTP2 and HTTP3" title="Direct link to HTTP2 and HTTP3">​</a></h3>
+<p>HTTP2 and HTTP3 each has improvements over the application protocol to improve
+latency and reliability. Most of the time there should not be noticeable
+difference, especially our site is not demanding high bandwidth communication.
+You read more about HTTP2 and HTTP3 on the
+<a href="https://wiki.ethanppl.com/computers/network/http">HTTP Page in this Wiki</a>.</p>
+<p>To enable HTTP2,</p>
+<ul>
+<li>Add <code>http2 on</code> in the server configuration</li>
+</ul>
+<p>To enable HTTP3,</p>
+<ul>
+<li>Add <code>http3 on</code></li>
+<li>Add <code>listen 443 quic reuseport</code> or just <code>listen 443 quic</code>.<!-- -->
+<ul>
+<li>Notice that if there are multiple servers using the same IP address and port
+in nginx, only one of them can do <code>reuseport</code>.</li>
+</ul>
+</li>
+<li>Add <code>add_header Alt-Svc 'h3=":443"; ma=86400'</code> in the location block<!-- -->
+<ul>
+<li>This is a response header to let the browser know that another location
+(alternative service (Alt-Svc)) is available for servicing with HTTP3 (h3)</li>
+</ul>
+</li>
+<li>The port used by <code>quic</code> is recommended to be the same as <code>ssl</code>, hence 443</li>
+</ul>
+<p>The final configuration should look something like this:</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">server {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   server_name  playground.ethanppl.com;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   http2 on;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   http3 on;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   location / {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_pass http://localhost:4000;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_ssl_server_name on;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      # For web socket connections</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_http_version 1.1;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_set_header Upgrade $http_upgrade;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      proxy_set_header Connection "Upgrade";</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      add_header Alt-Svc 'h3=":443"; ma=86400';</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   }</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   listen 443 ssl; # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   listen 443 quic reuseport;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ssl_certificate /etc/letsencrypt/live/playground.ethanppl.com/fullchain.pem; # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ssl_certificate_key /etc/letsencrypt/live/playground.ethanppl.com/privkey.pem; # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">server {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   if ($host = playground.ethanppl.com) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">      return 301 https://$host$request_uri;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   } # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   listen       80;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   server_name  playground.ethanppl.com;</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   return 404; # managed by Certbot</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="monitoring">Monitoring<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#monitoring" class="hash-link" aria-label="Direct link to Monitoring" title="Direct link to Monitoring">​</a></h2>
+<p>I am not running mission-critical life savings web services, but it is still
+good to monitor what is going on in the server and alert me when things gone
+wrong. I found some monitoring services online that are free for hobby projects.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="netdata">Netdata<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#netdata" class="hash-link" aria-label="Direct link to Netdata" title="Direct link to Netdata">​</a></h3>
+<p>I use <a href="https://www.netdata.cloud/" target="_blank" rel="noopener noreferrer">Netdata</a> for monitoring the Hetzner server
+and the containers. It has an agent to read the data and optionally upload to
+Netdata cloud server for some nice visualizations. It includes basics like CPU,
+memory, storage and network data for the host machine. Additionally, it can also
+show the load for each container running in the machine.</p>
+<p><img decoding="async" loading="lazy" alt="Netdata System Overview" src="https://wiki.ethanppl.com/assets/images/netdata-overview-81f6550ce791712e4b18b990e4ae97bc.png" width="1517" height="495" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Netdata Containers Metrics" src="https://wiki.ethanppl.com/assets/images/netdata-containers-75a970d1a187422f08c8fa79adc609f3.png" width="1517" height="487" class="img_ev3q"></p>
+<p>It works out of the box. Create an account on Netdata Cloud, follow the prompt
+to connect a node, pick Ubuntu and follow the instructions on screen to install
+the Netdata agent and all graphs worked. Email automations are automatically
+configured to notify when things went wrong. However, configuring the
+notifications rules requires subscribing to a paid plan.</p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>If you would like to subscribe to Netdata, here is my
+<a href="https://netdata.cello.so/m3g8ZJvzrI9" target="_blank" rel="noopener noreferrer">invite link</a> for 10% discount for the
+first year.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="checkly">Checkly<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#checkly" class="hash-link" aria-label="Direct link to Checkly" title="Direct link to Checkly">​</a></h3>
+<p>Another tool I used for checking uptime and response time is
+<a href="https://www.checklyhq.com/" target="_blank" rel="noopener noreferrer">Checkly</a>. For free, there is a certain amount of
+API calls and browser per month. What I do is just for every 30 mins to 1 hour,
+call my self-hosted services and make sure they return status 200.</p>
+<p><img decoding="async" loading="lazy" alt="Checkly" src="https://wiki.ethanppl.com/assets/images/checkly-b86ec2cfb7a9f85a2adf582ec49c9a90.png" width="1003" height="403" class="img_ev3q"></p>
+<p>Checkly supports different location and interval to send the request. It also
+allows different assertions like text/json response, and verify the response
+meet certain requirements. I kept it simple to assert for status 200, but there
+are potential to configure it for more robust health checks.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="much-more">Much More<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#much-more" class="hash-link" aria-label="Direct link to Much More" title="Direct link to Much More">​</a></h2>
+<p>Other than monitoring, there are a lot more to try and experiment. I added my
+own <a href="https://plausible.io/" target="_blank" rel="noopener noreferrer">plausible analytics server</a>,
+<a href="https://glitchtip.com/" target="_blank" rel="noopener noreferrer">glitchtip</a> error tracking server, and more. This blog
+is already long. I may write about them in the future. All in all, the machine
+is yours, and you can do whatever you want with it.</p>
+<p>There are more to explore in the area of self-hosting. There are always more to
+do with security. This blog covered the basics like SSH authentication with keys
+instead of password, basic firewall set up with <code>ufw</code> and HTTPS for our server.
+There are more to do like not SSH into as root user by default and running
+containers in rootless environment.</p>
+<p>Backup is also another important aspect for self-hosting. If you want to store
+anything important, always backup regularly. Follow the
+<a href="https://en.wikipedia.org/wiki/Backup#3-2-1_Backup_Rule" target="_blank" rel="noopener noreferrer">3-2-1 backup rule</a>,
+with 3 copies, 2 on different media types and 1 stored offsite. This is to
+prevent any potential catastrophic error, be it human error, or disk corrupted,
+electricity disruption, virus and malware.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="summary">Summary<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>This setup has been running for 9 months now, and it requires little
+maintenance. I had a lot of fun running my own server and figuring out stuff
+along the way.</p>
+<p>This blog went through my thought process on choosing the server machine,
+running playground in docker, configuring database containers, DNS, nginx,
+firewall and monitoring tools. I believe it will be a never ending journey and I
+hope this inspires people to try too. I am not someone particularly interested
+in DevOps or server configurations, but this project gave me a better
+understanding of the problem space.</p>
+<p>If you would like to explore more,
+<a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank" rel="noopener noreferrer"><code>awesome-selfhosted</code></a>
+is a list of software services available for hosting, and
+<a href="https://github.com/awesome-foss/awesome-sysadmin" target="_blank" rel="noopener noreferrer"><code>awesome-sysadmin</code></a> is a list
+of awesome open-source sysadmin resources.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="references">References<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#references" class="hash-link" aria-label="Direct link to References" title="Direct link to References">​</a></h2>
+<p>Checkout <a href="https://wiki.ethanppl.com/computers/self-hosting">self-hosting page</a> for more.</p>
+<p>My setup is closest to this blog:</p>
+<ul>
+<li><a href="https://cprimozic.net/blog/my-selfhosted-websites-architecture/" target="_blank" rel="noopener noreferrer">My self-hosted websites architecture</a>
+<ul>
+<li>OVH cloud, nginx reverse proxy, DNS &amp; networking, external CDN for high
+traffic static sites</li>
+<li>Hosting websites, databases, plausible for analytics, sentry for error
+alerts, personal utils</li>
+<li>Handling security, monitoring, backup and disaster recovery</li>
+</ul>
+</li>
+</ul>
+<p>Other blogs:</p>
+<ul>
+<li><a href="https://grifel.dev/decentralization/" target="_blank" rel="noopener noreferrer">Self-hosting in 2023</a>
+(<a href="https://news.ycombinator.com/item?id=34860655" target="_blank" rel="noopener noreferrer">HN</a>)<!-- -->
+<ul>
+<li>Interesting read. Self-host a blog with Raspberry Pi, Coolify for deployment
+and DDClient to solve the problem of a dynamic IP</li>
+</ul>
+</li>
+<li><a href="https://pixeljets.com/blog/self-hosted-is-awesome/" target="_blank" rel="noopener noreferrer">Self-hosted is awesome</a>
+<ul>
+<li>Hetzner setup, docker applications, nginx host, cloudflare DNS</li>
+</ul>
+</li>
+<li><a href="https://jakew.me/home-server/" target="_blank" rel="noopener noreferrer">Repurpose your old laptop into a home server</a>
+<ul>
+<li>Ubuntu server, install docker, run Plex and secure remote connection with
+tailscale</li>
+</ul>
+</li>
+</ul>
+<p>Other resources:</p>
+<ul>
+<li><a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank" rel="noopener noreferrer">awesome-selfhosted</a>
+— List of web applications that can be self-hosted</li>
+<li><a href="https://github.com/awesome-foss/awesome-sysadmin" target="_blank" rel="noopener noreferrer">awesome-sysadmin</a> — List of
+sysadmin resources</li>
+<li><a href="https://www.reddit.com/r/selfhosted/" target="_blank" rel="noopener noreferrer">r/selfhosted</a>,
+<a href="https://www.reddit.com/r/HomeServer/" target="_blank" rel="noopener noreferrer">r/HomeServer</a> — Reddit sub</li>
+<li><a href="https://selfh.st/" target="_blank" rel="noopener noreferrer">slefh.st</a> — Newsletter</li>
+</ul>]]></content:encoded>
+            <category>Computers</category>
+            <category>Self Hosting</category>
+        </item>
         <item>
             <title><![CDATA[Reimplement all JavaScript Array Functions with while loops only]]></title>
             <link>https://wiki.ethanppl.com/blog/2025/02/23/js-array</link>
