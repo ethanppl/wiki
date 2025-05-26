@@ -126,3 +126,8 @@ Moving towards seniority/maturity in work.
     employees, except some sales roles
   - Explained why they do this, how that reflect the values and benefit the
     company
+- [Stuff I learned at Carta | Will Larson](https://lethain.com/stuff-learned-at-carta/)
+  - 2 years as CTO of Carta
+  - On strategy, culture, LLMs, managing seniors, managing costs, explaining eng
+    costs to execs, etc.
+  - Many links to previous blogs
