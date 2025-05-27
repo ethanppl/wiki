@@ -81,3 +81,8 @@ Related
     breakdown
   - Leap to form a team, secure funding, product market fit and go to market
     strategy
+- [$1M Revenue, $0 Profit: Our D2C Reality Check](https://www.indiehackers.com/post/1m-revenue-0-profit-our-d2c-reality-check-66e1d61d28)
+  - Kodgem, a hardware device that help people maintain good posture
+  - Painful lessons: poor inventory planning, no financial management, V1 UX was
+    bad, bootstrap pride and not taking investments, failed marketplace
+    partnership, and never paying founders causing burnout
