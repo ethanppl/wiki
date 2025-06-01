@@ -63,6 +63,10 @@ A free and open-source relational database.
   - Making `psql` useful: use pager, auto-completion, backslash shortcuts, copy
     to CSVs
   - Common issues in indexes, locks, transactions, and JSONB
+- [OpenAI: Scaling PostgreSQL to the Next Level](https://www.pixelstech.net/article/1747708863-openai%3a-scaling-postgresql-to-the-next-level)
+  - How OpenAI uses a single primary Postgres DB
+  - Favor read replicas, offload write if possible, lazy writes, query
+    optimization, etc.
 
 ## Notes
 
