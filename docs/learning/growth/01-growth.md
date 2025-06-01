@@ -165,3 +165,8 @@ to focus, to think and let the mind wonder about anything.
   - Understand this affects everyone and be scientifically curious
   - Explained by Veritasium:
     [On these questions, smarter people do worse](https://youtu.be/zB_OApdxcno)
+- [Reinvent the wheel](https://endler.dev/2025/reinvent-the-wheel/)
+  - Reinvent the wheel to learn, to teach, to fix, to gain insights and put
+    knowledge to test
+  - Don't reinvent the wheel just to disregard or ignore the work of others
+    > Reinvent for insight. Reuse for impact.
