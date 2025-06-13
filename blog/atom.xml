@@ -578,8 +578,8 @@ server traffic.</p>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo ufw status</span><br></span></code></pre></div></div>
 <p>Some of the commands that might be helpful</p>
 <ul>
-<li><code>sudo ufw show verbose</code>: show config</li>
-<li><code>sudo ufw status verbose</code>: show status</li>
+<li><code>sudo ufw show user-rules</code>: display information of the running firewall</li>
+<li><code>sudo ufw status verbose</code>: show config</li>
 <li><code>sudo ufw enable</code>: enable ufw</li>
 <li><code>sudo ufw default deny incoming</code>: by default disallow all incoming traffic
 from the Internet to the machine</li>
