@@ -34,6 +34,10 @@ Fun, pet projects
   - A small motivation to start the first step
   - Sometimes fear of failure, burnout, lack of interest can slow down creation
   - But humans seems to exist to create, to bring new things to existence
+- [Writing Toy Software is a Joy](https://www.jsbarretto.com/blog/software-is-joy/)
+  - A list of software author attempted with difficulty and time it takes
+  - Regex engine, OS kernel, emulator, physics engine, interpreter, text editor,
+    graphics renderer and more
 
 Fun projects collection
 
