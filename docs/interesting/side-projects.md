@@ -38,6 +38,13 @@ Fun, pet projects
   - A list of software author attempted with difficulty and time it takes
   - Regex engine, OS kernel, emulator, physics engine, interpreter, text editor,
     graphics renderer and more
+- [Draw a fish and watch it swim with others](https://drawafish.com/)
+  ([HN](https://news.ycombinator.com/item?id=44719222))
+  - And postmortem:
+    [DrawAFish.com Postmortem](https://aldenhallak.com/blog/posts/draw-a-fish-postmortem.html)
+  - Vulnerabilities and misconfiguration lead to offensive fish approved and
+    safe fish removed
+  - Vibe coding without reviewing, and directly publishing to production, oops
 
 Fun projects collection
 
