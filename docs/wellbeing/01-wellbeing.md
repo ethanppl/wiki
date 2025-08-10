@@ -87,6 +87,13 @@ How to live a happier, healthier, and more productive life.
   - One provoking point is, to some degree, we all probably know what will be
     the outcome of getting less addicted to our phone, it's just we never get
     started
+- [Emotion make sense | LessWrong](https://www.lesswrong.com/posts/PkRXkhsEHwcGqRJ9Z/emotions-make-sense)
+  - Emotion in principle make sense, even if they seem bad, e.g. anxiety,
+    jealousy, frustration, hatred, etc.
+  - Consider what happens if certain emotions disappeared, like in Inside Out
+  - Notice and acknowledge the emotion and the corresponding signals
+  - Respect emotions, but they might not fully represent you, balance them with
+    other values and goals
 
 Eyes
 
