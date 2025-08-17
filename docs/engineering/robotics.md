@@ -38,3 +38,5 @@ Computers that move?
     of the personality (emotions), in one model
   - The training methodology is hardware agnostic, it can be applied to robots
     with different hardware configurations
+- [Ask HN: How do I learn robotics in 2025?](https://news.ycombinator.com/item?id=44158353)
+  - Arduino kit, ROS, CAD, 3D printing
