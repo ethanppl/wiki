@@ -51,6 +51,8 @@ to focus, to think and let the mind wonder about anything.
 - [LessWrong](https://www.lesswrong.com/) — Forum and community dedicated to
   improving human reasoning
   ([User's Guide](https://www.lesswrong.com/posts/LbbrnRvc9QwjJeics/new-user-s-guide-to-lesswrong))
+- [Succeed Socially](https://succeedsocially.com/) — free guides on social
+  skills and overcoming shyness
 
 ## Links
 
