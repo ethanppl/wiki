@@ -49,3 +49,14 @@ a {
 .subscribe-button:hover {
   background: var(--ifm-color-primary-darker);
 }
+
+details {
+  box-shadow: none !important;
+  padding: 0.5rem 1rem !important;
+  background-color: var(--ifm-background-color) !important;
+}
+
+details[data-collapsed="true"] {
+  /** Make it 1 px but with the same color as the background so the position of the details block remains the same when collapsed */
+  border: 1px solid var(--ifm-background-color) !important;
+}
