@@ -106,6 +106,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [Professor has MENTAL BREAKDOWN and accuses class of cheating](https://youtu.be/bl8Z7Dl7P9A)
   (11:07)
   - Ignore the title and thumbnail, stick with this and watch it
+- [Dicing an onion: the mathematically optimal way](https://pudding.cool/2025/08/onions/)
+  - How to slice an onion so that the standard deviation of the sizes of each
+    piece is the least
 
 April Fools
 
