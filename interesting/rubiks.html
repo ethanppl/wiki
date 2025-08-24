@@ -14,8 +14,8 @@
 
 
 
-<script src="https://plausible.ethanppl.com/js/script.js" async defer="defer" data-domain="wiki.ethanppl.com"></script><link rel="stylesheet" href="/assets/css/styles.56685b75.css">
-<script src="/assets/js/runtime~main.8463eeb8.js" defer="defer"></script>
+<script src="https://plausible.ethanppl.com/js/script.js" async defer="defer" data-domain="wiki.ethanppl.com"></script><link rel="stylesheet" href="/assets/css/styles.bf4b06f8.css">
+<script src="/assets/js/runtime~main.814b59e5.js" defer="defer"></script>
 <script src="/assets/js/main.373fe6e4.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -55,6 +55,23 @@ speedsolving.com Wiki</li>
 <li><a href="https://ruwix.com/twisty-puzzles/4x4x4-rubiks-cube-rubiks-revenge/parity/" target="_blank" rel="noopener noreferrer">Parity on 4x4 Rubik&#x27;s Cube | Ruwix</a></li>
 <li><a href="https://www.speedsolving.com/wiki/index.php?title=4x4x4_parity_algorithms" target="_blank" rel="noopener noreferrer">4x4x4 parity algorithms | SpeedSolving</a></li>
 </ul>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>My notes for common 4x4x4 parity algorithms</summary><div><div class="collapsibleContent_i85q"><p>Notations</p><ul>
+<li><code>R</code>: clockwise right outer layer</li>
+<li><code>r</code>: clockwise right inner layer</li>
+<li><code>R&#x27;</code>: anticlockwise right outer layer</li>
+<li><code>R2</code>: clockwise right outer layer twice</li>
+<li><code>Rw</code>: clockwise both right layer</li>
+<li><code>Rw2</code>: clockwise both right layer twice</li>
+</ul><p>Algorithms</p><ul>
+<li>Forming last 2 pairs:
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&amp;setup-anchor=end&amp;alg=Uw%27+R+F%27+U+R%27+F+Dw" target="_blank" rel="noopener noreferrer"><code>Uw&#x27; R F&#x27; U R&#x27; F Dw</code></a></li>
+<li>OLL flip center two:
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&amp;setup-anchor=end&amp;alg=2R2+B2+U2+2L+U2+2R%27+U2+2R+U2+F2+2R+F2+2L%27+B2+2R2" target="_blank" rel="noopener noreferrer"><code>r2 B2 U2 l – U2 r&#x27; U2 r – U2 F2 r F2 – l&#x27; B2 r2</code></a></li>
+<li>PLL <code>||</code> swap:
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&amp;setup-anchor=end&amp;alg=U2+2R2+U2+2R2+u2+2R2+u2" target="_blank" rel="noopener noreferrer"><code>U2 r2 U2 r2 Uw2 r2 Uw2</code></a></li>
+<li>PLL <code>//</code> swap:
+<a href="https://alpha.twizzle.net/edit/?puzzle=4x4x4&amp;setup-anchor=end&amp;alg=%28R2+D%27+r2+U2+F2%29+2R2+%28F2+U2+r2+D+R2%29" target="_blank" rel="noopener noreferrer"><code>(R2 D&#x27; Rw2 U2 F2) r2 (F2 U2 Rw2 D R2)</code></a></li>
+</ul></div></div></details>
 <p>Big cubes</p>
 <ul>
 <li><a href="https://ruwix.com/twisty-puzzles/big-cubes-nxnxn-solution/" target="_blank" rel="noopener noreferrer">Solution of Big NxNxN Rubik&#x27;s Cube</a>
