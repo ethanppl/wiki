@@ -103,6 +103,9 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - "Unrelated" correlation, with GenAI's made-up explanation, scatter plot and
     GenAI image
   - [Wind power generate in Taiwan correlates with Google searches for 'i am tired'](https://www.tylervigen.com/spurious/correlation/1775_wind-power-generated-in-taiwan_correlates-with_google-searches-for-i-am-tired)
+- [Professor has MENTAL BREAKDOWN and accuses class of cheating](https://youtu.be/bl8Z7Dl7P9A)
+  (11:07)
+  - Ignore the title and thumbnail, stick with this and watch it
 
 April Fools
 
