@@ -101,3 +101,7 @@ Guides
   - Because it disappears, unknown delay time, but still better than no feedback
 - [How to improve your product and design taste](https://docs.google.com/document/d/1XAsKwVGdJ-Ry3T4fpY8f_IeHdQnmnL3A9FpiB11Z3a8)
   - What you read, what product you use, what people you are around with
+- [Grug Design](https://www.grug.design/know)
+  - Similar to [Grug Brained Developer](https://grugbrain.dev/), but seems like
+    from a different author
+  - On complexity, density, grid, typeface, icons, process, user focus, etc.
