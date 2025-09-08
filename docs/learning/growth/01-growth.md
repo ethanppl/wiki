@@ -172,3 +172,9 @@ to focus, to think and let the mind wonder about anything.
     knowledge to test
   - Don't reinvent the wheel just to disregard or ignore the work of others
     > Reinvent for insight. Reuse for impact.
+- [Being good isn't enough](https://joshs.bearblog.dev/being-good-isnt-enough/)
+  - It's not just work harder
+  - Combine disciplines: technical skill, product thinking, project execution,
+    and people skills
+  - Agency: high-agency people make things happen; low-agency people wait
+    > Making stuff that matters actually happen
