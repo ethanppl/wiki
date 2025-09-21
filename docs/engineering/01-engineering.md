@@ -180,3 +180,13 @@ Aeronautics
 - [Airfoil | Bartosz Ciechanowski](https://ciechanow.ski/airfoil/)
   ([HN](https://news.ycombinator.com/item?id=39526057))
 - [Airfoil Lifting Force Misconception](http://www.amasci.com/wing/airfoil.html)
+
+3D printing
+
+- [Ultimate Guide: How to design for 3D Printing](https://wikifactory.com/+wikifactory/stories/ultimate-guide-how-to-design-for-3d-printing)
+  - Basics: thickness, bridges, overhand, orientation
+  - Edges, feature sizes, fillets, ribs, splitting models, etc.
+- [Design for 3D-Printing](https://blog.rahix.de/design-for-3d-printing/)
+  - More technical guides, especially comparing to other manufacturing methods
+  - Strength, tolerance, process optimization, integration, appearance, etc.
+- [Ask HN: What's a good 3D Printer for sub $1000](https://news.ycombinator.com/item?id=45251624)
