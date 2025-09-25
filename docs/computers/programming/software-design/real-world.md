@@ -108,3 +108,7 @@
     window
   - Prioritizing full rewrite v.s. work with some sacrifices but delivery some
     value early on
+- [How AWS S3 serves 1 petabyte per second on top of slow HDDs](https://bigdata.2minutestreaming.com/p/how-aws-s3-scales-with-tens-of-millions-of-hard-drives)
+  - Paralleling read and write to many HDDs
+  - Erasure coding: breaks data into shards and redundant parity shards
+  - Power of random two: pick two random and use the less busy one
