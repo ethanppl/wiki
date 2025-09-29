@@ -24,9 +24,14 @@ const config = {
   // projectName: "wiki", // Usually your repo name.
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
   onBrokenAnchors: "throw",
   onDuplicateRoutes: "throw",
+  markdown: {
+    hooks: {
+      onBrokenMarkdownImages: "throw",
+      onBrokenMarkdownLinks: "throw",
+    },
+  },
 
   // Fix duplicated URL because of trailing slash
   trailingSlash: false,
