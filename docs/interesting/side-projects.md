@@ -59,3 +59,4 @@ Fun projects collection
 - [Time Flies](https://time-flies.koenvangilst.nl/)
 - [NYC subway in 40 minutes](https://subwaysheds.com/)
 - [368 Chickens](https://368chickens.com/)
+- [Bad Keyboards Thread](https://bsky.app/profile/foone.bsky.social/post/3lyvontitm22y)
