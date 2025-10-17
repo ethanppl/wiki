@@ -101,6 +101,15 @@ Developing user interfaces of web pages.
 - [Server-Sent Events (SSE) are underrated](https://igorstechnoclub.com/server-sent-events-sse-are-underrated/)
   - Unidirectional update pushed from the server, `mimetype=text/event-stream`
   - Some constraints, considerations and best practices in the article
+- [The least amount of CSS for a decent looking site](https://thecascade.dev/article/least-amount-of-css/)
+  - E.g. `max-width: min(70ch, 100% - 4rem);`
+- [Never, ever use system-ui as the value of font-family](https://infinnie.github.io/blog/2017/systemui.html)
+  - Got this link from
+    [this HN comment](https://news.ycombinator.com/item?id=45500079)
+  - It causes problems on Windows and for some system languages like Chinese and
+    Korean
+- [A pragmatic guide to modern CSS colours](https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/)
+  - `rgb()`, `hsl()`, relative color, `light-dark()`, color spaces and more
 
 CSS games
 
@@ -119,3 +128,4 @@ SVG
 - [Handcraft sparklines chart in SVG](https://alexplescan.com/posts/2023/07/08/easy-svg-sparklines/)
   — Drawing lines, scaling, and adding a fill by hand or a helper function in
   the backend
+- [Friendly introduction to SVG](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg/)
