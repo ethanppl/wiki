@@ -120,6 +120,17 @@ science/programming.
   - Don't write crappy code and don't adapt new tech for no real benefit
   - Face it, learn it, and "delegacify". Be a problem solver not a problem
     creator
+- [The birth of prettier](https://blog.vjeux.com/2025/javascript/birth-of-prettier.html)
+  ([HN](https://news.ycombinator.com/item?id=45482198))
+  - The story of searching for solutions, building and perfecting prettier
+  - 80-20 rule does not apply to formatter, it has to be 100% working
+  - Snapshot testing: see if the differences between snapshot is intended or not
+  - Idempotency test: `prettier(input) == prettier(prettier(input))`
+  - Challenges: comments, chained methods, expanded last argument, object
+    literals, missing semicolons
+  - Making it easy to maintain consistency lower the stakes of "tabs vs spaces"
+    debates
+  - Funding and maintaining the project is the ongoing challenge
 
 Cognitive Load:
 
