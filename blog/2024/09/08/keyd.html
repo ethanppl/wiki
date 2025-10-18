@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr" class="blog-wrapper blog-post-page plugin-blog plugin-id-default" data-has-hydrated="false">
 <head>
 <meta charset="UTF-8">
-<meta name="generator" content="Docusaurus v3.9.1">
+<meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">How I use keyd to remap my keyboard in Ubuntu 22.04 with Wayland | Ethan&#x27;s Wiki</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://wiki.ethanppl.com/img/logo.png"><meta data-rh="true" name="twitter:image" content="https://wiki.ethanppl.com/img/logo.png"><meta data-rh="true" property="og:url" content="https://wiki.ethanppl.com/blog/2024/09/08/keyd"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" name="author" content="Ethan Pang"><meta data-rh="true" name="keywords" content="wiki, guides, resources, collections"><meta data-rh="true" property="og:title" content="How I use keyd to remap my keyboard in Ubuntu 22.04 with Wayland | Ethan&#x27;s Wiki"><meta data-rh="true" name="description" content="Think about how you use your keyboard. Imagine how good it would be if your"><meta data-rh="true" property="og:description" content="Think about how you use your keyboard. Imagine how good it would be if your"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2024-09-08T00:00:00.000Z"><meta data-rh="true" property="article:author" content="https://ethanppl.com/"><meta data-rh="true" property="article:tag" content="Ubuntu,Tips &amp; Configs,Computers"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://wiki.ethanppl.com/blog/2024/09/08/keyd"><link data-rh="true" rel="alternate" href="https://wiki.ethanppl.com/blog/2024/09/08/keyd" hreflang="en"><link data-rh="true" rel="alternate" href="https://wiki.ethanppl.com/blog/2024/09/08/keyd" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://wiki.ethanppl.com/blog/2024/09/08/keyd","mainEntityOfPage":"https://wiki.ethanppl.com/blog/2024/09/08/keyd","url":"https://wiki.ethanppl.com/blog/2024/09/08/keyd","headline":"How I use keyd to remap my keyboard in Ubuntu 22.04 with Wayland","name":"How I use keyd to remap my keyboard in Ubuntu 22.04 with Wayland","description":"Think about how you use your keyboard. Imagine how good it would be if your","datePublished":"2024-09-08T00:00:00.000Z","author":{"@type":"Person","name":"Ethan Pang","url":"https://ethanppl.com/","image":"https://github.com/ethanppl.png"},"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://wiki.ethanppl.com/blog","name":"Blog"}}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="Ethan&#39;s Wiki RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="Ethan&#39;s Wiki Atom Feed">
 
@@ -14,9 +14,9 @@
 
 
 
-<script src="https://plausible.ethanppl.com/js/script.js" async defer="defer" data-domain="wiki.ethanppl.com"></script><link rel="stylesheet" href="/assets/css/styles.4d722269.css">
-<script src="/assets/js/runtime~main.3dbdd4b0.js" defer="defer"></script>
-<script src="/assets/js/main.478ac6ef.js" defer="defer"></script>
+<script src="https://plausible.ethanppl.com/js/script.js" async defer="defer" data-domain="wiki.ethanppl.com"></script><link rel="stylesheet" href="/assets/css/styles.5f1d9342.css">
+<script src="/assets/js/runtime~main.3a4f0edb.js" defer="defer"></script>
+<script src="/assets/js/main.3e6fae20.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -29,21 +29,21 @@ the functionality of each key on your keyboard.</p>
 <p>This is a walkthrough of my setup in Ubuntu using <code>keyd</code>. A guide I wish it
 existed when I first try to find out how to remap my keyboard in Ubuntu.</p>
 <p><img decoding="async" loading="lazy" src="https://imgs.xkcd.com/comics/borrow_your_laptop.png" alt="xkcd 1806" class="img_ev3q"></p>
-<p><em><a href="https://xkcd.com/1806/" target="_blank" rel="noopener noreferrer">xkcd 1806: borrow your laptop</a></em></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-i-remap-my-keyboard">Why I Remap my Keyboard<a href="#why-i-remap-my-keyboard" class="hash-link" aria-label="Direct link to Why I Remap my Keyboard" title="Direct link to Why I Remap my Keyboard" translate="no">​</a></h2>
-<p>After I <a href="/blog/2024/02/29/dual-boot-guide">dual-boot with Ubuntu</a> and used it as
+<p><em><a href="https://xkcd.com/1806/" target="_blank" rel="noopener noreferrer" class="">xkcd 1806: borrow your laptop</a></em></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="why-i-remap-my-keyboard">Why I Remap my Keyboard<a href="#why-i-remap-my-keyboard" class="hash-link" aria-label="Direct link to Why I Remap my Keyboard" title="Direct link to Why I Remap my Keyboard" translate="no">​</a></h2>
+<p>After I <a class="" href="/blog/2024/02/29/dual-boot-guide">dual-boot with Ubuntu</a> and used it as
 my daily driver for work and personal use, one key thing I missed is
-<a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a>. It is a software that I used to remap
+<a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer" class="">AutoHotkey</a>. It is a software that I used to remap
 my keyboard in Windows and create shortcuts and &quot;hotstrings&quot;. For example,</p>
 <ul>
-<li>Remapping <code>CapsLock</code> to <code>Ctrl</code> on hold, but works as <code>Esc</code> when clicked alone</li>
-<li><code>z+d</code> to scroll down and <code>z+u</code> to scroll up, and other ways to move my mouse</li>
-<li><code>z+e</code> and <code>z+g</code> to insert my email addresses</li>
-<li><code>|!=</code>, <code>|-&gt;</code>, <code>|&lt;-</code> will be replaced by not equal (≠), right arrow (→) and
+<li class="">Remapping <code>CapsLock</code> to <code>Ctrl</code> on hold, but works as <code>Esc</code> when clicked alone</li>
+<li class=""><code>z+d</code> to scroll down and <code>z+u</code> to scroll up, and other ways to move my mouse</li>
+<li class=""><code>z+e</code> and <code>z+g</code> to insert my email addresses</li>
+<li class=""><code>|!=</code>, <code>|-&gt;</code>, <code>|&lt;-</code> will be replaced by not equal (≠), right arrow (→) and
 left arrow (←), etc., automatically</li>
 </ul>
 <p>I shared
-<a href="https://github.com/ethanppl/ahk" target="_blank" rel="noopener noreferrer">my AHK configuration in this repository</a> if
+<a href="https://github.com/ethanppl/ahk" target="_blank" rel="noopener noreferrer" class="">my AHK configuration in this repository</a> if
 you are interested. I might write about it later too.</p>
 <p>I think remapping keyboard is one of the most important change I made to my
 laptop ever since I know how to use a computer. It is like the first time you
@@ -53,30 +53,30 @@ in a very convenient location but is rarely used.</p>
 <p>So once I boot to Ubuntu, the first thing I wanted to do is to replicate this
 setup. Unfortunately, AHK only works for Windows, so I need to look for
 alternatives. The first difficulty that you might face as well is Ubuntu 22.04
-by default uses <a href="https://en.wikipedia.org/wiki/Wayland_(protocol)" target="_blank" rel="noopener noreferrer">Wayland</a> as
+by default uses <a href="https://en.wikipedia.org/wiki/Wayland_(protocol)" target="_blank" rel="noopener noreferrer" class="">Wayland</a> as
 the window system, but a lot of tools available online works for
-<a href="https://en.wikipedia.org/wiki/X_Window_System" target="_blank" rel="noopener noreferrer">X11</a> only. For example, there is
-<a href="https://github.com/autokey/autokey" target="_blank" rel="noopener noreferrer">AutoKey</a> that seems to be popular but only
+<a href="https://en.wikipedia.org/wiki/X_Window_System" target="_blank" rel="noopener noreferrer" class="">X11</a> only. For example, there is
+<a href="https://github.com/autokey/autokey" target="_blank" rel="noopener noreferrer" class="">AutoKey</a> that seems to be popular but only
 works for X11.</p>
-<p>I first tried <a href="https://github.com/sezanzeb/input-remapper" target="_blank" rel="noopener noreferrer"><code>input-remapper</code></a>. It
+<p>I first tried <a href="https://github.com/sezanzeb/input-remapper" target="_blank" rel="noopener noreferrer" class=""><code>input-remapper</code></a>. It
 looks promising with nice graphical user interface, but it didn&#x27;t work out when
 I tried to add more complicated logics. I also tried
-<a href="https://github.com/boppreh/keyboard" target="_blank" rel="noopener noreferrer">keyboard</a>, a Python module which allows me
+<a href="https://github.com/boppreh/keyboard" target="_blank" rel="noopener noreferrer" class="">keyboard</a>, a Python module which allows me
 to create custom keyboard events in Python code. It&#x27;s like coding my own daemon,
 but I found it too much overhead and quite laggy. In the end, I found
-<a href="https://wiki.archlinux.org/title/Input_remap_utilities" target="_blank" rel="noopener noreferrer">a list of input remapping utilities</a>
+<a href="https://wiki.archlinux.org/title/Input_remap_utilities" target="_blank" rel="noopener noreferrer" class="">a list of input remapping utilities</a>
 provided by Arch Linux wiki. Going through the list and I chose
-<a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer"><code>keyd</code></a> which works for me quite well over the
+<a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer" class=""><code>keyd</code></a> which works for me quite well over the
 past year.</p>
 <p>If you are using Windows, you can check
-<a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer">AutoHotkey</a> as linked above. If you are on Mac, I
+<a href="https://www.autohotkey.com/" target="_blank" rel="noopener noreferrer" class="">AutoHotkey</a> as linked above. If you are on Mac, I
 read that
-<a href="https://karabiner-elements.pqrs.org/docs/getting-started/features/" target="_blank" rel="noopener noreferrer">Karabiner</a>
+<a href="https://karabiner-elements.pqrs.org/docs/getting-started/features/" target="_blank" rel="noopener noreferrer" class="">Karabiner</a>
 is good, but I have not used a Mac before. If your keyboard supports it,
-<a href="https://docs.qmk.fm/#/newbs" target="_blank" rel="noopener noreferrer">QMK</a>/<a href="https://www.caniusevia.com/docs/specification" target="_blank" rel="noopener noreferrer">VIA</a>
+<a href="https://docs.qmk.fm/#/newbs" target="_blank" rel="noopener noreferrer" class="">QMK</a>/<a href="https://www.caniusevia.com/docs/specification" target="_blank" rel="noopener noreferrer" class="">VIA</a>
 might be good for you. Even if <code>keyd</code> doesn&#x27;t work for you, you may follow along
 to get some inspiration even though the syntax of the config is not the same.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="basic-concepts-in-keyd">Basic Concepts in <code>keyd</code><a href="#basic-concepts-in-keyd" class="hash-link" aria-label="Direct link to basic-concepts-in-keyd" title="Direct link to basic-concepts-in-keyd" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="basic-concepts-in-keyd">Basic Concepts in <code>keyd</code><a href="#basic-concepts-in-keyd" class="hash-link" aria-label="Direct link to basic-concepts-in-keyd" title="Direct link to basic-concepts-in-keyd" translate="no">​</a></h2>
 <p>The very first thing to understand in <code>keyd</code> config is it operates in terms of
 layers. The most intuitive way for me to understand a layer is the <code>Shift</code> key.
 When the <code>Shift</code> key is pressed and hold, a different layer is activated and all
@@ -88,26 +88,26 @@ Second, it natively supports key overloading, which allows me to configure the
 <code>CapsLock</code> key to behave as <code>Ctrl</code> on hold while <code>Esc</code> when tapped. From what I
 test, it is instant and fast too.</p>
 <p>To get started, install <code>keyd</code> from source. Clone
-<a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer">the repository</a> and build it from source.
+<a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer" class="">the repository</a> and build it from source.
 Follow the instructions in the
-<a href="https://github.com/rvaiya/keyd?tab=readme-ov-file#from-source" target="_blank" rel="noopener noreferrer">README</a> to
+<a href="https://github.com/rvaiya/keyd?tab=readme-ov-file#from-source" target="_blank" rel="noopener noreferrer" class="">README</a> to
 install it.</p>
 <p>Here are some helpful commands to know:</p>
 <ul>
-<li><code>sudo systemctl enable keyd</code>: start <code>keyd</code>, probably run it once in your
+<li class=""><code>sudo systemctl enable keyd</code>: start <code>keyd</code>, probably run it once in your
 lifetime</li>
-<li><code>sudo keyd reload</code>: reload the config every time after you edit the config</li>
-<li><code>sudo keyd monitor</code>: print key events, useful to debug what is remapped</li>
-<li><code>keyd list-keys</code>: list all the valid key names, useful to check the
+<li class=""><code>sudo keyd reload</code>: reload the config every time after you edit the config</li>
+<li class=""><code>sudo keyd monitor</code>: print key events, useful to debug what is remapped</li>
+<li class=""><code>keyd list-keys</code>: list all the valid key names, useful to check the
 possibilities</li>
-<li><code>backspace+escape+enter</code> keyboard combo: terminate <code>keyd</code> anywhere anytime in
+<li class=""><code>backspace+escape+enter</code> keyboard combo: terminate <code>keyd</code> anywhere anytime in
 case you severely messed up (happened once to me)</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sharing-my-configuration">Sharing my Configuration<a href="#sharing-my-configuration" class="hash-link" aria-label="Direct link to Sharing my Configuration" title="Direct link to Sharing my Configuration" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="sharing-my-configuration">Sharing my Configuration<a href="#sharing-my-configuration" class="hash-link" aria-label="Direct link to Sharing my Configuration" title="Direct link to Sharing my Configuration" translate="no">​</a></h2>
 <p>Here is the full config if you are interested. I will explain it line by line
 below.</p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[ids]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">*</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[main]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Maps capslock to escape when pressed and control when held.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">capslock = overload(control, esc)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Maps z to a custom layer, but just &#x27;z&#x27; when pressed.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">z = overload(z, z)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Shift layer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[shift:S]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## shift+capslock is capslock</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">capslock = capslock</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"># Custom z layer</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[z]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Escape common patterns</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">i = macro(zi)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">o = macro(zo)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Emails</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">e = macro(hi@ethanppl.com)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">g = macro(hi@ethanppl.com)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Simplify complicated shortcut keys</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">v = C-S-v</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">n = C-S-a</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">x = A-f4</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">s = command(systemctl suspend)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Arrows</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">j = down</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">k = up</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">h = left</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">l = right</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">## Media / modifier</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">m = oneshot(media)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">[media]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">j = previoussong</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">k = playpause</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">l = nextsong</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">a = macro({ enter 10ms &quot;Aut 10ms hor 10ms iza 10ms tio 10ms n&quot;: space &quot;Bea 10ms rer space C-v)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span></code></pre></div></div>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="main-layer">Main layer<a href="#main-layer" class="hash-link" aria-label="Direct link to Main layer" title="Direct link to Main layer" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="main-layer">Main layer<a href="#main-layer" class="hash-link" aria-label="Direct link to Main layer" title="Direct link to Main layer" translate="no">​</a></h3>
 <p>Let&#x27;s go through it line by line.</p>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">capslock = overload(control, esc)</span><br></span></code></pre></div></div>
 <p>This is the most important feature that I need, as introduced in the beginning.
@@ -125,13 +125,13 @@ but it acts as <code>z</code> when tap alone. This gives me another modifier key
 <code>Ctrl</code>, <code>Alt</code>, <code>Shift</code>), without overriding what the default keyboard shortcuts
 that come with software programs. But before we go into this special <code>z</code> layer,
 we need to fix one thing first.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="shift-layer">Shift layer<a href="#shift-layer" class="hash-link" aria-label="Direct link to Shift layer" title="Direct link to Shift layer" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="shift-layer">Shift layer<a href="#shift-layer" class="hash-link" aria-label="Direct link to Shift layer" title="Direct link to Shift layer" translate="no">​</a></h3>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">[shift:S]</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">capslock = capslock</span><br></span></code></pre></div></div>
 <p>We don&#x27;t have a <code>CapsLock</code> key after we remap it. What this two lines do is
 that, in the shift layer, map <code>CapsLock</code> to work as <code>CapsLock</code>. So to summarize,
 right now holding <code>CapsLock</code> is <code>Ctrl</code>, tapping <code>CapsLock</code> once is <code>Esc</code>, and
 doing <code>Shift+CapsLock</code> is <code>CapsLock</code>.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-z-layer">The <code>z</code> layer<a href="#the-z-layer" class="hash-link" aria-label="Direct link to the-z-layer" title="Direct link to the-z-layer" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-z-layer">The <code>z</code> layer<a href="#the-z-layer" class="hash-link" aria-label="Direct link to the-z-layer" title="Direct link to the-z-layer" translate="no">​</a></h3>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">i = macro(zi)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">o = macro(zo)</span><br></span></code></pre></div></div>
 <p>First thing is since I did this custom <code>z</code> layer with AutoHotkey in Windows, I
 realized the character <code>i</code> and <code>o</code> commonly follows the <code>z</code> key (e.g. amazing
@@ -166,7 +166,7 @@ to do things like autocomplete in terminal without moving my palm.</p>
 <p>You might also notice that I try to pair keys that are comfortable to reach when
 holding <code>z</code> down, like I would avoid mapping anything to <code>z+a</code> that is just
 complicated and unnatural to type.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-zm-layer-a-layer-on-top-of-a-layer">The <code>z+m</code> layer, a layer on top of a layer<a href="#the-zm-layer-a-layer-on-top-of-a-layer" class="hash-link" aria-label="Direct link to the-zm-layer-a-layer-on-top-of-a-layer" title="Direct link to the-zm-layer-a-layer-on-top-of-a-layer" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-zm-layer-a-layer-on-top-of-a-layer">The <code>z+m</code> layer, a layer on top of a layer<a href="#the-zm-layer-a-layer-on-top-of-a-layer" class="hash-link" aria-label="Direct link to the-zm-layer-a-layer-on-top-of-a-layer" title="Direct link to the-zm-layer-a-layer-on-top-of-a-layer" translate="no">​</a></h3>
 <div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">m = oneshot(media)</span><br></span></code></pre></div></div>
 <p>Still in the <code>z</code> layer, I defined the <code>m</code> key to activate the <code>media</code> layer. It
 activates this layer as <code>oneshot</code>. The man page defined <code>oneshot</code> as &quot;If tapped,
@@ -192,7 +192,7 @@ the <code>{</code> curly braces. With some trial and error I realize I cannot ma
 to type all keys at once, so I leave some delay in between and that works
 better. Having it run <code>Ctrl+V</code> to paste also helps a lot. I find this saves me
 quite some time each day.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="other-thoughts">Other thoughts<a href="#other-thoughts" class="hash-link" aria-label="Direct link to Other thoughts" title="Direct link to Other thoughts" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="other-thoughts">Other thoughts<a href="#other-thoughts" class="hash-link" aria-label="Direct link to Other thoughts" title="Direct link to Other thoughts" translate="no">​</a></h2>
 <p>There are many other features in <code>keyd</code> that is up to you to explore. I have
 added different configs in and out over the year until I settle down to this set
 of commands. For example, initially I also configured a shortcut to type
@@ -210,7 +210,7 @@ installed <code>copyq</code> to get clipboard history and I configured <code>z+c
 <code>command(copyq show)</code>, but it never worked. It&#x27;s not a dealbreaker and I didn&#x27;t
 spend time to debug why.</p>
 <p>One thing you might already notice is there is no more hotstrings, which I had
-in <a href="https://github.com/ethanppl/ahk" target="_blank" rel="noopener noreferrer">my AutoHotkey configuration</a>. I can no
+in <a href="https://github.com/ethanppl/ahk" target="_blank" rel="noopener noreferrer" class="">my AutoHotkey configuration</a>. I can no
 longer type <code>≠</code>, <code>→</code>, <code>←</code> and other special characters that easily. I realize
 configuration like <code>l = ←</code> doesn&#x27;t work. After reading the man page, I believe I
 can make it works by setting up Unicode support, which have some other external
@@ -218,7 +218,7 @@ configuration required, and I have not spent the time investigating.</p>
 <p>There is also no more mouse control. There is no way to move my mouse with
 <code>keyd</code> because all <code>keyd</code> does is to remap keys. I know there are other daemons
 in Linux that are designed for that, but I have not tried. There are
-<a href="https://github.com/rvaiya/warpd" target="_blank" rel="noopener noreferrer"><code>warpd</code></a> for X11, macOS, or Sway only, but not
+<a href="https://github.com/rvaiya/warpd" target="_blank" rel="noopener noreferrer" class=""><code>warpd</code></a> for X11, macOS, or Sway only, but not
 Wayland in gnome.</p>
 <p>There are also some minor problems that I wish to solve in the future. For
 example, <code>Ctrl+&lt;arrows&gt;</code> is a common key combination that I do, but I can&#x27;t
@@ -232,15 +232,15 @@ bar. For example, <code>win+2</code> always open my browser and <code>win+3</cod
 <p>That is how my configuration in <code>keyd</code> works and some of my reasoning behind it.
 I hope you like this explanation, and it inspires you to remap your keyboard
 too. It genuinely improved my life.</p>
-<p><em>You might be interested in <a href="/computers/keyboard">this page about keyboards</a> in
+<p><em>You might be interested in <a class="" href="/computers/keyboard">this page about keyboards</a> in
 my Wiki too.</em></p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="useful-links">Useful links<a href="#useful-links" class="hash-link" aria-label="Direct link to Useful links" title="Direct link to Useful links" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="useful-links">Useful links<a href="#useful-links" class="hash-link" aria-label="Direct link to Useful links" title="Direct link to Useful links" translate="no">​</a></h2>
 <ul>
-<li><a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer"><code>keyd</code> repository</a></li>
-<li><a href="https://github.com/rvaiya/keyd/tree/master/examples" target="_blank" rel="noopener noreferrer"><code>keyd</code> examples</a> by the
+<li class=""><a href="https://github.com/rvaiya/keyd" target="_blank" rel="noopener noreferrer" class=""><code>keyd</code> repository</a></li>
+<li class=""><a href="https://github.com/rvaiya/keyd/tree/master/examples" target="_blank" rel="noopener noreferrer" class=""><code>keyd</code> examples</a> by the
 creator</li>
-<li>If you are stuck, you might find a solution by searching the
-<a href="https://github.com/rvaiya/keyd/issues" target="_blank" rel="noopener noreferrer">issues in <code>keyd</code></a></li>
+<li class="">If you are stuck, you might find a solution by searching the
+<a href="https://github.com/rvaiya/keyd/issues" target="_blank" rel="noopener noreferrer" class="">issues in <code>keyd</code></a></li>
 </ul></div><footer class="docusaurus-mt-lg"><div class="row margin-top--sm theme-blog-footer-edit-meta-row"><div class="col"><b>Tags:</b><ul class="tags_jXut padding--none margin-left--sm"><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/blog/tags/ubuntu">Ubuntu</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/blog/tags/tips-and-configs">Tips &amp; Configs</a></li><li class="tag_QGVx"><a rel="tag" class="tag_zVej tagRegular_sFm0" href="/blog/tags/computers">Computers</a></li></ul></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--prev" href="/blog/2024/12/28/mfa-totp"><div class="pagination-nav__sublabel">Newer post</div><div class="pagination-nav__label">How does the 6 digits number in multifactor authentication works?</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/blog/2024/06/19/weird-issue"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">Don&#x27;t say it&#x27;s a weird bug, because it makes you look stupid</div></a></nav></main><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#why-i-remap-my-keyboard" class="table-of-contents__link toc-highlight">Why I Remap my Keyboard</a></li><li><a href="#basic-concepts-in-keyd" class="table-of-contents__link toc-highlight">Basic Concepts in <code>keyd</code></a></li><li><a href="#sharing-my-configuration" class="table-of-contents__link toc-highlight">Sharing my Configuration</a><ul><li><a href="#main-layer" class="table-of-contents__link toc-highlight">Main layer</a></li><li><a href="#shift-layer" class="table-of-contents__link toc-highlight">Shift layer</a></li><li><a href="#the-z-layer" class="table-of-contents__link toc-highlight">The <code>z</code> layer</a></li><li><a href="#the-zm-layer-a-layer-on-top-of-a-layer" class="table-of-contents__link toc-highlight">The <code>z+m</code> layer, a layer on top of a layer</a></li></ul></li><li><a href="#other-thoughts" class="table-of-contents__link toc-highlight">Other thoughts</a></li><li><a href="#useful-links" class="table-of-contents__link toc-highlight">Useful links</a></li></ul></div></div></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__links text--center"><div class="footer__links"><a class="footer__link-item" href="/">About</a><span class="footer__link-separator">·</span><a class="footer__link-item" href="/blog">Blogs</a><span class="footer__link-separator">·</span><a class="footer__link-item" href="/subscribe">Subscribe for free</a><span class="footer__link-separator">·</span><a href="https://ethanppl.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">About me<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><span class="footer__link-separator">·</span><a href="https://github.com/ethanppl/wiki/issues/new" target="_blank" rel="noopener noreferrer" class="footer__link-item">Report an issue<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Ethan Pang.</div></div></div></footer></div>
 </body>
 </html>
