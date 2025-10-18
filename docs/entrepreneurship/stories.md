@@ -86,3 +86,10 @@ Related
   - Painful lessons: poor inventory planning, no financial management, V1 UX was
     bad, bootstrap pride and not taking investments, failed marketplace
     partnership, and never paying founders causing burnout
+- [How Dan Ni Founded TLDR, the Definitive Silicon Valley Tech Newsletter](https://www.inc.com/rob-verger/how-dan-ni-founded-tldr-the-definitive-silicon-valley-tech-newsletter/91231833?mvgt=94C3dF9tRtQm)
+  - Overcoming medical syndrome, unfulfilling experience building SaaS, to
+    starting TLDR on the side
+  - 1.6M subscribers, $30K per ad
+  - How to curate and what's worth to be included:
+    > If you wouldn’t forward this to your colleagues in Slack, don’t put it in
+    > the newsletter
