@@ -16,6 +16,8 @@ more layers.
 
 - If you are on Linux, you can check out my blog about
   [setting up and configuring `keyd`](/blog/2024/09/08/keyd)
+- If you are on Mac, you can check out my blog about
+  [how I use Karabiner to remap my Mac keyboard](/blog/2025/10/19/karabiner)
 - If you are on Windows, you can check out my
   [previous `AutoHotkey` configuration](https://github.com/ethanppl/ahk)
 
@@ -31,9 +33,9 @@ Keyboard Remapping
   [run AHK on startup](https://stackoverflow.com/questions/41723490/how-to-build-ahk-scripts-automatically-on-startup)
   — remapping keyboard in Windows
 - [keyd | GitHub @rvaiga](https://github.com/rvaiya/keyd) — my AutoHotkey
-  replacement in Linux, support Wayland
+  replacement in Linux, support Wayland, [see my blog](/blog/2024/09/08/keyd)
 - [Karabiner](https://karabiner-elements.pqrs.org/docs/getting-started/features/)
-  — looks promising for mac, haven't used it before,
+  — [see my blog](/blog/2025/10/19/karabiner), or
   [a guide on Karabiner God Mode by Nikita](https://medium.com/@nikitavoloboev/karabiner-god-mode-7407a5ddc8f6)
 - [QMK](https://docs.qmk.fm/#/newbs)/[VIA](https://www.caniusevia.com/docs/specification)
   — keyboard firmware level,
