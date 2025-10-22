@@ -46,6 +46,9 @@ Possible solutions to daily life problems.
   (1:28:04)
   - 3 categories by different height map to each 3 tiers of chairs by price
   - [Spreadsheet](https://docs.google.com/spreadsheets/d/1vSmatzpY0i8Iv-qJ1e2HhKq8OWNtCRdF2EdSF5uHk-o/edit#gid=1070173305)
+
+Cities
+
 - YouTube:
   [Why City Design is Important (and why I hate Houston) | Not Just Bikes](https://youtu.be/uxykI30fS54)
   (17:02)
@@ -54,3 +57,9 @@ Possible solutions to daily life problems.
     (18:13)
   - A very nice video on how a car centric urban design is harmful to humans and
     the society
+- YouTube:
+  [How Did The World Get So Ugly? | Sheehan Quirke](https://youtu.be/tWYxrowovts)
+  (15:36)
+  - The change in design and aesthetics represent a change in what the society
+    prioritize
+    > We have become a society of convenience above all else
