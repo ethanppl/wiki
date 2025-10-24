@@ -68,3 +68,9 @@ A collection of stories that people share about their investigations.
   - Details on safety, the joy along the way, resources, tips and notes
     > If a dog starts running at you, it probably wants to bite you more than it
     > wants to play with you.
+- [My First Contribution to Linux](https://vkoskiv.com/first-linux-patch/)
+  ([HN](https://news.ycombinator.com/item?id=45490652))
+  - A 20 years old laptop with keys that do not work on Linux
+  - Finding and patching the driver, testing and sending the patch upstream
+  - With links to resources on how to submit a patch:
+    [Kernel Newbies Guide](https://kernelnewbies.org/FirstKernelPatch)
