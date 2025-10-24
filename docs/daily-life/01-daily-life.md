@@ -52,11 +52,22 @@ Cities
 - YouTube:
   [Why City Design is Important (and why I hate Houston) | Not Just Bikes](https://youtu.be/uxykI30fS54)
   (17:02)
-  - Also check
-    [Stroads are Ugly, Expensive, and Dangerous (and they're everywhere)](https://youtu.be/ORzNZUeUHAM)
-    (18:13)
   - A very nice video on how a car centric urban design is harmful to humans and
     the society
+  - Others that I like:
+    [Stroads are Ugly, Expensive, and Dangerous (and they're everywhere)](https://youtu.be/ORzNZUeUHAM)
+    (18:13)
+  - [The Wrong Way to Set Speed Limits](https://youtu.be/bglWCuCMSWc) (11:08)
+  - [Why Dutch Bikes are Better (and why you should want one)](https://youtu.be/aESqrP3hfi8)
+    (10:36)
+  - [They Tore Down a Highway and Made it a River (and traffic got better)](https://youtu.be/wqGxqxePihE)
+    (22:04)
+  - [How American Fire Departments are Getting People Killed](https://youtu.be/j2dHFC31VtQ)
+    (27:24)
+  - [The Absolute Best Transportation for Cities (trams)](https://youtu.be/bNTg9EX7MLw)
+    (35:48)
+  - [How is a Bike Tunnel this Freak’n Great!? (27:04)](https://youtu.be/JCedclz03uI)
+    (27:04)
 - YouTube:
   [How Did The World Get So Ugly? | Sheehan Quirke](https://youtu.be/tWYxrowovts)
   (15:36)
