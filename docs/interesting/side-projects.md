@@ -60,3 +60,7 @@ Fun projects collection
 - [NYC subway in 40 minutes](https://subwaysheds.com/)
 - [368 Chickens](https://368chickens.com/)
 - [Bad Keyboards Thread](https://bsky.app/profile/foone.bsky.social/post/3lyvontitm22y)
+- [Play snake in the address bar](https://demian.ferrei.ro/snake)
+  ([HN](https://news.ycombinator.com/item?id=45408021))
+- [Play snake with favicon](https://franciscouzo.github.io/favisnake/)
+- [Play 2048 in favicon](https://aquova.net/games/2048/)
