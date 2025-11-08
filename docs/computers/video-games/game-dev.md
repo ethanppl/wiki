@@ -37,3 +37,14 @@ YouTube Channels:
 - [Brackeys](https://www.youtube.com/@Brackeys/videos)
 - [Game Maker's Toolkit](https://www.youtube.com/@GMTK/videos)
 - [Code Monkey](https://www.youtube.com/@CodeMonkeyUnity/videos)
+
+## Links
+
+- [Game design is simple, actually](https://www.raphkoster.com/2025/11/03/game-design-is-simple-actually/)
+  - 12 steps program to understand game design
+  - Start with finding the fun, which is mastery of problems
+  - Create a system of problems by defining a set of rules, then set a goal
+  - A balance between predictability and uncertainty to create depth for the
+    game
+  - Progression by building loops, providing feedback, variation and escalation
+  - Building meta game, system design, providing a cool experience, etc.
