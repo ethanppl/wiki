@@ -37,6 +37,10 @@ Related
   - A set of sensible default software that respect users
   - Distro: Arch; Window Manager: Niri; Editor: Neovim
   - Also `bat` (cat), `eza` (ls), `lazygit` (git), `zoxide` (cd)
+- [omarchy](https://omarchy.org/)
+  ([Manual](https://learn.omacom.io/2/the-omarchy-manual))
+  - Opinionated linux setup by DHH, e.g. ship with Neovim with lazyvim by
+    default
 
 ### Windows
 
