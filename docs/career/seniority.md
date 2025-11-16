@@ -131,3 +131,10 @@ Moving towards seniority/maturity in work.
   - On strategy, culture, LLMs, managing seniors, managing costs, explaining eng
     costs to execs, etc.
   - Many links to previous blogs
+- [Advice for New Principal ICs](https://eugeneyan.com/writing/principal/)
+  - 30+ advices for principal ICs
+  - E.g.: teaching the org to value something it doesn't care about yet, sponsor
+    project that won't happen without you, connect the dots, the title comes
+    with an aura of credibility even if it shouldn't
+  - 50% time owning projects, 20% time sponsoring projects, rest consulting and
+    mentoring
