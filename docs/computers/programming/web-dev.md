@@ -2,6 +2,15 @@
 
 Developing user interfaces of web pages.
 
+## Notes
+
+- Quick way to serve a static website with python
+  [`http.server`](https://docs.python.org/3/library/http.server.html)
+
+  ```
+  python -m http.server --directory $(pwd)
+  ```
+
 ## Resources
 
 - [Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn)
