@@ -42,6 +42,8 @@ useful.
   programming languages
 - [Some programming blogs to consider reading | danluu.com](https://danluu.com/programming-blogs/)
 - [notes | GitHub @8483](https://github.com/8483/notes)
+- [Algorithms for Competitive Programming](https://cp-algorithms.com/) — more
+  advanced algorithms categorized by applications
 
 YouTube Channels:
 
