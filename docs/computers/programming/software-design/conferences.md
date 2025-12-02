@@ -9,19 +9,18 @@ Elm).
 
   <details>
   <summary>Notes</summary>
-
   - How can this be improved?
 
-    ```fsharp showLineNumbers
-    type Contact = {
-      FirstName: string
-      MiddleInitial: string
-      LastName: string
+  ```fsharp showLineNumbers
+  type Contact = {
+    FirstName: string
+    MiddleInitial: string
+    LastName: string
 
-      EmailAddress: string
-      IsEmailVerified: bool
-      }
-    ```
+    EmailAddress: string
+    IsEmailVerified: bool
+    }
+  ```
 
   - A data structure that represents design choice:
 
@@ -87,7 +86,6 @@ Elm).
 
   <details>
   <summary>We need to restore a recently deleted input</summary>
-
   - Bad design:
 
     ```elm showLineNumbers
@@ -133,7 +131,6 @@ Elm).
 
   <details>
   <summary>Zip list: maintaining a history (go back, current, next)</summary>
-
   - Bad design:
 
     ```elm showLineNumbers
@@ -177,7 +174,6 @@ Elm).
     ```
 
   </details>
-
   - No break changes:
     - Implement a zip list internally in a module and expose an interface for
       other modules
@@ -190,7 +186,6 @@ Elm).
 
   <details>
   <summary>Notes</summary>
-
   - Convergent Evolution: people working independently converge to similar
     solutions without prior knowledge of each other
     - Flying seems a neat idea, so bees and birds both have wings
@@ -223,7 +218,6 @@ Elm).
   <summary>Notes</summary>
 
   How does he grow Elm code? What happens when the file is "too long"?
-
   - Life of a file: start small and grow, eventually how a file grow until it
     splits into two files
   - JavaScript knowledge:
@@ -241,7 +235,6 @@ Elm).
   file.
   <br />
   <br />
-
   - Things to consider when choosing the data structures:
     - Static type analysis? (spelling of keys should be checked)
     - Does ordering matter? (objects or lists)

@@ -64,8 +64,8 @@ const config = {
           routeBasePath: "/",
         },
         blog: {
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'All Posts',
+          blogSidebarCount: "ALL",
+          blogSidebarTitle: "All Posts",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

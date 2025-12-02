@@ -21,7 +21,6 @@ website, not even a Wikipedia page for it. So, I would like to share the key
 points:
 
 - **Money fundamentally worth nothing**
-
   - If it has value, then money will not be destroyed and printed again
   - People want money because the society demand money for transaction and tax,
     people have to use it as a tool to trade
@@ -32,7 +31,6 @@ points:
     society as a whole
 
 - **Money fundamentally cannot solve _any_ problem**
-
   - Bring 100 billion to middle of nowhere is useless, money cannot be magically
     transformed to food
   - You cannot pay to solve any problems without the natural resources and the
@@ -44,7 +42,6 @@ points:
 
 - **If a business, government, or the whole society is to increase the amount of
   money one has, there is no actual gain for anyone**
-
   - Imagine a country has 100 people which need 2 bread per person, so total 200
     bread each day
   - If one day there is only 100 bread, bread price might double

@@ -186,7 +186,6 @@ partition that is encrypted.
       mkfs.ext4 -L boot /dev/nvme0n1p5
       ```
 6. Encrypt the Linux data partition with LUKS
-
    - In the following codeblock, I am showing the output as well
    - Lines after `#` are what needed to be inputted to the terminal
    - The passphrase you chose at this step is what you needed to decrypt the
