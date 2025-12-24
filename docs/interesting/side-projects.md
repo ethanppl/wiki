@@ -64,3 +64,5 @@ Fun projects collection
   ([HN](https://news.ycombinator.com/item?id=45408021))
 - [Play snake with favicon](https://franciscouzo.github.io/favisnake/)
 - [Play 2048 in favicon](https://aquova.net/games/2048/)
+- [Boing](https://boing.greg.technology/)
+- [DOGSPINNER](https://www.pigenpalace.com/dogspinner/)
