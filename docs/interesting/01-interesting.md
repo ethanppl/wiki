@@ -111,6 +111,10 @@ Things that are interesting or for fun. Not sure where to put these yet.
     piece is the least
 - [The Lighthouse Directory](https://www.ibiblio.org/lighthouse/)
   - Information and links for more than 24,600 of the world's lighthouses
+- YouTube:
+  [Inside the Super Bowl 50 Halftime Show Control Room](https://youtu.be/gfjWjkTP4p8)
+  (7:48)
+  - How the director commands which camera to cut to
 
 April Fools
 
