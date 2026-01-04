@@ -115,6 +115,8 @@ Things that are interesting or for fun. Not sure where to put these yet.
   [Inside the Super Bowl 50 Halftime Show Control Room](https://youtu.be/gfjWjkTP4p8)
   (7:48)
   - How the director commands which camera to cut to
+- [What an unprocessed photo looks like](https://maurycyz.com/misc/raw_photo/)
+  - Mapping raw bits to the right colour space
 
 April Fools
 
