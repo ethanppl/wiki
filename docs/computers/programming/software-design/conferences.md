@@ -11,16 +11,16 @@ Elm).
   <summary>Notes</summary>
   - How can this be improved?
 
-  ```fsharp showLineNumbers
-  type Contact = {
-    FirstName: string
-    MiddleInitial: string
-    LastName: string
+    ```fsharp showLineNumbers
+    type Contact = {
+      FirstName: string
+      MiddleInitial: string
+      LastName: string
 
-    EmailAddress: string
-    IsEmailVerified: bool
-    }
-  ```
+      EmailAddress: string
+      IsEmailVerified: bool
+      }
+    ```
 
   - A data structure that represents design choice:
 
