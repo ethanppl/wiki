@@ -117,6 +117,10 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - How the director commands which camera to cut to
 - [What an unprocessed photo looks like](https://maurycyz.com/misc/raw_photo/)
   - Mapping raw bits to the right colour space
+- [Postal Arbitrage](https://walzr.com/postal-arbitrage)
+  ([HN](https://news.ycombinator.com/item?id=46591708))
+  - A stamp for a letter cost $0.78
+  - But there are items on Amazon with free shipping cheaper than that
 
 April Fools
 
