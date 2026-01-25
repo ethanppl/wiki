@@ -2,6 +2,13 @@
 
 Things that are interesting or for fun. Not sure where to put these yet.
 
+## Site
+
+- [The Lighthouse Directory](https://www.ibiblio.org/lighthouse/)
+  - Information and links for more than 24,600 of the world's lighthouses
+- [The Labyrinth Locator](https://labyrinthlocator.org/)
+  - Information and links to thousands of labyrinths worldwide
+
 ## Links
 
 - [Hakari](https://www.hakari.io/)
@@ -109,8 +116,6 @@ Things that are interesting or for fun. Not sure where to put these yet.
 - [Dicing an onion: the mathematically optimal way](https://pudding.cool/2025/08/onions/)
   - How to slice an onion so that the standard deviation of the sizes of each
     piece is the least
-- [The Lighthouse Directory](https://www.ibiblio.org/lighthouse/)
-  - Information and links for more than 24,600 of the world's lighthouses
 - YouTube:
   [Inside the Super Bowl 50 Halftime Show Control Room](https://youtu.be/gfjWjkTP4p8)
   (7:48)
