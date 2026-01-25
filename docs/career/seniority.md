@@ -63,6 +63,13 @@ Moving towards seniority/maturity in work.
     role
   - Either play the corporate game and climb the ladder, or quit the game and do
     something that doesn't care about the titles
+- [Try to Take My Position: The Best Promotion Advice I Ever Got](https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/)
+  ([HN](https://news.ycombinator.com/item?id=46466027))
+  - Not to wait and be told what to do
+  - Understand the goals and constraint to show that you are capable to handle
+    your boss job
+  - Solve problems that your boss is solving, make proposal that your boss is
+    going to propose
 
 ### Managerial Role
 
