@@ -93,3 +93,8 @@ Related
   - How to curate and what's worth to be included:
     > If you wouldn’t forward this to your colleagues in Slack, don’t put it in
     > the newsletter
+- [Lessons Learned Shipping 500 Units of my First Hardware Product](https://www.simonberens.com/p/lessons-learned-shipping-500-units)
+  - Story of a software engineer quitting his job starting a hardware product
+  - Self reflection on what went well, what went wrong and lessons learned
+  - Plan in detail, over-communicate, test a lot more, validate the market,
+    focus on customer support, etc.
