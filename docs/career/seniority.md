@@ -70,6 +70,37 @@ Moving towards seniority/maturity in work.
     your boss job
   - Solve problems that your boss is solving, make proposal that your boss is
     going to propose
+- [21 Lessons From 14 years at Google](https://addyosmani.com/blog/21-lessons/)
+  - Lessons mostly focused on a software engineer, but largely applicable to
+    other roles
+  - Approach to work:
+    - The best engineers are obsessed with solving user problems, not using cool
+      technology
+    - Take action and ship, iterate and learn from real feedback
+    - Prioritize clarity over cleverness, optimize for comprehension
+    - Favour boring technology not novel innovations
+    - Best code is the code never had to write, question the purpose
+    - At scale, bugs have users, understand the cost of compatibility
+    - Abstractions don't remove complexity, understand how things work
+      underlying
+    - Work that enable other work is priceless but also invisible, do it when
+      needed
+    - Most performance wins come from removing work, not adding clever
+      optimization
+  - Teamwork:
+    - Being right is cheap but getting right together is the real work
+    - Slow teams are usually misaligned teams, clarify direction
+    - Winning every debate probably means accumulating silent resistance
+    - Process reduce uncertainty and failures, not to be bureaucratic
+  - Growth and mindset:
+    - Code doesn't advocate for you, but people do
+    - Focus on what you can control and ignore what not
+    - Writing forces clarity, the fastest way to learn is to teach
+    - When a measure becomes a target, it stops measuring
+    - Admit what you don't know, stay curious
+    - Your network outlasts every job
+    - Eventually, time worth more than money, make the trade deliberately
+    - There are no shortcuts but learning compounds
 
 ### Managerial Role
 
