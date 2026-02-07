@@ -145,3 +145,9 @@ Moving towards seniority/maturity in work.
     with an aura of credibility even if it shouldn't
   - 50% time owning projects, 20% time sponsoring projects, rest consulting and
     mentoring
+- [What "The Best" Looks Like](https://www.kuril.in/blog/what-the-best-looks-like/)
+  - Hire the best by noticing hidden potentials from candidates
+  - Discover non-obvious talent to build a high-leverage team on a startup
+    budget
+  - 11 traits listed: hunger, self-driven, humility, detach from one's work,
+    high EQ, etc.
