@@ -282,6 +282,11 @@ Related pages:
 - [Ask HN: How are you acquiring your first hundred users?](https://news.ycombinator.com/item?id=43970837)
   - Build good product, price differentiation, more modern/accessible/affordable
   - Reach out to personal network or carefully selected niche of network
+- [The Uncomfortable Math of Working for Yourself](https://thomasunise.com/the-uncomfortable-math-of-working-for-yourself/)
+  - A small, self-employed entrepreneurship is still a job
+  - You are your own manager, and you might be the worst manager to yourself
+  - Survivors are loud, but statistics are quiet
+  - Isolation in self-employment cannot be underestimated
 
 Ideas:
 
