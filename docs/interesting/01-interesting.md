@@ -8,6 +8,10 @@ Things that are interesting or for fun. Not sure where to put these yet.
   - Information and links for more than 24,600 of the world's lighthouses
 - [The Labyrinth Locator](https://labyrinthlocator.org/)
   - Information and links to thousands of labyrinths worldwide
+- [Ian's Shoelace Site](https://www.fieggen.com/shoelace/)
+  - Links and guides to shoelace, including the fastest way
+    ([Ian knot](https://www.fieggen.com/shoelace/ianknot.htm)) to tide a
+    shoelace
 
 ## Links
 
