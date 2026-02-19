@@ -221,3 +221,13 @@ Salary
 - [192 Weeks](https://notes.ekzhang.com/reflections/192-weeks)
   - Reflection of 192 weeks journey in a job that started before graduation
   - Good for college and recent graduates to read
+- [Vimeo's Slow Fade: An Engineer's Front-Row Seat to the Fall of a Web Icon](https://ben1777.substack.com/p/vimeos-slow-fade-an-engineers-front)
+  ([HN](https://news.ycombinator.com/item?id=46757868))
+  - What went wrong from the perspective of a staff software engineer working in
+    Vimeo
+  - How teams are reorganized, responsibilities change, incidents happened, tech
+    debt slowing the teams, a long and dreadful project, difficult work going
+    unnoticed, and many more misalignment
+  - One good thing highlighted is it is easy to bash on the product, but there
+    are talented people that actually cares the products and trying to do good
+    from the other side of the internet
