@@ -48,3 +48,9 @@ YouTube Channels:
     game
   - Progression by building loops, providing feedback, variation and escalation
   - Building meta game, system design, providing a cool experience, etc.
+- [Art of Roads in Games](https://sandboxspirit.com/blog/art-of-roads-in-games/)
+  ([HN](https://news.ycombinator.com/item?id=46938511))
+  - Roads in city builders used to look ugly, Bezier splines and circles are
+    limited too
+  - Clothoid: curves with linear change in curvature should govern how turns and
+    intersections curve
