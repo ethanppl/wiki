@@ -46,6 +46,11 @@ Possible solutions to daily life problems.
   (1:28:04)
   - 3 categories by different height map to each 3 tiers of chairs by price
   - [Spreadsheet](https://docs.google.com/spreadsheets/d/1vSmatzpY0i8Iv-qJ1e2HhKq8OWNtCRdF2EdSF5uHk-o/edit#gid=1070173305)
+- [Chemical hygiene | Karpathy](https://karpathy.bearblog.dev/chemical-hygiene/)
+  - Evolving and opinionated guide of chemical hygiene on water, air, food,
+    fabrics and more
+  - In summary, filter water and air, eat good food, avoid plastics, use natural
+    products
 
 Cities
 
