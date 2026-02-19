@@ -18,6 +18,13 @@ A program that runs programs.
   ([HN](https://news.ycombinator.com/item?id=42631873))
   - Writing an operating system in c within 1000 lines
 
+## Sites
+
+- [The Linux Documentation Project (TLDP)](https://tldp.org/): guides, how-to,
+  tones of resources
+- [Brendan Gregg's Homepage](https://www.brendangregg.com/): a personal site
+  with many system performance resources
+
 ## Links
 
 - [A video game where you are an operating system](https://plbrault.com/blog-posts/i-created-the-nerdierst-game-ever-en/)

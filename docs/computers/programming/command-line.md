@@ -35,6 +35,12 @@ Network related
   - Visually breaking down and explaining a shell command
 - [tldr.sh](https://tldr.sh/)
   - Simplified and community-driven manual
+- [Command Line Fu](https://www.commandlinefu.com/commands/browse)
+  - Searchable list of community recorded command line gems
+- [Pure sh bible](https://github.com/dylanaraps/pure-sh-bible)
+  - List of methods doing various tasks using only built-in POSIX `sh` features
+- [cheat.sh](https://cheat.sh/)
+  - Quick references for common CLI commands
 
 ## Links
 
