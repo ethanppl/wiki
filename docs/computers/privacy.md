@@ -6,6 +6,13 @@
 
 Privacy is not the same as anonymity or security.
 
+## Resources
+
+- [Digital hygiene | Karpathy](https://karpathy.bearblog.dev/digital-hygiene/)
+  - How to maintain hygiene for auth, messaging, browser, credit cards,
+    addresses, email, VPN...
+  - Each with reasons why it is important and products recommended
+
 ## Sites
 
 - [awesome-privacy | GitHub @pluja](https://github.com/pluja/awesome-privacy)
