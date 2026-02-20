@@ -66,3 +66,5 @@ Fun projects collection
 - [Play 2048 in favicon](https://aquova.net/games/2048/)
 - [Boing](https://boing.greg.technology/)
 - [DOGSPINNER](https://www.pigenpalace.com/dogspinner/)
+- [Kinetic Sculptures and Machines](https://www.scharstein.de/en/) -
+  ([see this video](https://old.reddit.com/r/oddlysatisfying/comments/1r88ypj/a_kinetic_sculpture_by_felix_scharstein/))
