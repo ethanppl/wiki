@@ -810,7 +810,7 @@ from the bridge networks on the fly.</p>
 <div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker network create playgroundNetwork</span><br></span></code></pre></div></div>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="running-the-database">Running the Database<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#running-the-database" class="hash-link" aria-label="Direct link to Running the Database" title="Direct link to Running the Database" translate="no">​</a></h4>
 <p>It takes one line to run the Postgres container</p>
-<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker run</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --name postgres</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=POSTGRES_PASSWORD=ReplaceMe</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=POSTGRES_DB=playground_engine</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -v pgdata:/var/lib/postgresql/data</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -p 5432:5432</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -d</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  postgres</span><br></span></code></pre></div></div>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker run</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --name postgres</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=POSTGRES_PASSWORD=ReplaceMe</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  --env=POSTGRES_DB=playground_engine</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -v pgdata:/var/lib/postgresql/data</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  -d</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  postgres</span><br></span></code></pre></div></div>
 <ul>
 <li class="">The <a href="https://docs.docker.com/reference/cli/docker/container/run/#name" target="_blank" rel="noopener noreferrer" class="">name</a>
 of the container will be <code>postgres</code></li>
@@ -824,7 +824,6 @@ of the container will be <code>postgres</code></li>
 </li>
 <li class="">Use the <code>pgdata</code> volume created earlier and mount that to the
 <code>/var/lib/postgresql/data</code> path inside the container</li>
-<li class="">Expose 5432 port to the network</li>
 <li class=""><code>-d</code> to
 <a href="https://docs.docker.com/reference/cli/docker/container/run/#detach" target="_blank" rel="noopener noreferrer" class="">detach</a>
 the container process from the terminal window, otherwise closing the terminal
@@ -833,14 +832,14 @@ will stop the container</li>
 <a href="https://hub.docker.com/_/postgres/" target="_blank" rel="noopener noreferrer" class="">you can find on docker hub</a></li>
 </ul>
 <h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="verify-the-database-is-running">Verify the Database is Running<a href="https://wiki.ethanppl.com/blog/2025/05/25/self-host#verify-the-database-is-running" class="hash-link" aria-label="Direct link to Verify the Database is Running" title="Direct link to Verify the Database is Running" translate="no">​</a></h4>
-<p>Once connected, we can use <code>psql</code> to verify the database is up and running.</p>
-<p>Most likely, the base Ubuntu image does not come with <code>psql</code>, so it needs to be
-installed:</p>
-<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt install -y postgresql-client-common postgresql-client-16</span><br></span></code></pre></div></div>
-<p>Then connecting to it:</p>
-<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">psql postgresql://postgres@localhost:5432/playground_engine</span><br></span></code></pre></div></div>
-<p>You will be prompted to input your password. Input the same password set above
-in the <code>POSTGRES_PASSWORD</code> ENV variable. If connected successfully, it means the
+<p>Once connected, we can use <code>psql</code> to verify the database is up and running.
+Because we did not expose the Postgres container to the host network, we cannot
+connect to it with <code>localhost:5432</code>. Instead, we run the command inside the
+container with
+<a href="https://docs.docker.com/reference/cli/docker/container/exec/" target="_blank" rel="noopener noreferrer" class=""><code>docker exec</code></a>:</p>
+<div class="language-sh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-sh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">docker exec -it postgres psql -U postgres -d playground_engine</span><br></span></code></pre></div></div>
+<p>If you are prompted to input your password. Input the same password set above in
+the <code>POSTGRES_PASSWORD</code> ENV variable. If connected successfully, it means the
 database is running well.</p>
 <p>In my
 <a href="https://github.com/ethanppl/playground/blob/main/DEPLOYMENT.md" target="_blank" rel="noopener noreferrer" class="">playground deployment notes</a>,
