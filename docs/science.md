@@ -67,6 +67,11 @@ Mixed
 - [Calculus with Julia](https://jverzani.github.io/CalculusWithJuliaNotes.jl/)
   - From the basic use of Julia, to limits, derivatives and integrals, ODEs and
     vector calculus
+- [Introduction to Kalman Filter](https://kalmanfilter.net/)
+  - Online book explaining the Kalman Filter
+  - Kalman Filter is an estimation algorithm that uses a time series of
+    measurements to provide (1) the estimate and (2) the prediction of the state
+    and (3) the uncertainty of the estimate and prediction
 
 Numbers, riddles, conjectures
 
