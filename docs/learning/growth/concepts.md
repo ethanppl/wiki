@@ -1,6 +1,12 @@
 # Concepts/Effects
 
-More like an observed pattern than a rule
+More like an observed pattern than a rule. Understanding the concepts is more
+important than memorizing the names. Understanding is how one can be aware of
+them in real life.
+
+However, I realize sometimes having a name for a concept is useful to
+communicate the idea. A name tokenizes the concept, makes it easier to remember
+and refer to. And, somehow, this gives credibility to the concept.
 
 ## Sites
 
@@ -40,3 +46,5 @@ More like an observed pattern than a rule
 - [Bouba/kiki effect](https://en.wikipedia.org/wiki/Bouba/kiki_effect)
   ([HN](https://news.ycombinator.com/item?id=40699583))
   - Cross-cultural association of certain speech sounds to certain visual shapes
+- [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart's_law)
+  - When a measure becomes a target, it ceases to be a good measure
