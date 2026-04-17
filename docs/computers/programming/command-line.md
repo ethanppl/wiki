@@ -76,3 +76,12 @@ Network related
 - [What does "2>&1" mean?](https://stackoverflow.com/questions/818255/what-does-21-mean)
   - `2` refers to file descriptor 1 (`stdout`) and 2 (`stderr`) redirect (`>`)
     to `&1` file descriptor 1 (`stdout`)
+- [Shell Tricks That Actually Make Life Easier](https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/)
+  - Plenty shell tricks, from readline/emacs shortcuts, to `sh`, to `zsh`
+    specific features
+  - `sudo !!` to run the previous command with `sudo`
+  - `cd -` to go to the previous directory
+  - `cp pf.conf{,.bak}` = `cp pf.conf pf.conf.bak`
+  - `mv filename.{txt,md}` = `mv filename.txt filename.md`
+  - `command |& tee output.txt`: watch and store both `stdout` and `stderr` to
+    `output.txt`
