@@ -72,6 +72,11 @@ News/forums/communities:
   > The idea is to create a unified view of the field of computer science, for
   > students who already know something about it, by replaying its entire
   > evolution at an accelerated frame rate.
+- [Computer History Museum Exhibitions](https://www.computerhistory.org/revolution/topics)
+  - A collection of exhibits in the Computer History Museum
+  - The presentations in the museum are better organized than these web pages
+  - But if you have been to the museum, these pages are a good reference to
+    revisit the exhibits
 
 Time
 
