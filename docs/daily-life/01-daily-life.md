@@ -79,3 +79,14 @@ Cities
   - The change in design and aesthetics represent a change in what the society
     prioritize
     > We have become a society of convenience above all else
+
+Useful tools in Hong Kong
+
+- [hkbus.app](https://hkbus.app/)
+  ([code](https://github.com/hkbus/hk-independent-bus-eta)) — ad-free bus routes
+  info and ETA
+- [Lost in MTR](https://markmybytes.github.io/lost-in-mtr/)
+  ([code](https://github.com/markmybytes/lost-in-mtr)) — search which kart and
+  door you are in using kart number and door number
+- [Water for Free](https://waterforfree.org/en/) — find free water refill
+  stations
