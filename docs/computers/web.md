@@ -8,6 +8,8 @@ The web.
   ([HN](https://news.ycombinator.com/item?id=37313349))
   - Censorship is too powerful, too easy to abuse, yet too hard to maintain
   - Protect the victim and go after the criminals, not cut off all speech
+  - For example:
+    [Tell HN: Docker pull fails in Spain due to football Cloudflare block](https://news.ycombinator.com/item?id=47738883)
 - [Internet Artifacts | neal fun](https://neal.fun/internet-artifacts/)
   - From the ARPANET in 1977 to the Internet communicator in 2007
 - [Splitting the Web | Ploum](https://ploum.net/2023-08-01-splitting-the-web.html)
