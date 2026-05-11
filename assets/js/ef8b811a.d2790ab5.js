@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmy_wiki=globalThis.webpackChunkmy_wiki||[]).push([[8947],{6600(a){a.exports=JSON.parse('{"authors":[{"name":"Ethan Pang","url":"https://ethanppl.com/","imageURL":"https://github.com/ethanppl.png","key":"ethan","page":null,"count":7}]}')}}]);
