@@ -107,7 +107,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ["elm", "fsharp"],
+        additionalLanguages: ["elm", "fsharp", "docker", "bash"],
       },
       docs: {
         sidebar: {
