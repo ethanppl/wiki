@@ -98,3 +98,8 @@ Related
   - Self reflection on what went well, what went wrong and lessons learned
   - Plan in detail, over-communicate, test a lot more, validate the market,
     focus on customer support, etc.
+- [Disney erased FiveThirtyEight](https://www.natesilver.net/p/disney-erased-fivethirtyeight)
+  - The story of FiveThirtyEight (538), a prediction and analysis website,
+    written by the founder Nate Silver
+  - Behind the scenes of the growth, transfer to Disney, and the shutdown of 538
+  - Reflection on the deals and the mistakes that led to this situation
