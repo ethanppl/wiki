@@ -231,3 +231,12 @@ Salary
   - One good thing highlighted is it is easy to bash on the product, but there
     are talented people that actually cares the products and trying to do good
     from the other side of the internet
+- [On mid-career satisfaction](https://shreyasdoshi.substack.com/p/on-mid-career-satisfaction)
+  - Ability to combat career envy is more important than how good LinkedIn looks
+  - One can judge a career by bigger titles, larger scope of work, more money
+  - One can also judge it by competence, flow, work-life harmony, culture &
+    people fit
+  - Be mindful of the success criteria of your career, some would unconsciously
+    adopt the first set
+  - Ultimately the true audience for your career is you and those dependent on
+    you
