@@ -29,6 +29,7 @@ Developing user interfaces of web pages.
   most useful and complete web docs
 - [CSS Selectors: A Visual Guide](https://fffuel.co/css-selectors/) — Select
   specific HTML elements to apply CSS to
+- [Website Spec](https://specification.website/) — What a good website does
 
 ## Links
 
