@@ -81,3 +81,11 @@ The social impact of AI.
     words
   - Management likes Julius, but knowledgeable people see his word make no sense
   - But AI is the same as Julius, Julius is everywhere now
+- [How Go Players Disempower Themselves to AI](https://www.lesswrong.com/posts/nR3DkyivzF4ve97oM/how-go-players-disempower-themselves-to-ai)
+  - Reliance on AI for Go players slowly harm the players' ability to play the
+    game
+  - Gives good intuition on the risk of Gradual Disempowerment due to AI
+  - Illustrates the laziness of humans, and how we can easily get used to the
+    convenience of AI
+  - Even if AI systems are fully aligned, would human gradually lose their
+    ability to solve problems
