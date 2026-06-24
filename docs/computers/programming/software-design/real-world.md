@@ -112,3 +112,6 @@
   - Paralleling read and write to many HDDs
   - Erasure coding: breaks data into shards and redundant parity shards
   - Power of random two: pick two random and use the less busy one
+- [The radical network redesign that led AWS to forge a more resilient cloud](https://www.aboutamazon.com/stories/aws-random-graph-theory-data-center-network-design)
+  - How Amazon applied random graph theory to improve networking resilience in
+    data centres practically
