@@ -9,7 +9,7 @@ Personal Growth in Career
 
 ## Links
 
-- [Own Your One-on-One Meeting | Mediations with Candost](https://mediations.candost.blog/p/effective-1-on-1-meetings-own-your-one-on-one-meeting)
+- [Own Your One-on-One Meeting | Candost Blog](https://candost.blog/effective-1-on-1-meetings-own-your-one-on-one-meeting/)
   - Change the perspective: focus on personal and professional growth rather
     than project status updates
   - Bidirectional communication: collect feedback, ask for opinions and share
@@ -18,7 +18,7 @@ Personal Growth in Career
   - Feedback: seek feedback, focus on the contribution and how to improve.
     Accept failures and seek opportunities to learn
   - Give feedback as well (managers usually don't get positive feedback)
-- [One-on-One Meeting Template | Mediations with Candost](https://mediations.candost.blog/p/effective-1-1-meetings-one-on-one-meeting-template)
+- [One-on-One Meeting Template | Candost Blog](https://candost.blog/effective-1-1-meetings-one-on-one-meeting-template/)
   - Document: both write into the same doc, both sides can contribute, and focus
     on issues and growth, not status updates
   - Things we should talk about: the agenda, no surprises, keep it brief
