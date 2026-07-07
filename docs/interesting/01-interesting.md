@@ -15,9 +15,6 @@ Things that are interesting or for fun. Not sure where to put these yet.
 
 ## Links
 
-- [Hakari](https://www.hakari.io/)
-  ([HN](https://news.ycombinator.com/item?id=34871248))
-  - An online puzzle, like Notpron or Cicada 3301
 - YouTube:
   [Self-solving Minesweeper | Have a Luke at this](https://youtu.be/ns0ja7jpIyc)
   [Code](https://github.com/haveaLukeatthis/SelfSolvingMinesweeper)
@@ -36,7 +33,6 @@ Things that are interesting or for fun. Not sure where to put these yet.
   creation of art using computers
 - [QR Codes in Anime that works](https://www.reddit.com/r/StableDiffusion/comments/141hg9x/controlnet_for_qr_code/)
   — the code is simple but still quite creative and impressive
-- [The Password Game](https://neal.fun/password-game/)
 - [Wavy walls use fewer bricks than a straight wall](https://twistedsifter.com/2020/06/how-wavy-crinkle-crankle-walls-use-less-bricks-than-straight-walls/)
   - [Crinkle Crankle Walls | Wikipedia](https://en.wikipedia.org/wiki/Crinkle_crankle_wall),
     [Crinkle Crankle Calculus | John D. Cook](https://www.johndcook.com/blog/2019/11/19/crinkle-crankle-calculus/)
