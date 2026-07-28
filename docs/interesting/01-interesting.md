@@ -126,6 +126,13 @@ Things that are interesting or for fun. Not sure where to put these yet.
   ([HN](https://news.ycombinator.com/item?id=46591708))
   - A stamp for a letter cost $0.78
   - But there are items on Amazon with free shipping cheaper than that
+- YouTube: [A Rookies Guide to Watches | Speeed](https://youtu.be/AdJkqGo_9Qk)
+  (32:59)
+  - The vocabulary to talk about watches: bracelet or straps, case, lugs,
+    crystal, etc.
+  - How mechanical watches work with springs, regulator, and wheel train
+  - History of watches and how Swiss watches became famous
+  - How to choose a watch: size, cost, age, brand and what you interested in
 
 April Fools
 
