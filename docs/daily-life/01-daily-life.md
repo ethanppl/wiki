@@ -90,3 +90,5 @@ Useful tools in Hong Kong
   door you are in using kart number and door number
 - [Water for Free](https://waterforfree.org/en/) — find free water refill
   stations
+- [Open3DHK | Lands Department](https://3d.map.gov.hk/) — 3D map of HK
+  - [HK3DMAP | Historical Walk HK](https://www.historicalwalkhk.com/HK3DMAP/)
