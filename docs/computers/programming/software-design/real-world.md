@@ -115,3 +115,12 @@
 - [The radical network redesign that led AWS to forge a more resilient cloud](https://www.aboutamazon.com/stories/aws-random-graph-theory-data-center-network-design)
   - How Amazon applied random graph theory to improve networking resilience in
     data centres practically
+- [How we saved 100 terabytes of memory by optimizing 1.1.1.1's DNS cache](https://blog.cloudflare.com/dns-cache-memory-optimization-1111/)
+  - Optimization in the Rust data type to eliminate memory overhead per cache
+    entry
+  - 56% reduction in memory footprint, 43% increase in throughput, 19% reduction
+    in latency
+  - For example, using fixed size array rather than a vector, optimizing enum
+    representation, etc.
+  - Also,
+    [How Rust and Wasm power Cloudflare's 1.1.1.1](https://blog.cloudflare.com/big-pineapple-intro/)
