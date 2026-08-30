@@ -178,3 +178,10 @@ to focus, to think and let the mind wonder about anything.
     and people skills
   - Agency: high-agency people make things happen; low-agency people wait
     > Making stuff that matters actually happen
+- [Three important steps in my maturation process](https://thomasdullien.github.io/posts/2026-08-21-three-important-steps-in-my-maturation-process/)
+  ([HN](https://news.ycombinator.com/item?id=49394496))
+  - Understand your incentive structure, question assumptions, meta-cognition
+  - Determinism is an illusion, the world is complex, chaotic, and rarely
+    deterministic
+  - Reasoning and emotions are not opposite, take emotion into consideration in
+    decision-making
