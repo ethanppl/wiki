@@ -213,11 +213,6 @@ Salary
     > still-warm corpse to get slightly closer to their own selfish goals. The
     > stomach cramps at this job were novel, yes, but these emotions have been
     > there ever since you started in the industry.
-- [Why Work in F1 | Dan Fallows](https://danfallows.substack.com/p/why-work-in-f1)
-  - For the purpose, racing, some perks and top level get paid well
-  - But stress and pressure can be high, no competition, low starting salary,
-    not as glamorous actually
-  - Choose a job because of the job, the day-to-day-work, not the business
 - [192 Weeks](https://notes.ekzhang.com/reflections/192-weeks)
   - Reflection of 192 weeks journey in a job that started before graduation
   - Good for college and recent graduates to read
