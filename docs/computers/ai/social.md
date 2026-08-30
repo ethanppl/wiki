@@ -89,3 +89,8 @@ The social impact of AI.
     convenience of AI
   - Even if AI systems are fully aligned, would human gradually lose their
     ability to solve problems
+- [If You are Asking for Human Attention, Demonstrate Human Effort](https://tombedor.dev/human-attention-and-human-effort/)
+  ([HN](https://news.ycombinator.com/item?id=48497609))
+  - Human attention is scarce
+  - If reading AI generated content wasn't worth your time, do not forward that
+    to others
