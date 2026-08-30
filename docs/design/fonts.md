@@ -10,6 +10,8 @@ Design characters
 ## Sites
 
 - [Variable Fonts](https://v-fonts.com/)
+- [Words of Type Encyclopedia](https://wiki.wordsoftype.com/)
+  - Knowledge about typography, fonts, and typefaces
 
 ## Links
 
