@@ -41,6 +41,8 @@ News/forums/communities:
     [Hacker News Letter](https://hackernewsletter.com/)
   - At first, I was not used to the layout, but soon appreciate the clean and
     minimal display after subscribing to the newsletter
+  - [HN Hall of Fame](https://www.orangecrumbs.com/hall/) — a list of the best
+    HN posts
 - [Lobsters](https://lobste.rs/) — similar to hacker news, more focused on
   programming
 
