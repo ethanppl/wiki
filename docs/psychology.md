@@ -48,3 +48,10 @@ Related:
 - [Stimulation clicker | neal.fun](https://neal.fun/stimulation-clicker/)
   ([HN](https://news.ycombinator.com/item?id=42611536))
   - Cool reflection on addiction
+- [Dopamine Fracking](https://igerman.cc/blog/dopamine-fracking/)
+  ([HN](https://news.ycombinator.com/item?id=48440792))
+  - A short-term gain of satisfaction, but long-term harm to health
+  - Commodifying human experience: the constant search for the next big hit
+  - We are getting better at "optimizing" how to boost our dopamine hit
+  - It is destructive, devastating, and unsustainable to live like this in the
+    long-term
