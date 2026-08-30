@@ -94,3 +94,22 @@ The social impact of AI.
   - Human attention is scarce
   - If reading AI generated content wasn't worth your time, do not forward that
     to others
+- [The Dead Economy Theory](https://www.owenmcgrann.com/p/the-dead-economy-theory)
+  ([HN](https://news.ycombinator.com/item?id=48324712))
+  - The shift in the labour market due to AI can be quick, way quicker than
+    agriculture and industrial revolutions
+  - Prisoner's dilemma: fire labour to cut cost, but labour are the ultimate
+    consumers of the economy
+  - AI companies evolves into rent extraction rather than value creation
+  - Universal basic income will not work because society needs economic activity
+    to not collapse into despair
+  - The misuse of philosophy theories to justify demolishing democracy and human
+    labour rights
+  - AI is doing well at closed games with feedback, but society is full of
+    uncertainty and open problems. AI and Silicon Valley leaders mistook their
+    intelligence to solve closed games as being indicative of their ability to
+    solve open games
+  - No better future should treat people alive today as acceptable casualties
+  - Call to regulate AI and let the public take ownership of AI infrastructure
+    > The dead economy is the one where plenty happens and none of it requires
+    > you.
