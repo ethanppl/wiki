@@ -74,3 +74,6 @@ A collection of stories that people share about their investigations.
   - Finding and patching the driver, testing and sending the patch upstream
   - With links to resources on how to submit a patch:
     [Kernel Newbies Guide](https://kernelnewbies.org/FirstKernelPatch)
+- [We can't send email more than 500 miles](https://web.mit.edu/jemorris/humor/500-miles)
+  - Why email cannot send more than 500 miles
+  - A downgrade in SMTP server dropped a timeout configuration
