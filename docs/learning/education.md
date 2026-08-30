@@ -11,6 +11,8 @@ Transfer of knowledge.
   - [Project Zero's Thinking Routine Toolbox](https://pz.harvard.edu/thinking-routines):
     a set of questions/steps to scaffold and support student thinking
 - [KidzSearch](https://www.kidzsearch.com/sites.html) — Websites safe for kids
+- [BBC Bitsize](https://www.bbc.co.uk/bitesize) — Free online study support
+  resource for those who want to learn or teach
 
 ## Links
 
