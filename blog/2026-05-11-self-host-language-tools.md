@@ -211,13 +211,14 @@ docker build -t my-languagetool .
 Once the image is built, run the container with
 
 ```bash
-docker run -d -p 8081:8081 --name lt-server my-languagetool
+docker run -d -p 127.0.0.1:8081:8081 --name lt-server my-languagetool
 ```
 
 In this command:
 
 1. `-d ... my-languagetool`: Runs the `my-languagetool` image in detached mode
-2. `-p 8081:8081`: Maps port `8081` of the container to port `8081` of the host
+2. `-p 127.0.0.1:8081:8081`: Maps port `8081` of the container to port `8081` of
+   the host
 3. `--name lt-server`: Names the container `lt-server`
 
 Verify the docker container is running with `docker ps`. You should see an
@@ -226,9 +227,21 @@ correctly mapped.
 
 ```bash
 $ docker ps
-CONTAINER ID   IMAGE             COMMAND                  CREATED       STATUS       PORTS                                        NAMES
-a343f1f87ea8   my-languagetool   "/__cacert_entrypoin…"   11 days ago   Up 11 days   0.0.0.0:8081->8081/tcp, [::]:8081->8081/tcp  lt-server
+CONTAINER ID   IMAGE             COMMAND                  CREATED       STATUS       PORTS                     NAMES
+a343f1f87ea8   my-languagetool   "/__cacert_entrypoin…"   11 days ago   Up 11 days   127.0.0.1:8081->8081/tcp  lt-server
 ```
+
+:::warning
+
+In the previous version of this guide, 8081 is mapped to all network interfaces
+(`0.0.0.0:8081:8081`), instead of only restricted to localhost only
+(`127.0.0.1:8081:8081`).
+
+Due to how docker handle network interfaces, binding to `127.0.0.1` ensures that
+the server is only accessible from the host machine and not from external
+networks.
+
+:::
 
 :::tip
 
@@ -254,7 +267,7 @@ docker build -t my-languagetool .
 
 ```sh
 #!/bin/bash
-docker run -d -p 8081:8081 --name lt-server my-languagetool
+docker run -d -p 127.0.0.1:8081:8081 --name lt-server my-languagetool
 ```
 
 This `run.sh` script is for the initial setup. A more complete version,
@@ -397,6 +410,30 @@ network, you should see them listed in the Tailscale admin console. You can set
 a name for the server, like "languagetool-server", so it is easier to reference
 later.
 
+Then, we need to bind the LanguageTool server to the Tailscale network
+interface, so it can be accessed by other devices in the Tailscale network. This
+can be done by specifying the Tailscale IP address when starting the server
+container.
+
+Find the tailscale IP address by:
+
+```bash
+sudo tailscale status
+```
+
+Then modify the docker run script to bind the server to the Tailscale IP
+address. For example, if your Tailscale IP address is `100.101.102.103`, you can
+run:
+
+```bash
+# Stop and remove the old server
+docker stop lt-server
+docker rm lt-server
+
+# Run the new server with the Tailscale IP address
+docker run -d -p 127.0.0.1:8081:8081 -p 100.101.102.103:8081:8081 --name lt-server my-languagetool
+```
+
 You can test the connection locally by pinging the server's Tailscale IP address
 or the name you set:
 
@@ -528,7 +565,7 @@ Then change the `docker run` command, if you are using a `run.sh` script:
 NGRAM_PATH="/mnt/HC_Volume_id/language-tool-ngrams"
 
 docker run -d \
-  -p 8081:8081 \
+  -p 127.0.0.1:8081:8081 \
   --name lt-server \
   -v "$NGRAM_PATH:/ngrams:ro" \
   -e JAVA_OPTS="-Xms512m -Xmx2g" \
@@ -902,7 +939,7 @@ docker build -t my-languagetool .
 NGRAM_PATH="/mnt/HC_Volume_id/language-tool-ngrams"
 
 docker run -d \
-  -p 8081:8081 \
+  -p 127.0.0.1:8081:8081 \
   --name lt-server \
   -v "$NGRAM_PATH:/ngrams:ro" \
   -e JAVA_OPTS="-Xms512m -Xmx2g" \
