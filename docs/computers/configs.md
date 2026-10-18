@@ -128,3 +128,66 @@ Related
 | /     | ÷            | ¿                    |
 
 </details>
+
+### ffmpeg
+
+#### Trim
+
+```bash
+ffmpeg -ss 00:00:10 -to 00:00:50 -i input.mp4 -c copy output.mp4
+ffmpeg -i input.mp4 -ss 00:00:10 -t 30 output.mp4
+```
+
+- `-ss`: start time of the clip, can also be `00:00:10.001` (with milliseconds)
+- `-to`: end time of the clip, can also be `00:00:50.001` (with milliseconds)
+- `-t 30`: duration of the clip instead of (`-to`), can also be `30.001` (with
+  milliseconds)
+- Put `-ss` before `-i` for faster seeking, but less accurate
+- Put `-ss` after `-i` for frame-accurate cut but requires re-encoding
+
+#### Re-encode / Compress
+
+```bash
+ffmpeg -i input.mp4 -c:v libx264 -crf 18 -preset slow -c:a copy output.mp4
+```
+
+- `-crf 18`: `18` nearly lossless, `23` ffmpeg default, `28` smaller but start
+  to see data loss
+- `-preset slow`: slower encoding but better compression efficiency (better
+  quality per MB)
+- `-c:a copy`: copy the audio stream without re-encoding
+
+#### Rescale
+
+```bash
+ffmpeg -i input.mp4 -vf scale=1920:-1 output.mp4
+```
+
+- `-vf scale=1920:-1`: rescale video to width `1920` while maintaining aspect
+  ratio
+
+#### Crop
+
+```bash
+ffmpeg -i input.mp4 -vf "crop=1920:1080:0:0" output.mp4
+ffmpeg -i input.mp4 -vf "crop=1080:1080" output.mp4
+ffmpeg -i input.mp4 -t 30 -vf cropdetect -f null -
+```
+
+- `-vf "crop=w:h:x:y"`: crop video to width `w`, height `h`, starting at
+  position `x`,`y`
+- Without x and y, the crop is automatically centred
+- `-t 30 -vf cropdetect -f null -`: detect crop area for the first 30 seconds of
+  the video, and outputs the crop parameters to the console
+
+#### Extract / Remove audio
+
+```bash
+ffmpeg -i input.mp4 -vn -c:a libmp3lame -q:a 2 output.mp3
+ffmpeg -i input.mp4 -an -c:v copy output.mp4
+```
+
+- `-vn`: video none, disable video recording
+- `-an`: audio none, disable audio recording
+- `-c:a libmp3lame`: encode audio to the MP3 codec
+- `-q:a 2`: Sets the quality (2 is very high, 0 is highest)
