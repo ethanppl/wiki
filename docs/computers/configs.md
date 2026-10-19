@@ -191,3 +191,21 @@ ffmpeg -i input.mp4 -an -c:v copy output.mp4
 - `-an`: audio none, disable audio recording
 - `-c:a libmp3lame`: encode audio to the MP3 codec
 - `-q:a 2`: Sets the quality (2 is very high, 0 is highest)
+
+#### JPG to WEBP
+
+```bash
+ffmpeg -i input.jpg \
+  -vf "scale=1920:-1" \
+  -c:v libwebp \
+  -q:v 75 \
+  -preset photo \
+  -map_metadata -1 \
+  output.webp
+```
+
+- `-vf "scale=1920:-1"`: rescale image to width `1920` with same aspect ratio
+- `-c:v libwebp`: WEBP codec
+- `-q:v 75`: quality of the output WEBP image (0-100, higher is better)
+- `-preset photo`: use the photo preset for better quality
+- `-map_metadata -1`: remove metadata from the output image
