@@ -48,3 +48,5 @@ and refer to. And, somehow, this gives credibility to the concept.
   - Cross-cultural association of certain speech sounds to certain visual shapes
 - [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart's_law)
   - When a measure becomes a target, it ceases to be a good measure
+- [Crab mentality](https://en.wikipedia.org/wiki/Crab_mentality)
+  - "If I can't have it, neither can you" mentality
