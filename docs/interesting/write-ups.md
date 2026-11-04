@@ -77,3 +77,7 @@ A collection of stories that people share about their investigations.
 - [We can't send email more than 500 miles](https://web.mit.edu/jemorris/humor/500-miles)
   - Why email cannot send more than 500 miles
   - A downgrade in SMTP server dropped a timeout configuration
+- [Why is this fingerprinting script creating bioweapons?](https://nullpt.rs/fingerprinting-bioweapons)
+  - Finding interesting fingerprinting scripts drawing interesting patterns
+  - Phrases references bioweapons, Taiwan Independence, Tiananmen Square to trip
+    LLM safeguard
